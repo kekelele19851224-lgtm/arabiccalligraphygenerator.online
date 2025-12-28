@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H92YYFCHHE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-H92YYFCHHE');
+  </script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Arabic Calligraphy Generator - Tips, Tutorials & Inspiration</title>
+  <meta name="description" content="Learn about Arabic calligraphy styles, history, and techniques. Get tips on creating beautiful Arabic art, tattoo designs, and more.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://arabiccalligraphygenerator.online/blog.html">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --gray-50: #fafafa;
+      --gray-100: #f5f5f5;
+      --gray-200: #e5e5e5;
+      --gray-300: #d4d4d4;
+      --gray-400: #a3a3a3;
+      --gray-500: #737373;
+      --gray-600: #525252;
+      --gray-700: #404040;
+      --gray-800: #262626;
+      --gray-900: #171717;
+      --blue-500: #3b82f6;
+      --blue-600: #2563eb;
+    }
+    
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--gray-50);
+      color: var(--gray-800);
+      line-height: 1.6;
+    }
+    
+    /* Navigation */
+    .nav {
+      background: #fff;
+      border-bottom: 1px solid var(--gray-200);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gray-900);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-logo-icon {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, var(--blue-500), #8b5cf6);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 16px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--gray-600);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gray-900); }
+    .nav-mobile-btn {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: var(--gray-700);
+    }
+    
+    /* Page Header */
+    .page-header {
+      background: linear-gradient(180deg, #fff 0%, var(--gray-50) 100%);
+      padding: 64px 24px;
+      text-align: center;
+    }
+    .page-header h1 {
+      font-size: 40px;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 16px;
+    }
+    .page-header p {
+      font-size: 18px;
+      color: var(--gray-600);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    /* Content */
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    
+    /* Coming Soon Card */
+    .coming-soon {
+      background: #fff;
+      border-radius: 16px;
+      padding: 64px 40px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 48px;
+    }
+    .coming-soon-icon {
+      font-size: 64px;
+      margin-bottom: 24px;
+    }
+    .coming-soon h2 {
+      font-size: 28px;
+      color: var(--gray-900);
+      margin-bottom: 16px;
+    }
+    .coming-soon p {
+      font-size: 16px;
+      color: var(--gray-600);
+      max-width: 500px;
+      margin: 0 auto 32px;
+      line-height: 1.7;
+    }
+    .cta-btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, var(--blue-500), #8b5cf6);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 10px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(59,130,246,0.4);
+    }
+    
+    /* Upcoming Topics */
+    .upcoming-section h2 {
+      font-size: 24px;
+      color: var(--gray-900);
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .topics-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .topic-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .topic-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .topic-tag {
+      display: inline-block;
+      padding: 4px 10px;
+      background: var(--gray-100);
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--gray-600);
+      margin-bottom: 12px;
+    }
+    .topic-card h3 {
+      font-size: 18px;
+      color: var(--gray-900);
+      margin-bottom: 8px;
+    }
+    .topic-card p {
+      font-size: 14px;
+      color: var(--gray-600);
+      line-height: 1.6;
+    }
+    .topic-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 16px;
+      font-size: 12px;
+      color: var(--gray-400);
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gray-300);
+    }
+    
+    /* Footer */
+    .footer {
+      background: var(--gray-900);
+      color: var(--gray-400);
+      padding: 48px 24px 24px;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+    .footer-brand h3 {
+      color: #fff;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+    .footer-brand p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .footer-links h4 {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .footer-links ul { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a {
+      color: var(--gray-400);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: #fff; }
+    .footer-bottom {
+      padding-top: 24px;
+      border-top: 1px solid var(--gray-800);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .footer-legal a {
+      color: var(--gray-400);
+      text-decoration: none;
+      margin-left: 24px;
+    }
+    .footer-legal a:hover { color: #fff; }
+    
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-mobile-btn { display: block; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        padding: 16px 24px;
+        border-bottom: 1px solid var(--gray-200);
+        gap: 16px;
+      }
+      .page-header h1 { font-size: 28px; }
+      .topics-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+      }
+      .footer-legal a { margin: 0 12px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">
+        <span class="nav-logo-icon">ع</span>
+        Arabic Calligraphy Generator
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/">Generator</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-mobile-btn" onclick="document.getElementById('nav-links').classList.toggle('open')">☰</button>
+    </div>
+  </nav>
+  
+  <!-- Page Header -->
+  <section class="page-header">
+    <h1>Blog</h1>
+    <p>Tips, tutorials, and inspiration for Arabic calligraphy enthusiasts.</p>
+  </section>
+  
+  <!-- Content -->
+  <main class="content">
+    <!-- Coming Soon -->
+    <div class="coming-soon">
+      <div class="coming-soon-icon">📝</div>
+      <h2>Blog Coming Soon</h2>
+      <p>We're working on creating helpful articles about Arabic calligraphy styles, history, and techniques. Check back soon for new content!</p>
+      <a href="/" class="cta-btn">Try the Generator</a>
+    </div>
+    
+    <!-- Upcoming Topics -->
+    <section class="upcoming-section">
+      <h2>Upcoming Topics</h2>
+      <div class="topics-grid">
+        <article class="topic-card">
+          <span class="topic-tag">Guide</span>
+          <h3>7 Arabic Calligraphy Styles Explained</h3>
+          <p>A comprehensive guide to the major Arabic calligraphy styles including Thuluth, Naskh, Diwani, Kufi, and more.</p>
+          <div class="topic-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+        
+        <article class="topic-card">
+          <span class="topic-tag">Tutorial</span>
+          <h3>How to Write Your Name in Arabic Calligraphy</h3>
+          <p>Step-by-step tutorial on translating and stylizing your name in beautiful Arabic calligraphy.</p>
+          <div class="topic-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+        
+        <article class="topic-card">
+          <span class="topic-tag">History</span>
+          <h3>The History of Thuluth Script</h3>
+          <p>Explore the origins and evolution of Thuluth, one of the most elegant Arabic calligraphy styles.</p>
+          <div class="topic-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+        
+        <article class="topic-card">
+          <span class="topic-tag">Ideas</span>
+          <h3>Arabic Calligraphy Tattoo Ideas</h3>
+          <p>Inspiration and tips for choosing the perfect Arabic calligraphy design for your tattoo.</p>
+          <div class="topic-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+        
+        <article class="topic-card">
+          <span class="topic-tag">Design</span>
+          <h3>Using Arabic Calligraphy in Logo Design</h3>
+          <p>How designers incorporate Arabic calligraphy into modern brand identities and logos.</p>
+          <div class="topic-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+        
+        <article class="topic-card">
+          <span class="topic-tag">Culture</span>
+          <h3>The Meaning Behind Popular Arabic Phrases</h3>
+          <p>Explore the significance of commonly used Arabic phrases and their calligraphic representations.</p>
+          <div class="topic-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Arabic Calligraphy Generator</h3>
+          <p>Free online tool to create beautiful Arabic calligraphy. Convert English to Arabic, choose from multiple styles, and export as PNG, JPG, or SVG.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Tool</h4>
+          <ul>
+            <li><a href="/">Generator</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Arabic Calligraphy Generator. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="/privacy-policy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
