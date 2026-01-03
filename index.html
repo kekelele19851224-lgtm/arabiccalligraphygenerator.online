@@ -1054,6 +1054,62 @@
     let isDragging = false;
     let dragStartX, dragStartY, startPosX, startPosY;
     
+    // Font name mapping for export
+    const fontNameMapping = {
+      "'Scheherazade New', serif": "Scheherazade New",
+      "'Amiri', serif": "Amiri",
+      "'Noto Naskh Arabic', serif": "Noto Naskh Arabic",
+      "'Reem Kufi', sans-serif": "Reem Kufi",
+      "'Noto Kufi Arabic', sans-serif": "Noto Kufi Arabic",
+      "'Aref Ruqaa', serif": "Aref Ruqaa",
+      "'Noto Nastaliq Urdu', serif": "Noto Nastaliq Urdu",
+      "'Mirza', serif": "Mirza",
+      "'Lateef', serif": "Lateef",
+      "'Markazi Text', serif": "Markazi Text",
+      "'Cairo', sans-serif": "Cairo"
+    };
+    
+    // Font base64 cache
+    const fontBase64Cache = {};
+    
+    // Get font as base64 for embedding in SVG
+    async function getFontBase64(fontFamily) {
+      if (fontBase64Cache[fontFamily]) {
+        return fontBase64Cache[fontFamily];
+      }
+      
+      const fontName = fontNameMapping[fontFamily];
+      if (!fontName) return null;
+      
+      try {
+        // Get CSS from Google Fonts
+        const cssUrl = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(fontName.replace(/ /g, '+'))}&display=swap`;
+        const cssResponse = await fetch(cssUrl);
+        const cssText = await cssResponse.text();
+        
+        // Extract woff2 URL
+        const urlMatch = cssText.match(/url\((https:\/\/fonts\.gstatic\.com\/[^)]+\.woff2)\)/);
+        if (!urlMatch) return null;
+        
+        // Download font
+        const fontResponse = await fetch(urlMatch[1]);
+        const fontBlob = await fontResponse.blob();
+        
+        // Convert to base64
+        const base64 = await new Promise((resolve) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result);
+          reader.readAsDataURL(fontBlob);
+        });
+        
+        fontBase64Cache[fontFamily] = base64;
+        return base64;
+      } catch (e) {
+        console.error('Failed to load font for export:', e);
+        return null;
+      }
+    }
+    
     function removeHarakat(text) {
       return text.replace(/[\u064B-\u065F\u0670]/g, '');
     }
@@ -1426,41 +1482,70 @@
     });
     
     // Export
-    document.getElementById('export-btn').addEventListener('click', () => {
-      const svg = document.getElementById('preview-svg');
-      const svgData = new XMLSerializer().serializeToString(svg);
+    document.getElementById('export-btn').addEventListener('click', async () => {
+      const exportBtn = document.getElementById('export-btn');
+      const originalText = exportBtn.textContent;
+      exportBtn.textContent = 'Loading font...';
+      exportBtn.disabled = true;
       
-      if (state.format === 'SVG') {
-        const blob = new Blob([svgData], { type: 'image/svg+xml' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'arabic-calligraphy.svg';
-        a.click();
-        URL.revokeObjectURL(url);
-      } else {
-        const canvas = document.createElement('canvas');
-        const ctx = canvas.getContext('2d');
-        const img = new Image();
+      try {
+        // Get font as base64
+        const fontBase64 = await getFontBase64(state.font);
         
-        canvas.width = state.width * state.scale;
-        canvas.height = state.height * state.scale;
+        // Get font name for @font-face
+        const fontName = state.font.replace(/'/g, '').split(',')[0].trim();
         
-        img.onload = () => {
-          if (state.format === 'JPG') {
-            ctx.fillStyle = state.bg === 'color' ? state.bgColor : '#ffffff';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-          }
-          ctx.scale(state.scale, state.scale);
-          ctx.drawImage(img, 0, 0);
-          
+        // Create font style to embed
+        let fontStyle = '';
+        if (fontBase64) {
+          fontStyle = `<defs><style>@font-face { font-family: '${fontName}'; src: url(${fontBase64}) format('woff2'); }</style></defs>`;
+        }
+        
+        // Get SVG content
+        const svg = document.getElementById('preview-svg');
+        const svgContent = svg.innerHTML;
+        
+        // Create full SVG with embedded font
+        const fullSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${state.width}" height="${state.height}" viewBox="0 0 ${state.width} ${state.height}">${fontStyle}${svgContent}</svg>`;
+        
+        if (state.format === 'SVG') {
+          const blob = new Blob([fullSvg], { type: 'image/svg+xml' });
+          const url = URL.createObjectURL(blob);
           const a = document.createElement('a');
-          a.href = canvas.toDataURL(state.format === 'JPG' ? 'image/jpeg' : 'image/png', 0.95);
-          a.download = `arabic-calligraphy.${state.format.toLowerCase()}`;
+          a.href = url;
+          a.download = 'arabic-calligraphy.svg';
           a.click();
-        };
-        
-        img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svgData)));
+          URL.revokeObjectURL(url);
+        } else {
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          const img = new Image();
+          
+          canvas.width = state.width * state.scale;
+          canvas.height = state.height * state.scale;
+          
+          img.onload = () => {
+            if (state.format === 'JPG') {
+              ctx.fillStyle = state.bg === 'color' ? state.bgColor : '#ffffff';
+              ctx.fillRect(0, 0, canvas.width, canvas.height);
+            }
+            ctx.scale(state.scale, state.scale);
+            ctx.drawImage(img, 0, 0);
+            
+            const a = document.createElement('a');
+            a.href = canvas.toDataURL(state.format === 'JPG' ? 'image/jpeg' : 'image/png', 0.95);
+            a.download = `arabic-calligraphy.${state.format.toLowerCase()}`;
+            a.click();
+          };
+          
+          img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(fullSvg)));
+        }
+      } catch (e) {
+        console.error('Export failed:', e);
+        alert('Export failed. Please try again.');
+      } finally {
+        exportBtn.textContent = originalText;
+        exportBtn.disabled = false;
       }
     });
     
