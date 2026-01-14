@@ -39,6 +39,7 @@
       --blue-500: #3b82f6;
       --blue-600: #2563eb;
       --green-500: #22c55e;
+      --purple-500: #8b5cf6;
     }
     
     body {
@@ -161,7 +162,7 @@
       overflow: hidden;
     }
     .featured-image::before {
-      content: "جون";
+      content: "محمد";
       font-size: 80px;
       color: #d4af37;
       font-family: serif;
@@ -170,7 +171,7 @@
       position: absolute;
       top: 20px;
       left: 20px;
-      background: linear-gradient(135deg, var(--green-500), #10b981);
+      background: linear-gradient(135deg, var(--purple-500), #a855f7);
       color: #fff;
       padding: 6px 14px;
       border-radius: 20px;
@@ -187,7 +188,7 @@
       border-radius: 4px;
       font-size: 12px;
       font-weight: 500;
-      color: var(--green-500);
+      color: var(--purple-500);
       margin-bottom: 12px;
     }
     .featured-content h2 {
@@ -278,6 +279,9 @@
       font-weight: 500;
       color: var(--blue-600);
       margin-bottom: 8px;
+    }
+    .article-list-tag.green {
+      color: var(--green-500);
     }
     .article-list-content h3 {
       font-size: 18px;
@@ -463,17 +467,17 @@
   <main class="content">
     <!-- Featured Article (Latest) -->
     <article class="featured-article">
-      <a href="/write-my-name-in-arabic.html">
+      <a href="/arabic-name-generator.html">
         <div class="featured-image">
           <span class="featured-badge">✨ New</span>
         </div>
         <div class="featured-content">
-          <span class="featured-tag">Guide</span>
-          <h2>Write My Name in Arabic: Free Instant Translator & Generator</h2>
-          <p>Want to see your name in Arabic letters? Learn how to instantly convert any English name to beautiful Arabic script with our free online tool. Includes examples of popular names and tips for tattoos, wall art, and more.</p>
+          <span class="featured-tag">Tool Guide</span>
+          <h2>Arabic Name Generator: Free Online Tool to Create Beautiful Arabic Names</h2>
+          <p>Everything you need to know about using our free Arabic name generator. Convert any name to Arabic script instantly, choose from 11 calligraphy styles, and download for tattoos, art, or gifts.</p>
           <div class="featured-meta">
             <span>📅 January 13, 2025</span>
-            <span>⏱️ 10 min read</span>
+            <span>⏱️ 9 min read</span>
           </div>
           <span class="read-more">Read article →</span>
         </div>
@@ -483,6 +487,20 @@
     <!-- Published Articles -->
     <section class="articles-section">
       <h2>More Articles</h2>
+      
+      <article class="article-list-item">
+        <a href="/write-my-name-in-arabic.html">
+          <div class="article-list-thumb">
+            <span>جون</span>
+          </div>
+          <div class="article-list-content">
+            <span class="article-list-tag green">Guide</span>
+            <h3>Write My Name in Arabic: Free Instant Translator & Generator</h3>
+            <p>Want to see your name in Arabic letters? Learn how to instantly convert any English name to beautiful Arabic script with our free tool.</p>
+            <div class="article-list-meta">📅 January 13, 2025 · ⏱️ 10 min read</div>
+          </div>
+        </a>
+      </article>
       
       <article class="article-list-item">
         <a href="/write-name-arabic-calligraphy.html">
@@ -514,9 +532,9 @@
         </article>
         
         <article class="article-card">
-          <span class="article-tag">History</span>
-          <h3>The History of Thuluth Script</h3>
-          <p>Explore the origins and evolution of Thuluth, one of the most elegant Arabic calligraphy styles.</p>
+          <span class="article-tag">Ideas</span>
+          <h3>Arabic Calligraphy Tattoo Ideas</h3>
+          <p>Inspiration and tips for choosing the perfect Arabic calligraphy design for your tattoo.</p>
           <div class="article-status">
             <span class="status-dot"></span>
             Coming soon
@@ -524,9 +542,9 @@
         </article>
         
         <article class="article-card">
-          <span class="article-tag">Ideas</span>
-          <h3>Arabic Calligraphy Tattoo Ideas</h3>
-          <p>Inspiration and tips for choosing the perfect Arabic calligraphy design for your tattoo.</p>
+          <span class="article-tag">History</span>
+          <h3>The History of Thuluth Script</h3>
+          <p>Explore the origins and evolution of Thuluth, one of the most elegant Arabic calligraphy styles.</p>
           <div class="article-status">
             <span class="status-dot"></span>
             Coming soon
