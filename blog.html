@@ -38,6 +38,7 @@
       --gray-900: #171717;
       --blue-500: #3b82f6;
       --blue-600: #2563eb;
+      --green-500: #22c55e;
     }
     
     body {
@@ -160,7 +161,7 @@
       overflow: hidden;
     }
     .featured-image::before {
-      content: "سارة";
+      content: "جون";
       font-size: 80px;
       color: #d4af37;
       font-family: serif;
@@ -169,7 +170,7 @@
       position: absolute;
       top: 20px;
       left: 20px;
-      background: linear-gradient(135deg, var(--blue-500), #8b5cf6);
+      background: linear-gradient(135deg, var(--green-500), #10b981);
       color: #fff;
       padding: 6px 14px;
       border-radius: 20px;
@@ -186,7 +187,7 @@
       border-radius: 4px;
       font-size: 12px;
       font-weight: 500;
-      color: var(--blue-600);
+      color: var(--green-500);
       margin-bottom: 12px;
     }
     .featured-content h2 {
@@ -220,12 +221,82 @@
       gap: 10px;
     }
     
-    /* Articles Grid */
+    /* Published Articles */
+    .articles-section {
+      margin-bottom: 48px;
+    }
     .articles-section h2 {
       font-size: 24px;
       color: var(--gray-900);
       margin-bottom: 24px;
     }
+    
+    /* Article List Item */
+    .article-list-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .article-list-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .article-list-item a {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .article-list-thumb {
+      width: 120px;
+      height: 80px;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .article-list-thumb span {
+      font-size: 28px;
+      color: #d4af37;
+      font-family: serif;
+    }
+    .article-list-content {
+      flex: 1;
+    }
+    .article-list-tag {
+      display: inline-block;
+      padding: 3px 8px;
+      background: var(--gray-100);
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--blue-600);
+      margin-bottom: 8px;
+    }
+    .article-list-content h3 {
+      font-size: 18px;
+      color: var(--gray-900);
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    .article-list-content p {
+      font-size: 14px;
+      color: var(--gray-600);
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+    .article-list-meta {
+      font-size: 13px;
+      color: var(--gray-500);
+    }
+    
+    /* Articles Grid - Coming Soon */
     .articles-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -351,6 +422,8 @@
       .featured-content h2 { font-size: 22px; }
       .featured-image { height: 200px; }
       .featured-image::before { font-size: 50px; }
+      .article-list-item a { flex-direction: column; align-items: flex-start; gap: 16px; }
+      .article-list-thumb { width: 100%; height: 120px; }
       .articles-grid { grid-template-columns: 1fr; }
       .footer-grid { grid-template-columns: 1fr; gap: 32px; }
       .footer-bottom {
@@ -388,28 +461,47 @@
   
   <!-- Content -->
   <main class="content">
-    <!-- Featured Article -->
+    <!-- Featured Article (Latest) -->
     <article class="featured-article">
-      <a href="/write-name-arabic-calligraphy.html">
+      <a href="/write-my-name-in-arabic.html">
         <div class="featured-image">
           <span class="featured-badge">✨ New</span>
         </div>
         <div class="featured-content">
-          <span class="featured-tag">Tutorial</span>
-          <h2>How to Write Your Name in Arabic Calligraphy (Free Online Tool)</h2>
-          <p>Learn how to transform your name into beautiful Arabic calligraphy with our free generator. Step-by-step guide with examples of popular names like Sarah, Mohammed, and Emily.</p>
+          <span class="featured-tag">Guide</span>
+          <h2>Write My Name in Arabic: Free Instant Translator & Generator</h2>
+          <p>Want to see your name in Arabic letters? Learn how to instantly convert any English name to beautiful Arabic script with our free online tool. Includes examples of popular names and tips for tattoos, wall art, and more.</p>
           <div class="featured-meta">
-            <span>📅 January 11, 2025</span>
-            <span>⏱️ 8 min read</span>
+            <span>📅 January 13, 2025</span>
+            <span>⏱️ 10 min read</span>
           </div>
           <span class="read-more">Read article →</span>
         </div>
       </a>
     </article>
     
+    <!-- Published Articles -->
+    <section class="articles-section">
+      <h2>More Articles</h2>
+      
+      <article class="article-list-item">
+        <a href="/write-name-arabic-calligraphy.html">
+          <div class="article-list-thumb">
+            <span>سارة</span>
+          </div>
+          <div class="article-list-content">
+            <span class="article-list-tag">Tutorial</span>
+            <h3>How to Write Your Name in Arabic Calligraphy (Free Online Tool)</h3>
+            <p>Learn how to transform your name into beautiful Arabic calligraphy with our free generator. Step-by-step guide with examples of popular names.</p>
+            <div class="article-list-meta">📅 January 11, 2025 · ⏱️ 8 min read</div>
+          </div>
+        </a>
+      </article>
+    </section>
+    
     <!-- More Articles Coming Soon -->
     <section class="articles-section">
-      <h2>More Articles Coming Soon</h2>
+      <h2>Coming Soon</h2>
       <div class="articles-grid">
         <article class="article-card">
           <span class="article-tag">Guide</span>
