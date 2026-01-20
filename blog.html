@@ -162,7 +162,7 @@
       overflow: hidden;
     }
     .featured-image::before {
-      content: "ثلث ◆ نسخ ◆ ديواني";
+      content: "ثلث ◆ نسخ ◆ كوفي";
       font-size: 48px;
       color: #d4af37;
       font-family: serif;
@@ -263,7 +263,7 @@
       flex-shrink: 0;
     }
     .article-list-thumb span {
-      font-size: 28px;
+      font-size: 24px;
       color: #d4af37;
       font-family: serif;
     }
@@ -277,25 +277,21 @@
       border-radius: 4px;
       font-size: 11px;
       font-weight: 500;
-      color: var(--blue-600);
+      color: var(--blue-500);
       margin-bottom: 8px;
     }
-    .article-list-tag.green {
-      color: var(--green-500);
-    }
-    .article-list-tag.purple {
-      color: var(--purple-500);
-    }
+    .article-list-tag.purple { color: var(--purple-500); }
+    .article-list-tag.green { color: var(--green-500); }
     .article-list-content h3 {
       font-size: 18px;
       color: var(--gray-900);
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       line-height: 1.4;
     }
     .article-list-content p {
       font-size: 14px;
       color: var(--gray-600);
-      line-height: 1.5;
+      line-height: 1.6;
       margin-bottom: 8px;
     }
     .article-list-meta {
@@ -303,22 +299,17 @@
       color: var(--gray-500);
     }
     
-    /* Articles Grid - Coming Soon */
+    /* Coming Soon Articles */
     .articles-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 24px;
+      gap: 20px;
     }
     .article-card {
       background: #fff;
       border-radius: 12px;
       padding: 24px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .article-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     .article-tag {
       display: inline-block;
@@ -331,35 +322,36 @@
       margin-bottom: 12px;
     }
     .article-card h3 {
-      font-size: 18px;
+      font-size: 17px;
       color: var(--gray-900);
       margin-bottom: 8px;
+      line-height: 1.4;
     }
     .article-card p {
       font-size: 14px;
-      color: var(--gray-600);
+      color: var(--gray-500);
       line-height: 1.6;
+      margin-bottom: 16px;
     }
     .article-status {
       display: flex;
       align-items: center;
-      gap: 6px;
-      margin-top: 16px;
-      font-size: 12px;
+      gap: 8px;
+      font-size: 13px;
       color: var(--gray-400);
     }
     .status-dot {
       width: 8px;
       height: 8px;
-      border-radius: 50%;
       background: var(--gray-300);
+      border-radius: 50%;
     }
     
     /* Footer */
     .footer {
       background: var(--gray-900);
       color: var(--gray-400);
-      padding: 48px 24px 24px;
+      padding: 64px 24px 32px;
     }
     .footer-container {
       max-width: 1200px;
@@ -477,9 +469,9 @@
         <div class="featured-content">
           <span class="featured-tag">Complete Guide</span>
           <h2>Arabic Calligraphy Styles: Complete Guide to 11 Beautiful Scripts</h2>
-          <p>Explore the world of Arabic calligraphy styles from ancient Kufic to elegant Thuluth and ornate Diwani. Learn the history, characteristics, and best uses for each script with visual examples.</p>
+          <p>Explore all types of Arabic calligraphy including Thuluth, Naskh, Kufi, and Diwani. Compare naskh vs thuluth, discover each kufi calligraphy style, and find the perfect script for your project.</p>
           <div class="featured-meta">
-            <span>📅 January 18, 2025</span>
+            <span>📅 January 19, 2025</span>
             <span>⏱️ 12 min read</span>
           </div>
           <span class="read-more">Read article →</span>
@@ -539,16 +531,6 @@
       <h2>Coming Soon</h2>
       <div class="articles-grid">
         <article class="article-card">
-          <span class="article-tag">Deep Dive</span>
-          <h3>Thuluth Calligraphy: History, Examples & How to Use It</h3>
-          <p>Everything you need to know about Thuluth, the most elegant Arabic calligraphy style used on the Kaaba.</p>
-          <div class="article-status">
-            <span class="status-dot"></span>
-            Coming soon
-          </div>
-        </article>
-        
-        <article class="article-card">
           <span class="article-tag">Ideas</span>
           <h3>Arabic Calligraphy Tattoo Ideas</h3>
           <p>Inspiration and tips for choosing the perfect Arabic calligraphy design for your tattoo.</p>
@@ -572,6 +554,16 @@
           <span class="article-tag">Design</span>
           <h3>Using Arabic Calligraphy in Logo Design</h3>
           <p>How designers incorporate Arabic calligraphy into modern brand identities and logos.</p>
+          <div class="article-status">
+            <span class="status-dot"></span>
+            Coming soon
+          </div>
+        </article>
+        
+        <article class="article-card">
+          <span class="article-tag">History</span>
+          <h3>The History of Arabic Calligraphy</h3>
+          <p>From ancient manuscripts to modern art: the evolution of Arabic writing as an art form.</p>
           <div class="article-status">
             <span class="status-dot"></span>
             Coming soon
