@@ -17,8 +17,12 @@ const priorityConfig = {
 // 博客文章默认配置
 const defaultBlogConfig = { priority: '0.8', changefreq: 'monthly' };
 
-// 排除的文件
-const excludeFiles = ['404.html'];
+// 排除的文件（不进 sitemap）
+const excludeFiles = [
+  '404.html',
+  'arabic-calligraphy-styles1.20.html',       // 旧版本文件，不上线
+  'startupranking1370871219992710.html',      // 站点验证文件，不需要被搜索
+];
 
 // 非博客页面列表
 const nonBlogPages = ['index.html', 'about.html', 'contact.html', 'privacy-policy.html', 'terms.html', 'blog.html'];
@@ -41,10 +45,10 @@ function generateSitemap() {
     // 获取配置
     const config = priorityConfig[file] || defaultBlogConfig;
     
-    // 生成URL
-    const loc = file === 'index.html' 
-      ? SITE_URL + '/' 
-      : `${SITE_URL}/${file}`;
+    // 生成URL（去掉 .html 后缀，跟 canonical 保持一致）
+    const loc = file === 'index.html'
+      ? SITE_URL + '/'
+      : `${SITE_URL}/${file.replace(/\.html$/, '')}`;
 
     return {
       priority: parseFloat(config.priority),

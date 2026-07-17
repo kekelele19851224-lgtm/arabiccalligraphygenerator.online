@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Puppeteer chrome install
+.cache/
+.local-chromium/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
