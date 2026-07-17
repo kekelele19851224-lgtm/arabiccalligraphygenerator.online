@@ -3,7 +3,180 @@
     {
       "slug": "bismillah",
       "displayName": "Bismillah",
-      "url": "/bismillah-in-arabic-calligraphy"
+      "arabicText": "بسم الله الرحمن الرحيم",
+      "arabicTextWithHarakat": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "url": "/bismillah-in-arabic-calligraphy",
+      "mainKeyword": "bismillah in arabic calligraphy",
+      "monthlyVolume": 390,
+      "keywordDifficulty": 23,
+
+      "meta": {
+        "title": "Bismillah in Arabic Calligraphy — Free Generator & Download",
+        "description": "Generate Bismillah (بسم الله الرحمن الرحيم) in beautiful Arabic calligraphy instantly. Choose from 11 styles including Thuluth, Diwani, and Kufic. Download free PNG, SVG, or JPG. No sign-up.",
+        "keywords": "bismillah in arabic calligraphy, bismillah calligraphy, bismillah al-rahman al-rahim, bismillah png, bismillah thuluth, bismillah download, bismillah calligraphy generator"
+      },
+
+      "hero": {
+        "h1": "Generate Bismillah in Arabic Calligraphy",
+        "description": "Create beautiful Bismillah (بسم الله الرحمن الرحيم) calligraphy in 11 authentic Arabic styles including Thuluth, Diwani, Kufic, and Naskh. Download free as PNG, SVG, or JPG — no sign-up."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Bismillah Calligraphy Styles",
+          "intro": "Bismillah (بسم الله الرحمن الرحيم) can be rendered in every major Arabic calligraphy tradition. The style you choose changes both the visual character and the appropriate context — Thuluth carries ceremonial weight, Kufic gives a modern architectural feel, Diwani is decorative and courtly, and Naskh is clean and readable. Try each style in the free Bismillah generator above and download your favorite as a PNG or SVG.",
+          "h3s": [
+            {
+              "title": "Thuluth Bismillah",
+              "image": {
+                "src": "images/bismillah-thuluth-inline.jpg",
+                "alt": "Bismillah rendered in Thuluth Arabic calligraphy style on aged parchment"
+              },
+              "content": "Thuluth is the most historically revered style for Bismillah calligraphy, used extensively in Quranic manuscripts and mosque decoration since the 11th century. Its curved, elongated letters give Bismillah a sense of formal grace. Select \"Thuluth (Scheherazade)\" in the generator above to render Bismillah in this classic script."
+            },
+            {
+              "title": "Diwani Bismillah",
+              "image": {
+                "src": "images/bismillah-diwani-inline.png",
+                "alt": "Bismillah rendered in Diwani Arabic calligraphy style with flowing ornate curves in burgundy"
+              },
+              "content": "Diwani produces flowing, ornate Bismillah calligraphy originally developed by Ottoman court scribes for royal decrees. Its curves and ligatures create a decorative, artistic look ideal for wedding invitations, greeting cards, and gift prints. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown to generate Bismillah in Diwani style."
+            },
+            {
+              "title": "Kufic Bismillah",
+              "image": {
+                "src": "images/bismillah-kufic-inline.jpg",
+                "alt": "Bismillah rendered in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic calligraphy style, with angular geometric letterforms perfectly suited to modern minimalist Bismillah designs. It works especially well for wall art, tattoo references, and Islamic architectural signage. Select \"Kufi (Reem Kufi)\" or \"Noto Kufi Arabic\" in the generator to render Bismillah in Kufic script."
+            },
+            {
+              "title": "Naskh Bismillah",
+              "image": {
+                "src": "images/bismillah-naskh-inline.png",
+                "alt": "Bismillah rendered in Naskh Arabic calligraphy style with clean readable green letters"
+              },
+              "content": "Naskh offers a clean, highly legible Bismillah calligraphy — this is the style used in modern Quran printings and everyday Arabic text. It is the safest choice when clarity matters more than decoration, such as educational materials or accessible signage. Choose \"Naskh (Amiri)\" in the font selector above."
+            }
+          ]
+        },
+        {
+          "id": "full-phrase",
+          "navLabel": "Full Phrase",
+          "h2": "Bismillah al-Rahman al-Rahim in Arabic Calligraphy",
+          "content": [
+            "The full phrase Bismillah al-Rahman al-Rahim (بسم الله الرحمن الرحيم) means \"In the name of Allah, the Most Gracious, the Most Merciful.\" It is the opening verse of every chapter in the Quran (except one) and is recited by Muslims before beginning any meaningful task.",
+            "When rendering this full phrase in Arabic calligraphy, longer scripts like Thuluth and Diwani produce the most balanced compositions — their proportions accommodate the extended text more gracefully than compact styles like Kufic. In the generator above, the full phrase is loaded by default so you can immediately compare all 11 styles side by side and pick the one that fits your intended use."
+          ],
+          "heroImage": {
+            "src": "images/bismillah-full-phrase-thuluth.jpg",
+            "alt": "Bismillah al-Rahman al-Rahim (بسم الله الرحمن الرحيم) full phrase in high-resolution Thuluth Arabic calligraphy with ornate gold border on parchment",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "What Does Bismillah Mean?",
+          "content": [
+            "Bismillah (بسم الله) is composed of three Arabic components: <em>bi</em> (with/in), <em>ism</em> (name), and <em>Allah</em> (God). Combined, they mean \"In the name of Allah.\" The extended form, Bismillah al-Rahman al-Rahim, adds two of Allah's ninety-nine names: <strong>al-Rahman</strong> (the Most Gracious, whose mercy encompasses all creation) and <strong>al-Rahim</strong> (the Most Merciful, whose mercy is especially bestowed upon believers).",
+            "For Muslims, Bismillah is more than a phrase — it is a spiritual practice. It is recited before eating, before starting a journey, before writing a letter, before entering a home, and before beginning any task worthy of divine blessing. The phrase appears at the beginning of 113 of the 114 chapters (surahs) of the Quran.",
+            "Its calligraphic representation has been central to Islamic art for over a thousand years, adorning mosques, manuscripts, ceramics, and textiles from Morocco to Indonesia. This is why Bismillah calligraphy remains one of the most requested designs for both religious and decorative purposes today."
+          ]
+        },
+        {
+          "id": "download",
+          "navLabel": "Download",
+          "h2": "Download Free Bismillah Calligraphy PNG &amp; SVG",
+          "downloadPreviews": [
+            { "src": "images/bismillah-download-transparent.png", "alt": "Bismillah calligraphy download preview with transparent background PNG on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/bismillah-download-white.png", "alt": "Bismillah calligraphy download preview on white background", "caption": "White background" },
+            { "src": "images/bismillah-download-black.jpg", "alt": "Bismillah calligraphy download preview in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "After designing your Bismillah calligraphy in the generator above, download it in the format that fits your use case:",
+            "<strong>PNG</strong> — best for web use and social media. Enable transparent background in the generator when you need to layer Bismillah over another image or design.<br><strong>SVG</strong> — best for print, tattoo reference, or wall art since it scales to any size without quality loss.<br><strong>JPG</strong> — smallest file size, good for casual sharing where a solid background is acceptable.",
+            "All downloads are free — no watermark, no sign-up, no account required. You can also copy the raw Arabic text of Bismillah directly from the tool for use in documents or social posts."
+          ]
+        },
+        {
+          "id": "pronunciation",
+          "navLabel": "Pronounce",
+          "h2": "How to Pronounce Bismillah",
+          "content": [
+            "Bismillah is pronounced <strong>\"bis-mil-LAH\"</strong> with the stress on the final syllable. The full phrase, Bismillah al-Rahman al-Rahim, is pronounced <strong>\"bis-mil-LAH ar-rah-MAAN ar-ra-HEEM.\"</strong>",
+            "In Arabic phonetics, the \"H\" in <em>Allah</em> and <em>Rahim</em> is a breathy pharyngeal sound (ح), softer than an English \"H\". The \"R\" should be lightly rolled. When reciting, take a small pause between \"Bismillah\" and \"ar-Rahman\" rather than rushing them together — this small pause is part of traditional recitation etiquette."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Bismillah Calligraphy Designs",
+        "description": "Explore hand-picked examples of Bismillah calligraphy across styles, colors, and use cases. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "Bismillah in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Wedding invitation" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "Bismillah in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Wall art" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "Bismillah in Diwani calligraphy in red on white greeting card",                 "caption": "Diwani · Red · Greeting card" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "Bismillah in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Formal gift" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "Bismillah in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Modern wall art" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "Bismillah in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Bookmark design" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "Bismillah in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · Book cover" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "Bismillah in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Study reference" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "Bismillah in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Cultural card" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "Bismillah in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "Bismillah in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile print" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "Bismillah in Cairo modern Arabic font in teal on white banner",                 "caption": "Cairo · Teal · Digital banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "Bismillah in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage print" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "Bismillah in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "Bismillah in Markazi Text calligraphy in black on rose background poster",      "caption": "Markazi · Black · Poster design" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "Bismillah in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "Bismillah in Scheherazade Thuluth calligraphy in gold on deep navy blue",       "caption": "Scheherazade · Gold · Ornament" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "Bismillah in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "Bismillah in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Prayer mat design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "Bismillah in Diwani calligraphy in rose gold on charcoal luxury card",          "caption": "Diwani · Rose gold · Luxury card" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does Bismillah mean in Arabic?",
+          "answer": "Bismillah (بسم الله) means \"In the name of Allah\" in Arabic. The full phrase Bismillah al-Rahman al-Rahim (بسم الله الرحمن الرحيم) translates to \"In the name of Allah, the Most Gracious, the Most Merciful.\" It is recited by Muslims before starting any important task."
+        },
+        {
+          "question": "Which Arabic calligraphy style is best for Bismillah?",
+          "answer": "Thuluth is the most traditional and revered style for Bismillah calligraphy, historically used in Quranic manuscripts. Diwani offers ornate flowing curves ideal for artistic use. Kufic provides a geometric modern look. Naskh gives a clean readable form suitable for text."
+        },
+        {
+          "question": "Can I download Bismillah calligraphy as PNG or SVG?",
+          "answer": "Yes. You can download Bismillah in your chosen calligraphy style as a free PNG (with transparent background option), JPG, or SVG vector file. SVG is recommended for print, tattoo reference, or wall art since it scales without quality loss."
+        },
+        {
+          "question": "How do you pronounce Bismillah?",
+          "answer": "Bismillah is pronounced \"bis-mil-LAH\" with emphasis on the last syllable. The full phrase Bismillah al-Rahman al-Rahim is pronounced \"bis-mil-LAH ar-rah-MAAN ar-ra-HEEM.\""
+        },
+        {
+          "question": "Is it appropriate to use Bismillah calligraphy for tattoos or wall art?",
+          "answer": "Bismillah is a sacred Islamic phrase and its use should be treated with respect. Many Muslims display Bismillah as wall art or on greeting cards. For tattoos, scholarly opinion varies; consult a knowledgeable person from your tradition before proceeding. Always verify the Arabic script with a native speaker."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Bismillah Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Bismillah (بسم الله الرحمن الرحيم) in Arabic calligraphy across 11 styles including Thuluth, Diwani, and Kufic.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/bismillah-full-phrase-thuluth.jpg",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Bismillah al-Rahman al-Rahim in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "Bismillah al-Rahman al-Rahim (بسم الله الرحمن الرحيم) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
+      }
     }
   ]
 }

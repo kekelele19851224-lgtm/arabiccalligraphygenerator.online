@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "node build-partials.js && node generate-sitemap.js",
-    "gallery": "node generate-gallery.js"
+    "images": "node generate-images.js",
+    "page": "node generate-phrase-page.js"
   },
   "devDependencies": {
     "puppeteer": "^23.0.0"
