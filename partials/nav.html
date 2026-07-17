@@ -1,0 +1,112 @@
+<style>
+  /* ===== Site Nav Styles (from partials/nav.html) ===== */
+  .header {
+    height: 56px; background: #fff; border-bottom: 1px solid var(--gray-200);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 20px; flex-shrink: 0; position: relative; z-index: 100;
+  }
+  .header .logo { display: flex; align-items: center; gap: 10px; font-size: 16px; font-weight: 700; color: var(--gray-900); text-decoration: none; }
+  .header .logo-icon { width: 32px; height: 32px; background: linear-gradient(135deg, var(--blue-500, #3b82f6), #8b5cf6); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 16px; }
+  .header-links { display: flex; align-items: center; gap: 24px; list-style: none; margin: 0; padding: 0; }
+  .header-links > a, .header-links .dropdown-toggle {
+    color: var(--gray-600); text-decoration: none; font-size: 14px; font-weight: 500;
+    background: none; border: none; cursor: pointer; padding: 0; font-family: inherit;
+    display: inline-flex; align-items: center; gap: 4px; transition: color 0.2s;
+  }
+  .header-links > a:hover, .header-links .dropdown-toggle:hover { color: var(--gray-900); }
+
+  /* Dropdown */
+  .dropdown { position: relative; }
+  .dropdown-caret { font-size: 10px; opacity: 0.7; transition: transform 0.2s; }
+  .dropdown-menu {
+    display: none; position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+    background: #fff; border: 1px solid var(--gray-200); border-radius: 8px;
+    padding: 6px 0; min-width: 200px; box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    flex-direction: column; z-index: 110;
+  }
+  .dropdown-menu a { padding: 8px 20px; font-size: 14px; color: var(--gray-700); text-decoration: none; white-space: nowrap; transition: background 0.15s, color 0.15s; }
+  .dropdown-menu a:hover { background: var(--islamic-green-soft, #F0FDF4); color: var(--islamic-green, #14532D); }
+  @media (min-width: 901px) {
+    .dropdown:hover .dropdown-menu, .dropdown.open .dropdown-menu { display: flex; }
+    .dropdown:hover .dropdown-caret { transform: rotate(180deg); }
+  }
+
+  /* Hamburger */
+  .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; position: relative; }
+  .hamburger span { display: block; width: 20px; height: 2px; background: var(--gray-700); margin: 4px auto; transition: transform 0.2s, opacity 0.2s; }
+  .hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .hamburger.active span:nth-child(2) { opacity: 0; }
+  .hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  /* Mobile */
+  @media (max-width: 900px) {
+    .hamburger { display: block; }
+    .header-links {
+      display: none; position: absolute; top: 56px; left: 0; right: 0;
+      background: #fff; flex-direction: column; align-items: stretch;
+      padding: 12px 0; gap: 0; border-bottom: 1px solid var(--gray-200);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06); max-height: calc(100vh - 56px); overflow-y: auto;
+    }
+    .header-links.mobile-open { display: flex; }
+    .header-links > a, .header-links .dropdown-toggle {
+      padding: 12px 20px; width: 100%; justify-content: space-between; font-size: 15px;
+    }
+    .header-links > a:hover, .header-links .dropdown-toggle:hover { background: var(--gray-50, #fafafa); }
+    .dropdown { width: 100%; }
+    .dropdown-toggle { display: flex !important; }
+    .dropdown-menu {
+      position: static; transform: none; box-shadow: none; border: none;
+      border-radius: 0; padding: 0; background: var(--gray-50, #fafafa); min-width: 0;
+    }
+    .dropdown.open .dropdown-menu { display: flex; }
+    .dropdown-menu a { padding: 10px 40px; }
+    .dropdown.open .dropdown-caret { transform: rotate(180deg); }
+  }
+</style>
+
+<header class="header">
+  <a href="/" class="logo">
+    <div class="logo-icon">ع</div>
+    <span>Arabic Calligraphy Generator</span>
+  </a>
+  <nav class="header-links" id="main-nav" aria-label="Main">
+    <a href="/">Generator</a>
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">Arabic Phrases <span class="dropdown-caret">▾</span></button>
+      <div class="dropdown-menu" role="menu">
+{{PHRASES_LINKS}}
+      </div>
+    </div>
+    <a href="/blog.html">Blog</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+  <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-controls="main-nav" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<script>
+  (function() {
+    var burger = document.getElementById('hamburger-btn');
+    var nav = document.getElementById('main-nav');
+    if (burger && nav) {
+      burger.addEventListener('click', function() {
+        var open = nav.classList.toggle('mobile-open');
+        burger.classList.toggle('active', open);
+        burger.setAttribute('aria-expanded', open);
+      });
+    }
+    // Mobile dropdown toggle
+    document.querySelectorAll('.dropdown-toggle').forEach(function(t) {
+      t.addEventListener('click', function(e) {
+        if (window.innerWidth <= 900) {
+          e.preventDefault();
+          var dd = t.parentElement;
+          var open = dd.classList.toggle('open');
+          t.setAttribute('aria-expanded', open);
+        }
+      });
+    });
+  })();
+</script>

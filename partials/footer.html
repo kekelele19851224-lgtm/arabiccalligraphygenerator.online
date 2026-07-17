@@ -1,0 +1,62 @@
+<style>
+  /* ===== Site Footer Styles (from partials/footer.html) ===== */
+  .footer { background: var(--gray-900, #171717); color: var(--gray-400, #a3a3a3); padding: 48px 24px 24px; margin-top: 40px; }
+  .footer-container { max-width: 1200px; margin: 0 auto; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+  .footer-brand h3 { color: #fff; font-size: 18px; margin: 0 0 12px; display: flex; align-items: center; gap: 10px; }
+  .footer-brand h3 .logo-icon { width: 28px; height: 28px; background: linear-gradient(135deg, var(--blue-500, #3b82f6), #8b5cf6); border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; color: #fff; font-size: 14px; }
+  .footer-brand p { font-size: 14px; line-height: 1.6; margin: 0; color: var(--gray-400, #a3a3a3); }
+  .footer-col h4 { color: #fff; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 16px; }
+  .footer-col ul { list-style: none; margin: 0; padding: 0; }
+  .footer-col li { margin-bottom: 10px; }
+  .footer-col a { color: var(--gray-400, #a3a3a3); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--islamic-gold, #B8860B); }
+  .footer-bottom { padding-top: 24px; border-top: 1px solid var(--gray-800, #262626); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 13px; }
+  .footer-bottom a { color: var(--gray-400, #a3a3a3); text-decoration: none; }
+  .footer-bottom a:hover { color: #fff; }
+  @media (max-width: 900px) {
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .footer-brand { grid-column: 1 / -1; }
+  }
+  @media (max-width: 500px) {
+    .footer-grid { grid-template-columns: 1fr; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+  }
+</style>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><span class="logo-icon">ع</span> Arabic Calligraphy Generator</h3>
+        <p>Free online tool to create beautiful Arabic calligraphy in 11 authentic styles including Thuluth, Diwani, Kufic, and Naskh. Download PNG, SVG, or JPG — no sign-up required.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Arabic Phrases</h4>
+        <ul>
+{{PHRASES_LIST_ITEMS}}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="/terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Arabic Calligraphy Generator. All rights reserved.</p>
+      <p>Featured on <a href="https://www.toolpilot.ai" target="_blank" rel="noopener">ToolPilot.ai</a></p>
+    </div>
+  </div>
+</footer>

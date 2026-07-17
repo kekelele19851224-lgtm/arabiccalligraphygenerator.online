@@ -2,7 +2,7 @@
   "name": "arabic-calligraphy-generator",
   "version": "1.0.0",
   "scripts": {
-    "build": "node generate-sitemap.js",
+    "build": "node build-partials.js && node generate-sitemap.js",
     "gallery": "node generate-gallery.js"
   },
   "devDependencies": {
