@@ -26,14 +26,10 @@ const INLINE_CONFIGS = [
 ];
 
 const GALLERY_CANVAS = { w: 400, h: 240 };
-// Gallery font size scales with phrase length so short words (Allah / Habibi,
-// 4-5 chars) don't render as tiny dots inside a mostly empty 400×240 card.
-function gallerySize(text) {
-  const chars = text.replace(/\s/g, '').length;
-  if (chars <= 6)  return 72;
-  if (chars <= 12) return 48;
-  return 28;
-}
+// Auto-fit target: text width ~85% of canvas width, height cap at 60% of canvas
+// height. This yields ≈50% visual coverage across short + long phrases uniformly.
+const FIT_WIDTH_RATIO  = 0.85;
+const FIT_HEIGHT_RATIO = 0.60;
 const SCALE = 2;
 const OUTPUT_DIR = path.join(__dirname, 'images');
 
@@ -105,7 +101,7 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
         color: item.color,
         bg: item.bg,
         bgColor: item.bgColor,
-        w: GALLERY_CANVAS.w, h: GALLERY_CANVAS.h, size: gallerySize(phrase.arabicTextWithHarakat || phrase.arabicText),
+        w: GALLERY_CANVAS.w, h: GALLERY_CANVAS.h, size: null,
       };
     });
 
@@ -130,7 +126,7 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
 // 单张图渲染 + 保存
 // ==========================================================
 async function renderAndSave(page, phrase, cfg, filename) {
-  const dataUrl = await page.evaluate(async (phrase, cfg, SCALE) => {
+  const dataUrl = await page.evaluate(async (phrase, cfg, SCALE, FIT_W, FIT_H) => {
     // 设置 tool state
     state.text = phrase.arabicTextWithHarakat || phrase.arabicText;
     state.font = cfg.font;
@@ -139,7 +135,6 @@ async function renderAndSave(page, phrase, cfg, filename) {
     if (cfg.bgColor) state.bgColor = cfg.bgColor;
     state.width = cfg.w;
     state.height = cfg.h;
-    state.size = cfg.size;
     state.scale = SCALE;
     state.harakat = true;
     state.rotation = 0;
@@ -149,12 +144,11 @@ async function renderAndSave(page, phrase, cfg, filename) {
     state.stroke = false;
     state.lineHeight = 1.5;
 
-    // document.fonts.load() only accepts a single family (no CSS fallback list).
-    // Strip fallback so the load promise actually resolves on the target face.
+    // Load target font first so measureText below reports real widths.
     const primaryFont = cfg.font.split(',')[0].trim();
-    try { await document.fonts.load(`${cfg.size}px ${primaryFont}`); } catch(e) {}
+    try { await document.fonts.load(`64px ${primaryFont}`); } catch(e) {}
 
-    // 复制工具的 canvas 导出逻辑
+    // Canvas setup
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
     canvas.width  = cfg.w * SCALE;
@@ -168,11 +162,23 @@ async function renderAndSave(page, phrase, cfg, filename) {
       ctx.fillStyle = cfg.bgColor;
       ctx.fillRect(0, 0, cfg.w, cfg.h);
     }
-    // transparent: 什么都不画（canvas 默认透明）
+
+    // Auto-fit font size: pick the largest size where text width ≤ FIT_W% of
+    // canvas width and font size ≤ FIT_H% of canvas height. Yields uniform
+    // ~50% visual coverage regardless of phrase length.
+    const targetW = cfg.w * FIT_W;
+    const maxSize = Math.floor(cfg.h * FIT_H);
+    let size = maxSize;
+    while (size > 12) {
+      ctx.font = `${size}px ${cfg.font}`;
+      if (ctx.measureText(state.text).width <= targetW) break;
+      size -= 2;
+    }
+    state.size = size;
 
     const x = cfg.w / 2;
     const y = cfg.h / 2;
-    ctx.font        = `${cfg.size}px ${cfg.font}`;
+    ctx.font        = `${size}px ${cfg.font}`;
     ctx.fillStyle   = cfg.color;
     ctx.textAlign   = 'center';
     ctx.textBaseline= 'middle';
@@ -180,7 +186,7 @@ async function renderAndSave(page, phrase, cfg, filename) {
     ctx.fillText(state.text, x, y);
 
     return canvas.toDataURL('image/png');
-  }, phrase, cfg, SCALE);
+  }, phrase, cfg, SCALE, FIT_WIDTH_RATIO, FIT_HEIGHT_RATIO);
 
   const base64 = dataUrl.replace(/^data:image\/png;base64,/, '');
   fs.writeFileSync(path.join(OUTPUT_DIR, filename), Buffer.from(base64, 'base64'));
