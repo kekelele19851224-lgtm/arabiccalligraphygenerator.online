@@ -26,10 +26,33 @@ const INLINE_CONFIGS = [
 ];
 
 const GALLERY_CANVAS = { w: 400, h: 240 };
-// Auto-fit target: text width ~85% of canvas width, height cap at 60% of canvas
-// height. This yields ≈50% visual coverage across short + long phrases uniformly.
-const FIT_WIDTH_RATIO  = 0.85;
-const FIT_HEIGHT_RATIO = 0.60;
+
+// Font-specific scale multipliers. Different fonts have different em-box density
+// (Reem Kufi packs glyphs tight, Amiri leaves airspace) so the same font-size
+// renders at very different visual sizes. This table normalizes.
+const FONT_SCALE = {
+  "'Reem Kufi'":          0.70,
+  "'Noto Kufi Arabic'":   0.80,
+  "'Cairo'":              0.80,
+  "'Markazi Text'":       0.95,
+  "'Mirza'":              0.95,
+  "'Aref Ruqaa'":         0.90,
+  "'Noto Naskh Arabic'":  0.95,
+  "'Amiri'":              0.90,
+  "'Scheherazade New'":   0.90,
+  "'Noto Nastaliq Urdu'": 0.95,
+  "'Lateef'":             0.95,
+};
+
+// Base size per phrase length. Target: text ≈ 50% of the 400×240 canvas
+// visually after FONT_SCALE is applied. Empirical values.
+function baseGallerySize(chars) {
+  if (chars <= 4)  return 130;   // Allah
+  if (chars <= 6)  return 115;   // Habibi (with harakat)
+  if (chars <= 10) return 75;    // Ramadan Kareem
+  if (chars <= 15) return 50;
+  return 34;                     // Bismillah (long verse)
+}
 const SCALE = 2;
 const OUTPUT_DIR = path.join(__dirname, 'images');
 
@@ -126,7 +149,16 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
 // 单张图渲染 + 保存
 // ==========================================================
 async function renderAndSave(page, phrase, cfg, filename) {
-  const dataUrl = await page.evaluate(async (phrase, cfg, SCALE, FIT_W, FIT_H) => {
+  // Compute size deterministically in Node before shipping cfg to browser.
+  // Gallery cfg has size:null → apply the length × font-scale formula.
+  // Inline cfg has a preset size → keep it as-is.
+  if (cfg.size == null) {
+    const baseText = (phrase.arabicText || '').replace(/\s/g, '');
+    const base = baseGallerySize(baseText.length || 1);
+    const scale = FONT_SCALE[cfg.font.split(',')[0].trim()] || 1.0;
+    cfg = { ...cfg, size: Math.round(base * scale) };
+  }
+  const dataUrl = await page.evaluate(async (phrase, cfg, SCALE) => {
     // 设置 tool state
     state.text = phrase.arabicTextWithHarakat || phrase.arabicText;
     state.font = cfg.font;
@@ -144,9 +176,10 @@ async function renderAndSave(page, phrase, cfg, filename) {
     state.stroke = false;
     state.lineHeight = 1.5;
 
-    // Load target font first so measureText below reports real widths.
+    // Ensure target font is loaded before render (safety, though local fonts
+    // with font-display:block should already be ready).
     const primaryFont = cfg.font.split(',')[0].trim();
-    try { await document.fonts.load(`64px ${primaryFont}`); } catch(e) {}
+    try { await document.fonts.load(`80px ${primaryFont}`); } catch(e) {}
 
     // Canvas setup
     const canvas = document.createElement('canvas');
@@ -163,30 +196,26 @@ async function renderAndSave(page, phrase, cfg, filename) {
       ctx.fillRect(0, 0, cfg.w, cfg.h);
     }
 
-    // Chars-based auto-fit (font-agnostic). measureText() varies wildly across
-    // fonts (sans vs serif) so same phrase would render at wildly different
-    // sizes. Instead: derive size from phrase length + canvas dimensions so
-    // ALL fonts for a given phrase land at the same size (consistent visual).
-    const baseText = (phrase.arabicText || state.text).replace(/\s/g, '');
-    const chars = baseText.length || 1;
-    const AVG_CHAR_RATIO = 0.55; // rough avg Arabic char advance / font-size
-    const sizeByW = (cfg.w * FIT_W) / (chars * AVG_CHAR_RATIO);
-    const sizeByH = cfg.h * FIT_H;
-    let size = Math.floor(Math.min(sizeByW, sizeByH));
-    if (size < 12) size = 12;
+    // Size was computed in Node (see renderAndSave below), attached to cfg.
+    const size = cfg.size;
     state.size = size;
 
-    const x = cfg.w / 2;
-    const y = cfg.h / 2;
+    // Center visually using real bounding box (textBaseline='middle' uses the
+    // em-box which is off-center when harakat push glyphs above the box).
     ctx.font        = `${size}px ${cfg.font}`;
-    ctx.fillStyle   = cfg.color;
     ctx.textAlign   = 'center';
-    ctx.textBaseline= 'middle';
+    ctx.textBaseline= 'alphabetic';
+    ctx.fillStyle   = cfg.color;
     ctx.globalAlpha = 1;
+    const finalM = ctx.measureText(state.text);
+    const finalAsc  = finalM.actualBoundingBoxAscent  || size * 0.7;
+    const finalDesc = finalM.actualBoundingBoxDescent || size * 0.2;
+    const x = cfg.w / 2;
+    const y = cfg.h / 2 + (finalAsc - finalDesc) / 2;
     ctx.fillText(state.text, x, y);
 
     return canvas.toDataURL('image/png');
-  }, phrase, cfg, SCALE, FIT_WIDTH_RATIO, FIT_HEIGHT_RATIO);
+  }, phrase, cfg, SCALE);
 
   const base64 = dataUrl.replace(/^data:image\/png;base64,/, '');
   fs.writeFileSync(path.join(OUTPUT_DIR, filename), Buffer.from(base64, 'base64'));
