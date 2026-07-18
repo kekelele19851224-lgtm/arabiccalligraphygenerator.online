@@ -7,6 +7,17 @@
     "page": "node generate-phrase-page.js"
   },
   "devDependencies": {
+    "@fontsource/amiri": "^5.2.8",
+    "@fontsource/aref-ruqaa": "^5.2.8",
+    "@fontsource/cairo": "^5.2.7",
+    "@fontsource/lateef": "^5.2.8",
+    "@fontsource/markazi-text": "^5.2.9",
+    "@fontsource/mirza": "^5.2.8",
+    "@fontsource/noto-kufi-arabic": "^5.2.9",
+    "@fontsource/noto-naskh-arabic": "^5.2.11",
+    "@fontsource/noto-nastaliq-urdu": "^5.2.8",
+    "@fontsource/reem-kufi": "^5.2.11",
+    "@fontsource/scheherazade-new": "^5.2.9",
     "puppeteer": "^23.0.0"
   }
 }
