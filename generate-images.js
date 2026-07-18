@@ -22,6 +22,7 @@ const INLINE_CONFIGS = [
   { suffix: 'naskh-inline',         font: "'Amiri', serif",             color: '#14532D', bg: 'color',       bgColor: '#FAF3E7', w: 800, h: 160, size: 44, altStyle: 'Naskh',  altColor: 'deep green', altBg: 'cream background' },
   { suffix: 'download-transparent', font: "'Scheherazade New', serif",  color: '#000000', bg: 'transparent',                     w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'black',      altBg: 'transparent background (PNG)' },
   { suffix: 'download-white',       font: "'Scheherazade New', serif",  color: '#000000', bg: 'white',                            w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'black',      altBg: 'white background' },
+  { suffix: 'download-black',       font: "'Scheherazade New', serif",  color: '#B8860B', bg: 'color',       bgColor: '#000000', w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'gold',       altBg: 'black background' },
 ];
 
 const GALLERY_CANVAS = { w: 400, h: 240, size: 28 };

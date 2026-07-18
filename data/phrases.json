@@ -177,6 +177,185 @@
         "heroImageName": "Bismillah al-Rahman al-Rahim in Thuluth Arabic Calligraphy",
         "heroImageDescription": "Bismillah al-Rahman al-Rahim (بسم الله الرحمن الرحيم) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
       }
+    },
+    {
+      "slug": "allah",
+      "displayName": "Allah",
+      "arabicText": "الله",
+      "arabicTextWithHarakat": "اللَّه",
+      "url": "/allah-in-arabic-calligraphy",
+      "mainKeyword": "allah in arabic calligraphy",
+      "monthlyVolume": 260,
+      "keywordDifficulty": 24,
+
+      "meta": {
+        "title": "Allah in Arabic Calligraphy — Free Generator, Wallpaper & PNG Download",
+        "description": "Generate the name Allah (الله) in beautiful Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh. Download free PNG, SVG, or wallpaper — no sign-up required.",
+        "keywords": "allah in arabic calligraphy, allah calligraphy, allah in arabic, allah meaning, allah wallpaper, allah png, allah thuluth, allah pronunciation"
+      },
+
+      "hero": {
+        "h1": "Generate Allah in Arabic Calligraphy",
+        "description": "Create the name Allah (الله) in 11 authentic Arabic calligraphy styles — Thuluth, Kufic, Diwani, Naskh, and more. Download free as PNG, SVG, wallpaper, or JPG. No sign-up."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Allah Calligraphy",
+          "intro": "The name Allah (الله) is one of the most calligraphed words in Islamic art. Each Arabic calligraphy tradition renders it differently — Thuluth gives it ceremonial grace, Kufic gives it bold geometric weight, Diwani produces flowing courtly curves, and Naskh keeps it crisp and legible. Choose any style in the free Allah calligraphy generator above and download it as a PNG, SVG, or wallpaper.",
+          "h3s": [
+            {
+              "title": "Thuluth Allah",
+              "image": {
+                "src": "images/allah-thuluth-inline.jpg",
+                "alt": "The name Allah rendered in Thuluth Arabic calligraphy style on aged parchment"
+              },
+              "content": "Thuluth is the most historically celebrated style for writing Allah in Arabic calligraphy. Used in Quranic manuscripts, mosque domes, and mihrab decorations since the 11th century, its long curving letterforms turn the four-letter word الله into a monumental composition. Select \"Thuluth (Scheherazade)\" in the generator above to render Allah in this classic ceremonial script."
+            },
+            {
+              "title": "Diwani Allah",
+              "image": {
+                "src": "images/allah-diwani-inline.png",
+                "alt": "The name Allah rendered in Diwani Arabic calligraphy style with flowing ornate curves in burgundy"
+              },
+              "content": "Diwani transforms the name Allah into a flowing, ornate composition originally developed by Ottoman court scribes for royal decrees. Its interlocking curves suit decorative panels, wedding invitations, and gift prints. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown to generate the name Allah in this refined courtly style."
+            },
+            {
+              "title": "Kufic Allah",
+              "image": {
+                "src": "images/allah-kufic-inline.png",
+                "alt": "The name Allah rendered in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic script and gives the name Allah bold, angular geometric weight — the same style used on early Islamic coins and architectural inscriptions. It works exceptionally well for modern wall art, minimalist wallpapers, and tattoo reference designs. Select \"Kufi (Reem Kufi)\" or \"Noto Kufi Arabic\" in the generator to see Allah in Kufic form."
+            },
+            {
+              "title": "Naskh Allah",
+              "image": {
+                "src": "images/allah-naskh-inline.png",
+                "alt": "The name Allah rendered in Naskh Arabic calligraphy style with clean readable green letters"
+              },
+              "content": "Naskh is the standard script for printed Arabic — including nearly every modern Quran. Rendering the name Allah in Naskh gives you a clean, highly legible form ideal for educational materials, book covers, and formal signage. Choose \"Naskh (Amiri)\" in the font selector above."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Allah in Arabic",
+          "content": [
+            "The name Allah in Arabic is written <strong>الله</strong> — just four letters, but visually one of the most iconic words in the world. It is a contraction of two Arabic components: <em>al-</em> (the) and <em>Ilah</em> (God). The result, <strong>Al-Ilah → Allah</strong>, literally means \"The God\" — a definite article that makes the word singular and absolute, distinct from the generic Arabic word for \"a god\" (<em>ilah</em>).",
+            "In calligraphy, the word الله is often rendered with a distinctive shadda (ّ) marking the doubled lam letters and a small dagger alif above the final letter — turning the compact word into a symmetrical composition. The generator above respects these diacritics and displays Allah exactly as it appears in traditional manuscripts.",
+            "Allah also appears inside many longer Arabic phrases you may have seen: <em>Bismillah</em> (in the name of Allah), <em>Alhamdulillah</em> (praise be to Allah), <em>Insha'Allah</em> (if Allah wills), and <em>Masha'Allah</em> (what Allah has willed). Each of these can be generated from the tool above by entering the full Arabic phrase in the text field."
+          ],
+          "heroImage": {
+            "src": "images/allah-full-phrase-thuluth.jpg",
+            "alt": "The name Allah (الله) in high-resolution Thuluth Arabic calligraphy with ornate gold border on parchment",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Allah Meaning",
+          "content": [
+            "Allah (الله) is the Arabic word for God — specifically the one, eternal, uncreated God worshipped in Islam. The word is a contraction of the Arabic <em>al-Ilah</em>, literally \"The God,\" where the definite article <em>al-</em> emphasizes uniqueness and absoluteness. Because of this construction, Allah is grammatically singular and cannot take a plural form in Arabic.",
+            "In Islamic theology, Allah is described by ninety-nine names (Asma ul-Husna), each highlighting a divine attribute — <strong>al-Rahman</strong> (the Most Gracious), <strong>al-Rahim</strong> (the Most Merciful), <strong>al-Malik</strong> (the King), <strong>al-Quddus</strong> (the Holy), and so on. These names are frequently rendered in calligraphy on wall art, prayer beads (tasbih), and mosque interiors.",
+            "It is worth noting that Arabic-speaking Christians and Jews also use the word Allah to refer to God — the term predates Islam and appears in pre-Islamic Arabic poetry. Today, however, Allah is most closely associated with Islam and appears in virtually every Islamic prayer, greeting, and inscription."
+          ]
+        },
+        {
+          "id": "download",
+          "navLabel": "Download",
+          "h2": "Allah Wallpaper",
+          "downloadPreviews": [
+            { "src": "images/allah-download-transparent.png", "alt": "The name Allah download preview with transparent background PNG on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/allah-download-white.png", "alt": "The name Allah download preview on white background", "caption": "White background" },
+            { "src": "images/allah-download-black.png", "alt": "The name Allah download preview in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "After designing your Allah calligraphy in the generator above, download it in the format that fits your use case:",
+            "<strong>PNG (Transparent)</strong> — best for wallpaper, layered designs, and social media. Enable transparent background in the generator when you want to layer the name Allah over a photo or custom design.<br><strong>PNG (White or Black)</strong> — great for phone wallpapers, prints, and posters. Set the background color directly inside the tool.<br><strong>SVG</strong> — best for wall art, framed prints, and tattoo reference since it scales to any size without quality loss.<br><strong>JPG</strong> — smallest file size, good for casual sharing.",
+            "All downloads are free — no watermark, no sign-up, no account required. A common Allah wallpaper setup: pick Thuluth or Kufic style, set a dark background with gold text (#B8860B), and download at high resolution — perfect for phone lock screens and desktop backgrounds."
+          ]
+        },
+        {
+          "id": "pronunciation",
+          "navLabel": "Pronounce",
+          "h2": "Allah Pronunciation",
+          "content": [
+            "Allah is pronounced <strong>\"AL-lah\"</strong> — two syllables with light emphasis on the first. In careful Arabic recitation, the <em>ll</em> in the middle is a strong double consonant (marked in Arabic script by a shadda ّ), so the sound holds slightly longer than an English \"L\". The final <em>h</em> is soft and breathy, closer to a gentle exhale than the sharp English \"H\".",
+            "A common English mispronunciation is \"AH-lah\" (drawing out the first vowel), but the more accurate rendering is a short \"AL\" followed by \"lah\" with the doubled L held briefly. In many Muslim traditions, Allah is spoken with a subtle warmth in the voice, reflecting reverence rather than casual reference."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Allah Calligraphy Designs",
+        "description": "Explore hand-picked examples of Allah calligraphy across styles, colors, and use cases. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "The name Allah in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Wedding invitation" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "The name Allah in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Wall art" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "The name Allah in Diwani calligraphy in red on white greeting card",                 "caption": "Diwani · Red · Greeting card" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "The name Allah in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Formal gift" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "The name Allah in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Modern wall art" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "The name Allah in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Bookmark design" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "The name Allah in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · Book cover" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "The name Allah in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Study reference" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "The name Allah in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Cultural card" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "The name Allah in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "The name Allah in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile print" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "The name Allah in Cairo modern Arabic font in teal on white banner",                 "caption": "Cairo · Teal · Digital banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "The name Allah in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage print" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "The name Allah in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "The name Allah in Markazi Text calligraphy in black on rose background poster",      "caption": "Markazi · Black · Poster design" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "The name Allah in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "The name Allah in Scheherazade Thuluth calligraphy in gold on deep navy blue",       "caption": "Scheherazade · Gold · Ornament" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "The name Allah in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "The name Allah in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Prayer mat design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "The name Allah in Diwani calligraphy in rose gold on charcoal luxury card",          "caption": "Diwani · Rose gold · Luxury card" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does Allah mean in Arabic?",
+          "answer": "Allah (الله) is the Arabic word for God — literally \"The God,\" formed from al- (the) + Ilah (God). It refers to the one, eternal God in Islam and is grammatically singular with no plural form. Arabic-speaking Christians and Jews also use the word to refer to God."
+        },
+        {
+          "question": "Which Arabic calligraphy style is best for the name Allah?",
+          "answer": "Thuluth is the most traditional and revered style for writing Allah, used in Quranic manuscripts and mosque domes. Kufic gives a bold geometric look ideal for modern wall art. Diwani offers ornate flowing curves for decorative use. Naskh provides a clean readable form for educational materials."
+        },
+        {
+          "question": "Can I download Allah calligraphy as wallpaper?",
+          "answer": "Yes. In the generator above, choose your style (Thuluth or Kufic work well for wallpaper), set a dark or transparent background, and download as PNG. High-resolution PNG is ideal for phone or desktop wallpaper. All downloads are free and no sign-up is needed."
+        },
+        {
+          "question": "How do you pronounce Allah?",
+          "answer": "Allah is pronounced \"AL-lah\" — two syllables with a slightly held double L in the middle (marked by shadda in Arabic script) and a soft breathy final H. The first syllable is short, not drawn out as in the common English mispronunciation \"AH-lah\"."
+        },
+        {
+          "question": "Is it appropriate to use Allah calligraphy for tattoos or wall art?",
+          "answer": "The name Allah is deeply sacred in Islam and should be treated with respect. Displaying Allah calligraphy as wall art in homes, offices, and mosques is widespread and traditional. For tattoos, scholarly opinion varies significantly — consult a knowledgeable person from your tradition first. Always verify the Arabic script with a native speaker before finalizing any design."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Allah Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate the name Allah (الله) in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/allah-full-phrase-thuluth.jpg",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "The Name Allah in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The name Allah (الله) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
+      }
     }
   ]
 }
