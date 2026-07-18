@@ -25,7 +25,15 @@ const INLINE_CONFIGS = [
   { suffix: 'download-black',       font: "'Scheherazade New', serif",  color: '#B8860B', bg: 'color',       bgColor: '#000000', w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'gold',       altBg: 'black background' },
 ];
 
-const GALLERY_CANVAS = { w: 400, h: 240, size: 28 };
+const GALLERY_CANVAS = { w: 400, h: 240 };
+// Gallery font size scales with phrase length so short words (Allah / Habibi,
+// 4-5 chars) don't render as tiny dots inside a mostly empty 400×240 card.
+function gallerySize(text) {
+  const chars = text.replace(/\s/g, '').length;
+  if (chars <= 6)  return 72;
+  if (chars <= 12) return 48;
+  return 28;
+}
 const SCALE = 2;
 const OUTPUT_DIR = path.join(__dirname, 'images');
 
@@ -97,7 +105,7 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
         color: item.color,
         bg: item.bg,
         bgColor: item.bgColor,
-        w: GALLERY_CANVAS.w, h: GALLERY_CANVAS.h, size: GALLERY_CANVAS.size,
+        w: GALLERY_CANVAS.w, h: GALLERY_CANVAS.h, size: gallerySize(phrase.arabicTextWithHarakat || phrase.arabicText),
       };
     });
 
