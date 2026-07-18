@@ -356,6 +356,187 @@
         "heroImageName": "The Name Allah in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The name Allah (الله) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
       }
+    },
+    {
+      "slug": "ramadan-kareem",
+      "displayName": "Ramadan Kareem",
+      "arabicText": "رمضان كريم",
+      "arabicTextWithHarakat": "رَمَضَان كَرِيم",
+      "url": "/ramadan-kareem-in-arabic-calligraphy",
+      "mainKeyword": "ramadan kareem arabic calligraphy",
+      "monthlyVolume": 210,
+      "keywordDifficulty": 24,
+
+      "meta": {
+        "title": "Ramadan Kareem in Arabic Calligraphy — Free PNG & Greetings",
+        "description": "Generate Ramadan Kareem (رمضان كريم) in Arabic calligraphy — 11 styles. Free PNG for greeting cards, WhatsApp status, and Instagram. No sign-up.",
+        "keywords": "ramadan kareem in arabic calligraphy, ramadan kareem calligraphy, ramadan kareem in arabic, ramadan kareem meaning, ramadan kareem png, greetings for ramadan kareem, ramadan kareem greeting cards"
+      },
+
+      "hero": {
+        "h1": "Generate Ramadan Kareem in Arabic Calligraphy",
+        "description": "Create Ramadan Kareem (رمضان كريم) in 11 authentic Arabic calligraphy styles — Thuluth, Kufic, Diwani, Naskh, and more. Perfect for greeting cards, WhatsApp status, and Instagram Stories. Free PNG, SVG, and JPG download."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Ramadan Kareem Calligraphy",
+          "intro": "Ramadan Kareem (رمضان كريم) is the most widely spoken Arabic greeting during the holy month of Ramadan. Rendering it in different Arabic calligraphy traditions changes the emotional register of your greeting — Thuluth carries ceremonial reverence perfect for family cards, Diwani adds courtly warmth for elegant invitations, Kufic gives a bold modern look for social posts, and Naskh keeps it clean and readable for wide sharing. Try each style in the free Ramadan Kareem calligraphy generator above and download the version that best fits your greeting card, WhatsApp status, or Instagram Story.",
+          "h3s": [
+            {
+              "title": "Thuluth Ramadan Kareem",
+              "image": {
+                "src": "images/ramadan-kareem-thuluth-inline.jpg",
+                "alt": "Ramadan Kareem written in Thuluth Arabic calligraphy on aged parchment"
+              },
+              "content": "Thuluth is the most historically revered style for Ramadan Kareem calligraphy, used in mosque decorations and Islamic manuscripts for over a millennium. Its long curving letters give the two-word greeting a sense of formal grace suitable for family gatherings, Iftar invitations, and mosque signage. Select \"Thuluth (Scheherazade)\" in the generator above."
+            },
+            {
+              "title": "Diwani Ramadan Kareem",
+              "image": {
+                "src": "images/ramadan-kareem-diwani-inline.png",
+                "alt": "Ramadan Kareem in Diwani Arabic calligraphy with flowing ornate curves in burgundy"
+              },
+              "content": "Diwani produces flowing, ornate Ramadan Kareem calligraphy originally developed by Ottoman court scribes. Its decorative interlocking curves are perfect for elegant greeting cards, wedding-style Iftar invitations, and premium print gifts. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown."
+            },
+            {
+              "title": "Kufic Ramadan Kareem",
+              "image": {
+                "src": "images/ramadan-kareem-kufic-inline.png",
+                "alt": "Ramadan Kareem in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic script and gives Ramadan Kareem bold, angular geometric weight — perfect for modern social media posts, minimalist wall art, and contemporary Ramadan decorations. Its clean lines work exceptionally well when overlaid on lantern or crescent-moon photos. Select \"Kufi (Reem Kufi)\" in the generator."
+            },
+            {
+              "title": "Naskh Ramadan Kareem",
+              "image": {
+                "src": "images/ramadan-kareem-naskh-inline.png",
+                "alt": "Ramadan Kareem in Naskh Arabic calligraphy with clean readable green letters"
+              },
+              "content": "Naskh offers a clean, highly legible Ramadan Kareem calligraphy — the same style used in modern Quran printings. It is the safest choice when clarity matters more than decoration, such as WhatsApp messages, community bulletins, and educational Ramadan materials. Choose \"Naskh (Amiri)\" in the font selector."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Ramadan Kareem in Arabic",
+          "content": [
+            "Ramadan Kareem in Arabic is written <strong>رمضان كريم</strong>, composed of two words: <em>Ramadan</em> (رمضان), the ninth month of the Islamic lunar calendar during which Muslims fast from dawn to sunset, and <em>Kareem</em> (كريم), an adjective meaning \"generous\" or \"noble.\" Together they form the greeting \"Generous Ramadan\" or, more idiomatically, \"May Ramadan be generous to you.\"",
+            "The greeting is spoken throughout the month of Ramadan — before Iftar (the sunset meal), after Suhoor (the pre-dawn meal), in mosque gatherings, and in personal messages to family and friends. When rendered in calligraphy, the two-word structure gives the phrase a natural rhythm — Ramadan's long alifs and mim balance beautifully against Kareem's compact letters, making it well-suited to horizontal banners, greeting cards, and social media graphics.",
+            "You may also encounter <strong>Ramadan Mubarak (رمضان مبارك)</strong> — a related greeting meaning \"Blessed Ramadan.\" The two phrases are largely interchangeable in daily use, though some scholars prefer Ramadan Mubarak because \"Mubarak\" (blessed) more closely reflects the spiritual character of the month than \"Kareem\" (generous). Both are widely accepted and both can be generated from the tool above."
+          ],
+          "heroImage": {
+            "src": "images/ramadan-kareem-full-phrase-thuluth.jpg",
+            "alt": "Ramadan Kareem (رمضان كريم) in high-resolution Thuluth Arabic calligraphy with ornate gold border on parchment",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Ramadan Kareem Meaning",
+          "content": [
+            "Ramadan Kareem (رمضان كريم) literally means \"Generous Ramadan.\" It is a greeting that acknowledges the holy month as a time of divine generosity — the belief that Allah's mercy and rewards are multiplied during this period, and that Muslims should reflect that generosity in their own conduct through charity (Sadaqah), kindness, and hospitality.",
+            "The Arabic root of <em>Kareem</em> is <strong>K-R-M</strong> (ك-ر-م), which conveys nobility, generosity, and honor. The same root appears in the ninety-nine names of Allah as <em>al-Karim</em> (The Most Generous). So when someone says \"Ramadan Kareem\" to you, they are not just wishing you a happy month — they are invoking the generous nature of the divine and expressing hope that you experience that generosity during Ramadan.",
+            "In practice, \"Ramadan Kareem\" is used the same way English speakers use \"Happy holidays\" or \"Merry Christmas.\" It is spoken between family, friends, colleagues, neighbors, and strangers throughout the month. There is no single fixed reply — common responses include \"Allah akram\" (Allah is more generous), \"Kareem to you too,\" or simply \"Thank you, Ramadan Kareem.\""
+          ]
+        },
+        {
+          "id": "download",
+          "navLabel": "Download",
+          "h2": "Ramadan Kareem PNG",
+          "downloadPreviews": [
+            { "src": "images/ramadan-kareem-download-transparent.png", "alt": "Ramadan Kareem download preview with transparent background PNG on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/ramadan-kareem-download-white.png", "alt": "Ramadan Kareem download preview on white background", "caption": "White background" },
+            { "src": "images/ramadan-kareem-download-black.png", "alt": "Ramadan Kareem download preview in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "After designing your Ramadan Kareem calligraphy in the generator above, download it in the format that fits your use case:",
+            "<strong>PNG (Transparent)</strong> — best for WhatsApp status, Instagram Story overlays, and layered greeting-card designs. Enable transparent background in the tool when you want to place Ramadan Kareem over a lantern, crescent, or mosque photo.<br><strong>PNG (White or Black)</strong> — great for printed cards, community bulletins, and phone wallpapers. Set the background color directly inside the tool.<br><strong>SVG</strong> — best for framed prints, banners, and any use that needs to scale to large sizes without quality loss.<br><strong>JPG</strong> — smallest file size, ideal for casual sharing.",
+            "All Ramadan Kareem PNG downloads are free — no watermark, no sign-up, no account required. A popular Ramadan setup: pick Diwani or Thuluth style, set gold text (#B8860B) on a deep navy background, and download at high resolution — perfect for family group chats and printed Iftar invitations."
+          ]
+        },
+        {
+          "id": "greetings",
+          "navLabel": "Greetings",
+          "h2": "Greetings for Ramadan Kareem",
+          "content": [
+            "Beyond the standalone phrase \"Ramadan Kareem,\" here are the most common extended greetings Muslims send to family, friends, and colleagues during the holy month:",
+            "<strong>Formal / for elders and colleagues</strong>:<br>• \"Ramadan Kareem to you and your family. May this blessed month bring you peace and prosperity.\"<br>• \"Wishing you a Ramadan filled with reflection, gratitude, and generous blessings.\"<br>• \"Ramadan Kareem — كل عام وأنتم بخير\" (\"Ramadan Kareem — may every year find you well.\")",
+            "<strong>Warm / for family and close friends</strong>:<br>• \"Ramadan Kareem, habibi! May Allah accept our fasts and prayers.\"<br>• \"Wishing you generous rewards this Ramadan. Ramadan Kareem!\"<br>• \"May this Ramadan bring peace to your heart and home. Ramadan Kareem to you and yours.\"",
+            "<strong>How to use the tool for greeting cards</strong>: generate Ramadan Kareem in your chosen calligraphy style, download as transparent PNG, then use any free graphic tool (Canva, Figma, or even Instagram Story) to overlay it on a photo of lanterns, a crescent moon, dates, or your own Ramadan decorations. The 20 designs in the gallery below cover the most common greeting-card use cases — feel free to copy the exact style and color combinations."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Ramadan Kareem Calligraphy Designs",
+        "description": "Hand-picked Ramadan Kareem designs across styles, colors, and use cases — from formal Iftar invitations to WhatsApp status graphics. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "Ramadan Kareem in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Formal Iftar invitation" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "Ramadan Kareem in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Community bulletin" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "Ramadan Kareem in Diwani calligraphy in red on white greeting card",                 "caption": "Diwani · Red · Greeting card" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "Ramadan Kareem in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Luxury Iftar invite" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "Ramadan Kareem in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Instagram Story" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "Ramadan Kareem in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Bookmark design" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "Ramadan Kareem in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · WhatsApp status" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "Ramadan Kareem in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Community poster" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "Ramadan Kareem in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Persian-style card" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "Ramadan Kareem in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "Ramadan Kareem in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile banner" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "Ramadan Kareem in Cairo modern Arabic font in teal on white banner",                 "caption": "Cairo · Teal · Digital banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "Ramadan Kareem in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage print" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "Ramadan Kareem in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "Ramadan Kareem in Markazi Text calligraphy in black on rose background poster",      "caption": "Markazi · Black · Poster design" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "Ramadan Kareem in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "Ramadan Kareem in Scheherazade Thuluth calligraphy in gold on deep navy blue",       "caption": "Scheherazade · Gold · Premium card" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "Ramadan Kareem in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "Ramadan Kareem in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Prayer mat design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "Ramadan Kareem in Diwani calligraphy in rose gold on charcoal luxury card",          "caption": "Diwani · Rose gold · Luxury Iftar card" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does Ramadan Kareem mean?",
+          "answer": "Ramadan Kareem (رمضان كريم) literally means \"Generous Ramadan\" — a greeting acknowledging that the holy month is a time of divine generosity when Allah's mercy and rewards are multiplied. Kareem shares its Arabic root (K-R-M) with al-Karim, one of the ninety-nine names of Allah meaning \"The Most Generous.\""
+        },
+        {
+          "question": "When do we say Ramadan Kareem?",
+          "answer": "Ramadan Kareem is spoken throughout the entire month of Ramadan — before Iftar (the sunset meal), after Suhoor (the pre-dawn meal), in mosque gatherings, and in personal messages. It is also common to greet with it in the days leading up to Ramadan and even briefly after Eid al-Fitr, when reflecting on the just-ended month."
+        },
+        {
+          "question": "What's the difference between Ramadan Kareem and Ramadan Mubarak?",
+          "answer": "Both are widely accepted Ramadan greetings. Ramadan Kareem means \"Generous Ramadan\" while Ramadan Mubarak means \"Blessed Ramadan.\" They are largely interchangeable in daily use, though some scholars slightly prefer Ramadan Mubarak because \"blessed\" more closely reflects the spiritual character of the month than \"generous.\""
+        },
+        {
+          "question": "How do I download Ramadan Kareem PNG for greeting cards?",
+          "answer": "In the generator above, pick your preferred style (Thuluth or Diwani work well for greeting cards), set the background to Transparent (best for card overlays) or a solid color, then click Download PNG. All downloads are free and no sign-up is required. Use the transparent PNG in Canva, Figma, or Instagram Story to place it over lantern or crescent-moon photos."
+        },
+        {
+          "question": "Which calligraphy style is best for Ramadan Kareem?",
+          "answer": "Thuluth is the most traditional and revered — perfect for formal Iftar invitations. Diwani gives ornate courtly warmth — perfect for premium greeting cards. Kufic offers a bold modern geometric look — perfect for Instagram Stories and minimalist wall art. Naskh keeps it clean and readable — perfect for wide-audience community posts."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Ramadan Kareem Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Ramadan Kareem (رمضان كريم) in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/ramadan-kareem-full-phrase-thuluth.jpg",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Ramadan Kareem in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The Ramadan greeting Ramadan Kareem (رمضان كريم) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
+      }
     }
   ]
 }

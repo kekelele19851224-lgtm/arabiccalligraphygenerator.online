@@ -14,7 +14,8 @@ if (!phrase) {
 }
 
 const csvDir = path.resolve(__dirname, '..', '关键词数据');
-const files = fs.readdirSync(csvDir).filter(f => f.startsWith(phrase + '_') && f.endsWith('.csv'));
+const phraseLower = phrase.toLowerCase();
+const files = fs.readdirSync(csvDir).filter(f => f.toLowerCase().startsWith(phraseLower + '_') && f.toLowerCase().endsWith('.csv'));
 if (!files.length) {
   console.error(`❌ No CSV found for "${phrase}" in ${csvDir}`);
   process.exit(1);
