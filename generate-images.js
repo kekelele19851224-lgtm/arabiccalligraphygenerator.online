@@ -163,17 +163,17 @@ async function renderAndSave(page, phrase, cfg, filename) {
       ctx.fillRect(0, 0, cfg.w, cfg.h);
     }
 
-    // Auto-fit font size: pick the largest size where text width ≤ FIT_W% of
-    // canvas width and font size ≤ FIT_H% of canvas height. Yields uniform
-    // ~50% visual coverage regardless of phrase length.
-    const targetW = cfg.w * FIT_W;
-    const maxSize = Math.floor(cfg.h * FIT_H);
-    let size = maxSize;
-    while (size > 12) {
-      ctx.font = `${size}px ${cfg.font}`;
-      if (ctx.measureText(state.text).width <= targetW) break;
-      size -= 2;
-    }
+    // Chars-based auto-fit (font-agnostic). measureText() varies wildly across
+    // fonts (sans vs serif) so same phrase would render at wildly different
+    // sizes. Instead: derive size from phrase length + canvas dimensions so
+    // ALL fonts for a given phrase land at the same size (consistent visual).
+    const baseText = (phrase.arabicText || state.text).replace(/\s/g, '');
+    const chars = baseText.length || 1;
+    const AVG_CHAR_RATIO = 0.55; // rough avg Arabic char advance / font-size
+    const sizeByW = (cfg.w * FIT_W) / (chars * AVG_CHAR_RATIO);
+    const sizeByH = cfg.h * FIT_H;
+    let size = Math.floor(Math.min(sizeByW, sizeByH));
+    if (size < 12) size = 12;
     state.size = size;
 
     const x = cfg.w / 2;
