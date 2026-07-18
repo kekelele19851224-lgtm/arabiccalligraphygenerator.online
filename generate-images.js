@@ -61,6 +61,16 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
   await page.evaluate(() => document.fonts.ready);
   await new Promise(r => setTimeout(r, 3000));
 
+  console.log('🔥 Preloading all 11 Arabic fonts at both sizes...');
+  await page.evaluate(async () => {
+    const fonts = ["'Amiri'", "'Aref Ruqaa'", "'Cairo'", "'Lateef'", "'Markazi Text'", "'Mirza'", "'Noto Kufi Arabic'", "'Noto Naskh Arabic'", "'Noto Nastaliq Urdu'", "'Reem Kufi'", "'Scheherazade New'"];
+    for (const f of fonts) {
+      for (const sz of [28, 44]) {
+        try { await document.fonts.load(`${sz}px ${f}`); } catch (e) {}
+      }
+    }
+  });
+
   for (const phrase of targets) {
     console.log(`\n🎨 [${phrase.slug}] Generating images...`);
 
@@ -131,7 +141,10 @@ async function renderAndSave(page, phrase, cfg, filename) {
     state.stroke = false;
     state.lineHeight = 1.5;
 
-    try { await document.fonts.load(`${cfg.size}px ${cfg.font}`); } catch(e) {}
+    // document.fonts.load() only accepts a single family (no CSS fallback list).
+    // Strip fallback so the load promise actually resolves on the target face.
+    const primaryFont = cfg.font.split(',')[0].trim();
+    try { await document.fonts.load(`${cfg.size}px ${primaryFont}`); } catch(e) {}
 
     // 复制工具的 canvas 导出逻辑
     const canvas = document.createElement('canvas');
