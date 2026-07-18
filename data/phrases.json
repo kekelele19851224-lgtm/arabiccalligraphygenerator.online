@@ -537,6 +537,180 @@
         "heroImageName": "Ramadan Kareem in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The Ramadan greeting Ramadan Kareem (رمضان كريم) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
       }
+    },
+    {
+      "slug": "habibi",
+      "displayName": "Habibi",
+      "arabicText": "حبيبي",
+      "arabicTextWithHarakat": "حَبِيبِي",
+      "url": "/habibi-in-arabic-calligraphy",
+      "mainKeyword": "habibi arabic calligraphy",
+      "monthlyVolume": 110,
+      "keywordDifficulty": 20,
+
+      "meta": {
+        "title": "Habibi in Arabic Calligraphy — Free Generator & PNG Download",
+        "description": "Generate Habibi (حبيبي) in Arabic calligraphy — 11 styles. Free PNG for Instagram, love notes, tattoo reference. Learn meaning & Yalla Habibi. No sign-up.",
+        "keywords": "habibi in arabic calligraphy, habibi calligraphy, habibi in arabic, habibi meaning, yalla habibi, habibi pronunciation, habibi png"
+      },
+
+      "hero": {
+        "h1": "Generate Habibi in Arabic Calligraphy",
+        "description": "Create Habibi (حبيبي) in 11 authentic Arabic calligraphy styles — Thuluth, Kufic, Diwani, Naskh, and more. Perfect for love notes, Instagram Stories, wedding cards, tattoo reference, and social graphics. Free PNG, SVG, and JPG download."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Habibi Arabic Calligraphy",
+          "intro": "Habibi (حبيبي) is one of the most iconic Arabic words in global pop culture — an affectionate term of endearment meaning \"my beloved.\" Rendering it in different Arabic calligraphy traditions gives your love note or Instagram post a different emotional register: Thuluth carries ceremonial romance perfect for wedding-day gifts, Diwani adds courtly warmth for elegant love letters, Kufic gives a bold modern look for social media graphics, and Naskh keeps it clean and readable for tattoo reference. Try each style in the free Habibi calligraphy generator above and download the version that fits your intent.",
+          "h3s": [
+            {
+              "title": "Thuluth Habibi",
+              "image": {
+                "src": "images/habibi-thuluth-inline.jpg",
+                "alt": "Habibi written in Thuluth Arabic calligraphy on aged parchment"
+              },
+              "content": "Thuluth is the most historically revered calligraphy style, giving Habibi a ceremonial gravitas that feels almost sacred. Its long curving letters turn the compact five-letter word حبيبي into a monumental composition — perfect for wedding gifts, anniversary art, or a framed piece for a beloved partner. Select \"Thuluth (Scheherazade)\" in the generator above."
+            },
+            {
+              "title": "Diwani Habibi",
+              "image": {
+                "src": "images/habibi-diwani-inline.png",
+                "alt": "Habibi in Diwani Arabic calligraphy with flowing ornate curves in burgundy"
+              },
+              "content": "Diwani transforms Habibi into a flowing, ornate composition originally developed by Ottoman court scribes. Its decorative interlocking curves feel like a love letter written in gold ink — ideal for wedding invitations, anniversary cards, and romantic gift prints. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown."
+            },
+            {
+              "title": "Kufic Habibi",
+              "image": {
+                "src": "images/habibi-kufic-inline.png",
+                "alt": "Habibi in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic gives Habibi bold, angular geometric weight — the same style used on early Islamic architecture and modern minimalist design. It works exceptionally well for Instagram Stories, wall art, tattoo reference, and streetwear graphics. Select \"Kufi (Reem Kufi)\" or \"Noto Kufi Arabic\" in the generator."
+            },
+            {
+              "title": "Naskh Habibi",
+              "image": {
+                "src": "images/habibi-naskh-inline.png",
+                "alt": "Habibi in Naskh Arabic calligraphy with clean readable green letters"
+              },
+              "content": "Naskh offers a clean, highly legible Habibi — the same script used in modern Quran printings and daily Arabic reading. It is the safest choice when clarity matters more than decoration, such as tattoos, learning material, or family cards where the word needs to be immediately recognizable. Choose \"Naskh (Amiri)\"."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Habibi in Arabic",
+          "content": [
+            "Habibi in Arabic is written <strong>حبيبي</strong> — just five letters, but visually one of the most recognized Arabic words in the world. It is composed of the noun <em>habib</em> (حبيب, \"beloved\") plus the possessive suffix <em>-i</em> (ي, \"my\") — literally \"my beloved.\" The masculine form Habibi is used when addressing a man, a boy, or in some contexts a group.",
+            "The feminine equivalent is <strong>Habibti (حبيبتي)</strong>, used when addressing a woman or girl. In everyday Arabic, both forms are used far more broadly than the English word \"darling\" — an Arab father might call his daughter Habibti, two male friends casually call each other Habibi, and a shopkeeper might address a customer as Habibi to sound warm and welcoming. The word carries affection but is not exclusively romantic.",
+            "Related forms include the plural <em>Habaybi</em> (حبايبي, \"my beloveds\") and the root noun <em>Hubb</em> (حب, \"love\"). All share the same triliteral Arabic root <strong>H-B-B</strong>, which conveys the concept of love in all its forms — familial, platonic, and romantic. When rendered in calligraphy, the compact word خبيبي has a natural balance that suits both intimate cards and bold social graphics."
+          ],
+          "heroImage": {
+            "src": "images/habibi-full-phrase-thuluth.jpg",
+            "alt": "Habibi (حبيبي) in high-resolution Thuluth Arabic calligraphy with ornate gold border on parchment",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Habibi Meaning",
+          "content": [
+            "Habibi (حبيبي) literally means \"my beloved\" — but its actual usage is much broader and warmer than the English translation suggests. In Arabic-speaking cultures, Habibi is used casually between friends, family members, colleagues, and romantic partners. A close friend might call you Habibi, your mother might call you Habibi, and your partner might call you Habibi — all in the same afternoon.",
+            "The emotional register depends on context. Between friends, Habibi is like the English \"buddy\" or \"mate\" — warm but not romantic. Between family, it is deeply affectionate like \"my love\" for a child. Between romantic partners, it carries the full weight of \"my darling / my beloved.\" The same five letters cover all these registers because Arabic culture treats verbal warmth as everyday etiquette, not a rare declaration.",
+            "The word comes from the Arabic root <strong>H-B-B</strong> (ح-ب-ب), the same root as <em>hubb</em> (حب, \"love\"). This root appears in many related words: <em>habib</em> (beloved), <em>mahboob</em> (the loved one), <em>ihbab</em> (making someone beloved). So when someone calls you Habibi, they are essentially saying \"you who I hold in love\" — a small phrase carrying an ancient root."
+          ]
+        },
+        {
+          "id": "yalla-habibi",
+          "navLabel": "Yalla Habibi",
+          "h2": "Yalla Habibi",
+          "content": [
+            "<strong>Yalla Habibi (يلا حبيبي)</strong> is one of the most exported Arabic phrases in global pop culture. It means <strong>\"Come on, my friend!\"</strong> or <strong>\"Let's go, darling!\"</strong> — an affectionate, energetic call to action used between friends, partners, and colleagues alike.",
+            "<em>Yalla</em> (يلا) itself is a contraction of the Arabic <em>ya Allah</em> (يا الله, \"O God\"), which over centuries drifted from a prayer into a casual \"come on, hurry up, let's go.\" Paired with Habibi, it produces a warm command — the difference between \"hurry up\" (impersonal) and \"come on darling\" (affectionate). Common variations include <em>Yalla Habibti</em> (feminine \"come on, darling\"), <em>Yalla Yalla Habibi</em> (extra emphatic), and <em>Yalla bye habibi</em> (a goodbye).",
+            "The phrase entered global pop culture through several channels: <strong>DJ Khaled</strong> uses it constantly in songs and Instagram; Netflix released a reality series titled <em>Love Is Blind: Habibi</em> (the Arabic edition); Qatar's 2022 World Cup opening chants used \"Yalla\" heavily; and Arab-American musicians and TikTokers scattered the phrase across English content until it became widely recognized even by non-Arabic speakers. When rendered in calligraphy — especially bold Kufic — Yalla Habibi makes striking wallpaper, Instagram Story overlays, and streetwear prints."
+          ]
+        },
+        {
+          "id": "pronunciation",
+          "navLabel": "Pronounce",
+          "h2": "Habibi Pronunciation",
+          "content": [
+            "Habibi is pronounced <strong>\"ha-BEE-bee\"</strong> — three syllables with the stress on the middle \"BEE.\" The first <em>H</em> is a soft breathy sound (the Arabic ح, halfway between an English H and a whispered exhale). The doubled <em>bb</em> in the middle is held slightly longer than an English B — this doubling comes from the Arabic shadda ّ that marks emphasis on the letter.",
+            "Yalla Habibi is pronounced <strong>\"YA-lla ha-BEE-bee\"</strong> — the Yalla flows quickly into Habibi with almost no pause, giving the phrase its characteristic energy. In casual speech, the two words often blur into a single rhythmic call: \"yallahabibi.\" Feminine Habibti is pronounced <strong>\"ha-BEEB-tee\"</strong> with the T softened into a light dental sound."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Habibi Calligraphy Designs",
+        "description": "Hand-picked Habibi designs across styles, colors, and use cases — from wedding gifts and love notes to Instagram graphics and streetwear prints. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "Habibi in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Wedding gift" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "Habibi in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Tattoo reference" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "Habibi in Diwani calligraphy in red on white greeting card",                 "caption": "Diwani · Red · Valentine card" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "Habibi in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Anniversary print" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "Habibi in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Streetwear print" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "Habibi in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Instagram Story" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "Habibi in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · Journal cover" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "Habibi in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Study reference" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "Habibi in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Poetry card" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "Habibi in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Love note" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "Habibi in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Framed print" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "Habibi in Cairo modern Arabic font in teal on white banner",                 "caption": "Cairo · Teal · Digital banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "Habibi in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage love note" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "Habibi in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Home decor" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "Habibi in Markazi Text calligraphy in black on rose background poster",      "caption": "Markazi · Black · Rose poster" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "Habibi in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "Habibi in Scheherazade Thuluth calligraphy in gold on deep navy blue",       "caption": "Scheherazade · Gold · Luxury card" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "Habibi in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern wall art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "Habibi in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Botanical print" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "Habibi in Diwani calligraphy in rose gold on charcoal luxury card",          "caption": "Diwani · Rose gold · Wedding invite" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does Habibi mean?",
+          "answer": "Habibi (حبيبي) means \"my beloved\" in Arabic, derived from habib (beloved) + -i (my). It is used casually and widely — between friends, family, colleagues, and romantic partners. Emotional intensity depends on context, from friendly \"buddy\" to romantic \"darling.\""
+        },
+        {
+          "question": "Is Habibi masculine or feminine?",
+          "answer": "Habibi (حبيبي) is the masculine form, used when addressing a man, a boy, or a mixed group. The feminine form is Habibti (حبيبتي), used when addressing a woman or girl. In Arab culture both forms are used far more broadly than English romantic terms — a father calls his daughter Habibti, two male friends call each other Habibi."
+        },
+        {
+          "question": "Can non-Arabs use Habibi?",
+          "answer": "Yes, Habibi is widely used by non-Arabs and is accepted in most social settings. It has entered global pop culture through music (DJ Khaled), TV (Netflix Love Is Blind Habibi), and sports (2022 Qatar World Cup). Use it warmly and it will land warmly. Just match the gender: Habibi for a man, Habibti for a woman."
+        },
+        {
+          "question": "What does Yalla Habibi mean?",
+          "answer": "Yalla Habibi (يلا حبيبي) means \"Come on, my friend!\" or \"Let's go, darling!\" — an affectionate call to action. Yalla itself contracts from ya Allah (O God), evolved into a casual \"come on, hurry up.\" Paired with Habibi it becomes a warm, energetic command popular in Arab pop culture and increasingly in global music."
+        },
+        {
+          "question": "Which Arabic calligraphy style is best for Habibi?",
+          "answer": "Thuluth is romantic and ceremonial — perfect for wedding gifts and anniversaries. Diwani offers ornate courtly warmth — perfect for love letters and greeting cards. Kufic gives a bold modern geometric look — perfect for Instagram graphics, streetwear, and tattoo reference. Naskh keeps it clean and readable — perfect for study and family cards."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Habibi Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Habibi (حبيبي) in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/habibi-full-phrase-thuluth.jpg",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Habibi in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The Arabic term of endearment Habibi (حبيبي) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
+      }
     }
   ]
 }
