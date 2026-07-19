@@ -2660,6 +2660,211 @@
         "heroImageName": "Naskh Arabic Calligraphy Example",
         "heroImageDescription": "The name Allah (الله) rendered in classical Naskh Arabic calligraphy — a foundational example of the standard cursive script of the modern Qur'an."
       }
+    },
+    {
+      "slug": "nastaliq-calligraphy",
+      "displayName": "Nastaliq",
+      "pageType": "font",
+      "arabicText": "الله",
+      "arabicTextWithHarakat": "اَللّٰه",
+      "url": "/nastaliq-calligraphy",
+      "mainKeyword": "nastaliq calligraphy",
+      "monthlyVolume": 70,
+      "keywordDifficulty": 37,
+
+      "meta": {
+        "title": "Nastaliq Calligraphy — Noto Nastaliq Urdu & Free Generator",
+        "description": "Learn Nastaliq calligraphy history, characteristics, best fonts (Noto Nastaliq Urdu, Mirza). Free online Nastaliq generator — no sign-up required.",
+        "keywords": "nastaliq calligraphy, nastaliq, nastaliq script, nastaliq font, noto nastaliq urdu, nastaliq online, urdu calligraphy, persian calligraphy"
+      },
+
+      "hero": {
+        "h1": "Nastaliq Calligraphy: History, Fonts, and Free Online Generator",
+        "description": "Explore Nastaliq (نستعلیق) — the elegant hanging cursive script of Persian, Urdu, and Islamic poetry. Learn its 700-year history, distinctive sweeping letter forms, best free fonts (Noto Nastaliq Urdu, Mirza), and generate Nastaliq calligraphy free online — no sign-up required."
+      },
+
+      "toolDefaults": {
+        "font": "'Noto Nastaliq Urdu', serif",
+        "fontDropdownValue": "'Noto Nastaliq Urdu', serif"
+      },
+
+      "extraInlines": [
+        { "suffix": "example-bismillah",     "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "font": "'Noto Nastaliq Urdu', serif", "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7" },
+        { "suffix": "example-shahada",       "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "font": "'Noto Nastaliq Urdu', serif", "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7" },
+        { "suffix": "example-muhammad",      "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "font": "'Noto Nastaliq Urdu', serif", "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7" },
+        { "suffix": "example-alhamdulillah", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "font": "'Noto Nastaliq Urdu', serif", "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7" }
+      ],
+
+      "sections": [
+        {
+          "id": "what",
+          "navLabel": "What is Nastaliq",
+          "h2": "What is Nastaliq Calligraphy?",
+          "content": [
+            "<strong>Nastaliq calligraphy</strong> (نستعلیق, <em>nastaʿlīq</em>) is the elegant sloping cursive script developed in <strong>14th century Persia</strong> and today the primary calligraphy of Persian, Urdu, Kashmiri, and Pashto writing. Its name is a blend of two earlier scripts — <em>Naskh</em> and <em>Taʿlīq</em> — reflecting its historical origin as a fusion of the readable Naskh body script with the sloping Taʿlīq bureaucratic script.",
+            "Nastaliq is instantly recognizable by its <strong>hanging, right-to-left sloping composition</strong>, in which each line descends from upper-right to lower-left as it flows. Letters connect through elegant sweeping curves that rise and fall dramatically, producing text that reads as continuous ornamental motion rather than sitting on a flat baseline like Naskh or standing rigidly like Kufic. This flowing hanging quality is why Nastaliq is called \"the bride of Islamic calligraphy.\"",
+            "Nastaliq is the standard script for <strong>Persian poetry (Rumi, Hafez, Saadi, Ferdowsi), Urdu poetry and literature (Iqbal, Ghalib, Faiz Ahmed Faiz), and Pashto and Kashmiri writing</strong>. Nearly every Urdu newspaper, Persian book, and Islamic poetry collection worldwide is set in Nastaliq. The tool on this page uses <strong>Noto Nastaliq Urdu</strong> — Google's Noto family Nastaliq font — which faithfully renders the classical hanging cursive style with full Arabic Unicode support. Generate Nastaliq online free, no sign-up required."
+          ],
+          "heroImage": {
+            "src": "images/nastaliq-calligraphy-full-phrase-thuluth.png",
+            "alt": "The name Allah (الله) rendered in classical Nastaliq (Noto Nastaliq Urdu) Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "characteristics",
+          "navLabel": "Characteristics",
+          "h2": "Nastaliq Script Characteristics",
+          "content": [
+            "The <strong>Nastaliq script</strong> is defined by five distinctive characteristics that give it its unique visual identity:",
+            "<strong>1. Hanging, right-to-left sloping composition</strong> — Nastaliq lines descend diagonally from upper-right to lower-left as they progress across the page. Words sit at varying vertical heights, and the eye follows a downward-flowing rhythm rather than a horizontal baseline. This is the single most distinctive feature of Nastaliq.<br><strong>2. Elongated horizontal strokes</strong> — Nastaliq letters use dramatic horizontal stretching, especially in medial and final letter positions. A single word can span two or three times the horizontal space it would take in Naskh, giving Nastaliq text a spacious, breathing quality.<br><strong>3. Rounded, sweeping letter curves</strong> — where Naskh joins letters with functional cursive connectors, Nastaliq uses elaborate rounded arcs. Even short words become gently curved compositions.<br><strong>4. Rich harakat and diacritic tradition</strong> — Nastaliq freely uses the full set of Arabic vowel marks plus Persian and Urdu-specific extended diacritics (dot patterns for پ, چ, ژ, گ). Poetry manuscripts especially use rich harakat to preserve exact vocalization.<br><strong>5. Compositional flexibility for poetry</strong> — Nastaliq uniquely accommodates the couplet-based structure of Persian and Urdu poetry, with pairs of hemistichs (half-lines) arranged in visual balance. Ghazals, masnavis, and qasidas all rely on this compositional flexibility.",
+            "These qualities make Nastaliq the <strong>standard script for Persian and Urdu poetry, literature, and formal writing</strong>. If you have ever read a printed Ghalib collection, a Rumi masnavi, an Urdu newspaper, or a Kashmiri poem, you have been reading Nastaliq."
+          ]
+        },
+        {
+          "id": "font",
+          "navLabel": "Nastaliq Fonts",
+          "h2": "Nastaliq Fonts: Noto Nastaliq Urdu, Mirza, and Alternatives",
+          "downloadPreviews": [
+            { "src": "images/nastaliq-calligraphy-download-transparent.png", "alt": "Nastaliq calligraphy download preview — Allah with transparent PNG background on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/nastaliq-calligraphy-download-white.png", "alt": "Nastaliq calligraphy download preview — Allah on white background", "caption": "White background" },
+            { "src": "images/nastaliq-calligraphy-download-black.png", "alt": "Nastaliq calligraphy download preview — Allah in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "Three free digital Nastaliq fonts dominate modern Persian and Urdu typography:",
+            "<strong>1. Noto Nastaliq Urdu</strong> — designed by Google as part of the Noto (\"no tofu\") font family. Noto Nastaliq Urdu is the most widely deployed digital Nastaliq font, used as the default Urdu font in Android, ChromeOS, and many web contexts. It renders the classical hanging cursive style with full Arabic Unicode, Persian, and Urdu language support. This is the font used by the generator on this page and is available free from <em>Google Fonts</em>.",
+            "<strong>2. Mirza</strong> — designed by Kavin Bharti Mittal as a modern Nastaliq-influenced typeface with slightly more angular letter forms than classical Nastaliq. Mirza works well for headlines, poetry titles, and shorter display text where a distinctive Nastaliq feel is desired but stronger legibility at smaller sizes is important. Available free from <em>Google Fonts</em>.",
+            "<strong>3. Jameel Noori Nastaleeq</strong> — a widely-used Pakistani Nastaliq font traditionally installed on Urdu-language Windows systems. Not as freely distributed as Noto or Mirza but the standard for Urdu newspaper and book typesetting in Pakistan.",
+            "To download your Nastaliq calligraphy design from the generator above:",
+            "<strong>PNG (Transparent)</strong> — best for overlaying Nastaliq on manuscript textures, poetry backgrounds, and layered graphic designs.<br><strong>PNG (White or Black)</strong> — great for printed poetry collections, framed literary quotes, and Islamic wall art.<br><strong>SVG</strong> — best for large prints and posters that need scaling.<br><strong>JPG</strong> — smallest file size for casual sharing.",
+            "All Nastaliq calligraphy downloads are free — no watermark, no sign-up, no account required. Nastaliq online has never been easier."
+          ]
+        },
+        {
+          "id": "poetry",
+          "navLabel": "Poetry",
+          "h2": "Nastaliq in Urdu, Persian, and Islamic Poetry",
+          "content": [
+            "Nastaliq's deepest cultural home is <strong>Persian and Urdu poetry</strong>. From the moment Nastaliq matured as a script in 15th-century Timurid Persia, it became the exclusive vehicle for the great tradition of Persianate literature — and remained so for over 600 years.",
+            "<strong>Classical Persian poetry (13th–17th century)</strong> — <em>Rumi</em> (d. 1273, though his masnavis were later copied in Nastaliq), <em>Saadi</em> (d. 1291, whose Gulistan and Bustan are canonical Nastaliq manuscripts), <em>Hafez</em> (d. 1390, whose Divan is arguably the most Nastaliq-copied book in history), <em>Ferdowsi</em>'s Shahnameh, and <em>Attar</em>'s mystical epics — all reached their standard visual form in Nastaliq. Master calligraphers like <em>Mir Ali of Tabriz</em> (d. 1420, considered the perfecter of Nastaliq) and <em>Mir Imad</em> (d. 1615) established the classical forms.",
+            "<strong>Urdu poetry (17th century – present)</strong> — as Urdu emerged from the interaction of Persian, Arabic, and Indic languages in the Delhi Sultanate and Mughal Empire, it adopted Nastaliq as its natural script. <em>Mir Taqi Mir</em> (d. 1810), <em>Mirza Ghalib</em> (d. 1869), and <em>Muhammad Iqbal</em> (d. 1938) — the towering figures of Urdu poetry — are all read almost exclusively in Nastaliq. The 20th-century Urdu literary revival (<em>Faiz Ahmed Faiz</em>, <em>Ahmad Faraz</em>, <em>Parveen Shakir</em>) preserved this tradition. Every Urdu newspaper in the world today is set in Nastaliq.",
+            "<strong>Islamic poetry more broadly</strong> — Nastaliq is also the standard script for <em>Kashmiri, Pashto, and Punjabi</em> poetry, as well as Persianate literature across Central Asia. The connection between Nastaliq and Sufi poetry (mystical Islamic verse) is especially deep — a majority of surviving handwritten Sufi manuscripts are in Nastaliq, giving the script a spiritual as well as literary association."
+          ]
+        },
+        {
+          "id": "vs",
+          "navLabel": "vs Others",
+          "h2": "Nastaliq vs Naskh vs Thuluth vs Kufic",
+          "content": [
+            "Nastaliq stands apart from the other Arabic scripts in one crucial way: it is a <strong>Persianate script</strong>, developed for Persian and Urdu rather than Arabic-language traditions. Here's how it compares to the other three major scripts:",
+            "<strong>Nastaliq vs Naskh</strong>: <em>Naskh</em> is the horizontal, level, compact script of Arabic Qur'an printing. Nastaliq is the sloping, spacious, hanging script of Persian and Urdu poetry. Nearly every printed Arabic Qur'an uses Naskh; nearly every printed Urdu poetry book uses Nastaliq. They evolved for different reading purposes and language traditions. See our <a href=\"/naskh-calligraphy\">Naskh Calligraphy</a> page for a full comparison.",
+            "<strong>Nastaliq vs Thuluth</strong>: <em>Thuluth</em> is the ornate ceremonial religious script of mosque inscriptions and Qur'anic chapter headings. Nastaliq is the everyday literary script of Persian and Urdu poetry. Both are cursive and decorative, but Thuluth's decoration is vertical and monumental; Nastaliq's is horizontal and flowing. See our <a href=\"/thuluth-calligraphy\">Thuluth Calligraphy</a> page.",
+            "<strong>Nastaliq vs Kufic</strong>: <em>Kufic</em> is the ancient angular geometric script of early Qur'an manuscripts and modern Islamic architecture. Nastaliq is Kufic's opposite — flowing, cursive, rounded, and horizontal. If Kufic is architectural stone, Nastaliq is flowing water. See our <a href=\"/kufic-calligraphy\">Kufic Calligraphy</a> page.",
+            "<strong>When to choose Nastaliq</strong>: Persian or Urdu poetry rendering, Islamic mystical (Sufi) verse, framed Urdu literary quotes, Persian calligraphy art, South Asian Muslim wedding invitations and greeting cards, and any project rooted in Persianate literary tradition rather than Arabic religious tradition."
+          ]
+        },
+        {
+          "id": "phrases",
+          "navLabel": "Famous Phrases",
+          "h2": "Famous Phrases in Nastaliq Calligraphy",
+          "intro": "Islamic religious phrases in Nastaliq carry the distinctive Persianate character of the script — flowing, hanging, and poetic. Below are four of the most commonly rendered. Click through to each phrase's dedicated page for full history, meaning, and download options.",
+          "h3s": [
+            {
+              "title": "Bismillah in Nastaliq",
+              "image": {
+                "src": "images/nastaliq-calligraphy-example-bismillah.png",
+                "alt": "Bismillah (بسم الله الرحمن الرحيم) rendered in Nastaliq (Noto Nastaliq Urdu) Arabic calligraphy in purple on ivory"
+              },
+              "content": "<em>Bismillah al-Rahman al-Rahim</em> — the opening verse of the Qur'an — takes on a distinctively poetic sweep when rendered in Nastaliq. Urdu and Persian Qur'an editions traditionally open with Nastaliq Bismillah. See our <a href=\"/bismillah-in-arabic-calligraphy\">Bismillah in Arabic Calligraphy</a> page for meaning, styles, and downloads."
+            },
+            {
+              "title": "Shahada in Nastaliq",
+              "image": {
+                "src": "images/nastaliq-calligraphy-example-shahada.png",
+                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) rendered in Nastaliq (Noto Nastaliq Urdu) Arabic calligraphy in purple on ivory"
+              },
+              "content": "The <em>Shahada</em> — the Islamic declaration of faith — in Nastaliq is common in South Asian mosque decoration, Urdu Islamic educational materials, and framed conversion mementos. Its hanging cursive form gives the declaration a distinctive spiritual flow. See our <a href=\"/shahada-in-arabic-calligraphy\">Shahada in Arabic Calligraphy</a> page for the full declaration and pronunciation."
+            },
+            {
+              "title": "Muhammad in Nastaliq",
+              "image": {
+                "src": "images/nastaliq-calligraphy-example-muhammad.png",
+                "alt": "The name Muhammad (محمد) rendered in Nastaliq (Noto Nastaliq Urdu) Arabic calligraphy in purple on ivory"
+              },
+              "content": "The name of the Prophet Muhammad ﷺ in Nastaliq is a familiar sight in South Asian and Persian Islamic literature. Its four letters (م ح م د) form a beautifully sloping composition. See our <a href=\"/muhammad-in-arabic-calligraphy\">Muhammad in Arabic Calligraphy</a> page for name meaning, history, and the tradition of writing the Prophet's name."
+            },
+            {
+              "title": "Alhamdulillah in Nastaliq",
+              "image": {
+                "src": "images/nastaliq-calligraphy-example-alhamdulillah.png",
+                "alt": "Alhamdulillah (الحمد لله) rendered in Nastaliq (Noto Nastaliq Urdu) Arabic calligraphy in purple on ivory"
+              },
+              "content": "<em>Alhamdulillah</em> — \"All praise is due to Allah\" — is a frequent expression in Persian and Urdu poetry (often rendered as <em>al-hamdulillah</em> or <em>hamd</em>). Its Nastaliq form is beloved in Sufi and mystical Islamic art. See our <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page for meaning, use cases, and downloads."
+            }
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Nastaliq Calligraphy Designs",
+        "description": "20 hand-picked Nastaliq calligraphy designs featuring the most common Islamic phrases and names, in colors evoking Persian and Urdu poetic tradition. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Noto Nastaliq Urdu', serif", "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "bismillah-purple-ivory",    "alt": "Bismillah in Nastaliq calligraphy in purple on ivory",                                 "caption": "Bismillah · Purple · Poetic" },
+          { "n": 2,  "font": "'Noto Nastaliq Urdu', serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "allah-gold-parchment",      "alt": "The name Allah in Nastaliq calligraphy in gold on parchment",                          "caption": "Allah · Gold · Classical" },
+          { "n": 3,  "font": "'Noto Nastaliq Urdu', serif", "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "muhammad-gold-black",       "alt": "The name Muhammad in Nastaliq calligraphy in gold on black",                            "caption": "Muhammad · Gold · Sacred frame" },
+          { "n": 4,  "font": "'Noto Nastaliq Urdu', serif", "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "shahada-burgundy-ivory",    "alt": "The Shahada in Nastaliq calligraphy in burgundy on ivory",                              "caption": "Shahada · Burgundy · Framed art" },
+          { "n": 5,  "font": "'Noto Nastaliq Urdu', serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#0F172A", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "alhamdulillah-navy-cream",  "alt": "Alhamdulillah in Nastaliq calligraphy in navy on cream",                               "caption": "Alhamdulillah · Navy · Poetry" },
+          { "n": 6,  "font": "'Noto Nastaliq Urdu', serif", "text": "رمضان كريم",                          "textWithHarakat": "رَمَضَان كَرِيم",                                    "color": "#C0392B", "bg": "white",                        "fileSuffix": "ramadan-kareem-red-white", "alt": "Ramadan Kareem in Nastaliq calligraphy in red on white",                                "caption": "Ramadan Kareem · Red · Card" },
+          { "n": 7,  "font": "'Noto Nastaliq Urdu', serif", "text": "عيد مبارك",                            "textWithHarakat": "عِيد مُبَارَك",                                      "color": "#059669", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "eid-mubarak-emerald-cream", "alt": "Eid Mubarak in Nastaliq calligraphy in emerald on cream",                              "caption": "Eid Mubarak · Emerald · Festive" },
+          { "n": 8,  "font": "'Noto Nastaliq Urdu', serif", "text": "حبيبي",                                 "textWithHarakat": "حَبِيبِي",                                            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "habibi-rosegold-charcoal",  "alt": "Habibi in Nastaliq calligraphy in rose gold on charcoal",                              "caption": "Habibi · Rose gold · Romantic" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif", "text": "الله أكبر",                            "textWithHarakat": "اَللّٰهُ أَكْبَر",                                    "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "allahu-akbar-silver-midnight", "alt": "Allahu Akbar in Nastaliq calligraphy in silver on midnight blue",                    "caption": "Allahu Akbar · Silver · Ceremonial" },
+          { "n": 10, "font": "'Noto Nastaliq Urdu', serif", "text": "إن شاء الله",                          "textWithHarakat": "إِنْ شَاءَ اللّٰه",                                    "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "inshaallah-gold-navy",      "alt": "Insha'Allah in Nastaliq calligraphy in gold on deep navy",                             "caption": "Insha'Allah · Gold · Elegant" },
+          { "n": 11, "font": "'Noto Nastaliq Urdu', serif", "text": "ما شاء الله",                          "textWithHarakat": "مَا شَاءَ اللّٰه",                                    "color": "#C0392B", "bg": "white",                        "fileSuffix": "mashaallah-red-white",      "alt": "Masha'Allah in Nastaliq calligraphy in red on white",                                 "caption": "Masha'Allah · Red · Blessing" },
+          { "n": 12, "font": "'Noto Nastaliq Urdu', serif", "text": "سبحان الله",                          "textWithHarakat": "سُبْحَان اللّٰه",                                    "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "subhanallah-sepia-parchment", "alt": "Subhanallah in Nastaliq calligraphy in sepia on parchment",                          "caption": "Subhanallah · Sepia · Vintage" },
+          { "n": 13, "font": "'Noto Nastaliq Urdu', serif", "text": "سلام",                                 "textWithHarakat": "سَلَام",                                              "color": "#059669", "bg": "white",                        "fileSuffix": "salam-green-white",         "alt": "Salam in Nastaliq calligraphy in green on white",                                     "caption": "Salam · Green · Peace" },
+          { "n": 14, "font": "'Noto Nastaliq Urdu', serif", "text": "لا إله إلا الله",                     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه",                            "color": "#D4AF37", "bg": "color", "bgColor": "#722F37", "fileSuffix": "tawhid-gold-burgundy",     "alt": "Tawhid in Nastaliq calligraphy in gold on burgundy",                                  "caption": "Tawhid · Gold · Sacred" },
+          { "n": 15, "font": "'Noto Nastaliq Urdu', serif", "text": "السلام عليكم",                        "textWithHarakat": "السَّلَامُ عَلَيْكُم",                                "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "assalamu-alaikum-purple",   "alt": "Assalamu Alaikum in Nastaliq calligraphy in purple on ivory",                          "caption": "Assalamu Alaikum · Purple · Greeting" },
+          { "n": 16, "font": "'Noto Nastaliq Urdu', serif", "text": "القرآن",                                "textWithHarakat": "القُرْآن",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "quran-gold-navy",           "alt": "Al-Quran in Nastaliq calligraphy in gold on navy",                                    "caption": "Al-Quran · Gold · Book cover" },
+          { "n": 17, "font": "'Noto Nastaliq Urdu', serif", "text": "الإسلام",                               "textWithHarakat": "الإِسْلَام",                                          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "islam-black-rose",          "alt": "Al-Islam in Nastaliq calligraphy in black on rose",                                   "caption": "Al-Islam · Black · Educational" },
+          { "n": 18, "font": "'Noto Nastaliq Urdu', serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#B76E79", "bg": "white",                        "fileSuffix": "allah-rosegold-white",     "alt": "The name Allah in Nastaliq calligraphy in rose gold on white",                        "caption": "Allah · Rose gold · Elegant" },
+          { "n": 19, "font": "'Noto Nastaliq Urdu', serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#C0C0C0", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "alhamdulillah-silver-charcoal", "alt": "Alhamdulillah in Nastaliq calligraphy in silver on charcoal",                     "caption": "Alhamdulillah · Silver · Modern" },
+          { "n": 20, "font": "'Noto Nastaliq Urdu', serif", "text": "شعر",                                    "textWithHarakat": "شِعْر",                                              "color": "#5B2C6F", "bg": "white",                        "fileSuffix": "shair-purple-white",        "alt": "Sh'ir (poetry) in Nastaliq calligraphy in purple on white",                            "caption": "Sh'ir · Purple · Poetry" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What is Nastaliq calligraphy?",
+          "answer": "Nastaliq (نستعلیق) is the elegant sloping cursive script developed in 14th century Persia and today the primary calligraphy of Persian, Urdu, Kashmiri, and Pashto writing. Its name blends two earlier scripts, Naskh and Taʿlīq. Nastaliq is instantly recognizable by its hanging, right-to-left sloping composition, elongated horizontal strokes, and sweeping rounded curves. It is the standard script for Persian and Urdu poetry (Rumi, Hafez, Ghalib, Iqbal) and Islamic Sufi verse."
+        },
+        {
+          "question": "What is the best free Nastaliq font?",
+          "answer": "The best free Nastaliq font is Noto Nastaliq Urdu, designed by Google as part of the Noto (\"no tofu\") font family. It renders classical hanging Nastaliq with full Persian, Urdu, and Arabic Unicode support, and is available free from Google Fonts. It is used by the generator on this page. Other good free options include Mirza (also from Google Fonts, more modern in feel) and Jameel Noori Nastaleeq (traditional Pakistani font, widely used in Urdu newspapers)."
+        },
+        {
+          "question": "Can I generate Nastaliq calligraphy online for free?",
+          "answer": "Yes. The generator on this page produces free Nastaliq calligraphy online — no sign-up, no watermark, no account required. Type any Arabic, Persian, or Urdu text, select colors and backgrounds, then download as PNG (transparent, white, or black background), SVG, or JPG. The tool uses Noto Nastaliq Urdu, the standard free Nastaliq font, and supports full harakat and Arabic ligatures."
+        },
+        {
+          "question": "What is the difference between Nastaliq and Naskh?",
+          "answer": "Naskh is the horizontal, level, compact cursive script used for Arabic-language reading — especially printed Qur'ans, Arabic newspapers, and modern Arabic text. Nastaliq is the sloping, spacious, hanging cursive script used for Persian and Urdu — especially poetry, literature, and newspapers. Nearly every Arabic Qur'an is printed in Naskh; nearly every Urdu poetry book is printed in Nastaliq. They evolved for different reading purposes and language traditions."
+        },
+        {
+          "question": "Why is Nastaliq called \"the bride of Islamic calligraphy\"?",
+          "answer": "Nastaliq is often called \"the bride of Islamic calligraphy\" (عروس الخط الإسلامي) because of its elegant, flowing, ornamental beauty. Its hanging cursive composition and sweeping curves give the script a gracefully feminine quality that distinguished it from the more architectural or ceremonial Arabic scripts (Kufic, Thuluth). The name reflects the deep aesthetic admiration Nastaliq has received across the Persianate world for over 600 years."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Nastaliq Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Arabic, Persian, and Urdu calligraphy in the classical Nastaliq script — the elegant sloping cursive script of Persian and Urdu poetry.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/nastaliq-calligraphy-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Nastaliq Arabic Calligraphy Example",
+        "heroImageDescription": "The name Allah (الله) rendered in classical Nastaliq (Noto Nastaliq Urdu) Arabic calligraphy — a foundational example of the hanging cursive script of Persian and Urdu poetry."
+      }
     }
   ]
 }
