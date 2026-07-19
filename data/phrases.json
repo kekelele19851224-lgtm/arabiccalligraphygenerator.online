@@ -1064,6 +1064,199 @@
         "heroImageName": "Alhamdulillah in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The Islamic praise expression Alhamdulillah (الحمد لله) rendered in classic Thuluth Arabic calligraphy with ornate gold border on parchment background."
       }
+    },
+    {
+      "slug": "ramadan-mubarak",
+      "displayName": "Ramadan Mubarak",
+      "arabicText": "رمضان مبارك",
+      "arabicTextWithHarakat": "رَمَضَان مُبَارَك",
+      "url": "/ramadan-mubarak-in-arabic-calligraphy",
+      "mainKeyword": "ramadan mubarak arabic calligraphy",
+      "monthlyVolume": 50,
+      "keywordDifficulty": 22,
+
+      "meta": {
+        "title": "Ramadan Mubarak in Arabic Calligraphy — Free PNG Download",
+        "description": "Generate Ramadan Mubarak (رمضان مبارك) in Arabic calligraphy — 11 styles. Free PNG for greeting cards, WhatsApp status, and Instagram. No sign-up.",
+        "keywords": "ramadan mubarak in arabic calligraphy, ramadan mubarak calligraphy, ramadan mubarak in arabic, ramadan mubarak meaning, ramadan mubarak png, ramadan mubarak vs ramadan kareem, ramadan mubarak pronunciation"
+      },
+
+      "hero": {
+        "h1": "Generate Ramadan Mubarak in Arabic Calligraphy",
+        "description": "Create Ramadan Mubarak (رمضان مبارك) in 11 authentic Arabic calligraphy styles — Thuluth, Kufic, Diwani, Naskh, and more. Perfect for greeting cards, WhatsApp status, and Instagram Stories. Free PNG, SVG, and JPG download."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Ramadan Mubarak Calligraphy",
+          "intro": "Ramadan Mubarak (رمضان مبارك) is the most widely spoken blessed-Ramadan greeting across the Muslim world, favored especially in South Asian, Turkish, and Gulf traditions. Rendering it in different Arabic calligraphy styles changes the emotional register of your greeting — Thuluth carries ceremonial reverence perfect for family Iftar invitations, Diwani adds courtly warmth for elegant cards, Kufic gives a bold modern look for Instagram posts, and Naskh keeps it clean and readable for community messages. Try each style in the free Ramadan Mubarak calligraphy generator above and download the version that best fits your greeting card, WhatsApp status, or Instagram Story.",
+          "h3s": [
+            {
+              "title": "Thuluth Ramadan Mubarak",
+              "image": {
+                "src": "images/ramadan-mubarak-thuluth-inline.png",
+                "alt": "Ramadan Mubarak written in Thuluth Arabic calligraphy in gold on parchment background"
+              },
+              "content": "Thuluth is the most historically revered style for Ramadan Mubarak calligraphy, used in mosque decorations and Islamic manuscripts for over a millennium. Its long curving letters give the two-word blessing a sense of formal grace suitable for family gatherings, mosque signage, and printed Iftar invitations. Select \"Thuluth (Scheherazade)\" in the generator above."
+            },
+            {
+              "title": "Diwani Ramadan Mubarak",
+              "image": {
+                "src": "images/ramadan-mubarak-diwani-inline.png",
+                "alt": "Ramadan Mubarak in Diwani Arabic calligraphy with flowing ornate curves in burgundy"
+              },
+              "content": "Diwani produces flowing, ornate Ramadan Mubarak calligraphy originally developed by Ottoman court scribes. Its decorative interlocking curves are perfect for elegant greeting cards, wedding-style Iftar invitations, and premium print gifts. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown."
+            },
+            {
+              "title": "Kufic Ramadan Mubarak",
+              "image": {
+                "src": "images/ramadan-mubarak-kufic-inline.png",
+                "alt": "Ramadan Mubarak in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic script and gives Ramadan Mubarak bold, angular geometric weight — perfect for modern social media posts, minimalist wall art, and contemporary Ramadan decorations. Its clean lines work exceptionally well when overlaid on lantern or crescent-moon photos. Select \"Kufi (Reem Kufi)\" in the generator."
+            },
+            {
+              "title": "Naskh Ramadan Mubarak",
+              "image": {
+                "src": "images/ramadan-mubarak-naskh-inline.png",
+                "alt": "Ramadan Mubarak in Naskh Arabic calligraphy with clean readable green letters"
+              },
+              "content": "Naskh offers a clean, highly legible Ramadan Mubarak calligraphy — the same style used in modern Quran printings. It is the safest choice when clarity matters more than decoration, such as WhatsApp messages, community bulletins, and educational Ramadan materials. Choose \"Naskh (Amiri)\" in the font selector."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Ramadan Mubarak in Arabic",
+          "content": [
+            "Ramadan Mubarak in Arabic is written <strong>رمضان مبارك</strong>, composed of two words: <em>Ramadan</em> (رمضان), the ninth month of the Islamic lunar calendar during which Muslims fast from dawn to sunset, and <em>Mubarak</em> (مبارك), an adjective meaning \"blessed\" or \"sacred.\" Together they form the greeting \"Blessed Ramadan\" or, more idiomatically, \"May your Ramadan be blessed.\"",
+            "The greeting is spoken throughout the month of Ramadan — before Iftar (the sunset meal), after Suhoor (the pre-dawn meal), in mosque gatherings, and in personal messages to family and friends. When rendered in calligraphy, the two-word structure gives the phrase a natural rhythm — Ramadan's long alifs and mim balance beautifully against Mubarak's compact letters, making it well-suited to horizontal banners, greeting cards, and social media graphics.",
+            "You may also encounter <strong>Ramadan Kareem (رمضان كريم)</strong> — a related greeting meaning \"Generous Ramadan.\" The two phrases are largely interchangeable in daily use, though Ramadan Mubarak is often preferred in more religiously observant contexts because \"Mubarak\" (blessed) more closely reflects the spiritual character of the holy month than \"Kareem\" (generous). Both are widely accepted and both can be generated from the tool above."
+          ],
+          "heroImage": {
+            "src": "images/ramadan-mubarak-full-phrase-thuluth.png",
+            "alt": "Ramadan Mubarak (رمضان مبارك) in high-resolution Thuluth Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Ramadan Mubarak Meaning",
+          "content": [
+            "Ramadan Mubarak (رمضان مبارك) literally means \"Blessed Ramadan.\" It is a greeting that acknowledges the holy month as a spiritually sacred time — the belief that Allah's blessings, mercy, and forgiveness are especially abundant during Ramadan, and that Muslims should treat the month as a period of dedicated worship, self-reflection, and gratitude.",
+            "The Arabic root of <em>Mubarak</em> is <strong>B-R-K</strong> (ب-ر-ك), which conveys blessing, sacredness, and divine grace. The same root appears throughout the Quran and in the phrase <em>Tabarak Allah</em> (تبارك الله — \"Blessed is Allah\"). So when someone says \"Ramadan Mubarak\" to you, they are not just wishing you a happy month — they are invoking the sacred, blessed nature of Ramadan and expressing hope that you receive its full spiritual benefit.",
+            "In practice, \"Ramadan Mubarak\" is used the same way English speakers use \"Happy holidays\" or \"Merry Christmas.\" It is spoken between family, friends, colleagues, neighbors, and strangers throughout the month. Common replies include \"Ramadan Mubarak to you too,\" \"Khair Mubarak\" (May goodness be blessed for you), or simply \"Wa alaikum, Ramadan Mubarak\" (And upon you, Blessed Ramadan)."
+          ]
+        },
+        {
+          "id": "download",
+          "navLabel": "Download",
+          "h2": "Ramadan Mubarak PNG & Photo Download",
+          "downloadPreviews": [
+            { "src": "images/ramadan-mubarak-download-transparent.png", "alt": "Ramadan Mubarak download preview with transparent background PNG on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/ramadan-mubarak-download-white.png", "alt": "Ramadan Mubarak download preview on white background", "caption": "White background" },
+            { "src": "images/ramadan-mubarak-download-black.png", "alt": "Ramadan Mubarak download preview in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "After designing your Ramadan Mubarak calligraphy in the generator above, download it in the format that fits your use case:",
+            "<strong>PNG (Transparent)</strong> — best for WhatsApp status, Instagram Story overlays, and layered greeting-card designs. Enable transparent background in the tool when you want to place Ramadan Mubarak over a lantern, crescent, or mosque photo.<br><strong>PNG (White or Black)</strong> — great for printed cards, community bulletins, phone wallpapers, and posters. Set the background color directly inside the tool.<br><strong>SVG</strong> — best for framed prints, large banners, and any use that needs to scale to poster size without quality loss.<br><strong>JPG</strong> — smallest file size, ideal for casual sharing.",
+            "<strong>How to use these Ramadan Mubarak PNGs</strong>:<br>• <em>Social post</em> — pick Kufic or Cairo style, transparent background, then overlay on any lantern / crescent photo in Instagram Story.<br>• <em>Greeting card</em> — pick Thuluth or Diwani, gold text (#B8860B or #D4AF37) on deep navy background, download at high resolution.<br>• <em>Phone wallpaper</em> — pick your style, tall aspect ratio, black background — download and set as lock screen.<br>• <em>Poster</em> — download SVG so it scales to any print size without pixelation.",
+            "All Ramadan Mubarak PNG and photo downloads are <strong>free — no watermark, no sign-up, no account required</strong>."
+          ]
+        },
+        {
+          "id": "vs-kareem",
+          "navLabel": "vs Kareem",
+          "h2": "Ramadan Mubarak vs Ramadan Kareem",
+          "content": [
+            "The two most common Ramadan greetings — <strong>Ramadan Mubarak</strong> (رمضان مبارك) and <strong>Ramadan Kareem</strong> (رمضان كريم) — are often used interchangeably, but they carry slightly different shades of meaning:",
+            "<strong>Ramadan Mubarak</strong> literally means \"Blessed Ramadan.\" The word <em>Mubarak</em> comes from the Arabic root B-R-K meaning \"blessed\" or \"sacred\" — it centers the greeting on the <em>spiritual</em> holiness of the month. It is the greeting many scholars slightly prefer because it emphasizes divine blessing rather than material generosity.<br><br><strong>Ramadan Kareem</strong> literally means \"Generous Ramadan.\" The word <em>Kareem</em> comes from the Arabic root K-R-M meaning \"generous\" or \"noble\" — it centers the greeting on Allah's <em>generosity</em> and multiplied rewards during the month. Some traditionalists gently object to it because generosity (Kareem) is an attribute of the giver (Allah), not the month itself — though it is universally understood and warmly received.",
+            "<strong>Which one should you use?</strong> Both are widely accepted, and either is a safe choice. Practical guidance:<br>• <em>Ramadan Mubarak</em> is slightly more common in South Asian, Turkish, and Gulf communities and in formal religious contexts.<br>• <em>Ramadan Kareem</em> is slightly more common in Egyptian, Levantine, and North African communities and in casual/commercial greetings.<br>• When in doubt, use Ramadan Mubarak — it will never be considered incorrect.",
+            "For calligraphy, both phrases work equally well across all 11 styles in the generator. Want to see Ramadan Kareem instead? Visit our <a href=\"/ramadan-kareem-in-arabic-calligraphy\">Ramadan Kareem in Arabic Calligraphy</a> page."
+          ]
+        },
+        {
+          "id": "pronunciation",
+          "navLabel": "Pronunciation",
+          "h2": "Ramadan Mubarak Pronunciation",
+          "content": [
+            "Ramadan Mubarak is pronounced <strong>ra-ma-DAAN moo-BAA-rak</strong>. Break it down slowly:",
+            "<strong>Ramadan</strong> — <em>ra-ma-DAAN</em>. Three syllables. The stress falls on the final syllable <em>DAAN</em> with a long \"a\" sound (like the \"a\" in \"father\"). The first two syllables <em>ra-ma</em> are quick and equal, both with a short \"a\" (like the \"a\" in \"cat\" but slightly softer). The final \"n\" is a clean nasal.<br><br><strong>Mubarak</strong> — <em>moo-BAA-rak</em>. Three syllables. The stress falls on the middle syllable <em>BAA</em> with a long \"a\" (like the \"a\" in \"father\"). The first syllable <em>moo</em> is a short \"oo\" (like the \"oo\" in \"book\" — not \"food\"). The final <em>rak</em> is clipped short with a rolled or tapped \"r\".",
+            "<strong>Common English mispronunciations to avoid</strong>:<br>• Not \"RAM-a-dan\" (English stress on first syllable) — the correct stress is on the last syllable: <em>ra-ma-DAAN</em>.<br>• Not \"moo-BAR-uk\" (English soft \"uh\" at the end) — the final syllable is a clean, short <em>rak</em>.<br>• The \"a\" in <em>DAAN</em> and <em>BAA</em> should be long and open, not short like \"cat.\"",
+            "<strong>Tip</strong>: If you say \"ra-ma-DAAN moo-BAA-rak\" as two smooth two-syllable-plus-one groups with equal weight on the stressed vowels, native Arabic speakers will understand you clearly regardless of exact accent."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Ramadan Mubarak Calligraphy Designs",
+        "description": "Hand-picked Ramadan Mubarak designs across styles, colors, and use cases — from formal Iftar invitations to WhatsApp status graphics. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "Ramadan Mubarak in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Formal Iftar invitation" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "Ramadan Mubarak in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Community bulletin" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "Ramadan Mubarak in Diwani calligraphy in red on white greeting card",                 "caption": "Diwani · Red · Greeting card" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "Ramadan Mubarak in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Luxury Iftar invite" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "Ramadan Mubarak in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Instagram Story" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "Ramadan Mubarak in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Bookmark design" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "Ramadan Mubarak in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · WhatsApp status" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "Ramadan Mubarak in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Community poster" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "Ramadan Mubarak in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Persian-style card" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "Ramadan Mubarak in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "Ramadan Mubarak in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile banner" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "Ramadan Mubarak in Cairo modern Arabic font in teal on white banner",                 "caption": "Cairo · Teal · Digital banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "Ramadan Mubarak in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage print" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "Ramadan Mubarak in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "Ramadan Mubarak in Markazi Text calligraphy in black on rose background poster",      "caption": "Markazi · Black · Poster design" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "Ramadan Mubarak in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "Ramadan Mubarak in Scheherazade Thuluth calligraphy in gold on deep navy blue",       "caption": "Scheherazade · Gold · Premium card" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "Ramadan Mubarak in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "Ramadan Mubarak in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Prayer mat design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "Ramadan Mubarak in Diwani calligraphy in rose gold on charcoal luxury card",          "caption": "Diwani · Rose gold · Luxury Iftar card" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does Ramadan Mubarak mean?",
+          "answer": "Ramadan Mubarak (رمضان مبارك) literally means \"Blessed Ramadan\" — a greeting acknowledging that the holy month is a spiritually sacred time when Allah's blessings, mercy, and forgiveness are especially abundant. Mubarak shares its Arabic root (B-R-K) with the Quranic phrase Tabarak Allah, \"Blessed is Allah.\""
+        },
+        {
+          "question": "When do we say Ramadan Mubarak?",
+          "answer": "Ramadan Mubarak is spoken throughout the entire month of Ramadan — before Iftar (the sunset meal), after Suhoor (the pre-dawn meal), in mosque gatherings, and in personal messages. It is also common to greet with it in the days leading up to Ramadan and briefly after Eid al-Fitr, when reflecting on the just-ended month."
+        },
+        {
+          "question": "What is the difference between Ramadan Mubarak and Ramadan Kareem?",
+          "answer": "Both are widely accepted Ramadan greetings. Ramadan Mubarak means \"Blessed Ramadan\" and centers on the spiritual sacredness of the month. Ramadan Kareem means \"Generous Ramadan\" and centers on Allah's multiplied rewards. Ramadan Mubarak is slightly more common in South Asian, Turkish, and Gulf communities and in formal religious contexts; Ramadan Kareem is slightly more common in Egyptian and North African usage."
+        },
+        {
+          "question": "How is Ramadan Mubarak pronounced?",
+          "answer": "Ramadan Mubarak is pronounced ra-ma-DAAN moo-BAA-rak. Stress falls on the last syllable of Ramadan (DAAN) and the middle syllable of Mubarak (BAA). Both stressed vowels are long, like the \"a\" in \"father.\" The final syllable of Mubarak (rak) is short and clipped."
+        },
+        {
+          "question": "How do I download Ramadan Mubarak PNG for greeting cards?",
+          "answer": "In the generator above, pick your preferred style (Thuluth or Diwani work well for greeting cards), set the background to Transparent (best for card overlays) or a solid color, then click Download PNG. All downloads are free and no sign-up is required. Use the transparent PNG in Canva, Figma, or Instagram Story to place it over lantern, mosque, or crescent-moon photos."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Ramadan Mubarak Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Ramadan Mubarak (رمضان مبارك) in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/ramadan-mubarak-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Ramadan Mubarak in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The Ramadan greeting Ramadan Mubarak (رمضان مبارك) rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
+      }
     }
   ]
 }

@@ -17,9 +17,11 @@ const path = require('path');
 // 5 张 inline 图的固定配置（工具可生）
 // ==========================================================
 const INLINE_CONFIGS = [
+  { suffix: 'thuluth-inline',       font: "'Scheherazade New', serif",  color: '#B8860B', bg: 'color',       bgColor: '#F5E6C8', w: 800, h: 160, size: 44, altStyle: 'Thuluth', altColor: 'gold',       altBg: 'parchment background' },
   { suffix: 'diwani-inline',        font: "'Aref Ruqaa', serif",       color: '#722F37', bg: 'color',       bgColor: '#F5E6D3', w: 800, h: 160, size: 44, altStyle: 'Diwani', altColor: 'burgundy',   altBg: 'ivory background' },
   { suffix: 'kufic-inline',         font: "'Reem Kufi', sans-serif",   color: '#000000', bg: 'white',                            w: 800, h: 160, size: 44, altStyle: 'Kufic',  altColor: 'black',       altBg: 'white background' },
   { suffix: 'naskh-inline',         font: "'Amiri', serif",             color: '#14532D', bg: 'color',       bgColor: '#FAF3E7', w: 800, h: 160, size: 44, altStyle: 'Naskh',  altColor: 'deep green', altBg: 'cream background' },
+  { suffix: 'full-phrase-thuluth',  font: "'Scheherazade New', serif",  color: '#D4AF37', bg: 'color',       bgColor: '#0F172A', w: 800, h: 300, size: 72, altStyle: 'Thuluth', altColor: 'gold',       altBg: 'navy background' },
   { suffix: 'download-transparent', font: "'Scheherazade New', serif",  color: '#000000', bg: 'transparent',                     w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'black',      altBg: 'transparent background (PNG)' },
   { suffix: 'download-white',       font: "'Scheherazade New', serif",  color: '#000000', bg: 'white',                            w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'black',      altBg: 'white background' },
   { suffix: 'download-black',       font: "'Scheherazade New', serif",  color: '#B8860B', bg: 'color',       bgColor: '#000000', w: 300, h: 140, size: 28, altStyle: 'Thuluth', altColor: 'gold',       altBg: 'black background' },
