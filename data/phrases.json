@@ -1822,6 +1822,200 @@
         "heroImageName": "Muhammad in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The name Muhammad (محمد) rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
       }
+    },
+    {
+      "slug": "thuluth-calligraphy",
+      "displayName": "Thuluth Calligraphy",
+      "arabicText": "الله",
+      "arabicTextWithHarakat": "اَللّٰه",
+      "url": "/thuluth-calligraphy",
+      "mainKeyword": "thuluth calligraphy",
+      "monthlyVolume": 170,
+      "keywordDifficulty": 25,
+
+      "meta": {
+        "title": "Thuluth Calligraphy — History, Font & Free Generator",
+        "description": "Learn Thuluth calligraphy history, script characteristics, and font details. Generate Thuluth calligraphy free in 11 phrases. PNG download.",
+        "keywords": "thuluth calligraphy, thuluth, thuluth script, thuluth font, arabic calligraphy thuluth, thuluth script font, thuluth arabic calligraphy"
+      },
+
+      "hero": {
+        "h1": "Thuluth Calligraphy: History, Fonts, and Free Generator",
+        "description": "Explore Thuluth (ثلث) — the most historically revered Arabic calligraphy script. Learn its 1,000-year history, distinctive letter design, and use across mosques, Qur'anic manuscripts, and modern Islamic art. Generate Thuluth calligraphy free — no sign-up."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "what",
+          "navLabel": "What is Thuluth",
+          "h2": "What is Thuluth Calligraphy?",
+          "content": [
+            "<strong>Thuluth calligraphy</strong> (خط الثلث) is one of the six classical Arabic scripts and, by most measures, the most historically revered. Its name comes from the Arabic word <em>thuluth</em> (ثلث) meaning \"one third\" — a reference to the width of the reed pen (qalam) used to write it, which is one-third the width of a full-width pen. This proportion produces Thuluth's distinctive elegant strokes: wide vertical letters, elongated curves, and a strong contrast between thick and thin lines.",
+            "Thuluth is the script overwhelmingly used in <strong>mosque inscriptions, Qur'anic chapter headings, and Islamic manuscripts</strong> across the Muslim world. The interior of the Ka'aba in Mecca, the Prophet's Mosque in Medina, the Blue Mosque in Istanbul, and countless smaller masjids all feature Thuluth as their primary decorative script. When people picture \"Arabic calligraphy\" in their minds — the flowing, ornate style seen in Islamic art — they are almost always picturing Thuluth.",
+            "In modern digital use, Thuluth is best represented by fonts like <strong>Scheherazade New</strong>, which is included in the free generator on this page. Whether you want to write the name Allah, the Shahada, a Qur'anic verse, or a personal name in classical calligraphy, Thuluth remains the most authentic and reverent choice."
+          ],
+          "heroImage": {
+            "src": "images/thuluth-calligraphy-full-phrase-thuluth.png",
+            "alt": "The name Allah (الله) rendered in classical Thuluth Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "characteristics",
+          "navLabel": "Characteristics",
+          "h2": "Thuluth Script Characteristics",
+          "content": [
+            "The <strong>Thuluth script</strong> is instantly recognizable to trained eyes because of five distinctive characteristics:",
+            "<strong>1. Wide, curving letter forms</strong> — Thuluth letters are proportionally taller and wider than utilitarian scripts like Ruq'ah. The vertical letters (alif, lam, ta, kaf) rise dramatically; the curved letters (nun, ya, ra) sweep in generous arcs.<br><strong>2. High thick-thin contrast</strong> — the reed pen's angle produces dramatic weight variation. Vertical strokes are thick and confident; horizontal connectors are thin and delicate.<br><strong>3. Elaborate letter joining</strong> — where letters connect, Thuluth uses ornate, sometimes overlapping joins that create a decorative rhythm across the line.<br><strong>4. Vowel and diacritic ornament</strong> — Thuluth freely uses the full set of harakat (vowel marks) plus decorative dots and small ornamental strokes that are not strictly required for reading but enhance the visual composition.<br><strong>5. Compositional flexibility</strong> — Thuluth accommodates both horizontal single-line inscriptions and dense vertically-stacked compositions where words weave together in an intricate visual pattern.",
+            "These qualities make Thuluth <strong>slow to write</strong> (a single word can take a master calligrapher an hour or more) but exceptionally beautiful. This is why Thuluth is reserved for formal, decorative, and devotional purposes — not everyday handwriting."
+          ]
+        },
+        {
+          "id": "font",
+          "navLabel": "Font",
+          "h2": "Thuluth Font & Downloads",
+          "downloadPreviews": [
+            { "src": "images/thuluth-calligraphy-download-transparent.png", "alt": "Thuluth calligraphy download preview — Allah with transparent PNG background on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/thuluth-calligraphy-download-white.png", "alt": "Thuluth calligraphy download preview — Allah on white background", "caption": "White background" },
+            { "src": "images/thuluth-calligraphy-download-black.png", "alt": "Thuluth calligraphy download preview — Allah in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "For digital Thuluth calligraphy, the best free font is <strong>Scheherazade New</strong> — a modern OpenType font designed by SIL International that faithfully reproduces the classical Thuluth style. Scheherazade New supports full Arabic Unicode with proper ligatures and harakat rendering, making it ideal for both display and text use.",
+            "The generator above uses Scheherazade New as its Thuluth font. To download your Thuluth calligraphy design:",
+            "<strong>PNG (Transparent)</strong> — best for overlaying Thuluth on lantern photos, mosque backgrounds, or geometric patterns.<br><strong>PNG (White or Black)</strong> — great for framed prints, name plates, and Islamic wall art.<br><strong>SVG</strong> — best for large prints and posters that need to scale without pixelation.<br><strong>JPG</strong> — smallest file size for casual sharing.",
+            "All Thuluth calligraphy downloads are free — no watermark, no sign-up, no account required. If you want to install Scheherazade New locally for offline use in Photoshop, Illustrator, or Word, it is available free from the SIL International website."
+          ]
+        },
+        {
+          "id": "history",
+          "navLabel": "History",
+          "h2": "History of Thuluth Calligraphy",
+          "content": [
+            "Thuluth calligraphy emerged in the <strong>7th century CE</strong>, evolving from earlier Arabic scripts (particularly Kufic) as scribes sought a more flexible, ornamental style for formal writing. By the 9th century, under the Abbasid Caliphate in Baghdad, Thuluth had become the preferred script for Qur'anic manuscript headings, official state documents, and mosque decoration.",
+            "The script reached its <strong>classical form in the 11th century</strong> through the work of the master calligrapher <em>Ibn al-Bawwab</em> (d. 1022 CE), whose Baghdad school established the geometric proportions and letter forms that all subsequent Thuluth calligraphers would follow. His methods were later systematized by <em>Yaqut al-Musta'simi</em> (d. 1298 CE), the last great calligrapher of the Abbasid era, whose Thuluth compositions remain the reference standard today.",
+            "During the <strong>Ottoman period (14th–20th century)</strong>, Thuluth reached new heights under Turkish and Ottoman court calligraphers, most notably <em>Sheikh Hamdullah</em> (d. 1520) and <em>Hafiz Osman</em> (d. 1698). Their innovations produced the ornate architectural Thuluth seen in the great Ottoman mosques — Süleymaniye, Sultan Ahmed (Blue Mosque), and Selimiye — where entire Qur'anic verses were rendered in Thuluth across dome interiors and calligraphic roundels.",
+            "Today Thuluth remains the <strong>gold standard for formal Islamic calligraphy</strong>. Master calligraphers still train in classical Thuluth through years of apprenticeship, and digital fonts like Scheherazade New have made the script accessible to millions of designers, teachers, and Muslim families worldwide."
+          ]
+        },
+        {
+          "id": "vs",
+          "navLabel": "vs Others",
+          "h2": "Thuluth vs Naskh vs Diwani vs Kufic",
+          "content": [
+            "Thuluth is one of six classical Arabic scripts. Here's how it compares to the three most common alternatives you'll encounter in Arabic calligraphy:",
+            "<strong>Thuluth vs Naskh</strong>: <em>Naskh</em> (نسخ) is the workhorse cursive script — highly legible, more compact, and used in modern printed Qur'ans and everyday text. Thuluth is more ornate, taller, and reserved for formal or decorative contexts. If Naskh is like Times New Roman, Thuluth is like a hand-lettered wedding invitation.",
+            "<strong>Thuluth vs Diwani</strong>: <em>Diwani</em> (ديواني) was developed by Ottoman court scribes for imperial documents. It flows in tight, curving, interlocking loops — visually decorative but harder to read. Thuluth is more grounded and legible while still being decorative. Think of Diwani as \"court script\" and Thuluth as \"mosque script.\"",
+            "<strong>Thuluth vs Kufic</strong>: <em>Kufic</em> (كوفي) is the oldest Arabic script — bold, angular, geometric, with strong horizontal emphasis. Kufic was used in the earliest Qur'an manuscripts and appears in modern minimalist Islamic design. Thuluth is Kufic's cursive successor — retaining Kufic's dignity but adding curves and flexibility.",
+            "<strong>When to choose Thuluth</strong>: formal Islamic art, framed calligraphy for prayer rooms, mosque signage, ceremonial invitations, Qur'anic verse displays, and any project where classical reverence matters more than compact readability."
+          ]
+        },
+        {
+          "id": "phrases",
+          "navLabel": "Famous Phrases",
+          "h2": "Famous Phrases in Thuluth Calligraphy",
+          "intro": "Thuluth is the classical script for the most spiritually significant phrases in Islamic art. Below are four of the most commonly rendered — click through to each phrase's dedicated page for full history, meaning, and download options.",
+          "h3s": [
+            {
+              "title": "Bismillah in Thuluth",
+              "image": {
+                "src": "images/bismillah-thuluth-inline.jpg",
+                "alt": "Bismillah (بسم الله الرحمن الرحيم) in Thuluth Arabic calligraphy on aged parchment"
+              },
+              "content": "<em>Bismillah al-Rahman al-Rahim</em> (In the name of Allah, the Most Gracious, the Most Merciful) is the opening verse of the Qur'an and the most frequently written phrase in Islamic calligraphy. In Thuluth, its 19 characters flow in a majestic horizontal composition suitable for book title pages, mosque entrances, and framed devotional art. See our full <a href=\"/bismillah-in-arabic-calligraphy\">Bismillah in Arabic Calligraphy</a> page for meaning, styles, and download options."
+            },
+            {
+              "title": "Shahada in Thuluth",
+              "image": {
+                "src": "images/shahada-thuluth-inline.png",
+                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) in Thuluth Arabic calligraphy in gold on parchment"
+              },
+              "content": "The <em>Shahada</em> — La ilaha illa Allah, Muhammad rasul Allah — is the Islamic declaration of faith and the first pillar of Islam. Rendering it in Thuluth is a foundational tradition of Islamic art; the Ka'aba's interior features the Shahada in Thuluth. See our full <a href=\"/shahada-in-arabic-calligraphy\">Shahada in Arabic Calligraphy</a> page for the full declaration, translation, and pronunciation guide."
+            },
+            {
+              "title": "Muhammad in Thuluth",
+              "image": {
+                "src": "images/muhammad-thuluth-inline.png",
+                "alt": "The name Muhammad (محمد) in Thuluth Arabic calligraphy in gold on parchment"
+              },
+              "content": "The name of the Prophet Muhammad ﷺ is the most calligraphed name in Islamic art history. In Thuluth, its four letters (م ح م د) form a beautifully compact composition suitable for framed art, name plates, and educational displays. See our full <a href=\"/muhammad-in-arabic-calligraphy\">Muhammad in Arabic Calligraphy</a> page for name meaning, Islamic history, and the tradition of writing the Prophet's name."
+            },
+            {
+              "title": "Alhamdulillah in Thuluth",
+              "image": {
+                "src": "images/alhamdulillah-thuluth-inline.jpg",
+                "alt": "Alhamdulillah (الحمد لله) in Thuluth Arabic calligraphy in gold on parchment"
+              },
+              "content": "<em>Alhamdulillah</em> — \"All praise is due to Allah\" — is one of the most spoken Muslim phrases, said dozens of times daily in prayer, gratitude, and after every meal. In Thuluth, its two-word structure balances beautifully. See our full <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page for meaning, use cases, and downloads."
+            }
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Thuluth Calligraphy Designs",
+        "description": "20 hand-picked Thuluth calligraphy designs featuring the most common Islamic phrases and names, across a range of colors and backgrounds. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif", "text": "بسم الله الرحمن الرحيم", "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم", "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "bismillah-gold-parchment",   "alt": "Bismillah in Thuluth calligraphy in gold on parchment background",       "caption": "Bismillah · Gold · Formal art" },
+          { "n": 2,  "font": "'Scheherazade New', serif", "text": "الله",                      "textWithHarakat": "اَللّٰه",                    "color": "#000000", "bg": "white",                      "fileSuffix": "allah-black-white",          "alt": "The name Allah in Thuluth calligraphy in black on white",                  "caption": "Allah · Black · Classic frame" },
+          { "n": 3,  "font": "'Scheherazade New', serif", "text": "محمد",                       "textWithHarakat": "مُحَمَّد",                  "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "muhammad-gold-black",        "alt": "The name Muhammad in Thuluth calligraphy in gold on black",                "caption": "Muhammad · Gold · Premium frame" },
+          { "n": 4,  "font": "'Scheherazade New', serif", "text": "لا إله إلا الله محمد رسول الله", "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه", "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "shahada-green-cream",        "alt": "The Shahada in Thuluth calligraphy in deep green on cream",                "caption": "Shahada · Green · Prayer room" },
+          { "n": 5,  "font": "'Scheherazade New', serif", "text": "الحمد لله",                  "textWithHarakat": "اَلْحَمْدُ لِلّٰه",           "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "alhamdulillah-navy-cream",   "alt": "Alhamdulillah in Thuluth calligraphy in navy on cream",                    "caption": "Alhamdulillah · Navy · Home decor" },
+          { "n": 6,  "font": "'Scheherazade New', serif", "text": "رمضان كريم",                "textWithHarakat": "رَمَضَان كَرِيم",           "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "ramadan-kareem-burgundy",    "alt": "Ramadan Kareem in Thuluth calligraphy in burgundy on beige",               "caption": "Ramadan Kareem · Burgundy · Card" },
+          { "n": 7,  "font": "'Scheherazade New', serif", "text": "رمضان مبارك",               "textWithHarakat": "رَمَضَان مُبَارَك",         "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "ramadan-mubarak-copper",     "alt": "Ramadan Mubarak in Thuluth calligraphy in copper on cream",                "caption": "Ramadan Mubarak · Copper · Card" },
+          { "n": 8,  "font": "'Scheherazade New', serif", "text": "عيد مبارك",                 "textWithHarakat": "عِيد مُبَارَك",             "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "eid-mubarak-emerald-gold",   "alt": "Eid Mubarak in Thuluth calligraphy in emerald on gold",                    "caption": "Eid Mubarak · Emerald · Festive" },
+          { "n": 9,  "font": "'Scheherazade New', serif", "text": "حبيبي",                      "textWithHarakat": "حَبِيبِي",                  "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "habibi-rosegold-charcoal",   "alt": "Habibi in Thuluth calligraphy in rose gold on charcoal",                   "caption": "Habibi · Rose gold · Luxury" },
+          { "n": 10, "font": "'Scheherazade New', serif", "text": "الله أكبر",                 "textWithHarakat": "اَللّٰهُ أَكْبَر",          "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "allahu-akbar-silver-midnight", "alt": "Allahu Akbar in Thuluth calligraphy in silver on midnight blue",         "caption": "Allahu Akbar · Silver · Modern" },
+          { "n": 11, "font": "'Scheherazade New', serif", "text": "إن شاء الله",              "textWithHarakat": "إِنْ شَاءَ اللّٰه",         "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "inshaallah-gold-navy",       "alt": "Insha'Allah (God willing) in Thuluth calligraphy in gold on deep navy",   "caption": "Insha'Allah · Gold · Deep navy" },
+          { "n": 12, "font": "'Scheherazade New', serif", "text": "ما شاء الله",              "textWithHarakat": "مَا شَاءَ اللّٰه",          "color": "#C0392B", "bg": "white",                      "fileSuffix": "mashaallah-red-white",       "alt": "Masha'Allah (as God willed) in Thuluth calligraphy in red on white",      "caption": "Masha'Allah · Red · Blessing card" },
+          { "n": 13, "font": "'Scheherazade New', serif", "text": "سبحان الله",              "textWithHarakat": "سُبْحَان اللّٰه",           "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "subhanallah-sepia-parchment", "alt": "Subhanallah (glory to God) in Thuluth calligraphy in sepia on parchment", "caption": "Subhanallah · Sepia · Vintage" },
+          { "n": 14, "font": "'Scheherazade New', serif", "text": "سلام",                       "textWithHarakat": "سَلَام",                    "color": "#059669", "bg": "white",                      "fileSuffix": "salam-green-white",          "alt": "Salam (peace) in Thuluth calligraphy in green on white",                   "caption": "Salam · Green · Peace print" },
+          { "n": 15, "font": "'Scheherazade New', serif", "text": "لا إله إلا الله",         "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه", "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "tawhid-gold-black",          "alt": "La ilaha illa Allah (Tawhid) in Thuluth calligraphy in gold on black",     "caption": "Tawhid · Gold · Sacred frame" },
+          { "n": 16, "font": "'Scheherazade New', serif", "text": "السلام عليكم",            "textWithHarakat": "السَّلَامُ عَلَيْكُم",      "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "assalamu-alaikum-purple",    "alt": "Assalamu Alaikum (peace be upon you) in Thuluth calligraphy in purple on ivory", "caption": "Assalamu Alaikum · Purple · Greeting" },
+          { "n": 17, "font": "'Scheherazade New', serif", "text": "القرآن",                     "textWithHarakat": "القُرْآن",                  "color": "#D4AF37", "bg": "color", "bgColor": "#722F37", "fileSuffix": "quran-gold-burgundy",        "alt": "Al-Quran in Thuluth calligraphy in gold on burgundy",                      "caption": "Al-Quran · Gold · Book cover" },
+          { "n": 18, "font": "'Scheherazade New', serif", "text": "الإسلام",                    "textWithHarakat": "الإِسْلَام",                "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "islam-black-rose",           "alt": "Al-Islam in Thuluth calligraphy in black on rose",                         "caption": "Al-Islam · Black · Educational" },
+          { "n": 19, "font": "'Scheherazade New', serif", "text": "الله",                       "textWithHarakat": "اَللّٰه",                    "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "allah-gold-parchment",       "alt": "The name Allah in Thuluth calligraphy in gold on parchment",               "caption": "Allah · Gold · Classical" },
+          { "n": 20, "font": "'Scheherazade New', serif", "text": "الحمد لله",                "textWithHarakat": "اَلْحَمْدُ لِلّٰه",           "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "alhamdulillah-rosegold",     "alt": "Alhamdulillah in Thuluth calligraphy in rose gold on charcoal",            "caption": "Alhamdulillah · Rose gold · Frame" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What is Thuluth calligraphy?",
+          "answer": "Thuluth (خط الثلث) is one of the six classical Arabic scripts and the most historically revered. Its name means \"one third\" — referring to the width of the reed pen used to write it. Thuluth is characterized by wide, curving letters, dramatic thick-thin contrast, and ornate compositional flexibility. It is the script overwhelmingly used in mosque inscriptions, Qur'anic manuscript headings, and formal Islamic art across the Muslim world."
+        },
+        {
+          "question": "Why is Thuluth called Thuluth?",
+          "answer": "The name comes from the Arabic word thuluth (ثلث) meaning \"one third.\" It refers to the width of the reed pen (qalam) used to write the script: the pen tip is one-third the width of a full-width classical pen. This proportion produces Thuluth's distinctive dramatic thick-thin stroke contrast — a defining visual feature of the script."
+        },
+        {
+          "question": "What is the difference between Thuluth and Naskh?",
+          "answer": "Naskh (نسخ) is a highly legible, compact cursive script used in modern printed Qur'ans and everyday text. Thuluth is more ornate, taller, and reserved for formal or decorative contexts. If Naskh is like a printed newspaper font, Thuluth is like a hand-lettered wedding invitation. Muslims typically read Naskh daily but see Thuluth when entering mosques, reading Qur'anic chapter headings, or viewing formal Islamic art."
+        },
+        {
+          "question": "Which font renders Thuluth calligraphy on a computer?",
+          "answer": "The best free digital font for Thuluth calligraphy is Scheherazade New, designed by SIL International. Scheherazade New faithfully reproduces the classical Thuluth style with proper Arabic ligatures, harakat rendering, and full Unicode support. The generator on this page uses Scheherazade New as its Thuluth font — you can preview any Arabic text in Thuluth and download the result as free PNG."
+        },
+        {
+          "question": "What is Thuluth calligraphy used for today?",
+          "answer": "Thuluth is used for formal Islamic art including mosque inscriptions, Qur'anic verse displays, framed devotional calligraphy, wedding invitations, prayer room decor, ceremonial names and titles, and any project where classical reverence matters more than compact readability. It is the standard script for the interior of the Ka'aba in Mecca and remains the gold standard for religious and formal Arabic calligraphy worldwide."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Thuluth Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Arabic calligraphy in the classical Thuluth script — the most historically revered Arabic calligraphy style, used in mosques, Qur'anic manuscripts, and formal Islamic art.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/thuluth-calligraphy-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Thuluth Arabic Calligraphy Example",
+        "heroImageDescription": "The name Allah (الله) rendered in classical Thuluth Arabic calligraphy in gold on deep navy background — a foundational example of the Thuluth script."
+      }
     }
   ]
 }

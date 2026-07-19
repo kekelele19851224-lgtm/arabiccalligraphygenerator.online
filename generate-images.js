@@ -127,6 +127,8 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
         bg: item.bg,
         bgColor: item.bgColor,
         w: GALLERY_CANVAS.w, h: GALLERY_CANVAS.h, size: null,
+        itemText: item.text,
+        itemTextWithHarakat: item.textWithHarakat,
       };
     });
 
@@ -155,14 +157,14 @@ async function renderAndSave(page, phrase, cfg, filename) {
   // Gallery cfg has size:null → apply the length × font-scale formula.
   // Inline cfg has a preset size → keep it as-is.
   if (cfg.size == null) {
-    const baseText = (phrase.arabicText || '').replace(/\s/g, '');
+    const baseText = (cfg.itemText || phrase.arabicText || '').replace(/\s/g, '');
     const base = baseGallerySize(baseText.length || 1);
     const scale = FONT_SCALE[cfg.font.split(',')[0].trim()] || 1.0;
     cfg = { ...cfg, size: Math.round(base * scale) };
   }
   const dataUrl = await page.evaluate(async (phrase, cfg, SCALE) => {
     // 设置 tool state
-    state.text = phrase.arabicTextWithHarakat || phrase.arabicText;
+    state.text = cfg.itemTextWithHarakat || cfg.itemText || phrase.arabicTextWithHarakat || phrase.arabicText;
     state.font = cfg.font;
     state.color = cfg.color;
     state.bg = cfg.bg;
