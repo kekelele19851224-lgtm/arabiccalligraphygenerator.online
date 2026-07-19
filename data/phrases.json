@@ -2024,6 +2024,223 @@
         "heroImageName": "Thuluth Arabic Calligraphy Example",
         "heroImageDescription": "The name Allah (الله) rendered in classical Thuluth Arabic calligraphy in gold on deep navy background — a foundational example of the Thuluth script."
       }
+    },
+    {
+      "slug": "kufic-calligraphy",
+      "displayName": "Kufic",
+      "pageType": "font",
+      "arabicText": "الله",
+      "arabicTextWithHarakat": "اَللّٰه",
+      "url": "/kufic-calligraphy",
+      "mainKeyword": "kufic calligraphy",
+      "monthlyVolume": 320,
+      "keywordDifficulty": 32,
+
+      "meta": {
+        "title": "Kufic Calligraphy — History, Square Kufic & Free Generator",
+        "description": "Learn Kufic calligraphy history, script characteristics, and variants (Square, Foliated, Floriated, Knotted). Generate Kufic Arabic calligraphy free.",
+        "keywords": "kufic calligraphy, kufic, kufic script, kufic font, square kufic, kufic quran, pseudo kufic, kufic arabic, kufic script calligraphy"
+      },
+
+      "hero": {
+        "h1": "Kufic Calligraphy: History, Variants, and Free Generator",
+        "description": "Explore Kufic (الخط الكوفي) — the oldest Arabic script and the calligraphy of the earliest Qur'an manuscripts. Learn its 1,400-year history, geometric characteristics, and variants including Square Kufic, Foliated, Floriated, and Knotted Kufic. Generate Kufic Arabic calligraphy free — no sign-up."
+      },
+
+      "toolDefaults": {
+        "font": "'Reem Kufi', sans-serif",
+        "fontDropdownValue": "'Reem Kufi', sans-serif"
+      },
+
+      "extraInlines": [
+        { "suffix": "example-bismillah",     "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "font": "'Reem Kufi', sans-serif", "color": "#0F172A", "bg": "color", "bgColor": "#FAF3E7" },
+        { "suffix": "example-shahada",       "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "font": "'Reem Kufi', sans-serif", "color": "#0F172A", "bg": "color", "bgColor": "#FAF3E7" },
+        { "suffix": "example-muhammad",      "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "font": "'Reem Kufi', sans-serif", "color": "#0F172A", "bg": "color", "bgColor": "#FAF3E7" },
+        { "suffix": "example-alhamdulillah", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "font": "'Reem Kufi', sans-serif", "color": "#0F172A", "bg": "color", "bgColor": "#FAF3E7" }
+      ],
+
+      "sections": [
+        {
+          "id": "what",
+          "navLabel": "What is Kufic",
+          "h2": "What is Kufic Calligraphy?",
+          "content": [
+            "<strong>Kufic calligraphy</strong> (الخط الكوفي, <em>al-khaṭṭ al-kūfī</em>) is the <strong>oldest known Arabic script</strong> and the calligraphy in which the very first Qur'an manuscripts were written. Its name comes from the city of <strong>Kufa</strong> in present-day Iraq, an early Islamic center of learning where the script was standardized in the late 7th century CE.",
+            "Kufic is instantly recognizable by its <strong>angular, geometric letter forms</strong>: thick horizontal strokes, minimal vertical descent, right-angled corners, and a strong emphasis on rhythm and pattern rather than cursive flow. Where later Arabic scripts like Thuluth and Naskh flow in curves, Kufic stands upright, blocky, and architectural.",
+            "For roughly the first four centuries of Islam, Kufic was the <strong>only calligraphy style used for Qur'anic manuscripts</strong> — an association that gave it a permanent sacred and ceremonial status. Even after cursive scripts became dominant for everyday use, Kufic remained the preferred script for mosque inscriptions, ceramic decoration, coinage, and architectural ornament. In the modern era, Kufic has been rediscovered by graphic designers and logo artists worldwide for its bold, minimalist aesthetic that translates powerfully to modern branding.",
+            "The tool on this page uses <strong>Reem Kufi</strong>, a modern OpenType font by Khaled Hosny that captures the geometric Kufic spirit while remaining highly readable on screens — ideal for logo work, modern Islamic decor, wall art, and educational displays."
+          ],
+          "heroImage": {
+            "src": "images/kufic-calligraphy-full-phrase-thuluth.png",
+            "alt": "The name Allah (الله) rendered in Kufic Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "characteristics",
+          "navLabel": "Characteristics",
+          "h2": "Kufic Script Characteristics",
+          "content": [
+            "The <strong>Kufic script</strong> is instantly recognizable by five distinctive characteristics that set it apart from every other Arabic script:",
+            "<strong>1. Angular, geometric letter forms</strong> — Kufic letters are built from straight lines and right angles rather than flowing curves. Vertical strokes are short and blocky; horizontal strokes dominate the composition. There is minimal or no descent below the baseline.<br><strong>2. Even stroke weight</strong> — unlike Thuluth's dramatic thick-thin variation, classical Kufic uses a nearly uniform stroke weight throughout, giving it a bold, monumental appearance well-suited to architectural inscription.<br><strong>3. Horizontal emphasis</strong> — Kufic compositions read as long horizontal bands. Letters connect through the baseline rather than through cursive curves, and words appear as extended horizontal shapes rather than compact cursive units.<br><strong>4. Sparse or absent diacritics</strong> — early Kufic Qur'ans were written without vowel marks and often without dots to distinguish similar letters (baʾ, taʾ, thaʾ). Modern digital Kufic (like Reem Kufi) supports full harakat, but classical Kufic Qur'ans were meant to be read by memory, with the visual composition itself becoming the aesthetic focus.<br><strong>5. Geometric modularity</strong> — Kufic lends itself to grid-based composition. In its extreme form (Square Kufic), letters are constructed on an exact grid producing tile-like decorative patterns used on ceramic, brick, and stucco surfaces.",
+            "These qualities make Kufic exceptionally strong for <strong>modern logo design, contemporary Islamic decor, wall art, and any project that benefits from bold geometric visual weight</strong>. Reem Kufi (the font used by this page's generator) delivers all five characteristics in a clean, screen-friendly rendering."
+          ]
+        },
+        {
+          "id": "font",
+          "navLabel": "Font",
+          "h2": "Kufic Font & Downloads",
+          "downloadPreviews": [
+            { "src": "images/kufic-calligraphy-download-transparent.png", "alt": "Kufic calligraphy download preview — Allah with transparent PNG background on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/kufic-calligraphy-download-white.png", "alt": "Kufic calligraphy download preview — Allah on white background", "caption": "White background" },
+            { "src": "images/kufic-calligraphy-download-black.png", "alt": "Kufic calligraphy download preview — Allah in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "For digital Kufic calligraphy, the best free font is <strong>Reem Kufi</strong>, designed by Khaled Hosny as a modern take on the Kufic script. Reem Kufi is a display font specifically built for headings, logos, and short titles — it renders Kufic letter forms cleanly on screens while preserving the script's geometric character.",
+            "The generator above uses Reem Kufi as its Kufic font. To download your Kufic calligraphy design:",
+            "<strong>PNG (Transparent)</strong> — best for overlaying Kufic on architectural photos, ceramic tile designs, or geometric backgrounds.<br><strong>PNG (White or Black)</strong> — great for logo work, framed prints, minimalist wall art, and branding assets.<br><strong>SVG</strong> — essential for logo work — scales to any size without pixelation, and vector-editable in Illustrator or Inkscape.<br><strong>JPG</strong> — smallest file size for casual sharing.",
+            "All Kufic calligraphy downloads are free — no watermark, no sign-up, no account required. Reem Kufi is also available free from Google Fonts and can be installed locally for use in Photoshop, Illustrator, and any modern design tool."
+          ]
+        },
+        {
+          "id": "history",
+          "navLabel": "History",
+          "h2": "History of Kufic Calligraphy & the Quran",
+          "content": [
+            "Kufic calligraphy emerged in the <strong>late 7th century CE</strong> in the city of Kufa (in present-day Iraq), one of the earliest Islamic centers of learning and administration. It evolved from the earlier Ma'il (mixed) script used by Arab merchants, refined into a formal ceremonial style suited to producing the first written copies of the Qur'an.",
+            "For roughly <strong>four centuries — from the 7th to the 11th century CE — Kufic was the exclusive script of Qur'anic manuscripts</strong>. The oldest surviving Qur'an fragments (including the Birmingham Qur'an manuscript, radiocarbon-dated to 568-645 CE, and the Sanaa manuscript) are all written in Kufic. These early Kufic Qur'ans typically used dark brown ink on parchment, with red or gold dots indicating vowel marks (added centuries later) and gold or silver leaf illumination separating the surahs.",
+            "The script reached its <strong>ornamental peak during the Abbasid Caliphate (8th–13th century)</strong>. Master calligraphers developed elaborate ornamental variants — <em>Foliated Kufic</em> (with leaf-shaped serifs), <em>Floriated Kufic</em> (letters growing into full flower forms), <em>Knotted Kufic</em> (with braided letter joins), and <em>Plaited Kufic</em> (letters interweaving into patterns) — all seen in mosque friezes, coinage, and manuscript borders.",
+            "As cursive scripts (Naskh, Thuluth) rose in the 11th–12th century for everyday manuscript use, Kufic transitioned to <strong>architectural and decorative use</strong>. It became the standard script for mosque inscriptions, ceramic tile decoration, textile weaving, and coinage — roles it continues to fill today. The 20th-century revival of Kufic in Islamic and modernist graphic design (led by designers like Emil Hisatel and later digital typographers like Khaled Hosny) has made Kufic once again one of the most influential scripts in contemporary Arabic typography."
+          ]
+        },
+        {
+          "id": "variants",
+          "navLabel": "Variants",
+          "h2": "Square Kufic and Other Kufic Variants",
+          "content": [
+            "Over 1,400 years of use, Kufic has developed into a family of related but visually distinct variants. Here are the most important five:",
+            "<strong>1. Square Kufic (الخط الكوفي المربع)</strong> — the most extreme geometric form. Letters are constructed on an exact square grid, with all curves eliminated and every stroke either horizontal or vertical. Square Kufic produces tile-like patterns and is the variant seen on the exterior of Iranian mosques (Isfahan's Masjid-e Jameh), Central Asian madrasas, and modern minimalist Islamic decor. Because Square Kufic looks so different from other Arabic scripts, it is often used for <strong>logo design and geometric art</strong> today.",
+            "<strong>2. Foliated Kufic (كوفي مورّق)</strong> — Kufic letters with leaf-shaped or split serifs added to the terminal strokes. Widely used in Fatimid and early Ayyubid mosque decoration (10th–12th century). Balances geometric structure with organic ornament.",
+            "<strong>3. Floriated Kufic (كوفي مزهّر)</strong> — Kufic letters where the ascending strokes grow into full flower shapes, producing an intricately decorative composition. Peak use during the Abbasid era; often seen in Qur'anic manuscript borders and ceremonial texts.",
+            "<strong>4. Knotted Kufic (كوفي معقّد)</strong> — Kufic letters where the vertical stems interweave with braided or knotted joins, creating a pattern-like visual rhythm. Common in North African and Andalusian architecture.",
+            "<strong>5. Pseudo-Kufic</strong> — <em>not</em> an actual Arabic writing style. This is decorative Western art that imitates the visual form of Kufic without conveying real Arabic meaning. Seen in medieval European painting (halos, garment borders, especially in the work of artists like Giotto and Fra Angelico) — Christian Europeans adopted Kufic-like patterns as a marker of \"exotic\" or \"biblical\" antiquity. Genuine Arabic Kufic and Pseudo-Kufic are visually similar but only the former is real Arabic script.",
+            "The generator on this page uses <strong>Reem Kufi</strong>, a modern digital font in the general Kufic tradition. For truly Square Kufic tile patterns or ornate Foliated/Floriated compositions, a specialty commercial font or a calligrapher would be required."
+          ]
+        },
+        {
+          "id": "vs",
+          "navLabel": "vs Others",
+          "h2": "Kufic vs Thuluth vs Naskh vs Diwani",
+          "content": [
+            "Kufic is the oldest Arabic script. Here's how it compares to the three most common cursive alternatives you'll encounter:",
+            "<strong>Kufic vs Thuluth</strong>: <em>Thuluth</em> (ثلث) is the classical ornate cursive script, flowing and tall, used in most mosque calligraphic roundels and Qur'anic chapter headings. Kufic is Thuluth's earlier ancestor — angular, geometric, and blocky where Thuluth is fluid and curved. If Thuluth is the elegant script of formal religious art, Kufic is the ancient script of the earliest Qur'ans and the modern script of architectural inscription. See our <a href=\"/thuluth-calligraphy\">Thuluth Calligraphy</a> page for a full comparison.",
+            "<strong>Kufic vs Naskh</strong>: <em>Naskh</em> (نسخ) is the highly legible cursive script used in modern printed Qur'ans and everyday Arabic text. Naskh replaced Kufic as the standard Qur'anic script in the 11th century because of its superior readability. Kufic remains preferred for decorative and architectural use where visual impact matters more than fast reading.",
+            "<strong>Kufic vs Diwani</strong>: <em>Diwani</em> (ديواني) is the ornate Ottoman court script — flowing, tightly interlocking, decorative but hard to read. Kufic is at the opposite end of the Arabic calligraphy spectrum: rigid, geometric, and monumentally readable. Diwani says \"imperial court elegance\"; Kufic says \"early Islamic gravitas\" or \"modern minimalist power.\"",
+            "<strong>When to choose Kufic</strong>: modern logo design, minimalist Islamic wall art, ceramic tile patterns, architectural inscriptions, contemporary branding for Muslim businesses, and any project where bold geometric visual weight matters more than cursive flow."
+          ]
+        },
+        {
+          "id": "phrases",
+          "navLabel": "Famous Phrases",
+          "h2": "Famous Phrases in Kufic Calligraphy",
+          "intro": "Kufic is historically the most important script for religious Arabic phrases — every phrase below has been rendered in Kufic in mosque architecture, ceramic tile, or ancient Qur'anic manuscripts. Click through to each phrase's dedicated page for full history, meaning, and download options.",
+          "h3s": [
+            {
+              "title": "Bismillah in Kufic",
+              "image": {
+                "src": "images/kufic-calligraphy-example-bismillah.png",
+                "alt": "Bismillah (بسم الله الرحمن الرحيم) rendered in Kufic (Reem Kufi) Arabic calligraphy in dark navy on cream"
+              },
+              "content": "<em>Bismillah al-Rahman al-Rahim</em> is the opening verse of the Qur'an and, in Kufic, it was one of the most inscribed phrases on early Islamic mosque entrances, coins, and Qur'an title pages. The 19-character phrase renders beautifully in Kufic's horizontal geometric rhythm. See our <a href=\"/bismillah-in-arabic-calligraphy\">Bismillah in Arabic Calligraphy</a> page for meaning, styles, and downloads."
+            },
+            {
+              "title": "Shahada in Kufic",
+              "image": {
+                "src": "images/kufic-calligraphy-example-shahada.png",
+                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) rendered in Kufic (Reem Kufi) Arabic calligraphy in dark navy on cream"
+              },
+              "content": "The <em>Shahada</em> — the Islamic declaration of faith — was inscribed in Kufic on the earliest Islamic coinage (the reform coins of Caliph Abd al-Malik, 696 CE) and in mosque friezes across the Umayyad and Abbasid empires. Its geometric Kufic form remains iconic today. See our <a href=\"/shahada-in-arabic-calligraphy\">Shahada in Arabic Calligraphy</a> page for the full declaration and pronunciation."
+            },
+            {
+              "title": "Muhammad in Kufic",
+              "image": {
+                "src": "images/kufic-calligraphy-example-muhammad.png",
+                "alt": "The name Muhammad (محمد) rendered in Kufic (Reem Kufi) Arabic calligraphy in dark navy on cream"
+              },
+              "content": "The name of the Prophet Muhammad ﷺ has been rendered in Kufic on mosque walls, ceramic tiles, and manuscripts since the 7th century. In Kufic's geometric structure, the four letters (م ح م د) form a distinctive angular pattern often used in decorative repeats. See our <a href=\"/muhammad-in-arabic-calligraphy\">Muhammad in Arabic Calligraphy</a> page for name meaning, history, and the tradition of writing the Prophet's name."
+            },
+            {
+              "title": "Alhamdulillah in Kufic",
+              "image": {
+                "src": "images/kufic-calligraphy-example-alhamdulillah.png",
+                "alt": "Alhamdulillah (الحمد لله) rendered in Kufic (Reem Kufi) Arabic calligraphy in dark navy on cream"
+              },
+              "content": "<em>Alhamdulillah</em> — \"All praise is due to Allah\" — in Kufic form has a strong horizontal band composition suitable for banner design and architectural friezes. See our <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page for meaning, use cases, and downloads."
+            }
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Kufic Calligraphy Designs",
+        "description": "20 hand-picked Kufic calligraphy designs featuring the most common Islamic phrases and names, across a range of colors and modern backgrounds. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Reem Kufi', sans-serif", "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "color": "#000000", "bg": "white",                        "fileSuffix": "bismillah-black-white",     "alt": "Bismillah in Kufic calligraphy in black on white",                                     "caption": "Bismillah · Black · Classic frame" },
+          { "n": 2,  "font": "'Reem Kufi', sans-serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "allah-navy-cream",          "alt": "The name Allah in Kufic calligraphy in navy on cream",                                 "caption": "Allah · Navy · Modern print" },
+          { "n": 3,  "font": "'Reem Kufi', sans-serif", "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "muhammad-gold-black",       "alt": "The name Muhammad in Kufic calligraphy in gold on black",                              "caption": "Muhammad · Gold · Premium logo" },
+          { "n": 4,  "font": "'Reem Kufi', sans-serif", "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "shahada-emerald-gold",      "alt": "The Shahada in Kufic calligraphy in emerald on gold",                                   "caption": "Shahada · Emerald · Tile design" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "alhamdulillah-copper-cream", "alt": "Alhamdulillah in Kufic calligraphy in copper on cream",                                "caption": "Alhamdulillah · Copper · Metallic" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif", "text": "رمضان كريم",                          "textWithHarakat": "رَمَضَان كَرِيم",                                    "color": "#722F37", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "ramadan-kareem-burgundy",   "alt": "Ramadan Kareem in Kufic calligraphy in burgundy on parchment",                          "caption": "Ramadan Kareem · Burgundy · Card" },
+          { "n": 7,  "font": "'Reem Kufi', sans-serif", "text": "عيد مبارك",                            "textWithHarakat": "عِيد مُبَارَك",                                      "color": "#059669", "bg": "white",                        "fileSuffix": "eid-mubarak-green-white",   "alt": "Eid Mubarak in Kufic calligraphy in green on white",                                   "caption": "Eid Mubarak · Green · Festive" },
+          { "n": 8,  "font": "'Reem Kufi', sans-serif", "text": "حبيبي",                                 "textWithHarakat": "حَبِيبِي",                                            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "habibi-rosegold-charcoal",   "alt": "Habibi in Kufic calligraphy in rose gold on charcoal",                                 "caption": "Habibi · Rose gold · Modern" },
+          { "n": 9,  "font": "'Reem Kufi', sans-serif", "text": "الله أكبر",                            "textWithHarakat": "اَللّٰهُ أَكْبَر",                                    "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "allahu-akbar-silver-midnight", "alt": "Allahu Akbar in Kufic calligraphy in silver on midnight blue",                        "caption": "Allahu Akbar · Silver · Sleek" },
+          { "n": 10, "font": "'Reem Kufi', sans-serif", "text": "إن شاء الله",                          "textWithHarakat": "إِنْ شَاءَ اللّٰه",                                    "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "inshaallah-gold-navy",       "alt": "Insha'Allah in Kufic calligraphy in gold on deep navy",                                "caption": "Insha'Allah · Gold · Deep navy" },
+          { "n": 11, "font": "'Reem Kufi', sans-serif", "text": "ما شاء الله",                          "textWithHarakat": "مَا شَاءَ اللّٰه",                                    "color": "#C0392B", "bg": "white",                        "fileSuffix": "mashaallah-red-white",      "alt": "Masha'Allah in Kufic calligraphy in red on white",                                    "caption": "Masha'Allah · Red · Blessing" },
+          { "n": 12, "font": "'Reem Kufi', sans-serif", "text": "سبحان الله",                          "textWithHarakat": "سُبْحَان اللّٰه",                                    "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "subhanallah-sepia-parchment", "alt": "Subhanallah in Kufic calligraphy in sepia on parchment",                              "caption": "Subhanallah · Sepia · Vintage" },
+          { "n": 13, "font": "'Reem Kufi', sans-serif", "text": "سلام",                                 "textWithHarakat": "سَلَام",                                              "color": "#059669", "bg": "white",                        "fileSuffix": "salam-green-white",         "alt": "Salam in Kufic calligraphy in green on white",                                        "caption": "Salam · Green · Peace" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif", "text": "لا إله إلا الله",                     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه",                            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "tawhid-gold-black",         "alt": "Tawhid in Kufic calligraphy in gold on black",                                        "caption": "Tawhid · Gold · Sacred" },
+          { "n": 15, "font": "'Reem Kufi', sans-serif", "text": "السلام عليكم",                        "textWithHarakat": "السَّلَامُ عَلَيْكُم",                                "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "assalamu-alaikum-purple",   "alt": "Assalamu Alaikum in Kufic calligraphy in purple on ivory",                             "caption": "Assalamu Alaikum · Purple · Greeting" },
+          { "n": 16, "font": "'Reem Kufi', sans-serif", "text": "القرآن",                                "textWithHarakat": "القُرْآن",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#722F37", "fileSuffix": "quran-gold-burgundy",       "alt": "Al-Quran in Kufic calligraphy in gold on burgundy",                                    "caption": "Al-Quran · Gold · Book cover" },
+          { "n": 17, "font": "'Reem Kufi', sans-serif", "text": "الإسلام",                               "textWithHarakat": "الإِسْلَام",                                          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "islam-black-rose",          "alt": "Al-Islam in Kufic calligraphy in black on rose",                                       "caption": "Al-Islam · Black · Soft" },
+          { "n": 18, "font": "'Reem Kufi', sans-serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#000000", "bg": "white",                        "fileSuffix": "allah-black-white",         "alt": "The name Allah in Kufic calligraphy in black on white",                                "caption": "Allah · Black · Logo mark" },
+          { "n": 19, "font": "'Reem Kufi', sans-serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "alhamdulillah-rosegold",    "alt": "Alhamdulillah in Kufic calligraphy in rose gold on charcoal",                          "caption": "Alhamdulillah · Rose gold · Frame" },
+          { "n": 20, "font": "'Reem Kufi', sans-serif", "text": "أمة",                                   "textWithHarakat": "أُمَّة",                                              "color": "#0F766E", "bg": "white",                        "fileSuffix": "ummah-teal-white",          "alt": "Ummah (community) in Kufic calligraphy in teal on white",                              "caption": "Ummah · Teal · Community" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What is Kufic calligraphy?",
+          "answer": "Kufic (الخط الكوفي) is the oldest known Arabic script, developed in the late 7th century CE in Kufa (present-day Iraq). It is instantly recognizable by its angular, geometric letter forms — thick horizontal strokes, right-angled corners, minimal vertical descent, and a strong horizontal reading rhythm. Kufic was the exclusive script of the earliest Qur'an manuscripts and remains widely used today for logo design, architectural inscriptions, and decorative Islamic art."
+        },
+        {
+          "question": "What is Square Kufic?",
+          "answer": "Square Kufic (الخط الكوفي المربع) is the most extreme geometric variant of Kufic, in which letters are constructed on an exact square grid with all curves eliminated and every stroke either horizontal or vertical. It produces tile-like decorative patterns famous from Iranian and Central Asian mosque exteriors (Isfahan's Masjid-e Jameh being a notable example). Square Kufic is especially popular in modern logo design because its blocky geometric structure translates perfectly to contemporary graphic identity."
+        },
+        {
+          "question": "What is the difference between Kufic and Thuluth?",
+          "answer": "Kufic is the earliest Arabic script — angular, geometric, blocky, with even stroke weight and strong horizontal emphasis. Thuluth is a later cursive script — flowing, tall, ornate, with dramatic thick-thin contrast in classical hand-drawn form. Kufic dominated Qur'anic manuscripts for the first four centuries of Islam; Thuluth then took over for ceremonial religious calligraphy while Kufic transitioned to architectural and decorative use, roles both scripts still fill today."
+        },
+        {
+          "question": "What is Pseudo-Kufic?",
+          "answer": "Pseudo-Kufic is not an actual Arabic writing style — it is decorative Western art (especially medieval European painting) that imitates the visual appearance of Kufic script without conveying any real Arabic meaning. Christian European artists like Giotto and Fra Angelico used Kufic-like decorative patterns on halos, garment borders, and biblical scenes as a marker of \"exotic\" or \"biblical\" antiquity. Genuine Arabic Kufic and Pseudo-Kufic can look visually similar, but only Kufic is actual readable Arabic script."
+        },
+        {
+          "question": "Which font renders Kufic calligraphy on a computer?",
+          "answer": "The best free digital font for Kufic calligraphy is Reem Kufi, designed by Khaled Hosny and available free from Google Fonts. Reem Kufi is a display font built specifically for headings, logos, and short titles — it captures Kufic's geometric letter forms cleanly on screens. The generator on this page uses Reem Kufi as its Kufic font. For truly Square Kufic tile patterns or ornate Foliated/Floriated Kufic compositions, a specialty commercial font or a professional calligrapher would be required."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Kufic Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Arabic calligraphy in the classical Kufic script — the oldest Arabic script, the calligraphy of the earliest Qur'an manuscripts, and a foundational style of modern Islamic logo design.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/kufic-calligraphy-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Kufic Arabic Calligraphy Example",
+        "heroImageDescription": "The name Allah (الله) rendered in Kufic Arabic calligraphy — a foundational example of the angular, geometric Kufic script."
+      }
     }
   ]
 }
