@@ -1825,7 +1825,8 @@
     },
     {
       "slug": "thuluth-calligraphy",
-      "displayName": "Thuluth Calligraphy",
+      "displayName": "Thuluth",
+      "pageType": "font",
       "arabicText": "الله",
       "arabicTextWithHarakat": "اَللّٰه",
       "url": "/thuluth-calligraphy",
