@@ -1850,6 +1850,13 @@
         "fontDropdownValue": "'Scheherazade New', serif"
       },
 
+      "extraInlines": [
+        { "suffix": "example-bismillah",     "text": "بسم الله الرحمن الرحيم", "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم", "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8" },
+        { "suffix": "example-shahada",       "text": "لا إله إلا الله محمد رسول الله", "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه", "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8" },
+        { "suffix": "example-muhammad",      "text": "محمد", "textWithHarakat": "مُحَمَّد",           "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8" },
+        { "suffix": "example-alhamdulillah", "text": "الحمد لله", "textWithHarakat": "اَلْحَمْدُ لِلّٰه", "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8" }
+      ],
+
       "sections": [
         {
           "id": "what",
@@ -1924,32 +1931,32 @@
             {
               "title": "Bismillah in Thuluth",
               "image": {
-                "src": "images/bismillah-thuluth-inline.jpg",
-                "alt": "Bismillah (بسم الله الرحمن الرحيم) in Thuluth Arabic calligraphy on aged parchment"
+                "src": "images/thuluth-calligraphy-example-bismillah.png",
+                "alt": "Bismillah (بسم الله الرحمن الرحيم) rendered in Thuluth (Scheherazade New) Arabic calligraphy in gold on parchment"
               },
               "content": "<em>Bismillah al-Rahman al-Rahim</em> (In the name of Allah, the Most Gracious, the Most Merciful) is the opening verse of the Qur'an and the most frequently written phrase in Islamic calligraphy. In Thuluth, its 19 characters flow in a majestic horizontal composition suitable for book title pages, mosque entrances, and framed devotional art. See our full <a href=\"/bismillah-in-arabic-calligraphy\">Bismillah in Arabic Calligraphy</a> page for meaning, styles, and download options."
             },
             {
               "title": "Shahada in Thuluth",
               "image": {
-                "src": "images/shahada-thuluth-inline.png",
-                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) in Thuluth Arabic calligraphy in gold on parchment"
+                "src": "images/thuluth-calligraphy-example-shahada.png",
+                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) rendered in Thuluth (Scheherazade New) Arabic calligraphy in gold on parchment"
               },
               "content": "The <em>Shahada</em> — La ilaha illa Allah, Muhammad rasul Allah — is the Islamic declaration of faith and the first pillar of Islam. Rendering it in Thuluth is a foundational tradition of Islamic art; the Ka'aba's interior features the Shahada in Thuluth. See our full <a href=\"/shahada-in-arabic-calligraphy\">Shahada in Arabic Calligraphy</a> page for the full declaration, translation, and pronunciation guide."
             },
             {
               "title": "Muhammad in Thuluth",
               "image": {
-                "src": "images/muhammad-thuluth-inline.png",
-                "alt": "The name Muhammad (محمد) in Thuluth Arabic calligraphy in gold on parchment"
+                "src": "images/thuluth-calligraphy-example-muhammad.png",
+                "alt": "The name Muhammad (محمد) rendered in Thuluth (Scheherazade New) Arabic calligraphy in gold on parchment"
               },
               "content": "The name of the Prophet Muhammad ﷺ is the most calligraphed name in Islamic art history. In Thuluth, its four letters (م ح م د) form a beautifully compact composition suitable for framed art, name plates, and educational displays. See our full <a href=\"/muhammad-in-arabic-calligraphy\">Muhammad in Arabic Calligraphy</a> page for name meaning, Islamic history, and the tradition of writing the Prophet's name."
             },
             {
               "title": "Alhamdulillah in Thuluth",
               "image": {
-                "src": "images/alhamdulillah-thuluth-inline.jpg",
-                "alt": "Alhamdulillah (الحمد لله) in Thuluth Arabic calligraphy in gold on parchment"
+                "src": "images/thuluth-calligraphy-example-alhamdulillah.png",
+                "alt": "Alhamdulillah (الحمد لله) rendered in Thuluth (Scheherazade New) Arabic calligraphy in gold on parchment"
               },
               "content": "<em>Alhamdulillah</em> — \"All praise is due to Allah\" — is one of the most spoken Muslim phrases, said dozens of times daily in prayer, gratitude, and after every meal. In Thuluth, its two-word structure balances beautifully. See our full <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page for meaning, use cases, and downloads."
             }

@@ -117,6 +117,31 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
       }
     }
 
+    // ---- 页专属额外 inline 图（font page 的 H3 examples 等）----
+    if (Array.isArray(phrase.extraInlines) && phrase.extraInlines.length) {
+      for (let i = 0; i < phrase.extraInlines.length; i++) {
+        const item = phrase.extraInlines[i];
+        const cfg = {
+          suffix: item.suffix,
+          font: item.font || phrase.toolDefaults.font,
+          color: item.color,
+          bg: item.bg,
+          bgColor: item.bgColor,
+          w: item.w || 800, h: item.h || 160, size: item.size || 44,
+          itemText: item.text,
+          itemTextWithHarakat: item.textWithHarakat,
+        };
+        const file = `${phrase.slug}-${item.suffix}.png`;
+        process.stdout.write(`  [extra ${i+1}/${phrase.extraInlines.length}] ${file.padEnd(50)} ... `);
+        try {
+          await renderAndSave(page, phrase, cfg, file);
+          console.log('✓');
+        } catch (err) {
+          console.log('❌', err.message);
+        }
+      }
+    }
+
     // ---- 20 张 gallery 图 ----
     const galleryConfigs = phrase.gallery.items.map(item => {
       const n = String(item.n).padStart(2, '0');
