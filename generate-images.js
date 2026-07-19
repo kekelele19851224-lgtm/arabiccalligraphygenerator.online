@@ -199,7 +199,16 @@ async function renderAndSave(page, phrase, cfg, filename) {
     }
 
     // Size was computed in Node (see renderAndSave below), attached to cfg.
-    const size = cfg.size;
+    let size = cfg.size;
+
+    // Auto-shrink for long phrases: measure with preset size, if wider than 88%
+    // of canvas, scale down proportionally. Short phrases pass through unchanged.
+    ctx.font = `${size}px ${cfg.font}`;
+    const probeM = ctx.measureText(state.text);
+    const maxW = cfg.w * 0.88;
+    if (probeM.width > maxW) {
+      size = Math.max(12, Math.floor(size * maxW / probeM.width));
+    }
     state.size = size;
 
     // Center visually using real bounding box (textBaseline='middle' uses the

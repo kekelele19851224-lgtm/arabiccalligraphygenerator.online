@@ -1257,6 +1257,194 @@
         "heroImageName": "Ramadan Mubarak in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The Ramadan greeting Ramadan Mubarak (رمضان مبارك) rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
       }
+    },
+    {
+      "slug": "shahada",
+      "displayName": "Shahada",
+      "arabicText": "لا إله إلا الله محمد رسول الله",
+      "arabicTextWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",
+      "url": "/shahada-in-arabic-calligraphy",
+      "mainKeyword": "shahada in arabic",
+      "monthlyVolume": 2400,
+      "keywordDifficulty": 13,
+
+      "meta": {
+        "title": "Shahada in Arabic Calligraphy — Free PNG, Meaning & English",
+        "description": "Generate the Shahada (لا إله إلا الله محمد رسول الله) in Arabic calligraphy — 11 styles. Free PNG with meaning, English, and pronunciation.",
+        "keywords": "shahada in arabic calligraphy, shahada in arabic, shahada calligraphy, shahada meaning, shahada in english, how to say the shahada, first pillar of islam"
+      },
+
+      "hero": {
+        "h1": "Generate the Shahada in Arabic Calligraphy",
+        "description": "Create the Shahada (لا إله إلا الله محمد رسول الله) — the Islamic declaration of faith — in 11 authentic Arabic calligraphy styles including Thuluth, Kufic, Diwani, and Naskh. Free PNG, SVG, and JPG download for prayer rooms, home decor, and educational materials."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Shahada Calligraphy",
+          "intro": "The Shahada (الشهادة) is the Islamic declaration of faith and the most spiritually significant sentence in Islam. Rendering it in different Arabic calligraphy styles is a centuries-old tradition seen on the Ka'aba's interior, mosque walls, prayer mats, and family homes. Thuluth carries the most reverence and is used in most classical mosque inscriptions; Diwani adds ornate flowing beauty for premium framed art; Kufic gives a bold geometric look historically used in early Qur'an manuscripts; and Naskh keeps the sacred declaration cleanly readable for educational and personal use. Try each style in the free Shahada calligraphy generator above.",
+          "h3s": [
+            {
+              "title": "Thuluth Shahada",
+              "image": {
+                "src": "images/shahada-thuluth-inline.png",
+                "alt": "Shahada written in Thuluth Arabic calligraphy in gold on parchment background"
+              },
+              "content": "Thuluth is the style overwhelmingly used for Shahada inscriptions in mosques, prayer halls, and Islamic manuscripts — including the interior of the Ka'aba in Mecca. Its long curving letters give the declaration a sense of formal sacred reverence suitable for framed art, prayer-room walls, and educational Islamic materials. Select \"Thuluth (Scheherazade)\" in the generator above."
+            },
+            {
+              "title": "Diwani Shahada",
+              "image": {
+                "src": "images/shahada-diwani-inline.png",
+                "alt": "Shahada in Diwani Arabic calligraphy with flowing ornate curves in burgundy on ivory"
+              },
+              "content": "Diwani produces the flowing, ornate Shahada calligraphy originally developed by Ottoman court scribes for imperial documents. Its decorative interlocking curves are perfect for premium framed wall art, prayer-room decor, and formal Islamic gift prints. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown."
+            },
+            {
+              "title": "Kufic Shahada",
+              "image": {
+                "src": "images/shahada-kufic-inline.png",
+                "alt": "Shahada in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic script and was used in the earliest Qur'an manuscripts. Its bold, angular geometric weight gives the Shahada a distinctly historic feel — perfect for modern minimalist framed art, contemporary Islamic decor, and educational timelines showing the evolution of Arabic script. Select \"Kufi (Reem Kufi)\" in the generator."
+            },
+            {
+              "title": "Naskh Shahada",
+              "image": {
+                "src": "images/shahada-naskh-inline.png",
+                "alt": "Shahada in Naskh Arabic calligraphy with clean readable green letters on cream"
+              },
+              "content": "Naskh offers the clean, highly legible Shahada calligraphy used in modern printed Qur'ans. It is the safest choice when clarity matters most — such as educational Islamic materials, children's learning charts, community bulletins, and personal study notes. Choose \"Naskh (Amiri)\" in the font selector."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Shahada in Arabic",
+          "content": [
+            "The Shahada in Arabic is written <strong>لا إله إلا الله محمد رسول الله</strong> — transliterated as <em>La ilaha illa Allah, Muhammad rasul Allah</em>. It is the shortest and most fundamental declaration of Islamic belief, spoken by Muslims every day in prayer and by anyone entering Islam.",
+            "The declaration has two parts: <strong>لا إله إلا الله</strong> (<em>La ilaha illa Allah</em>) — \"There is no god but Allah\" — affirms the oneness of God (<em>Tawhid</em>), the central tenet of Islam. <strong>محمد رسول الله</strong> (<em>Muhammad rasul Allah</em>) — \"Muhammad is the messenger of Allah\" — affirms Muhammad's role as the final prophet.",
+            "The word \"Shahada\" itself is written <strong>الشهادة</strong> (<em>al-Shahada</em>) and means \"the testimony\" or \"the witnessing\" — you are bearing witness to the truth of these two statements. When rendered in calligraphy, the full declaration is one of the most common inscriptions in Islamic art, seen on the interior of the Ka'aba, Al-Aqsa Mosque, the Dome of the Rock, and countless mosques worldwide."
+          ],
+          "heroImage": {
+            "src": "images/shahada-full-phrase-thuluth.png",
+            "alt": "The full Shahada (لا إله إلا الله محمد رسول الله) in high-resolution Thuluth Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Shahada Meaning",
+          "content": [
+            "The Shahada literally means \"The Testimony\" or \"The Witnessing.\" Its full text — <em>La ilaha illa Allah, Muhammad rasul Allah</em> — translates as \"There is no god but Allah, and Muhammad is the messenger of Allah.\"",
+            "The declaration is the foundational statement of Islamic belief. To Muslims, it is not simply a phrase to recite — it is a lifelong commitment to two ideas: <strong>Tawhid</strong> (the absolute oneness of God) and <strong>Nubuwwah</strong> (belief in Muhammad's prophethood as the last of a chain that includes Adam, Abraham, Moses, and Jesus). Everything else in Islamic practice — the five daily prayers, fasting, charity, pilgrimage — flows from this one declaration.",
+            "In everyday Muslim life, the Shahada is spoken multiple times a day: in each of the five daily prayers, in the call to prayer (Adhan), in whispered form to newborns, and, ideally, as one's final words before death. It is also the sole verbal requirement for someone converting to Islam — a person becomes Muslim by sincerely reciting the Shahada in the presence of witnesses."
+          ]
+        },
+        {
+          "id": "english",
+          "navLabel": "In English",
+          "h2": "Shahada in English",
+          "content": [
+            "The Shahada in English translation is: <strong>\"There is no god but Allah, and Muhammad is the messenger of Allah.\"</strong>",
+            "Word by word:<br>• <em>La</em> (لا) — \"there is no\" / \"none\"<br>• <em>ilaha</em> (إله) — \"deity\" / \"god\"<br>• <em>illa</em> (إلا) — \"except\" / \"but\"<br>• <em>Allah</em> (الله) — \"Allah\" (the Arabic name of God)<br>• <em>Muhammad</em> (محمد) — the name of the Prophet<br>• <em>rasul</em> (رسول) — \"messenger\" / \"prophet\"<br>• <em>Allah</em> (الله) — \"of Allah\"",
+            "Some English translations use \"God\" in place of \"Allah\" — both are accepted, since <em>Allah</em> is simply the Arabic word for God (the same God worshipped in Judaism and Christianity, in Islamic understanding). The word Allah is used untranslated in most Muslim contexts because it carries specific theological weight and is the name used throughout the Qur'an.",
+            "The English translation cannot fully capture the Shahada's spiritual weight in Arabic — the rhythm, the recitation cadence, and the ceremonial quality of the original words. This is why Muslims worldwide continue to recite the declaration in Arabic even when their first language is not Arabic."
+          ]
+        },
+        {
+          "id": "pronunciation",
+          "navLabel": "Pronunciation",
+          "h2": "How to Say the Shahada",
+          "content": [
+            "The full Shahada is pronounced: <strong>Ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah.</strong>",
+            "Note: when reciting the Shahada as a testimony (for daily prayer or conversion), Muslims begin with <em>Ash-hadu</em> (\"I bear witness\") twice. The written calligraphy inscription typically shows only the core declaration <em>لا إله إلا الله محمد رسول الله</em> — the \"I bear witness\" openings are the recited framing.",
+            "Breaking down the core declaration slowly:<br><br><strong>La ilaha illa Allah</strong> — <em>laa i-LAA-ha il-LAA-l-LAAH</em>. Five syllables. \"La\" is a short quick \"la.\" \"Ilaha\" has stress on the middle syllable (LAA) with a long \"a\" like the \"a\" in \"father.\" \"Illa\" is stressed on the first syllable (IL-LAA) — the double L is held slightly. \"Allah\" — <em>al-LAAH</em> — stress on the second syllable, with a deep resonant \"aa.\"<br><br><strong>Muhammad rasul Allah</strong> — <em>mu-HAM-ma-dun ra-SOO-lu-l-LAAH</em>. The name Muhammad is stressed on the second syllable (HAM). \"Rasul\" — stress on the second syllable (SOOL) with a long \"oo\" as in \"food.\" \"Allah\" — same as before.",
+            "<strong>Tips for non-Arabic speakers</strong>:<br>• Take it slowly — the Shahada is meant to be spoken with reverence, not rushed.<br>• The long \"aa\" vowels (in <em>ilaha</em>, <em>illa</em>, <em>Allah</em>, <em>rasul</em>) are longer than English speakers naturally produce — hold them for about twice the length of a short vowel.<br>• The \"h\" in Muhammad and the final \"h\" in Allah are gently aspirated — audible but soft.<br>• If a native speaker is available, ask them to recite it slowly once so you can hear the rhythm — the phrase has a natural cadence that becomes intuitive with practice."
+          ]
+        },
+        {
+          "id": "pillar",
+          "navLabel": "First Pillar",
+          "h2": "Shahada as the First Pillar of Islam",
+          "content": [
+            "Islam is built on <strong>Five Pillars</strong> — five foundational practices that every Muslim is expected to observe:",
+            "<strong>1. Shahada (الشهادة) — Declaration of Faith</strong>. Sincerely reciting \"La ilaha illa Allah, Muhammad rasul Allah\" in Arabic. This is the entry point into Islam and the daily spiritual anchor.<br><strong>2. Salah (الصلاة) — Prayer</strong>. Five daily prayers at set times facing Mecca.<br><strong>3. Zakat (الزكاة) — Charity</strong>. Giving 2.5% of accumulated wealth annually to those in need.<br><strong>4. Sawm (الصوم) — Fasting</strong>. Fasting from dawn to sunset during the month of Ramadan.<br><strong>5. Hajj (الحج) — Pilgrimage</strong>. Traveling to Mecca once in a lifetime if physically and financially able.",
+            "The Shahada is placed <em>first</em> because every other pillar depends on it — you cannot meaningfully perform Salah, give Zakat, fast in Ramadan, or make Hajj without first affirming who you believe God is. It is the theological foundation on which the entire practice of Islam rests.",
+            "This is also why the Shahada is the <strong>sole verbal requirement for converting to Islam</strong>. A person becomes Muslim by sincerely reciting the Shahada in Arabic in front of two Muslim witnesses. There is no baptism, no formal ceremony, no minimum study period required — just the sincere declaration. Because of this foundational role, the Shahada is by far the most calligraphed sentence in Islamic art history — rendering it beautifully has been a form of devotion for over 1,400 years."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Shahada Calligraphy Designs",
+        "description": "Hand-picked Shahada designs across styles, colors, and use cases — from framed prayer-room art to educational Islamic materials. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "Shahada in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Framed prayer-room art" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "Shahada in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Educational chart" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "Shahada in Diwani calligraphy in red on white background",                    "caption": "Diwani · Red · Islamic gift print" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "Shahada in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Premium frame" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "Shahada in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Minimalist wall art" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "Shahada in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Home decor" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "Shahada in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · Educational material" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "Shahada in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Study notes" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "Shahada in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Persian-style print" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "Shahada in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "Shahada in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile banner" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "Shahada in Cairo modern Arabic font in teal on white",                        "caption": "Cairo · Teal · Modern banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "Shahada in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage manuscript" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "Shahada in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "Shahada in Markazi Text calligraphy in black on rose background",             "caption": "Markazi · Black · Soft poster" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "Shahada in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "Shahada in Scheherazade Thuluth calligraphy in gold on deep navy",            "caption": "Scheherazade · Gold · Premium framed art" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "Shahada in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "Shahada in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Prayer mat design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "Shahada in Diwani calligraphy in rose gold on charcoal luxury frame",         "caption": "Diwani · Rose gold · Luxury frame" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What is the Shahada and what does it mean?",
+          "answer": "The Shahada (الشهادة) is the Islamic declaration of faith and the first of the Five Pillars of Islam. It reads \"La ilaha illa Allah, Muhammad rasul Allah\" — \"There is no god but Allah, and Muhammad is the messenger of Allah.\" The word Shahada itself means \"the testimony\" — you are bearing witness to the truth of these two statements: the oneness of God (Tawhid) and Muhammad's role as the final prophet."
+        },
+        {
+          "question": "How do you pronounce the Shahada?",
+          "answer": "The full Shahada is pronounced: Ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasulu Allah. The core declaration La ilaha illa Allah, Muhammad rasul Allah is pronounced laa i-LAA-ha il-LAA-l-LAAH, mu-HAM-ma-dun ra-SOO-lu-l-LAAH. The long \"aa\" vowels are held about twice as long as short vowels. Take it slowly — the Shahada is meant to be spoken with reverence."
+        },
+        {
+          "question": "Is the Shahada required to convert to Islam?",
+          "answer": "Yes. Sincerely reciting the Shahada in Arabic in front of two Muslim witnesses is the sole verbal requirement for entering Islam. There is no baptism, no formal ceremony, and no minimum study period. The convert must understand and mean what they are saying — that is the essence of \"sincere\" recitation. Many mosques will help new Muslims with the Arabic pronunciation and understanding of what they are declaring."
+        },
+        {
+          "question": "What does \"La ilaha illa Allah\" mean word by word?",
+          "answer": "La (لا) — there is no; ilaha (إله) — deity or god; illa (إلا) — except; Allah (الله) — Allah, the Arabic name of God. Together: \"There is no god but Allah.\" This first half of the Shahada is the foundational affirmation of Tawhid — the absolute oneness of God — which is the central tenet of Islamic theology."
+        },
+        {
+          "question": "How do I download the Shahada in Arabic calligraphy?",
+          "answer": "In the generator above, pick your preferred style (Thuluth is the most traditional for the Shahada, followed by Diwani for ornate framed art), set the background to Transparent, White, or a custom color, then click Download PNG or SVG. All downloads are free — no watermark, no sign-up. Use the transparent PNG in Canva or Figma to overlay it on a mosque, arch, or geometric-pattern background for prayer-room decor."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Shahada Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate the Shahada (لا إله إلا الله محمد رسول الله) — the Islamic declaration of faith — in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/shahada-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Shahada in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The Islamic declaration of faith — the Shahada (لا إله إلا الله محمد رسول الله) — rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
+      }
     }
   ]
 }
