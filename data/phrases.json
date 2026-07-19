@@ -1634,6 +1634,194 @@
         "heroImageName": "Allahu Akbar in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The Islamic praise phrase Allahu Akbar (الله أكبر) rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
       }
+    },
+    {
+      "slug": "muhammad",
+      "displayName": "Muhammad",
+      "arabicText": "محمد",
+      "arabicTextWithHarakat": "مُحَمَّد",
+      "url": "/muhammad-in-arabic-calligraphy",
+      "mainKeyword": "muhammad in arabic calligraphy",
+      "monthlyVolume": 140,
+      "keywordDifficulty": 23,
+
+      "meta": {
+        "title": "Muhammad in Arabic Calligraphy — Free PNG & Name Meaning",
+        "description": "Generate the name Muhammad (محمد) in Arabic calligraphy — 11 styles. Free PNG with meaning, pronunciation, and Islamic calligraphy tradition.",
+        "keywords": "muhammad in arabic calligraphy, muhammad calligraphy, muhammad in arabic, muhammad meaning, muhammad name meaning, muhammad name in arabic, prophet muhammad"
+      },
+
+      "hero": {
+        "h1": "Generate Muhammad in Arabic Calligraphy",
+        "description": "Create the name Muhammad (محمد) — the name of the Prophet of Islam and the most given boy's name in the world — in 11 authentic Arabic calligraphy styles including Thuluth, Kufic, Diwani, and Naskh. Free PNG, SVG, and JPG download for framed art, name plates, and educational Islamic materials."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Muhammad Calligraphy",
+          "intro": "Muhammad (محمد) is the name of the Prophet of Islam and one of the most beloved subjects of Arabic calligraphy across 1,400 years of Islamic art. Rendering the name in beautiful script has been a devotional practice from the earliest Qur'an manuscripts to modern mosque inscriptions. Thuluth is the classical style used in most historical Muhammad calligraphy — including the mosque of the Prophet in Medina; Diwani adds ornate courtly beauty for framed art; Kufic gives the name a distinctive geometric weight rooted in the earliest Arabic manuscripts; and Naskh keeps the name cleanly readable for name plates and educational materials. Try each style in the free Muhammad calligraphy generator above.",
+          "h3s": [
+            {
+              "title": "Thuluth Muhammad",
+              "image": {
+                "src": "images/muhammad-thuluth-inline.png",
+                "alt": "The name Muhammad written in Thuluth Arabic calligraphy in gold on parchment background"
+              },
+              "content": "Thuluth is the most historically revered style for rendering the name Muhammad in calligraphy, used in mosque inscriptions, Qur'anic manuscripts, and Islamic art for over a millennium. Its long curving letters give the four-letter name a sense of formal reverence suitable for framed art, name plates, and educational Islamic materials. Select \"Thuluth (Scheherazade)\" in the generator above."
+            },
+            {
+              "title": "Diwani Muhammad",
+              "image": {
+                "src": "images/muhammad-diwani-inline.png",
+                "alt": "The name Muhammad in Diwani Arabic calligraphy with flowing ornate curves in burgundy on ivory"
+              },
+              "content": "Diwani produces flowing, ornate Muhammad calligraphy originally developed by Ottoman court scribes. Its decorative interlocking curves are perfect for elegant framed art, Islamic gift prints, and premium wall decor. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown."
+            },
+            {
+              "title": "Kufic Muhammad",
+              "image": {
+                "src": "images/muhammad-kufic-inline.png",
+                "alt": "The name Muhammad in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic script and was used in the earliest Qur'an manuscripts. Its bold, angular geometric weight gives the name Muhammad a distinctly historic feel — perfect for modern minimalist Islamic wall art, contemporary Muslim home decor, and educational Islamic displays. Select \"Kufi (Reem Kufi)\" in the generator."
+            },
+            {
+              "title": "Naskh Muhammad",
+              "image": {
+                "src": "images/muhammad-naskh-inline.png",
+                "alt": "The name Muhammad in Naskh Arabic calligraphy with clean readable green letters on cream"
+              },
+              "content": "Naskh offers a clean, highly legible Muhammad calligraphy — the same style used in modern printed Qur'ans. It is the best choice when clarity matters most, such as name plates for children named Muhammad, educational Islamic materials, and community masjid signage. Choose \"Naskh (Amiri)\" in the font selector."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Muhammad in Arabic",
+          "content": [
+            "Muhammad in Arabic is written <strong>محمد</strong> — four letters, right to left: <em>meem</em> (م), <em>haa</em> (ح), <em>meem</em> (م), <em>daal</em> (د). With full vocalization it is written <strong>مُحَمَّد</strong>, showing the double <em>meem</em> (a shadda on the second meem indicating the M is held slightly).",
+            "The name comes from the Arabic root <strong>H-M-D</strong> (ح-م-د), which conveys \"praise\" or \"the praised one.\" The literal meaning of Muhammad is <strong>\"the one who is praised\"</strong> or <strong>\"the praiseworthy\"</strong> — a passive participle form indicating someone who is worthy of and receives praise.",
+            "The same H-M-D root appears throughout Islamic vocabulary — in <em>Alhamdulillah</em> (\"all praise is due to Allah\"), <em>Ahmad</em> (another form of \"most praised,\" also used as a name for the Prophet in some Islamic texts), and <em>Mahmud</em> / <em>Mahmoud</em> (\"the praised\"). This shared root is why the name Muhammad carries such deep resonance in Islamic naming tradition. When rendered in calligraphy, the four-letter name has a beautiful visual compactness — the two rounded <em>meems</em> bookend the vertical <em>haa</em>, giving the composition a natural rhythm."
+          ],
+          "heroImage": {
+            "src": "images/muhammad-full-phrase-thuluth.png",
+            "alt": "The name Muhammad (محمد) in high-resolution Thuluth Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Muhammad Meaning",
+          "content": [
+            "The name Muhammad (محمد) literally means <strong>\"the praised one\"</strong> or <strong>\"praiseworthy.\"</strong> It is derived from the Arabic root H-M-D (ح-م-د), which conveys praise, gratitude, and commendation.",
+            "In Islamic tradition, the name Muhammad refers primarily to the <strong>Prophet Muhammad ﷺ</strong> (peace be upon him) — the final prophet of Islam who lived in Arabia from approximately 570 to 632 CE. Muslims believe he received the revelation of the Qur'an from the angel Gabriel and delivered the final message of Islam to humanity. His full name in Islamic sources is <em>Muhammad ibn Abdullah</em> (Muhammad, son of Abdullah).",
+            "As a given name, <strong>Muhammad is one of the most given boy's names in the world</strong> — by some counts, the single most common name globally when all its spellings (Mohammed, Muhammed, Mohammad, Mehmet, etc.) are combined. Muslim parents choose the name to honor the Prophet and to invoke the meaning \"the praised one\" as a blessing for their child. The tradition of adding <em>ﷺ</em> (an abbreviation of the Arabic phrase <em>ṣallā llāhu ʿalayhi wa-sallam</em> — \"may Allah honor him and grant him peace\") after the Prophet's name is a sign of deep respect used by Muslims worldwide."
+          ]
+        },
+        {
+          "id": "name-meaning",
+          "navLabel": "Name Meaning",
+          "h2": "Muhammad Name Meaning",
+          "content": [
+            "As a personal name, <strong>Muhammad means \"the praised one\"</strong> — a name given with the hope that the child will grow to be worthy of praise for their character, deeds, and faith.",
+            "The name carries several layers of significance for Muslim families:",
+            "<strong>Etymological</strong> — from the H-M-D root, the name is a passive participle meaning \"one who is praised repeatedly\" or \"the highly praised.\" The doubling of the middle <em>meem</em> (indicated by the <em>shadda</em> mark) grammatically intensifies the meaning — not just \"praised\" but \"much-praised\" or \"praised again and again.\"<br><strong>Religious</strong> — Muslim parents choose the name to honor the Prophet Muhammad ﷺ, viewing it as one of the most blessed names a child can carry.<br><strong>Cultural</strong> — the name is used across every Muslim-majority region with slight spelling and pronunciation variations: <em>Muhammad</em> and <em>Mohammed</em> in Arab countries, <em>Mehmet</em> in Turkey, <em>Muhammad</em> and <em>Mohammad</em> in South Asia, <em>Mahamadou</em> in West Africa, <em>Mohamed</em> in North Africa. All are variants of the same Arabic name.",
+            "<strong>Related names</strong> from the same H-M-D root include <em>Ahmed</em> / <em>Ahmad</em> (\"most praised\"), <em>Mahmud</em> / <em>Mahmoud</em> (\"the praised\"), and <em>Hamid</em> / <em>Hamed</em> (\"one who praises\"). Muslim families often use one of these related names for a second son, keeping the shared etymology within the family."
+          ]
+        },
+        {
+          "id": "tradition",
+          "navLabel": "Tradition",
+          "h2": "Writing Muhammad in Islamic Calligraphy Tradition",
+          "content": [
+            "Writing the name Muhammad (محمد) in beautiful Arabic calligraphy is one of the <strong>most beloved and long-standing traditions in Islamic art</strong>. From the earliest Qur'an manuscripts of the 7th century to modern mosque inscriptions today, rendering the Prophet's name in flowing script has been a form of devotion for over 1,400 years.",
+            "The name appears prominently in the great mosques of the Islamic world — the Prophet's Mosque in Medina, the Blue Mosque in Istanbul, the Süleymaniye Mosque, the Sheikh Zayed Grand Mosque, and countless smaller masjids worldwide. Master calligraphers spent lifetimes refining unique renderings, and specific compositions became recognized art forms — such as the four-name arrangements pairing Muhammad with Allah, Abu Bakr, Umar, Uthman, and Ali (used in Ottoman mosque decoration).",
+            "<strong>An important distinction</strong>: Islamic tradition strongly favors <em>text-based</em> representation of the Prophet — his <em>name</em>, his <em>sayings</em>, his <em>attributes</em> — rather than pictorial depiction of his person. Rendering the name Muhammad in calligraphy is considered a beautiful act of respect and remembrance. This is different from depicting the Prophet's face or body, which is generally considered inappropriate in most Islamic traditions. When you use the generator on this page, you are participating in the <em>text-based</em> calligraphic tradition — the same tradition practiced by every master Muslim calligrapher for over a millennium.",
+            "Many calligraphers add <strong>ﷺ</strong> after the Prophet's name — an abbreviation of the Arabic <em>ṣallā llāhu ʿalayhi wa-sallam</em> (\"may Allah honor him and grant him peace\") — as a mark of reverence. The English abbreviations \"PBUH\" (Peace Be Upon Him) and \"SAW\" (Ṣallā llāhu ʿalayhi wa-sallam) serve the same function in non-Arabic contexts."
+          ]
+        },
+        {
+          "id": "history",
+          "navLabel": "History",
+          "h2": "Muhammad in Islamic History",
+          "content": [
+            "<strong>Prophet Muhammad ﷺ</strong> is the final prophet of Islam according to Muslim belief. He was born in Mecca (in present-day Saudi Arabia) around <strong>570 CE</strong> and died in Medina in <strong>632 CE</strong>. From the age of 40, Muslims believe he received divine revelation over 23 years — the collected verses became the Qur'an, the central scripture of Islam.",
+            "The Prophet's message emphasized: <strong>Tawhid</strong> (the absolute oneness of God); the continuity of prophethood from Adam, Abraham, Moses, and Jesus; ethical conduct, honesty, and generosity; care for orphans, the poor, and travelers; and equality regardless of tribal or ethnic origin. These teachings, delivered over 23 years of preaching in Mecca and Medina, spread rapidly across Arabia and, within a century, across a region stretching from Spain to India.",
+            "The Prophet's name is invoked millions of times daily by Muslims worldwide. Every daily prayer includes the <strong>Shahada</strong> (\"Muhammad rasul Allah\" — \"Muhammad is the messenger of Allah\"), the second half of the Islamic declaration of faith. Every mention of his name is traditionally followed by the <em>Salawat</em>: <strong>ﷺ</strong> — <em>ṣallā llāhu ʿalayhi wa-sallam</em> — \"may Allah honor him and grant him peace.\" The full Salawat, recited in prayer and after Adhan, is: <em>Allahumma salli ala Muhammad wa ala aali Muhammad</em> — \"O Allah, send blessings upon Muhammad and the family of Muhammad.\"",
+            "As a name given to Muslim boys, <strong>Muhammad is by many measures the most common name in the world</strong>. Combining all spelling variants (Muhammad, Mohammed, Mohammad, Muhammed, Mehmet, Mahamadou, and many others), it is estimated to be given to over 150 million people alive today. Choosing the name is a mark of deep respect for the Prophet and a wish that the child grows to be worthy of the meaning <em>\"the praised one.\"</em>"
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Muhammad Calligraphy Designs",
+        "description": "Hand-picked Muhammad calligraphy designs across styles, colors, and use cases — from framed art to name plates for children named Muhammad. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "The name Muhammad in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Framed art" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "The name Muhammad in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Educational chart" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "The name Muhammad in Diwani calligraphy in red on white background",                    "caption": "Diwani · Red · Gift print" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "The name Muhammad in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Premium frame" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "The name Muhammad in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Minimalist wall art" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "The name Muhammad in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Home decor" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "The name Muhammad in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · Name plate" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "The name Muhammad in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Study notes" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "The name Muhammad in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Persian-style print" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "The name Muhammad in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "The name Muhammad in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile banner" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "The name Muhammad in Cairo modern Arabic font in teal on white",                        "caption": "Cairo · Teal · Modern banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "The name Muhammad in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage manuscript" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "The name Muhammad in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "The name Muhammad in Markazi Text calligraphy in black on rose background",             "caption": "Markazi · Black · Soft poster" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "The name Muhammad in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "The name Muhammad in Scheherazade Thuluth calligraphy in gold on deep navy",            "caption": "Scheherazade · Gold · Premium framed art" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "The name Muhammad in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "The name Muhammad in Thuluth calligraphy in green on white",                            "caption": "Thuluth · Green · Prayer room design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "The name Muhammad in Diwani calligraphy in rose gold on charcoal luxury frame",         "caption": "Diwani · Rose gold · Luxury frame" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does the name Muhammad mean?",
+          "answer": "Muhammad (محمد) literally means \"the praised one\" or \"praiseworthy.\" It is derived from the Arabic root H-M-D (ح-م-د), which conveys praise, gratitude, and commendation — the same root that appears in Alhamdulillah (\"all praise is due to Allah\") and in the related names Ahmed and Mahmoud. In Islamic tradition, the name refers primarily to the Prophet Muhammad ﷺ, and as a given name it is one of the most common boy's names in the world."
+        },
+        {
+          "question": "Is it OK to write the name Muhammad in Arabic calligraphy?",
+          "answer": "Yes — writing the name Muhammad in Arabic calligraphy is a beloved and long-standing tradition in Islamic art, dating back over 1,400 years. The name appears in the greatest mosques of the Islamic world, in Qur'an manuscripts, and in countless works of devotional calligraphy. This is different from pictorial depiction of the Prophet's person, which is generally considered inappropriate in most Islamic traditions. Rendering the name in beautiful script is considered a respectful act of remembrance and devotion."
+        },
+        {
+          "question": "How is Muhammad pronounced in Arabic?",
+          "answer": "Muhammad is pronounced mu-HAM-mad in Arabic. Three syllables: mu (short \"oo\" as in \"book\"), HAM (stressed, long \"a\" as in \"father\"), mad (short \"a\" and clean \"d\"). The middle M is doubled (shadda) and held slightly longer. English speakers often mispronounce it as \"Mo-HAM-mid\" — the correct rendering keeps the first syllable short (mu, not mo) and the final \"a\" open, not reduced to \"i.\""
+        },
+        {
+          "question": "Why do Muslims add ﷺ (SAW or PBUH) after Muhammad's name?",
+          "answer": "The Arabic symbol ﷺ is an abbreviation of ṣallā llāhu ʿalayhi wa-sallam — \"may Allah honor him and grant him peace.\" Muslims add this after mentions of the Prophet Muhammad's name as a sign of deep respect and love. In English contexts, the same reverence is expressed by writing \"PBUH\" (Peace Be Upon Him) or \"SAW\" after the Prophet's name. Reciting the full Salawat — Allahumma salli ala Muhammad wa ala aali Muhammad — is a common devotional practice."
+        },
+        {
+          "question": "How do I download Muhammad in Arabic calligraphy?",
+          "answer": "In the generator above, pick your preferred style (Thuluth is the most traditional for the Prophet's name, followed by Diwani for ornate framed art), set the background to Transparent, White, or a custom color, then click Download PNG or SVG. All downloads are free — no watermark, no sign-up. Popular use cases: framed Islamic wall art, name plates for children named Muhammad, and educational displays teaching Arabic script."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Muhammad Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate the name Muhammad (محمد) — the name of the Prophet of Islam — in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/muhammad-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Muhammad in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The name Muhammad (محمد) rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
+      }
     }
   ]
 }
