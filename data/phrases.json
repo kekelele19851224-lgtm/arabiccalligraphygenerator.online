@@ -2455,6 +2455,211 @@
         "heroImageName": "Diwani Arabic Calligraphy Example",
         "heroImageDescription": "The name Allah (الله) rendered in Diwani-style Arabic calligraphy — a foundational example of the flowing Ottoman court cursive tradition."
       }
+    },
+    {
+      "slug": "naskh-calligraphy",
+      "displayName": "Naskh",
+      "pageType": "font",
+      "arabicText": "الله",
+      "arabicTextWithHarakat": "اَللّٰه",
+      "url": "/naskh-calligraphy",
+      "mainKeyword": "naskh calligraphy",
+      "monthlyVolume": 90,
+      "keywordDifficulty": 34,
+
+      "meta": {
+        "title": "Naskh Calligraphy — Amiri, Noto Naskh & KFGQPC Guide",
+        "description": "Learn Naskh calligraphy history, characteristics, and best fonts (Amiri, Noto Naskh Arabic, KFGQPC Uthman Taha). Generate Naskh Arabic calligraphy free.",
+        "keywords": "naskh calligraphy, naskh, naskh script, naskh font, amiri font, noto naskh arabic, kfgqpc uthman taha naskh, naskh quran"
+      },
+
+      "hero": {
+        "h1": "Naskh Calligraphy: Fonts, History, and Free Generator",
+        "description": "Explore Naskh (نسخ) — the standardized cursive Arabic script that has been the primary calligraphy of Qur'anic manuscripts, printed Qur'ans, and everyday Arabic reading for over a thousand years. Learn its history, best free fonts (Amiri, Noto Naskh Arabic, KFGQPC Uthman Taha), and generate Naskh Arabic calligraphy free — no sign-up."
+      },
+
+      "toolDefaults": {
+        "font": "'Amiri', serif",
+        "fontDropdownValue": "'Amiri', serif"
+      },
+
+      "extraInlines": [
+        { "suffix": "example-bismillah",     "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "font": "'Amiri', serif", "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7" },
+        { "suffix": "example-shahada",       "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "font": "'Amiri', serif", "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7" },
+        { "suffix": "example-muhammad",      "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "font": "'Amiri', serif", "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7" },
+        { "suffix": "example-alhamdulillah", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "font": "'Amiri', serif", "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7" }
+      ],
+
+      "sections": [
+        {
+          "id": "what",
+          "navLabel": "What is Naskh",
+          "h2": "What is Naskh Calligraphy?",
+          "content": [
+            "<strong>Naskh calligraphy</strong> (خط النسخ, <em>khaṭṭ al-naskh</em>) is the standardized cursive Arabic script that has served as the primary calligraphy of Arabic writing since the 10th century CE. Its name comes from the Arabic word <em>naskh</em> (نسخ) meaning \"to copy\" or \"to transcribe\" — reflecting its origin as the script used by scribes to produce copies of the Qur'an and religious texts. Today, Naskh is the script of virtually every modern printed Qur'an worldwide, and its digital descendants (Amiri, Noto Naskh Arabic, KFGQPC Uthman Taha Naskh) are used in newspapers, books, websites, and street signs across the Arabic-reading world.",
+            "Naskh is designed for one purpose above all: <strong>maximum readability</strong>. Its letters are compact, well-proportioned, cursive but restrained, and use consistent stroke weights that render clearly at both small text size and larger display use. Where Thuluth is decorative and ornate, and Kufic is bold and geometric, Naskh is the utilitarian workhorse — the script you actually read.",
+            "The tool on this page uses <strong>Amiri</strong> — the most respected free digital Naskh font, designed by Khaled Hosny in the classical Naskh tradition. Amiri faithfully renders the Naskh style used in traditional Qur'anic manuscripts and printed Qur'ans, with full support for Arabic ligatures, harakat, and proper contextual letter shaping. For most Arabic reading and writing today, if the script is not visibly Thuluth, Kufic, or Diwani, it is almost certainly Naskh or a close descendant."
+          ],
+          "heroImage": {
+            "src": "images/naskh-calligraphy-full-phrase-thuluth.png",
+            "alt": "The name Allah (الله) rendered in classical Naskh Arabic calligraphy (Amiri) in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "characteristics",
+          "navLabel": "Characteristics",
+          "h2": "Naskh Script Characteristics",
+          "content": [
+            "The <strong>Naskh script</strong> is defined by five characteristics that together produce its unmatched readability:",
+            "<strong>1. Compact, well-proportioned letters</strong> — Naskh letters are neither exaggerated tall like Thuluth nor blocky wide like Kufic. Each letter fills a comfortable middle proportion designed for reading in extended prose. Vertical letters (alif, lam, ta) are moderately tall; curved letters (nun, ya, ra) sweep naturally without excess flourish.<br><strong>2. Even, restrained stroke weight</strong> — Naskh uses a nearly uniform stroke weight throughout, with only subtle thick-thin variation at letter joins. This produces text that reads smoothly at any size without the visual noise of dramatic weight contrast.<br><strong>3. Full harakat support</strong> — Naskh naturally supports the complete set of Arabic vowel and diacritic marks (fatha, kasra, damma, shadda, sukun), which is why it became the definitive Qur'anic script. Every subtle pronunciation cue can be encoded above or below the letters.<br><strong>4. Clean cursive joining</strong> — Naskh letters connect through simple, hygienic joins that maintain letter individuality. Where Diwani interlocks decoratively and Thuluth flows ornately, Naskh joins are functional and clear.<br><strong>5. Grid-friendly baseline</strong> — Naskh sits on a stable baseline with predictable letter heights, making it the only Arabic script that reliably works for justified columns of text — one reason it dominated Arabic printing from the 15th century onward.",
+            "These qualities make Naskh <strong>the standard script for reading Arabic</strong>. If you have ever seen printed Arabic — in a Qur'an, newspaper, book, website, or road sign — you have almost certainly been reading Naskh or a modernized descendant of it."
+          ]
+        },
+        {
+          "id": "font",
+          "navLabel": "Naskh Fonts",
+          "h2": "Naskh Fonts: Amiri, Noto Naskh Arabic, and KFGQPC Uthman Taha",
+          "downloadPreviews": [
+            { "src": "images/naskh-calligraphy-download-transparent.png", "alt": "Naskh calligraphy download preview — Allah with transparent PNG background on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/naskh-calligraphy-download-white.png", "alt": "Naskh calligraphy download preview — Allah on white background", "caption": "White background" },
+            { "src": "images/naskh-calligraphy-download-black.png", "alt": "Naskh calligraphy download preview — Allah in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "Three free digital Naskh fonts dominate modern Arabic typography — each with a different focus:",
+            "<strong>1. Amiri</strong> — designed by Khaled Hosny, Amiri is a classical revival of the elegant Naskh style used in the Bulaq Press (Egyptian government printing office, 19th century) editions of Arabic literary and religious texts. Amiri is the closest free font to <em>traditional manuscript Naskh</em> and is what the generator on this page uses. Available free from <em>Google Fonts</em>.",
+            "<strong>2. Noto Naskh Arabic</strong> — designed by Google as part of the Noto (\"no tofu\") font family, Noto Naskh Arabic is a clean, screen-optimized Naskh with excellent multi-language support. It is the default Arabic font in Android, ChromeOS, and many web contexts. Best choice for websites, apps, and any digital interface where consistent cross-platform rendering matters. Available free from <em>Google Fonts</em>.",
+            "<strong>3. KFGQPC Uthman Taha Naskh</strong> — the official Naskh font of the <strong>King Fahd Glorious Qur'an Printing Complex</strong> (KFGQPC) in Medina, Saudi Arabia. This is the font printed on the standard <em>Mushaf al-Madinah</em> Qur'an distributed worldwide since 1985 — the most widely printed Qur'an edition in history. Designed by the calligrapher Uthman Taha, it is considered the definitive modern Qur'anic Naskh. Available free from the KFGQPC website; used by countless Qur'an apps and websites.",
+            "To download your Naskh calligraphy design from the generator above:",
+            "<strong>PNG (Transparent)</strong> — best for overlaying Naskh text on backgrounds, prayer cards, and educational materials.<br><strong>PNG (White or Black)</strong> — great for printed materials, community bulletins, wall art, and framed prints.<br><strong>SVG</strong> — best for large prints and posters that need scaling.<br><strong>JPG</strong> — smallest file size for casual sharing.",
+            "All Naskh calligraphy downloads are free — no watermark, no sign-up, no account required."
+          ]
+        },
+        {
+          "id": "quran",
+          "navLabel": "Naskh & Quran",
+          "h2": "Naskh and the Modern Quran",
+          "content": [
+            "The relationship between Naskh and the Qur'an is one of the deepest in Islamic history. From the <strong>11th century onward</strong>, Naskh gradually replaced the earlier Kufic script as the standard calligraphy for Qur'anic manuscripts. The transition was driven by Naskh's superior readability — as Qur'an memorization expanded across the growing Muslim world, a script that could be read fluently by non-experts became essential.",
+            "By the <strong>16th–19th century</strong>, Naskh had become the almost universal script for handwritten Qur'ans in Ottoman, Persian, Central Asian, and Arab manuscript traditions. Master calligraphers spent years training in classical Naskh — most famously Sheikh Hamdullah (Ottoman, d. 1520), whose Naskh established the modern proportional system, and Hafiz Osman (d. 1698), whose 25+ hand-copied Qur'ans set the standard for later generations.",
+            "In the <strong>modern printed era</strong>, the standard-setting event was the 1985 publication of the <strong>Mushaf al-Madinah</strong> — the printed Qur'an produced by the King Fahd Glorious Qur'an Printing Complex (KFGQPC) in Medina, Saudi Arabia. The KFGQPC hired the Syrian calligrapher <em>Uthman Taha</em> to hand-write the entire Qur'an in a modern Naskh style, and this handwritten master was then photographed and typeset. Since then, the <strong>KFGQPC Uthman Taha Naskh</strong> has printed over <strong>300 million copies of the Qur'an</strong> distributed to mosques worldwide — making it, by circulation, the most widely reproduced calligraphy in human history.",
+            "Today, when you open a Qur'an — printed, digital, or handwritten — you are almost certainly reading Naskh. The other Islamic scripts (Thuluth for chapter headings, Diwani for ornament, Kufic for architecture) surround the Qur'anic text, but the sacred text itself is Naskh."
+          ]
+        },
+        {
+          "id": "vs",
+          "navLabel": "vs Others",
+          "h2": "Naskh vs Thuluth vs Diwani vs Kufic",
+          "content": [
+            "Naskh is one of the six classical Arabic scripts. Its distinguishing feature is that it is the only one designed <em>primarily for reading</em> rather than decoration. Here's how it compares to the three most common ornamental alternatives:",
+            "<strong>Naskh vs Thuluth</strong>: <em>Thuluth</em> is the ornate ceremonial script used in mosque inscriptions and Qur'anic chapter headings — tall, elegant, and decorative. Naskh is the utilitarian body-text script used for the Qur'anic verses themselves. Every printed Qur'an typically pairs the two: Thuluth chapter titles surrounding Naskh main text. See our <a href=\"/thuluth-calligraphy\">Thuluth Calligraphy</a> page for more.",
+            "<strong>Naskh vs Diwani</strong>: <em>Diwani</em> is the ornate Ottoman court cursive, developed for imperial documents and diplomatic correspondence. Naskh is the everyday script — designed for wide reading rather than ceremonial elegance. Diwani says \"imperial ornament\"; Naskh says \"clear communication.\" See our <a href=\"/diwani-calligraphy\">Diwani Calligraphy</a> page.",
+            "<strong>Naskh vs Kufic</strong>: <em>Kufic</em> is the oldest Arabic script — angular, geometric, monumental. Naskh replaced Kufic as the standard Qur'anic script in the 11th century precisely because it is easier to read. Kufic remains preferred for architectural inscription and modern logo design; Naskh dominates everywhere Arabic must be read fluently. See our <a href=\"/kufic-calligraphy\">Kufic Calligraphy</a> page.",
+            "<strong>When to choose Naskh</strong>: reading and studying Qur'an, Islamic educational materials, printed and digital Arabic text, community mosque bulletins, children's Arabic learning resources, and any project where legibility matters more than decoration."
+          ]
+        },
+        {
+          "id": "phrases",
+          "navLabel": "Famous Phrases",
+          "h2": "Famous Phrases in Naskh Calligraphy",
+          "intro": "Naskh is the script of the printed Qur'an — every religious phrase below appears in Naskh in almost every Muslim's daily reading. Click through to each phrase's dedicated page for full history, meaning, and download options.",
+          "h3s": [
+            {
+              "title": "Bismillah in Naskh",
+              "image": {
+                "src": "images/naskh-calligraphy-example-bismillah.png",
+                "alt": "Bismillah (بسم الله الرحمن الرحيم) rendered in Naskh (Amiri) Arabic calligraphy in deep green on cream"
+              },
+              "content": "<em>Bismillah al-Rahman al-Rahim</em> — the opening verse of the Qur'an — appears in Naskh at the top of every chapter (except Surah 9) in every printed Qur'an. The Naskh rendering is the version most Muslims encounter daily. See our <a href=\"/bismillah-in-arabic-calligraphy\">Bismillah in Arabic Calligraphy</a> page for meaning, styles, and downloads."
+            },
+            {
+              "title": "Shahada in Naskh",
+              "image": {
+                "src": "images/naskh-calligraphy-example-shahada.png",
+                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) rendered in Naskh (Amiri) Arabic calligraphy in deep green on cream"
+              },
+              "content": "The <em>Shahada</em> — the Islamic declaration of faith — is spoken in Arabic but read in Naskh in every printed Qur'an, prayer book, and Islamic educational material. Its clean Naskh rendering is the version children learn from. See our <a href=\"/shahada-in-arabic-calligraphy\">Shahada in Arabic Calligraphy</a> page for the full declaration and pronunciation."
+            },
+            {
+              "title": "Muhammad in Naskh",
+              "image": {
+                "src": "images/naskh-calligraphy-example-muhammad.png",
+                "alt": "The name Muhammad (محمد) rendered in Naskh (Amiri) Arabic calligraphy in deep green on cream"
+              },
+              "content": "The name of the Prophet Muhammad ﷺ appears in Naskh throughout the Qur'an (the name is mentioned four times in the Qur'anic text) and in countless Islamic books, biographies, and educational materials. The Naskh rendering is the version most familiar to Muslim readers. See our <a href=\"/muhammad-in-arabic-calligraphy\">Muhammad in Arabic Calligraphy</a> page."
+            },
+            {
+              "title": "Alhamdulillah in Naskh",
+              "image": {
+                "src": "images/naskh-calligraphy-example-alhamdulillah.png",
+                "alt": "Alhamdulillah (الحمد لله) rendered in Naskh (Amiri) Arabic calligraphy in deep green on cream"
+              },
+              "content": "<em>Alhamdulillah</em> — \"All praise is due to Allah\" — appears in Naskh at the opening of the Qur'an (Surah al-Fatiha, verse 2: <em>al-hamdu lillahi rabbil-alameen</em>). It is one of the first phrases Muslim children learn to read. See our <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page."
+            }
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Naskh Calligraphy Designs",
+        "description": "20 hand-picked Naskh calligraphy designs featuring the most common Islamic phrases and names, in colors suited to educational, mosque, and everyday Islamic use. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Amiri', serif", "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "bismillah-green-cream",     "alt": "Bismillah in Naskh calligraphy in deep green on cream",                              "caption": "Bismillah · Green · Educational" },
+          { "n": 2,  "font": "'Amiri', serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#000000", "bg": "white",                        "fileSuffix": "allah-black-white",         "alt": "The name Allah in Naskh calligraphy in black on white",                              "caption": "Allah · Black · Classic" },
+          { "n": 3,  "font": "'Amiri', serif", "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "muhammad-gold-parchment",   "alt": "The name Muhammad in Naskh calligraphy in gold on parchment",                        "caption": "Muhammad · Gold · Traditional" },
+          { "n": 4,  "font": "'Amiri', serif", "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "color": "#0F172A", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "shahada-navy-parchment",    "alt": "The Shahada in Naskh calligraphy in navy on parchment",                              "caption": "Shahada · Navy · Prayer room" },
+          { "n": 5,  "font": "'Amiri', serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "alhamdulillah-copper-cream", "alt": "Alhamdulillah in Naskh calligraphy in copper on cream",                             "caption": "Alhamdulillah · Copper · Warm" },
+          { "n": 6,  "font": "'Amiri', serif", "text": "رمضان كريم",                          "textWithHarakat": "رَمَضَان كَرِيم",                                    "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "ramadan-kareem-burgundy",   "alt": "Ramadan Kareem in Naskh calligraphy in burgundy on ivory",                            "caption": "Ramadan Kareem · Burgundy · Card" },
+          { "n": 7,  "font": "'Amiri', serif", "text": "عيد مبارك",                            "textWithHarakat": "عِيد مُبَارَك",                                      "color": "#059669", "bg": "white",                        "fileSuffix": "eid-mubarak-emerald-white", "alt": "Eid Mubarak in Naskh calligraphy in emerald on white",                                "caption": "Eid Mubarak · Emerald · Festive" },
+          { "n": 8,  "font": "'Amiri', serif", "text": "حبيبي",                                 "textWithHarakat": "حَبِيبِي",                                            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "habibi-rosegold-charcoal",  "alt": "Habibi in Naskh calligraphy in rose gold on charcoal",                                "caption": "Habibi · Rose gold · Modern" },
+          { "n": 9,  "font": "'Amiri', serif", "text": "الله أكبر",                            "textWithHarakat": "اَللّٰهُ أَكْبَر",                                    "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "allahu-akbar-silver-midnight", "alt": "Allahu Akbar in Naskh calligraphy in silver on midnight blue",                     "caption": "Allahu Akbar · Silver · Sleek" },
+          { "n": 10, "font": "'Amiri', serif", "text": "إن شاء الله",                          "textWithHarakat": "إِنْ شَاءَ اللّٰه",                                    "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "inshaallah-gold-navy",      "alt": "Insha'Allah in Naskh calligraphy in gold on navy",                                    "caption": "Insha'Allah · Gold · Premium" },
+          { "n": 11, "font": "'Amiri', serif", "text": "ما شاء الله",                          "textWithHarakat": "مَا شَاءَ اللّٰه",                                    "color": "#C0392B", "bg": "white",                        "fileSuffix": "mashaallah-red-white",      "alt": "Masha'Allah in Naskh calligraphy in red on white",                                    "caption": "Masha'Allah · Red · Blessing" },
+          { "n": 12, "font": "'Amiri', serif", "text": "سبحان الله",                          "textWithHarakat": "سُبْحَان اللّٰه",                                    "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "subhanallah-sepia-parchment", "alt": "Subhanallah in Naskh calligraphy in sepia on parchment",                          "caption": "Subhanallah · Sepia · Vintage" },
+          { "n": 13, "font": "'Amiri', serif", "text": "سلام",                                 "textWithHarakat": "سَلَام",                                              "color": "#059669", "bg": "white",                        "fileSuffix": "salam-green-white",         "alt": "Salam in Naskh calligraphy in green on white",                                        "caption": "Salam · Green · Peace" },
+          { "n": 14, "font": "'Amiri', serif", "text": "لا إله إلا الله",                     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه",                            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "tawhid-gold-black",         "alt": "Tawhid in Naskh calligraphy in gold on black",                                        "caption": "Tawhid · Gold · Sacred" },
+          { "n": 15, "font": "'Amiri', serif", "text": "السلام عليكم",                        "textWithHarakat": "السَّلَامُ عَلَيْكُم",                                "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "assalamu-alaikum-purple",   "alt": "Assalamu Alaikum in Naskh calligraphy in purple on ivory",                            "caption": "Assalamu Alaikum · Purple · Greeting" },
+          { "n": 16, "font": "'Amiri', serif", "text": "القرآن",                                "textWithHarakat": "القُرْآن",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#722F37", "fileSuffix": "quran-gold-burgundy",       "alt": "Al-Quran in Naskh calligraphy in gold on burgundy",                                   "caption": "Al-Quran · Gold · Book cover" },
+          { "n": 17, "font": "'Amiri', serif", "text": "الإسلام",                               "textWithHarakat": "الإِسْلَام",                                          "color": "#14532D", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "islam-green-rose",          "alt": "Al-Islam in Naskh calligraphy in green on rose",                                      "caption": "Al-Islam · Green · Educational" },
+          { "n": 18, "font": "'Amiri', serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "allah-gold-parchment",      "alt": "The name Allah in Naskh calligraphy in gold on parchment",                            "caption": "Allah · Gold · Classical" },
+          { "n": 19, "font": "'Amiri', serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "alhamdulillah-black-rose",  "alt": "Alhamdulillah in Naskh calligraphy in black on soft rose",                            "caption": "Alhamdulillah · Black · Soft" },
+          { "n": 20, "font": "'Amiri', serif", "text": "إيمان",                                 "textWithHarakat": "إِيمَان",                                            "color": "#0F766E", "bg": "white",                        "fileSuffix": "iman-teal-white",           "alt": "Iman (faith) in Naskh calligraphy in teal on white",                                   "caption": "Iman · Teal · Faith" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What is Naskh calligraphy?",
+          "answer": "Naskh (نسخ) is the standardized cursive Arabic script that has been the primary calligraphy of Qur'anic manuscripts and printed Qur'ans since the 11th century. Its name means \"to copy\" or \"to transcribe,\" reflecting its origin as the script used by scribes to produce Qur'an copies. Naskh is designed for maximum readability — compact letters, even stroke weight, full harakat support, and clean cursive joining — making it the standard script for virtually all modern printed Arabic."
+        },
+        {
+          "question": "What is the best free Naskh font?",
+          "answer": "The three best free Naskh fonts are: (1) Amiri — the closest to traditional manuscript Naskh, designed by Khaled Hosny, used by the generator on this page; (2) Noto Naskh Arabic — Google's screen-optimized Naskh with excellent cross-platform support; (3) KFGQPC Uthman Taha Naskh — the official font of the standard Mushaf al-Madinah Qur'an printed in Medina, Saudi Arabia. All three are free to download and use."
+        },
+        {
+          "question": "What is KFGQPC Uthman Taha Naskh?",
+          "answer": "KFGQPC Uthman Taha Naskh is the official Naskh font of the King Fahd Glorious Qur'an Printing Complex (KFGQPC) in Medina, Saudi Arabia. It was hand-drawn by the Syrian calligrapher Uthman Taha and became the font of the standard Mushaf al-Madinah Qur'an, which has been distributed in over 300 million copies worldwide since 1985 — making it the most widely reproduced calligraphy in human history. It is available free from the KFGQPC website."
+        },
+        {
+          "question": "What is the difference between Naskh and Thuluth?",
+          "answer": "Naskh is the utilitarian everyday Arabic script used for reading — compact, cursive, and clear. Thuluth is the ornate ceremonial script used for mosque inscriptions, Qur'anic chapter headings, and formal Islamic art — tall, decorative, and flowing. Every printed Qur'an typically uses both: Thuluth for chapter titles and Naskh for the sacred text itself. If Naskh is the newspaper font of Arabic, Thuluth is the wedding-invitation font."
+        },
+        {
+          "question": "Why is Naskh the script of the modern Quran?",
+          "answer": "From the 11th century onward, Naskh gradually replaced the earlier Kufic script as the standard Qur'anic calligraphy because Naskh is dramatically easier to read fluently. As Qur'an memorization spread across the growing Muslim world, a legible script became essential. Naskh remained the standard through Ottoman manuscript tradition and became the definitive modern Qur'anic script with the 1985 publication of the Mushaf al-Madinah in KFGQPC Uthman Taha Naskh — an edition printed in over 300 million copies."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Naskh Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Arabic calligraphy in the classical Naskh script — the standard cursive Arabic script used in nearly every modern printed Qur'an and Arabic book. Uses the Amiri font, faithful to traditional manuscript Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/naskh-calligraphy-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Naskh Arabic Calligraphy Example",
+        "heroImageDescription": "The name Allah (الله) rendered in classical Naskh Arabic calligraphy — a foundational example of the standard cursive script of the modern Qur'an."
+      }
     }
   ]
 }
