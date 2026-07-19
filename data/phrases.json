@@ -2241,6 +2241,220 @@
         "heroImageName": "Kufic Arabic Calligraphy Example",
         "heroImageDescription": "The name Allah (الله) rendered in Kufic Arabic calligraphy — a foundational example of the angular, geometric Kufic script."
       }
+    },
+    {
+      "slug": "diwani-calligraphy",
+      "displayName": "Diwani",
+      "pageType": "font",
+      "arabicText": "الله",
+      "arabicTextWithHarakat": "اَللّٰه",
+      "url": "/diwani-calligraphy",
+      "mainKeyword": "diwani calligraphy",
+      "monthlyVolume": 70,
+      "keywordDifficulty": 21,
+
+      "meta": {
+        "title": "Diwani Calligraphy — History, Jali Diwani & Free Generator",
+        "description": "Learn Diwani calligraphy history, script characteristics, and Jali Diwani variant. Generate Diwani-style Arabic calligraphy free — no sign-up.",
+        "keywords": "diwani calligraphy, diwani, diwani script, diwani font, jali diwani, arabic calligraphy diwani style, diwani meaning, ottoman calligraphy"
+      },
+
+      "hero": {
+        "h1": "Diwani Calligraphy: History, Variants, and Free Generator",
+        "description": "Explore Diwani (خط ديواني) — the elegant Ottoman court script developed in the 16th century for imperial decrees and diplomatic correspondence. Learn its history, distinctive flowing style, and the ornate Jali Diwani variant. Generate Diwani-style Arabic calligraphy free — no sign-up."
+      },
+
+      "toolDefaults": {
+        "font": "'Aref Ruqaa', serif",
+        "fontDropdownValue": "'Aref Ruqaa', serif"
+      },
+
+      "extraInlines": [
+        { "suffix": "example-bismillah",     "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "font": "'Aref Ruqaa', serif", "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3" },
+        { "suffix": "example-shahada",       "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "font": "'Aref Ruqaa', serif", "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3" },
+        { "suffix": "example-muhammad",      "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "font": "'Aref Ruqaa', serif", "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3" },
+        { "suffix": "example-alhamdulillah", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "font": "'Aref Ruqaa', serif", "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3" }
+      ],
+
+      "sections": [
+        {
+          "id": "what",
+          "navLabel": "What is Diwani",
+          "h2": "What is Diwani Calligraphy?",
+          "content": [
+            "<strong>Diwani calligraphy</strong> (خط ديواني, <em>khaṭṭ dīwānī</em>) is the elegant cursive script developed in the <strong>16th century Ottoman Empire</strong> as the official script of the Sultan's chancery — the <em>Diwan</em> — from which it takes its name. It was designed to be simultaneously beautiful and difficult to forge, making it the preferred script for imperial decrees, diplomatic correspondence, and official documents of the Ottoman court.",
+            "In its classical hand-drawn form, Diwani is characterized by <strong>tightly interlocking cursive letters, flowing curves, decorative letter overlaps, and dense compositional weaving</strong>. Letters connect not just through the baseline but through elaborate curves, producing text that reads as a continuous decorative pattern. The most elaborate variant — <em>Jali Diwani</em> — was used for the Sultan's official signatures (Tughra) and adds a dense network of dots and small ornamental strokes filling the negative space between letters.",
+            "In modern digital use, Diwani-style rendering is most commonly done with fonts rooted in the broader Ottoman cursive tradition. The tool on this page uses <strong>Aref Ruqaa</strong>, a free OpenType font by Abdo Beshkoo that renders Arabic script in a graceful cursive style influenced by Ruqʿah and Diwani traditions. It captures the flowing spirit of Ottoman court calligraphy while remaining highly legible on screens. For ornately interlocking classical Diwani (or the extreme Jali Diwani), a specialty commercial font or a professional calligrapher would be required — but Aref Ruqaa is the best free approximation and is what the tool below produces."
+          ],
+          "heroImage": {
+            "src": "images/diwani-calligraphy-full-phrase-thuluth.png",
+            "alt": "The name Allah (الله) rendered in Diwani-style Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "characteristics",
+          "navLabel": "Characteristics",
+          "h2": "Diwani Script Characteristics",
+          "content": [
+            "In its classical hand-drawn form, the <strong>Diwani script</strong> is recognizable by five distinctive characteristics — some of which appear more strongly in ornate hand-written manuscripts than in modern digital rendering:",
+            "<strong>1. Flowing cursive curves</strong> — Diwani letters flow in graceful arcs and loops, with almost no straight lines. Vertical strokes are rare; the composition emphasizes horizontal cursive motion.<br><strong>2. Interlocking letter joins</strong> — where letters connect, classical hand-drawn Diwani uses elaborate overlapping joins that let letters weave through each other. Digital fonts like Aref Ruqaa preserve the cursive quality but use simpler connections for on-screen legibility.<br><strong>3. Slight upward slant</strong> — Diwani lines traditionally rise gently from right to left, giving compositions a distinctive dynamic movement not found in other Arabic scripts.<br><strong>4. Decorative negative space</strong> — classical Jali Diwani (the ornate variant) fills the space between letters with dots and small ornamental strokes, creating a dense woven pattern. Standard digital Diwani-style renders leave this space open for clarity.<br><strong>5. Compact vertical stacking</strong> — Diwani accommodates dense vertical compositions where words layer above and below the baseline, producing the tightly-woven look of Ottoman imperial documents.",
+            "These qualities make classical Diwani a <strong>slow, virtuosic script</strong> that Ottoman chancery calligraphers trained in for years to master. Its beauty came from being simultaneously ornamental and difficult to forge — perfect for imperial documents. Digital Diwani-style fonts like Aref Ruqaa give you an accessible, legible approximation for free everyday use, capturing the cursive flowing spirit without the extreme interlocking complexity of the classical hand-drawn tradition."
+          ]
+        },
+        {
+          "id": "font",
+          "navLabel": "Font",
+          "h2": "Diwani Font & Downloads",
+          "downloadPreviews": [
+            { "src": "images/diwani-calligraphy-download-transparent.png", "alt": "Diwani calligraphy download preview — Allah with transparent PNG background on checkerboard", "caption": "Transparent PNG", "isTransparent": true },
+            { "src": "images/diwani-calligraphy-download-white.png", "alt": "Diwani calligraphy download preview — Allah on white background", "caption": "White background" },
+            { "src": "images/diwani-calligraphy-download-black.png", "alt": "Diwani calligraphy download preview — Allah in gold on black background", "caption": "Black background" }
+          ],
+          "content": [
+            "For digital Diwani-style calligraphy, the best freely available font is <strong>Aref Ruqaa</strong>, designed by Abdo Beshkoo in a graceful cursive style rooted in the broader Ottoman calligraphy tradition (Ruqʿah and Diwani influences). Aref Ruqaa supports full Arabic Unicode with proper ligatures and harakat rendering, making it ideal for both display and text use.",
+            "The generator above uses Aref Ruqaa as its Diwani-style font. To download your Diwani calligraphy design:",
+            "<strong>PNG (Transparent)</strong> — best for overlaying on ornate backgrounds, wedding invitations, and premium print designs.<br><strong>PNG (White or Black)</strong> — great for framed prints, greeting cards, wedding stationery, and elegant Islamic wall art.<br><strong>SVG</strong> — best for large prints and posters that need to scale without pixelation.<br><strong>JPG</strong> — smallest file size for casual sharing.",
+            "All Diwani-style calligraphy downloads are free — no watermark, no sign-up, no account required. Aref Ruqaa is also available free from Google Fonts. For truly ornate hand-drawn classical Diwani (or the intricately interlocking Jali Diwani), a commercial specialty font or a professional calligrapher would be required — but for everyday digital use, Aref Ruqaa is the accessible, high-quality standard."
+          ]
+        },
+        {
+          "id": "history",
+          "navLabel": "History",
+          "h2": "History of Diwani Calligraphy",
+          "content": [
+            "Diwani calligraphy was developed in the <strong>16th century CE at the Ottoman Sultan's chancery in Istanbul</strong>. Its exact origins are attributed to <em>Ibrahim Munif</em>, a court calligrapher who systematized the script around the reign of Sultan Suleiman the Magnificent (r. 1520-1566). It quickly became the standard script for imperial decrees (fermans), diplomatic correspondence, and official documents of the Ottoman Empire.",
+            "The name <em>Diwani</em> comes from the Arabic <em>Diwan</em> (ديوان) — the Sultan's chancery or state council office. The script was deliberately designed to be simultaneously <strong>beautiful and difficult to forge</strong>. Its tightly interlocking cursive form and decorative complexity meant only trained chancery calligraphers could produce authentic Diwani, providing a form of visual security for imperial documents. This is why Diwani has a natural ceremonial and administrative gravity that other Arabic scripts lack.",
+            "The most elaborate variant, <strong>Jali Diwani</strong> (جلي ديواني), was developed shortly after standard Diwani. In Jali Diwani, calligraphers filled the negative space between letters with dots and small decorative strokes, producing an extraordinarily dense woven pattern. Jali Diwani was used exclusively for the Sultan's <em>Tughra</em> (imperial signature) and for the most important state documents — never for casual use.",
+            "As the Ottoman Empire declined and eventually dissolved (1922), Diwani transitioned from an administrative script to a <strong>decorative and ceremonial calligraphy tradition</strong>. Today it remains popular for wedding invitations, greeting cards, framed art, and formal Islamic decor — anywhere that ornate elegance is desired. Modern digital fonts (like Aref Ruqaa) have made Diwani-style rendering accessible to designers worldwide, though the most elaborate classical Diwani and Jali Diwani still require specialized commercial fonts or hand-drawn work by master calligraphers."
+          ]
+        },
+        {
+          "id": "jali",
+          "navLabel": "Jali Diwani",
+          "h2": "Jali Diwani and Diwani Variants",
+          "content": [
+            "Over 500 years of use, Diwani has developed into a small family of related variants. The three most important:",
+            "<strong>1. Standard Diwani (خط ديواني)</strong> — the everyday chancery form of the script. Cursive, flowing, with elaborate letter interlocking but relatively open negative space. Used for imperial decrees, official correspondence, and diplomatic documents throughout the Ottoman Empire. This is the Diwani rendered by most modern digital fonts (including Aref Ruqaa on this page's generator).",
+            "<strong>2. Jali Diwani (جلي ديواني)</strong> — the ornate ceremonial variant. Standard Diwani's negative space is filled with a dense network of small dots and decorative strokes, producing a highly ornamental woven pattern. Jali Diwani was used exclusively for the Sultan's <em>Tughra</em> (imperial signature) and for the most important state documents. Master calligraphers spent lifetimes perfecting Jali Diwani; a single elaborate composition could take weeks to produce. Because of its extreme complexity, no free digital font faithfully reproduces Jali Diwani — commercial specialty fonts or hand-drawn calligraphy are required.",
+            "<strong>3. Tughra script</strong> — the sultanic signature form. Each Ottoman Sultan had a personalized Tughra rendered in a Jali Diwani-like style, incorporating the Sultan's name, his father's name, and the phrase <em>al-muzaffar da'iman</em> (\"the ever victorious\"). Tughras appeared on all imperial documents, coins, and monuments and became an art form in themselves.",
+            "The generator on this page uses <strong>Aref Ruqaa</strong>, a modern digital font that renders in the broader Ottoman cursive tradition — closest to Standard Diwani in feel. For the ornate Jali Diwani look, professional calligraphy or specialty commercial fonts would be needed."
+          ]
+        },
+        {
+          "id": "vs",
+          "navLabel": "vs Others",
+          "h2": "Diwani vs Thuluth vs Naskh vs Kufic",
+          "content": [
+            "Diwani is one of six classical Arabic scripts. Here's how it compares to the three other most common alternatives:",
+            "<strong>Diwani vs Thuluth</strong>: <em>Thuluth</em> (ثلث) is the classical religious script used in mosque inscriptions and Qur'anic chapter headings — tall, ornate, and reverent. Diwani is the Ottoman <em>administrative</em> script — cursive, tight, and secular in origin. Thuluth carries mosque and religious gravity; Diwani carries imperial court and ceremonial gravity. See our <a href=\"/thuluth-calligraphy\">Thuluth Calligraphy</a> page for a full comparison.",
+            "<strong>Diwani vs Naskh</strong>: <em>Naskh</em> (نسخ) is the everyday cursive script used in modern printed Qur'ans and text — highly legible, compact, and utilitarian. Diwani is decorative and ceremonial — designed for beauty rather than fast reading. If Naskh is a printed newspaper, Diwani is an engraved wedding invitation.",
+            "<strong>Diwani vs Kufic</strong>: <em>Kufic</em> (كوفي) is the oldest Arabic script — angular, geometric, blocky. Diwani is at the opposite end of the Arabic calligraphy spectrum: cursive, flowing, and dense with decorative curves. Kufic says \"ancient monumental gravitas\"; Diwani says \"Ottoman imperial elegance.\" See our <a href=\"/kufic-calligraphy\">Kufic Calligraphy</a> page for a full comparison.",
+            "<strong>When to choose Diwani-style</strong>: wedding invitations, greeting cards, ceremonial certificates, framed elegant Islamic art, Ottoman-themed design, wedding stationery, and any project where ornate cursive elegance matters more than compact readability."
+          ]
+        },
+        {
+          "id": "phrases",
+          "navLabel": "Famous Phrases",
+          "h2": "Famous Phrases in Diwani Calligraphy",
+          "intro": "Diwani has traditionally been used for ornate versions of religious and ceremonial phrases — perfect for wedding invitations, greeting cards, and elegant framed art. Below are four of the most commonly rendered — click through to each phrase's dedicated page for full history, meaning, and download options.",
+          "h3s": [
+            {
+              "title": "Bismillah in Diwani",
+              "image": {
+                "src": "images/diwani-calligraphy-example-bismillah.png",
+                "alt": "Bismillah (بسم الله الرحمن الرحيم) rendered in Diwani-style (Aref Ruqaa) Arabic calligraphy in burgundy on ivory"
+              },
+              "content": "<em>Bismillah al-Rahman al-Rahim</em> — the opening verse of the Qur'an — rendered in Diwani gives the phrase a distinctive ceremonial elegance suitable for greeting cards, wedding invitations, and premium framed devotional art. See our <a href=\"/bismillah-in-arabic-calligraphy\">Bismillah in Arabic Calligraphy</a> page for meaning, styles, and downloads."
+            },
+            {
+              "title": "Shahada in Diwani",
+              "image": {
+                "src": "images/diwani-calligraphy-example-shahada.png",
+                "alt": "The Shahada (لا إله إلا الله محمد رسول الله) rendered in Diwani-style (Aref Ruqaa) Arabic calligraphy in burgundy on ivory"
+              },
+              "content": "The <em>Shahada</em> — the Islamic declaration of faith — in Diwani takes on a ceremonial gravitas suitable for ornate framed art and important Islamic milestones (like a Shahada framed for a new convert). See our <a href=\"/shahada-in-arabic-calligraphy\">Shahada in Arabic Calligraphy</a> page for the full declaration and pronunciation."
+            },
+            {
+              "title": "Muhammad in Diwani",
+              "image": {
+                "src": "images/diwani-calligraphy-example-muhammad.png",
+                "alt": "The name Muhammad (محمد) rendered in Diwani-style (Aref Ruqaa) Arabic calligraphy in burgundy on ivory"
+              },
+              "content": "The name of the Prophet Muhammad ﷺ has been rendered in Diwani in Ottoman-era mosque decoration and manuscript borders. Its four letters form a compact cursive composition suitable for framed art and name plates. See our <a href=\"/muhammad-in-arabic-calligraphy\">Muhammad in Arabic Calligraphy</a> page for name meaning, Islamic history, and traditions."
+            },
+            {
+              "title": "Alhamdulillah in Diwani",
+              "image": {
+                "src": "images/diwani-calligraphy-example-alhamdulillah.png",
+                "alt": "Alhamdulillah (الحمد لله) rendered in Diwani-style (Aref Ruqaa) Arabic calligraphy in burgundy on ivory"
+              },
+              "content": "<em>Alhamdulillah</em> — \"All praise is due to Allah\" — in Diwani style is a popular greeting card and wedding stationery design. Its two-word structure flows beautifully in cursive form. See our <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page for meaning, use cases, and downloads."
+            }
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Diwani Calligraphy Designs",
+        "description": "20 hand-picked Diwani-style calligraphy designs featuring the most common Islamic phrases and names, across a range of ceremonial and wedding-appropriate colors. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Aref Ruqaa', serif", "text": "بسم الله الرحمن الرحيم",              "textWithHarakat": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم",              "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "bismillah-burgundy-ivory",  "alt": "Bismillah in Diwani calligraphy in burgundy on ivory",                                 "caption": "Bismillah · Burgundy · Wedding invite" },
+          { "n": 2,  "font": "'Aref Ruqaa', serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "allah-gold-black",         "alt": "The name Allah in Diwani calligraphy in gold on black",                                "caption": "Allah · Gold · Ceremonial" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif", "text": "محمد",                                 "textWithHarakat": "مُحَمَّد",                                            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "muhammad-rosegold-charcoal", "alt": "The name Muhammad in Diwani calligraphy in rose gold on charcoal",                    "caption": "Muhammad · Rose gold · Luxury frame" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif", "text": "لا إله إلا الله محمد رسول الله",     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه مُحَمَّد رَسُولُ اللّٰه",  "color": "#0F172A", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "shahada-navy-parchment",   "alt": "The Shahada in Diwani calligraphy in navy on parchment",                                "caption": "Shahada · Navy · Framed art" },
+          { "n": 5,  "font": "'Aref Ruqaa', serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "alhamdulillah-gold-parchment", "alt": "Alhamdulillah in Diwani calligraphy in gold on parchment",                          "caption": "Alhamdulillah · Gold · Classic" },
+          { "n": 6,  "font": "'Aref Ruqaa', serif", "text": "رمضان كريم",                          "textWithHarakat": "رَمَضَان كَرِيم",                                    "color": "#C0392B", "bg": "white",                        "fileSuffix": "ramadan-kareem-red-white", "alt": "Ramadan Kareem in Diwani calligraphy in red on white",                                 "caption": "Ramadan Kareem · Red · Card" },
+          { "n": 7,  "font": "'Aref Ruqaa', serif", "text": "عيد مبارك",                            "textWithHarakat": "عِيد مُبَارَك",                                      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "eid-mubarak-gold-navy",    "alt": "Eid Mubarak in Diwani calligraphy in gold on deep navy",                              "caption": "Eid Mubarak · Gold · Premium invite" },
+          { "n": 8,  "font": "'Aref Ruqaa', serif", "text": "حبيبي",                                 "textWithHarakat": "حَبِيبِي",                                            "color": "#C0392B", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "habibi-red-rose",          "alt": "Habibi in Diwani calligraphy in red on soft rose",                                    "caption": "Habibi · Red · Romantic" },
+          { "n": 9,  "font": "'Aref Ruqaa', serif", "text": "الله أكبر",                            "textWithHarakat": "اَللّٰهُ أَكْبَر",                                    "color": "#059669", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "allahu-akbar-emerald-cream", "alt": "Allahu Akbar in Diwani calligraphy in emerald on cream",                            "caption": "Allahu Akbar · Emerald · Formal" },
+          { "n": 10, "font": "'Aref Ruqaa', serif", "text": "إن شاء الله",                          "textWithHarakat": "إِنْ شَاءَ اللّٰه",                                    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "inshaallah-purple-ivory",  "alt": "Insha'Allah in Diwani calligraphy in purple on ivory",                                "caption": "Insha'Allah · Purple · Elegant" },
+          { "n": 11, "font": "'Aref Ruqaa', serif", "text": "ما شاء الله",                          "textWithHarakat": "مَا شَاءَ اللّٰه",                                    "color": "#B87333", "bg": "white",                        "fileSuffix": "mashaallah-copper-white",  "alt": "Masha'Allah in Diwani calligraphy in copper on white",                                "caption": "Masha'Allah · Copper · Blessing" },
+          { "n": 12, "font": "'Aref Ruqaa', serif", "text": "سبحان الله",                          "textWithHarakat": "سُبْحَان اللّٰه",                                    "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "subhanallah-sepia-parchment", "alt": "Subhanallah in Diwani calligraphy in sepia on parchment",                          "caption": "Subhanallah · Sepia · Vintage" },
+          { "n": 13, "font": "'Aref Ruqaa', serif", "text": "سلام",                                 "textWithHarakat": "سَلَام",                                              "color": "#059669", "bg": "white",                        "fileSuffix": "salam-green-white",        "alt": "Salam in Diwani calligraphy in green on white",                                       "caption": "Salam · Green · Peace" },
+          { "n": 14, "font": "'Aref Ruqaa', serif", "text": "لا إله إلا الله",                     "textWithHarakat": "لَا إِلَٰهَ إِلَّا اللّٰه",                            "color": "#D4AF37", "bg": "color", "bgColor": "#722F37", "fileSuffix": "tawhid-gold-burgundy",     "alt": "Tawhid in Diwani calligraphy in gold on burgundy",                                    "caption": "Tawhid · Gold · Sacred frame" },
+          { "n": 15, "font": "'Aref Ruqaa', serif", "text": "السلام عليكم",                        "textWithHarakat": "السَّلَامُ عَلَيْكُم",                                "color": "#B8860B", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "assalamu-alaikum-gold-cream", "alt": "Assalamu Alaikum in Diwani calligraphy in gold on cream",                           "caption": "Assalamu Alaikum · Gold · Greeting" },
+          { "n": 16, "font": "'Aref Ruqaa', serif", "text": "القرآن",                                "textWithHarakat": "القُرْآن",                                            "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "quran-gold-navy",          "alt": "Al-Quran in Diwani calligraphy in gold on deep navy",                                 "caption": "Al-Quran · Gold · Book cover" },
+          { "n": 17, "font": "'Aref Ruqaa', serif", "text": "الإسلام",                               "textWithHarakat": "الإِسْلَام",                                          "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "islam-burgundy-ivory",     "alt": "Al-Islam in Diwani calligraphy in burgundy on ivory",                                 "caption": "Al-Islam · Burgundy · Ceremonial" },
+          { "n": 18, "font": "'Aref Ruqaa', serif", "text": "الله",                                 "textWithHarakat": "اَللّٰه",                                            "color": "#B76E79", "bg": "white",                        "fileSuffix": "allah-rosegold-white",     "alt": "The name Allah in Diwani calligraphy in rose gold on white",                          "caption": "Allah · Rose gold · Wedding" },
+          { "n": 19, "font": "'Aref Ruqaa', serif", "text": "الحمد لله",                            "textWithHarakat": "اَلْحَمْدُ لِلّٰه",                                    "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "alhamdulillah-silver-midnight", "alt": "Alhamdulillah in Diwani calligraphy in silver on midnight blue",                    "caption": "Alhamdulillah · Silver · Modern" },
+          { "n": 20, "font": "'Aref Ruqaa', serif", "text": "بركة",                                   "textWithHarakat": "بَرَكَة",                                            "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "baraka-emerald-gold",      "alt": "Baraka (blessing) in Diwani calligraphy in emerald on gold",                          "caption": "Baraka · Emerald · Blessing card" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What is Diwani calligraphy?",
+          "answer": "Diwani (خط ديواني) is the elegant cursive script developed in the 16th century Ottoman Empire as the official script of the Sultan's chancery — the Diwan — from which it takes its name. Classical hand-drawn Diwani is characterized by tightly interlocking cursive letters, flowing curves, decorative overlaps, and a slight upward slant. It was designed to be simultaneously beautiful and difficult to forge, making it perfect for imperial decrees and diplomatic correspondence."
+        },
+        {
+          "question": "What is Jali Diwani?",
+          "answer": "Jali Diwani (جلي ديواني) is the most ornate variant of Diwani calligraphy, developed shortly after standard Diwani. In Jali Diwani, calligraphers filled the negative space between letters with a dense network of dots and small decorative strokes, producing an extraordinarily intricate woven pattern. Jali Diwani was used exclusively for the Sultan's Tughra (imperial signature) and the most important state documents. Because of its extreme complexity, no free digital font faithfully reproduces Jali Diwani — commercial specialty fonts or hand-drawn calligraphy are required."
+        },
+        {
+          "question": "What does Diwani mean?",
+          "answer": "The name Diwani comes from the Arabic word Diwan (ديوان), meaning the Sultan's chancery, council, or state office in the Ottoman Empire. The script was named after this administrative body because it was the official script used for chancery documents — imperial decrees, diplomatic correspondence, and state records. The name captures the script's origin as an administrative rather than religious calligraphy tradition."
+        },
+        {
+          "question": "What is the difference between Diwani and Thuluth?",
+          "answer": "Thuluth is the classical religious script used in mosque inscriptions and Qur'anic chapter headings — tall, ornate, and reverent. Diwani is the Ottoman administrative script — cursive, tight, and originally secular. Thuluth carries mosque and religious gravity; Diwani carries imperial court and ceremonial gravity. Both are ornate and formal, but they emerged in different institutional traditions (mosque vs. court) with different visual signatures."
+        },
+        {
+          "question": "Which font renders Diwani calligraphy on a computer?",
+          "answer": "The best freely available digital font for Diwani-style rendering is Aref Ruqaa, designed by Abdo Beshkoo in a graceful cursive style rooted in the broader Ottoman calligraphy tradition (Ruqʿah and Diwani influences). It supports full Arabic Unicode with proper ligatures and harakat, and is used by the generator on this page. For truly ornate hand-drawn classical Diwani (or the intricate Jali Diwani), a commercial specialty font or a professional calligrapher would be required — but Aref Ruqaa is the accessible high-quality free standard."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Diwani Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Arabic calligraphy in Diwani style — the elegant Ottoman court script developed for imperial decrees and diplomatic correspondence.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/diwani-calligraphy-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Diwani Arabic Calligraphy Example",
+        "heroImageDescription": "The name Allah (الله) rendered in Diwani-style Arabic calligraphy — a foundational example of the flowing Ottoman court cursive tradition."
+      }
     }
   ]
 }
