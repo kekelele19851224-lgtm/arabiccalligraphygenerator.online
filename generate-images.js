@@ -104,8 +104,14 @@ const OUTPUT_DIR = path.join(__dirname, 'images');
     console.log(`\n🎨 [${phrase.slug}] Generating images...`);
 
     // ---- 5 张 inline 图 ----
+    // 字体页（pageType === "font"）时，所有 inline 图都用页面主字体渲染，
+    // 避免 hero + downloads 显示成 Scheherazade（page 讲的是 Kufic/Diwani/etc 就该显示对应字体）
+    const isFontPage = phrase.pageType === 'font';
     for (let i = 0; i < INLINE_CONFIGS.length; i++) {
-      const cfg = INLINE_CONFIGS[i];
+      let cfg = INLINE_CONFIGS[i];
+      if (isFontPage && phrase.toolDefaults && phrase.toolDefaults.font) {
+        cfg = { ...cfg, font: phrase.toolDefaults.font };
+      }
       const ext = cfg.bg === 'transparent' ? 'png' : 'png';  // 全部 png（transparent 必须 png）
       const file = `${phrase.slug}-${cfg.suffix}.${ext}`;
       process.stdout.write(`  [inline ${i+1}/${INLINE_CONFIGS.length}] ${file.padEnd(50)} ... `);
