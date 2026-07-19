@@ -1445,6 +1445,195 @@
         "heroImageName": "Shahada in Thuluth Arabic Calligraphy",
         "heroImageDescription": "The Islamic declaration of faith — the Shahada (لا إله إلا الله محمد رسول الله) — rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
       }
+    },
+    {
+      "slug": "allahu-akbar",
+      "displayName": "Allahu Akbar",
+      "arabicText": "الله أكبر",
+      "arabicTextWithHarakat": "اَللّٰهُ أَكْبَر",
+      "url": "/allahu-akbar-in-arabic-calligraphy",
+      "mainKeyword": "allahu akbar calligraphy",
+      "monthlyVolume": 110,
+      "keywordDifficulty": 24,
+
+      "meta": {
+        "title": "Allahu Akbar in Arabic Calligraphy — Free PNG & Meaning",
+        "description": "Generate Allahu Akbar (الله أكبر) in Arabic calligraphy — 11 styles. Free PNG with meaning, English translation, and pronunciation guide.",
+        "keywords": "allahu akbar in arabic calligraphy, allahu akbar calligraphy, allahu akbar in arabic, allahu akbar meaning, allahu akbar in english, allahu akbar pronunciation, three praises"
+      },
+
+      "hero": {
+        "h1": "Generate Allahu Akbar in Arabic Calligraphy",
+        "description": "Create Allahu Akbar (الله أكبر) — the Islamic praise phrase meaning \"Allah is greatest\" — in 11 authentic Arabic calligraphy styles including Thuluth, Kufic, Diwani, and Naskh. Free PNG, SVG, and JPG download for framed prayer-room art, educational materials, and Islamic decor."
+      },
+
+      "toolDefaults": {
+        "font": "'Scheherazade New', serif",
+        "fontDropdownValue": "'Scheherazade New', serif"
+      },
+
+      "sections": [
+        {
+          "id": "styles",
+          "navLabel": "Styles",
+          "h2": "Allahu Akbar Calligraphy",
+          "intro": "Allahu Akbar (الله أكبر), meaning \"Allah is greatest,\" is one of the most frequently recited phrases in Islam — spoken multiple times in every daily prayer, in the call to prayer (Adhan), and as a personal expression of awe or gratitude. Rendering it in different Arabic calligraphy styles gives you distinct visual traditions: Thuluth carries the reverence used in classical mosque inscriptions; Diwani adds ornate flowing courtly beauty; Kufic gives the phrase a bold geometric weight rooted in the earliest Arabic manuscripts; and Naskh keeps it cleanly readable for educational and community use. Try each style in the free Allahu Akbar calligraphy generator above.",
+          "h3s": [
+            {
+              "title": "Thuluth Allahu Akbar",
+              "image": {
+                "src": "images/allahu-akbar-thuluth-inline.png",
+                "alt": "Allahu Akbar written in Thuluth Arabic calligraphy in gold on parchment background"
+              },
+              "content": "Thuluth is the most historically revered style for Allahu Akbar calligraphy, used in mosque domes, minarets, and Islamic manuscripts for over a millennium. Its long curving letters give the two-word takbir a sense of formal reverence suitable for framed prayer-room art, Adhan-related decor, and educational Islamic materials. Select \"Thuluth (Scheherazade)\" in the generator above."
+            },
+            {
+              "title": "Diwani Allahu Akbar",
+              "image": {
+                "src": "images/allahu-akbar-diwani-inline.png",
+                "alt": "Allahu Akbar in Diwani Arabic calligraphy with flowing ornate curves in burgundy on ivory"
+              },
+              "content": "Diwani produces flowing, ornate Allahu Akbar calligraphy originally developed by Ottoman court scribes. Its decorative interlocking curves are perfect for elegant framed art, Islamic gift prints, and premium prayer-room decor. Choose \"Diwani (Aref Ruqaa)\" in the font dropdown."
+            },
+            {
+              "title": "Kufic Allahu Akbar",
+              "image": {
+                "src": "images/allahu-akbar-kufic-inline.png",
+                "alt": "Allahu Akbar in Kufic Arabic calligraphy with bold geometric letterforms on white"
+              },
+              "content": "Kufic is the oldest Arabic script and gives Allahu Akbar bold, angular geometric weight — perfect for modern minimalist Islamic wall art, contemporary Muslim home decor, and educational displays showing the historical evolution of Arabic script. Select \"Kufi (Reem Kufi)\" in the generator."
+            },
+            {
+              "title": "Naskh Allahu Akbar",
+              "image": {
+                "src": "images/allahu-akbar-naskh-inline.png",
+                "alt": "Allahu Akbar in Naskh Arabic calligraphy with clean readable green letters on cream"
+              },
+              "content": "Naskh offers a clean, highly legible Allahu Akbar calligraphy — the same style used in modern printed Qur'ans. It is the safest choice when clarity matters most, such as educational Islamic materials, children's prayer-learning charts, and community masjid bulletins. Choose \"Naskh (Amiri)\" in the font selector."
+            }
+          ]
+        },
+        {
+          "id": "arabic",
+          "navLabel": "In Arabic",
+          "h2": "Allahu Akbar in Arabic",
+          "content": [
+            "Allahu Akbar in Arabic is written <strong>الله أكبر</strong>, composed of two words: <em>Allah</em> (الله), the Arabic name of God, and <em>Akbar</em> (أكبر), the comparative/superlative form of \"great\" meaning \"greatest.\" Together they form the phrase known as the <em>Takbir</em> (تكبير) — \"the declaration of greatness.\"",
+            "The Arabic construction is important. <em>Akbar</em> is not simply \"great\" — it is the <em>elative</em> form, which in Arabic can mean either \"greater\" or \"greatest.\" In this context, the meaning is <strong>\"Allah is greater [than anything else]\"</strong> and, in practice, <strong>\"Allah is greatest.\"</strong> The absence of a comparative object (\"greater than X\") is deliberate — it implies Allah is greater than all things.",
+            "When rendered in calligraphy, the two-word phrase gives the visual composition a natural balance — Allah's compact vertical letters (with double lam and ha') pair beautifully with Akbar's rising letters. This is why Allahu Akbar appears so frequently in mosque inscriptions, mihrab (prayer-niche) decorations, and framed Islamic art worldwide."
+          ],
+          "heroImage": {
+            "src": "images/allahu-akbar-full-phrase-thuluth.png",
+            "alt": "Allahu Akbar (الله أكبر) in high-resolution Thuluth Arabic calligraphy in gold on deep navy background",
+            "position": "middle"
+          }
+        },
+        {
+          "id": "meaning",
+          "navLabel": "Meaning",
+          "h2": "Allahu Akbar Meaning",
+          "content": [
+            "Allahu Akbar (الله أكبر) literally means \"Allah is greatest.\" It is called the <strong>Takbir</strong> — \"the declaration of greatness\" — and is one of the most fundamental praise phrases in Islam.",
+            "The phrase is a Muslim's most common verbal expression of reverence, awe, and gratitude to God. Structurally, <em>Akbar</em> is the Arabic elative form of \"great,\" which without a comparative object implies \"greater than everything\" — so the full theological meaning is \"Allah is greater than any created thing, any wealth, any power, any concern.\" It is the affirmation that God is the ultimate reality, above every worldly attachment.",
+            "Culturally, Allahu Akbar is comparable to English expressions like \"Praise God,\" \"Thank God,\" or \"God is great\" — spoken during moments of joy, awe, gratitude, and prayer. A Muslim will say Allahu Akbar when seeing a newborn baby, witnessing a beautiful sunset, hearing good news, sighting the new moon of Ramadan, or completing a difficult task. It is uttered dozens of times daily in prayer (see the next section)."
+          ]
+        },
+        {
+          "id": "english",
+          "navLabel": "In English",
+          "h2": "Allahu Akbar in English",
+          "content": [
+            "Allahu Akbar in English translates as <strong>\"Allah is greatest\"</strong> or, equivalently, <strong>\"God is greatest.\"</strong> Both translations are correct — <em>Allah</em> is simply the Arabic word for God, the same God recognized in Judaism and Christianity (in Islamic understanding).",
+            "Word by word:<br>• <em>Allahu</em> (الله) — \"Allah\" / \"God\" (with a grammatical -u ending indicating the nominative case in classical Arabic)<br>• <em>Akbar</em> (أكبر) — \"greater\" / \"greatest\" (the elative form of the root K-B-R meaning \"great\")",
+            "Some English speakers translate it more loosely as \"God is great,\" but the more accurate rendering is \"God is <em>greatest</em>\" — because the Arabic <em>Akbar</em> is the elative form, not the plain adjective <em>Kabir</em> (great). The distinction is theological: \"greatest\" affirms Allah's supremacy over everything, not just that Allah is one of many great things.",
+            "In the West, Allahu Akbar is often heard in three specific contexts: (1) the Islamic <strong>call to prayer</strong> (Adhan), broadcast five times daily from mosques worldwide, where it is repeated four times at the start; (2) inside <strong>daily prayer</strong>, where each Muslim says it multiple times per rakah as they change positions; and (3) in personal <strong>expressions of awe or gratitude</strong> in everyday life. See the FAQ section below for a note on the phrase's occasional misuse in news contexts."
+          ]
+        },
+        {
+          "id": "pronunciation",
+          "navLabel": "Pronunciation",
+          "h2": "Allahu Akbar Pronunciation",
+          "content": [
+            "Allahu Akbar is pronounced <strong>al-LAA-hu AK-bar</strong>. Four syllables in two words:",
+            "<strong>Allahu</strong> — <em>al-LAA-hu</em>. Three syllables. The stress is on the second syllable <em>LAA</em> with a long deep \"aa\" sound (like the \"a\" in \"father\" but deeper and slightly darker). The first syllable <em>al</em> is a short, quick \"al.\" The final syllable <em>hu</em> is a soft aspirated \"hoo\" — quick, not stretched.",
+            "<strong>Akbar</strong> — <em>AK-bar</em>. Two syllables. The stress is on the first syllable <em>AK</em>. The \"a\" in AK is a short open \"a\" (like the \"a\" in \"cat\"). The second syllable <em>bar</em> ends with a rolled or tapped \"r\" — softer than the American English rhotic \"r,\" more like a Spanish \"r.\"",
+            "<strong>Common English mispronunciations to avoid</strong>:<br>• Not \"a-LAH akbar\" (with English \"ah\" quality) — the middle syllable should be a longer, deeper \"aa.\"<br>• Not \"AKK-barr\" (over-emphasizing the K and rolling the r hard) — keep the K clean and the r softly tapped.<br>• The \"h\" in <em>Allahu</em> is gently aspirated — audible but soft, never silent.",
+            "<strong>Tip</strong>: If you say <em>al-LAA-hu AK-bar</em> smoothly with equal weight on the two stressed syllables (LAA and AK), native Arabic speakers will understand you clearly regardless of exact accent."
+          ]
+        },
+        {
+          "id": "three-praises",
+          "navLabel": "Three Praises",
+          "h2": "The Three Praises: Subhanallah, Alhamdulillah, Allahu Akbar",
+          "content": [
+            "Allahu Akbar is one of three central Islamic praise phrases — often taught together as the <strong>Three Praises</strong> or, more formally, the <strong>Baqiyat al-Salihat</strong> (\"the enduring good deeds\"):",
+            "<strong>1. Subhanallah (سبحان الله)</strong> — \"Glory be to Allah.\" Said in moments of amazement, when witnessing something beautiful or awe-inspiring, and when acknowledging God's perfection.<br><strong>2. Alhamdulillah (الحمد لله)</strong> — \"All praise is due to Allah.\" Said in moments of gratitude, after receiving good news, after eating, after sneezing, and as a daily expression of contentment. See our <a href=\"/alhamdulillah-in-arabic-calligraphy\">Alhamdulillah in Arabic Calligraphy</a> page for a deeper look.<br><strong>3. Allahu Akbar (الله أكبر)</strong> — \"Allah is greatest.\" Said in prayer, during moments of awe or triumph, and to affirm God's supremacy above all worldly concerns.",
+            "<strong>The Adhkar tradition</strong>: After each of the five daily prayers, many Muslims recite each of these three phrases <strong>33 times</strong> — a total of 99 recitations, matching the ninety-nine beautiful names of Allah (Asma' al-Husna). This is a widely practiced tradition based on a hadith (saying) of the Prophet Muhammad. Together, they represent the three universal Islamic responses to life: <em>Subhanallah</em> for awe, <em>Alhamdulillah</em> for gratitude, <em>Allahu Akbar</em> for reverence.",
+            "In calligraphy, these three phrases are frequently rendered together as a triptych — three matching frames for a prayer wall, home entrance, or study room. Use the same style (Thuluth is traditional) and matching colors for all three to create a unified set."
+          ]
+        }
+      ],
+
+      "gallery": {
+        "navLabel": "Gallery",
+        "h2": "Featured Allahu Akbar Calligraphy Designs",
+        "description": "Hand-picked Allahu Akbar designs across styles, colors, and use cases — from framed prayer-room art to modern minimalist Islamic decor. Designs refresh on each visit.",
+        "items": [
+          { "n": 1,  "font": "'Scheherazade New', serif",      "color": "#B8860B", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "thuluth-gold-parchment",   "alt": "Allahu Akbar in Thuluth calligraphy with gold accent on parchment background",     "caption": "Thuluth · Gold · Framed prayer-room art" },
+          { "n": 2,  "font": "'Scheherazade New', serif",      "color": "#000000", "bg": "white",                        "fileSuffix": "thuluth-black-white",      "alt": "Allahu Akbar in Thuluth calligraphy in black on white background",                 "caption": "Thuluth · Black · Educational chart" },
+          { "n": 3,  "font": "'Aref Ruqaa', serif",            "color": "#C0392B", "bg": "white",                        "fileSuffix": "diwani-red-white",         "alt": "Allahu Akbar in Diwani calligraphy in red on white background",                    "caption": "Diwani · Red · Islamic gift print" },
+          { "n": 4,  "font": "'Aref Ruqaa', serif",            "color": "#D4AF37", "bg": "color", "bgColor": "#000000", "fileSuffix": "diwani-gold-black",        "alt": "Allahu Akbar in Diwani calligraphy in gold on black background",                   "caption": "Diwani · Gold · Premium frame" },
+          { "n": 5,  "font": "'Reem Kufi', sans-serif",        "color": "#000000", "bg": "white",                        "fileSuffix": "kufic-black-white",        "alt": "Allahu Akbar in Kufic geometric calligraphy in black on white",                    "caption": "Kufic · Black · Minimalist wall art" },
+          { "n": 6,  "font": "'Reem Kufi', sans-serif",        "color": "#0B3D91", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "kufic-navy-cream",         "alt": "Allahu Akbar in Kufic calligraphy in navy blue on cream background",               "caption": "Kufic · Navy · Home decor" },
+          { "n": 7,  "font": "'Amiri', serif",                 "color": "#14532D", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "naskh-green-cream",        "alt": "Allahu Akbar in Naskh calligraphy in deep green on cream background",              "caption": "Naskh · Green · Educational material" },
+          { "n": 8,  "font": "'Amiri', serif",                 "color": "#000000", "bg": "white",                        "fileSuffix": "naskh-black-white",        "alt": "Allahu Akbar in Naskh Arabic calligraphy in black on white background",            "caption": "Naskh · Black · Study notes" },
+          { "n": 9,  "font": "'Noto Nastaliq Urdu', serif",    "color": "#5B2C6F", "bg": "color", "bgColor": "#FFF8E7", "fileSuffix": "nastaliq-purple-ivory",    "alt": "Allahu Akbar in Nastaliq calligraphy in purple on ivory background",               "caption": "Nastaliq · Purple · Persian-style print" },
+          { "n": 10, "font": "'Mirza', serif",                 "color": "#333333", "bg": "color", "bgColor": "#F5F5F0", "fileSuffix": "ruqaa-charcoal-offwhite",  "alt": "Allahu Akbar in Ruqaa calligraphy in charcoal on off-white background",            "caption": "Ruqaa · Charcoal · Journal cover" },
+          { "n": 11, "font": "'Aref Ruqaa', serif",            "color": "#722F37", "bg": "color", "bgColor": "#F5E6D3", "fileSuffix": "arefruqaa-burgundy-beige", "alt": "Allahu Akbar in Aref Ruqaa calligraphy in burgundy on beige textile",              "caption": "Aref Ruqaa · Burgundy · Textile banner" },
+          { "n": 12, "font": "'Cairo', sans-serif",            "color": "#0F766E", "bg": "white",                        "fileSuffix": "cairo-teal-white",         "alt": "Allahu Akbar in Cairo modern Arabic font in teal on white",                        "caption": "Cairo · Teal · Modern banner" },
+          { "n": 13, "font": "'Amiri', serif",                 "color": "#704214", "bg": "color", "bgColor": "#F5E6C8", "fileSuffix": "amiri-sepia-parchment",    "alt": "Allahu Akbar in Amiri Naskh calligraphy in sepia on aged parchment",               "caption": "Amiri · Sepia · Vintage manuscript" },
+          { "n": 14, "font": "'Reem Kufi', sans-serif",        "color": "#059669", "bg": "color", "bgColor": "#D4AF37", "fileSuffix": "reemkufi-emerald-gold",    "alt": "Allahu Akbar in Reem Kufi calligraphy in emerald green on gold ceramic tile",      "caption": "Reem Kufi · Emerald · Ceramic tile" },
+          { "n": 15, "font": "'Markazi Text', serif",          "color": "#000000", "bg": "color", "bgColor": "#FDF2F8", "fileSuffix": "markazi-black-rose",       "alt": "Allahu Akbar in Markazi Text calligraphy in black on rose background",             "caption": "Markazi · Black · Soft poster" },
+          { "n": 16, "font": "'Noto Kufi Arabic', sans-serif", "color": "#B87333", "bg": "color", "bgColor": "#FAF3E7", "fileSuffix": "notokufi-copper-cream",    "alt": "Allahu Akbar in Noto Kufi Arabic calligraphy in copper on cream metal plaque",     "caption": "Noto Kufi · Copper · Metal plaque" },
+          { "n": 17, "font": "'Scheherazade New', serif",      "color": "#D4AF37", "bg": "color", "bgColor": "#0F172A", "fileSuffix": "scheherazade-gold-navy",   "alt": "Allahu Akbar in Scheherazade Thuluth calligraphy in gold on deep navy",            "caption": "Scheherazade · Gold · Premium framed art" },
+          { "n": 18, "font": "'Lateef', serif",                "color": "#C0C0C0", "bg": "color", "bgColor": "#1E293B", "fileSuffix": "lateef-silver-midnight",   "alt": "Allahu Akbar in Lateef Arabic calligraphy in silver on midnight blue modern art",  "caption": "Lateef · Silver · Modern art" },
+          { "n": 19, "font": "'Scheherazade New', serif",      "color": "#059669", "bg": "white",                        "fileSuffix": "thuluth-green-white",      "alt": "Allahu Akbar in Thuluth calligraphy in green on white prayer mat design",          "caption": "Thuluth · Green · Prayer mat design" },
+          { "n": 20, "font": "'Aref Ruqaa', serif",            "color": "#B76E79", "bg": "color", "bgColor": "#2C2C2C", "fileSuffix": "diwani-rosegold-charcoal", "alt": "Allahu Akbar in Diwani calligraphy in rose gold on charcoal luxury frame",         "caption": "Diwani · Rose gold · Luxury frame" }
+        ]
+      },
+
+      "faq": [
+        {
+          "question": "What does Allahu Akbar mean?",
+          "answer": "Allahu Akbar (الله أكبر) means \"Allah is greatest.\" It is called the Takbir — \"the declaration of greatness\" — and is one of the most fundamental praise phrases in Islam. Structurally, Akbar is the Arabic elative form of \"great,\" so the full meaning is \"Allah is greater than all things.\" It is a Muslim's most common verbal expression of reverence, awe, and gratitude to God."
+        },
+        {
+          "question": "What does Allahu Akbar mean in English?",
+          "answer": "In English, Allahu Akbar translates as \"Allah is greatest\" or \"God is greatest\" — Allah is simply the Arabic word for God, the same God recognized in Judaism and Christianity in Islamic understanding. The more accurate translation is \"greatest\" (not just \"great\") because the Arabic word Akbar is the elative form implying superiority over everything."
+        },
+        {
+          "question": "Why is Allahu Akbar sometimes misunderstood in Western media?",
+          "answer": "Allahu Akbar is a routine religious praise phrase used by 1.8 billion Muslims worldwide — comparable to English speakers saying \"Praise God\" or \"Thank God.\" It is repeated dozens of times daily in prayer, the call to prayer, and in personal moments of awe or gratitude. In recent decades, some violent actors have also spoken it, which has led to disproportionate media association with negative events. This misrepresents both the phrase's actual meaning (\"Allah is greatest\") and its overwhelming everyday use as a peaceful expression of faith and reverence."
+        },
+        {
+          "question": "When do Muslims say Allahu Akbar in daily life?",
+          "answer": "Allahu Akbar is spoken constantly throughout a Muslim's daily life: (1) in each of the five daily prayers — recited multiple times per rakah as the worshipper changes positions; (2) in the call to prayer (Adhan), where it is repeated four times at the start; (3) after prayer as part of the Adhkar tradition, often 33 times together with Subhanallah and Alhamdulillah; (4) when witnessing something beautiful or awe-inspiring — a newborn, a sunrise, the new moon of Ramadan; and (5) as a general expression of gratitude or triumph."
+        },
+        {
+          "question": "How do I download Allahu Akbar in Arabic calligraphy?",
+          "answer": "In the generator above, pick your preferred style (Thuluth is the most traditional for the Takbir, followed by Diwani for ornate framed art), set the background to Transparent, White, or a custom color, then click Download PNG or SVG. All downloads are free — no watermark, no sign-up. For a matching Three Praises triptych, generate Subhanallah, Alhamdulillah, and Allahu Akbar in the same style and colors."
+        }
+      ],
+
+      "schema": {
+        "webAppName": "Allahu Akbar Arabic Calligraphy Generator",
+        "webAppDescription": "Free online tool to generate Allahu Akbar (الله أكبر) — the Islamic praise phrase meaning 'Allah is greatest' — in Arabic calligraphy across 11 styles including Thuluth, Kufic, Diwani, and Naskh.",
+        "heroImageUrl": "https://arabiccalligraphygenerator.online/images/allahu-akbar-full-phrase-thuluth.png",
+        "heroImageWidth": 800,
+        "heroImageHeight": 300,
+        "heroImageName": "Allahu Akbar in Thuluth Arabic Calligraphy",
+        "heroImageDescription": "The Islamic praise phrase Allahu Akbar (الله أكبر) rendered in classic Thuluth Arabic calligraphy in gold on deep navy background."
+      }
     }
   ]
 }
