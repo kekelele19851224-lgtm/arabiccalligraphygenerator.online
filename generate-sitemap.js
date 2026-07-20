@@ -30,8 +30,8 @@ const nonBlogPages = ['index.html', 'about.html', 'contact.html', 'privacy-polic
 // ========== 生成 Sitemap ==========
 function generateSitemap() {
   // 获取所有 HTML 文件
-  const files = fs.readdirSync('.').filter(file => 
-    file.endsWith('.html') && !excludeFiles.includes(file)
+  const files = fs.readdirSync('.').filter(file =>
+    file.endsWith('.html') && !excludeFiles.includes(file) && !file.startsWith('_')
   );
 
   console.log('Found HTML files:', files);

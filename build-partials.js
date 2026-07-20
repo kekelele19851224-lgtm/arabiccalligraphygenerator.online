@@ -13,6 +13,7 @@ const footerTemplate = fs.readFileSync('partials/footer.html', 'utf8');
 // ========== 按 pageType 分组 ==========
 const phraseEntries = data.phrases.filter(p => (p.pageType || 'phrase') === 'phrase');
 const fontEntries   = data.phrases.filter(p => p.pageType === 'font');
+const tattooEntries = data.phrases.filter(p => p.pageType === 'tattoo');
 
 // ========== 渲染短语列表 ==========
 // 用于 dropdown（含缩进 8 空格）
@@ -34,13 +35,24 @@ const fontsListItemsHtml = fontEntries
   .map(p => `          <li><a href="${p.url}">${p.displayName}</a></li>`)
   .join('\n');
 
+// ========== 渲染纹身列表 ==========
+const tattooLinksHtml = tattooEntries
+  .map(p => `        <a href="${p.url}" role="menuitem">${p.displayName}</a>`)
+  .join('\n');
+
+const tattooListItemsHtml = tattooEntries
+  .map(p => `          <li><a href="${p.url}">${p.displayName}</a></li>`)
+  .join('\n');
+
 // ========== 替换模板占位符 ==========
 const navRendered = navTemplate
   .replace('{{PHRASES_LINKS}}', phrasesLinksHtml)
-  .replace('{{FONTS_LINKS}}', fontsLinksHtml);
+  .replace('{{FONTS_LINKS}}', fontsLinksHtml)
+  .replace('{{TATTOO_LINKS}}', tattooLinksHtml);
 const footerRendered = footerTemplate
   .replace('{{PHRASES_LIST_ITEMS}}', phrasesListItemsHtml)
-  .replace('{{FONTS_LIST_ITEMS}}', fontsListItemsHtml);
+  .replace('{{FONTS_LIST_ITEMS}}', fontsListItemsHtml)
+  .replace('{{TATTOO_LIST_ITEMS}}', tattooListItemsHtml);
 
 // ========== 处理所有带标记的 HTML 文件 ==========
 const htmlFiles = fs.readdirSync('.').filter(f =>

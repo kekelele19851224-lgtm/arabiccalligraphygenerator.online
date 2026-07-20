@@ -1,0 +1,856 @@
+<!-- {{TATTOO_TOOL}} -->
+<style>
+  .tt-container { max-width: 1280px; margin: 24px auto; padding: 0 16px; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; color: #1a1a1a; }
+  .tt-verified { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: #e8f5e9; color: #1b5e20; border-radius: 999px; font-size: 13px; font-weight: 500; margin-bottom: 16px; }
+  .tt-verified::before { content: "✓"; font-weight: 700; }
+  .tt-panels { display: grid; grid-template-columns: 320px 1fr; gap: 24px; }
+  @media (max-width: 900px) { .tt-panels { grid-template-columns: 1fr; } }
+  .tt-controls { background: #fff; border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; }
+  .tt-preview-panel { background: #fff; border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; }
+  .tt-section { margin-bottom: 20px; }
+  .tt-section-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #737373; margin-bottom: 10px; }
+  .tt-form-group { margin-bottom: 12px; }
+  .tt-form-group label { display: block; font-size: 13px; color: #404040; margin-bottom: 6px; }
+  .tt-form-group label span { color: #737373; font-weight: 500; }
+  .tt-flex-row { display: flex; gap: 8px; align-items: center; }
+  .tt-input, .tt-textarea, .tt-select { width: 100%; padding: 8px 10px; border: 1px solid #d4d4d4; border-radius: 6px; font-size: 14px; font-family: inherit; box-sizing: border-box; }
+  .tt-textarea { min-height: 70px; resize: vertical; font-size: 20px; line-height: 1.4; text-align: right; }
+  .tt-range { width: 100%; }
+  .tt-btn { padding: 10px 14px; border-radius: 8px; border: 1px solid #d4d4d4; background: #fff; color: #1a1a1a; font-weight: 500; font-size: 14px; cursor: pointer; font-family: inherit; }
+  .tt-btn:hover { background: #f5f5f5; }
+  .tt-btn-primary { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+  .tt-btn-primary:hover { background: #333; }
+  .tt-btn-download { width: 100%; padding: 14px; background: #059669; color: #fff; border: none; border-radius: 8px; font-weight: 600; font-size: 15px; cursor: pointer; font-family: inherit; margin-top: 8px; }
+  .tt-btn-download:hover { background: #047857; }
+  .tt-hint { font-size: 12px; color: #737373; line-height: 1.5; margin-top: 8px; }
+  .tt-toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 6px 0; }
+  .tt-toggle { width: 40px; height: 22px; background: #d4d4d4; border-radius: 999px; position: relative; cursor: pointer; transition: background 0.2s; }
+  .tt-toggle-knob { position: absolute; top: 2px; left: 2px; width: 18px; height: 18px; background: #fff; border-radius: 50%; transition: left 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+  .tt-toggle.on { background: #059669; }
+  .tt-toggle.on .tt-toggle-knob { left: 20px; }
+  .tt-size-row { display: flex; gap: 6px; align-items: center; }
+  .tt-size-row input { width: 80px; padding: 6px 8px; border: 1px solid #d4d4d4; border-radius: 6px; font-size: 14px; font-family: inherit; }
+  .tt-tabs { display: flex; border-bottom: 1px solid #e5e5e5; margin-bottom: 16px; }
+  .tt-tab { padding: 10px 18px; background: none; border: none; font-size: 14px; font-weight: 500; color: #737373; cursor: pointer; border-bottom: 2px solid transparent; font-family: inherit; }
+  .tt-tab.active { color: #1a1a1a; border-bottom-color: #059669; }
+  .tt-preview-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-size: 13px; color: #737373; }
+  .tt-canvas-wrap { position: relative; background: repeating-conic-gradient(#f0f0f0 0% 25%, #fff 0% 50%) 50% / 20px 20px; border: 1px solid #e5e5e5; border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center; min-height: 300px; padding: 12px; }
+  .tt-canvas-wrap.body-mode { background: #fafafa; }
+  #tt-canvas { max-width: 100%; max-height: 600px; height: auto; display: block; }
+  .tt-body-thumbs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 12px; }
+  .tt-body-thumb { border: 2px solid #e5e5e5; border-radius: 6px; overflow: hidden; cursor: pointer; padding: 0; background: none; aspect-ratio: 1; position: relative; }
+  .tt-body-thumb:hover { border-color: #a3a3a3; }
+  .tt-body-thumb.active { border-color: #059669; }
+  .tt-body-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .tt-body-thumb-label { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: #fff; font-size: 10px; padding: 2px 4px; text-align: center; }
+  .tt-body-view { display: none; }
+  .tt-body-view.active { display: block; }
+  .tt-design-view.hidden { display: none; }
+  .tt-body-upload { display: flex; flex-direction: column; align-items: center; justify-content: center; background: #f9fafb; color: #059669; font-size: 12px; font-weight: 500; line-height: 1.3; text-align: center; border: 2px dashed #a3a3a3; padding: 8px; }
+  .tt-body-upload:hover { border-color: #059669; background: #f0fdf4; }
+  .tt-body-upload-icon { font-size: 22px; margin-bottom: 4px; }
+  #tt-canvas, #tt-body-canvas { cursor: grab; touch-action: none; }
+  #tt-canvas.dragging, #tt-body-canvas.dragging { cursor: grabbing; }
+  .tt-drag-hint { display: inline-block; font-size: 12px; color: #737373; margin-left: 8px; }
+  .tt-picker-title { font-size: 13px; color: #737373; margin: 20px 0 10px; }
+
+  /* Transform box (Photoshop-style scale + rotate handles) */
+  .tt-canvas-wrap { position: relative; }
+  .tt-transform-box {
+    position: absolute; box-sizing: border-box;
+    border: 1.5px dashed #3b82f6;
+    pointer-events: none;
+    transform-origin: center center;
+    display: none;
+  }
+  .tt-transform-box.visible { display: block; }
+  .tt-transform-box .tt-handle {
+    position: absolute; width: 14px; height: 14px;
+    background: #fff; border: 2px solid #3b82f6; border-radius: 3px;
+    pointer-events: auto; touch-action: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+  .tt-transform-box .tt-handle-nw { top: -8px; left: -8px; cursor: nwse-resize; }
+  .tt-transform-box .tt-handle-ne { top: -8px; right: -8px; cursor: nesw-resize; }
+  .tt-transform-box .tt-handle-sw { bottom: -8px; left: -8px; cursor: nesw-resize; }
+  .tt-transform-box .tt-handle-se { bottom: -8px; right: -8px; cursor: nwse-resize; }
+  .tt-transform-box .tt-handle-rotate {
+    left: 50%; bottom: -34px; transform: translateX(-50%);
+    width: 22px; height: 22px; border-radius: 50%;
+    background: #3b82f6; border-color: #3b82f6;
+    cursor: grab;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-size: 13px; font-weight: 700;
+  }
+  .tt-transform-box .tt-handle-rotate::before { content: "⟳"; }
+  .tt-transform-box .tt-rotate-line {
+    position: absolute; left: 50%; bottom: -24px;
+    width: 2px; height: 12px; background: #3b82f6;
+    transform: translateX(-50%);
+  }
+</style>
+
+<div class="tt-container">
+  <div class="tt-verified">Native-speaker verified spelling</div>
+
+  <div class="tt-panels">
+    <!-- LEFT: Controls -->
+    <div class="tt-controls">
+      <div class="tt-section">
+        <div class="tt-section-title">Text</div>
+        <div class="tt-form-group">
+          <label>English → Arabic</label>
+          <div class="tt-flex-row">
+            <input type="text" class="tt-input" id="tt-english-input" placeholder="Type English…">
+            <button class="tt-btn tt-btn-primary" id="tt-translate-btn">Translate</button>
+          </div>
+        </div>
+        <div class="tt-form-group">
+          <label>Arabic Text</label>
+          <textarea class="tt-textarea" id="tt-text-input" dir="rtl">{{DEFAULT_TEXT}}</textarea>
+        </div>
+      </div>
+
+      <div class="tt-section">
+        <div class="tt-section-title">Style</div>
+        <div class="tt-form-group">
+          <label>Calligraphy Font</label>
+          <select class="tt-select" id="tt-font-select">
+            <optgroup label="Traditional">
+              <option value="'Scheherazade New', serif">Thuluth (Scheherazade)</option>
+              <option value="'Amiri', serif">Naskh (Amiri)</option>
+              <option value="'Noto Naskh Arabic', serif">Noto Naskh Arabic</option>
+            </optgroup>
+            <optgroup label="Kufi">
+              <option value="'Reem Kufi', sans-serif">Kufi (Reem Kufi)</option>
+              <option value="'Noto Kufi Arabic', sans-serif">Noto Kufi Arabic</option>
+            </optgroup>
+            <optgroup label="Diwani &amp; Classic">
+              <option value="'Aref Ruqaa', serif">Diwani (Aref Ruqaa)</option>
+              <option value="'Noto Nastaliq Urdu', serif">Nastaliq</option>
+              <option value="'Mirza', serif">Mirza</option>
+            </optgroup>
+            <optgroup label="Modern">
+              <option value="'Lateef', serif">Lateef</option>
+              <option value="'Markazi Text', serif">Markazi Text</option>
+              <option value="'Cairo', sans-serif">Cairo</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="tt-form-group">
+          <label>Size <span id="tt-size-val">300</span>px</label>
+          <input type="range" class="tt-range" id="tt-size-range" min="40" max="800" value="300">
+        </div>
+        <div class="tt-form-group">
+          <label>Line Height <span id="tt-lh-val">1.4</span></label>
+          <input type="range" class="tt-range" id="tt-lh-range" min="10" max="30" value="14">
+        </div>
+        <div class="tt-form-group">
+          <div class="tt-toggle-row">
+            <label style="margin:0">Harakat (Diacritics)</label>
+            <div class="tt-toggle" id="tt-harakat-toggle"><div class="tt-toggle-knob"></div></div>
+          </div>
+        </div>
+        <div class="tt-form-group">
+          <div class="tt-toggle-row">
+            <label style="margin:0">Outline Stroke</label>
+            <div class="tt-toggle" id="tt-stroke-toggle"><div class="tt-toggle-knob"></div></div>
+          </div>
+        </div>
+        <div class="tt-form-group" id="tt-stroke-width-group" style="display:none">
+          <label>Stroke Width <span id="tt-stroke-val">3</span>px</label>
+          <input type="range" class="tt-range" id="tt-stroke-range" min="1" max="10" value="3">
+        </div>
+      </div>
+
+      <div class="tt-section">
+        <div class="tt-section-title">Transform</div>
+        <div class="tt-form-group">
+          <label>Rotation <span id="tt-rot-val">0</span>°</label>
+          <input type="range" class="tt-range" id="tt-rot-range" min="-45" max="45" value="0">
+        </div>
+        <div class="tt-form-group">
+          <div class="tt-toggle-row">
+            <label style="margin:0">Mirror (↔)</label>
+            <div class="tt-toggle" id="tt-mirror-toggle"><div class="tt-toggle-knob"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tt-section">
+        <div class="tt-section-title">Canvas</div>
+        <div class="tt-form-group">
+          <label>Custom Size (px)</label>
+          <div class="tt-size-row">
+            <input type="number" id="tt-canvas-w" value="1500" min="200" max="4000">
+            <span>×</span>
+            <input type="number" id="tt-canvas-h" value="1500" min="200" max="4000">
+          </div>
+        </div>
+      </div>
+
+      <div class="tt-section">
+        <div class="tt-section-title">Position</div>
+        <div class="tt-form-group">
+          <label>Horizontal <span id="tt-posx-val">50</span>%</label>
+          <input type="range" class="tt-range" id="tt-posx-range" min="0" max="100" value="50">
+        </div>
+        <div class="tt-form-group">
+          <label>Vertical <span id="tt-posy-val">50</span>%</label>
+          <input type="range" class="tt-range" id="tt-posy-range" min="0" max="100" value="50">
+        </div>
+      </div>
+
+      <div class="tt-section">
+        <div class="tt-section-title">Download</div>
+        <div class="tt-form-group">
+          <div class="tt-flex-row">
+            <select class="tt-select" id="tt-format" style="flex:1">
+              <option value="PNG">PNG (transparent)</option>
+              <option value="JPG">JPG (white bg)</option>
+            </select>
+            <select class="tt-select" id="tt-scale" style="width:80px">
+              <option value="1">1x</option>
+              <option value="2">2x</option>
+              <option value="3" selected>3x</option>
+              <option value="4">4x</option>
+            </select>
+          </div>
+        </div>
+        <button class="tt-btn-download" id="tt-download-btn">Download tattoo design</button>
+        <p class="tt-hint">Send this file to your tattoo artist — they will use it as a stencil reference. Always double-check the Arabic spelling with a native speaker before getting inked.</p>
+      </div>
+    </div>
+
+    <!-- RIGHT: Preview -->
+    <div class="tt-preview-panel">
+      <div class="tt-tabs">
+        <button class="tt-tab active" data-view="design" id="tt-tab-design">Design</button>
+        <button class="tt-tab" data-view="body" id="tt-tab-body">Preview on body</button>
+      </div>
+
+      <!-- Design view -->
+      <div class="tt-design-view">
+        <div class="tt-preview-info">
+          <span>Design preview <span class="tt-drag-hint" style="margin-left:12px;">💡 Drag = move · Corners = resize · ⟳ = rotate · Click empty area to finish</span></span>
+          <span id="tt-canvas-size-label">1500 × 1500 px</span>
+        </div>
+        <div class="tt-canvas-wrap">
+          <canvas id="tt-canvas" width="1500" height="1500"></canvas>
+          <div class="tt-transform-box" id="tt-transform-design">
+            <div class="tt-handle tt-handle-nw" data-handle="nw"></div>
+            <div class="tt-handle tt-handle-ne" data-handle="ne"></div>
+            <div class="tt-handle tt-handle-sw" data-handle="sw"></div>
+            <div class="tt-handle tt-handle-se" data-handle="se"></div>
+            <div class="tt-rotate-line"></div>
+            <div class="tt-handle tt-handle-rotate" data-handle="rotate"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Body view -->
+      <div class="tt-body-view">
+        <div class="tt-preview-info">
+          <span>Preview your Arabic tattoo on the body:</span>
+          <span class="tt-drag-hint">💡 Drag = move · Corners = resize · Bottom ⟳ = rotate · Click empty area to finish</span>
+        </div>
+        <div class="tt-canvas-wrap body-mode">
+          <canvas id="tt-body-canvas" width="800" height="800"></canvas>
+          <div class="tt-transform-box" id="tt-transform-body">
+            <div class="tt-handle tt-handle-nw" data-handle="nw"></div>
+            <div class="tt-handle tt-handle-ne" data-handle="ne"></div>
+            <div class="tt-handle tt-handle-sw" data-handle="sw"></div>
+            <div class="tt-handle tt-handle-se" data-handle="se"></div>
+            <div class="tt-rotate-line"></div>
+            <div class="tt-handle tt-handle-rotate" data-handle="rotate"></div>
+          </div>
+        </div>
+        <div class="tt-picker-title">Choose another body placement — or upload your own photo:</div>
+        <div class="tt-body-thumbs" id="tt-body-thumbs">
+          <button class="tt-body-thumb active" data-part="forearm" data-src="images/01-forearm.jpg"><img src="images/01-forearm.jpg" alt="Forearm"><span class="tt-body-thumb-label">Forearm</span></button>
+          <button class="tt-body-thumb" data-part="wrist" data-src="images/02-wrist.jpg"><img src="images/02-wrist.jpg" alt="Wrist"><span class="tt-body-thumb-label">Wrist</span></button>
+          <button class="tt-body-thumb" data-part="nape" data-src="images/03-nape.jpg"><img src="images/03-nape.jpg" alt="Nape"><span class="tt-body-thumb-label">Nape</span></button>
+          <button class="tt-body-thumb" data-part="spine" data-src="images/04-spine.jpg"><img src="images/04-spine.jpg" alt="Spine"><span class="tt-body-thumb-label">Spine</span></button>
+          <button class="tt-body-thumb" data-part="collarbone" data-src="images/05-collarbone.jpg"><img src="images/05-collarbone.jpg" alt="Collarbone"><span class="tt-body-thumb-label">Collarbone</span></button>
+          <button class="tt-body-thumb" data-part="upperback" data-src="images/06-upper-back.jpg"><img src="images/06-upper-back.jpg" alt="Upper back"><span class="tt-body-thumb-label">Upper back</span></button>
+          <button class="tt-body-thumb" data-part="ribcage" data-src="images/07-ribcage.jpg"><img src="images/07-ribcage.jpg" alt="Ribcage"><span class="tt-body-thumb-label">Ribcage</span></button>
+          <button class="tt-body-thumb" data-part="hand" data-src="images/08-hand.jpg"><img src="images/08-hand.jpg" alt="Hand"><span class="tt-body-thumb-label">Hand</span></button>
+          <button class="tt-body-thumb tt-body-upload" id="tt-body-upload-btn" type="button">
+            <div class="tt-body-upload-icon">+</div>
+            Upload your photo
+          </button>
+        </div>
+        <input type="file" id="tt-body-upload-input" accept="image/*" style="display:none">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const HARAKAT_RE = new RegExp('[' + String.fromCharCode(0x064B) + '-' + String.fromCharCode(0x065F) + String.fromCharCode(0x0670) + ']', 'g');
+
+  const state = {
+    text: document.getElementById('tt-text-input').value || String.fromCharCode(0x062D, 0x0628),
+    font: "'Scheherazade New', serif",
+    size: 300,
+    lineHeight: 1.4,
+    color: '#000000',
+    stroke: false,
+    strokeWidth: 3,
+    rotation: 0,
+    mirror: false,
+    harakat: false,
+    width: 1500,
+    height: 1500,
+    posX: 50,
+    posY: 50,
+    format: 'PNG',
+    scale: 3,
+    view: 'design',
+    bodyPart: 'forearm',
+    bodySrc: 'images/01-forearm.jpg',
+    selected: true
+  };
+
+  // Sensible default text position per body part (where a real tattoo would sit)
+  const BODY_DEFAULTS = {
+    forearm:    { posX: 50, posY: 45 },
+    wrist:      { posX: 50, posY: 55 },
+    nape:       { posX: 50, posY: 35 },
+    spine:      { posX: 50, posY: 55 },
+    collarbone: { posX: 30, posY: 60 },
+    upperback:  { posX: 50, posY: 50 },
+    ribcage:    { posX: 55, posY: 55 },
+    hand:       { posX: 50, posY: 55 }
+  };
+
+  const bodyImgCache = {};
+  const BODY_PREVIEW_W = 800;
+
+  function removeHarakat(t) { return t.replace(HARAKAT_RE, ''); }
+
+  // Draw the calligraphy text onto a canvas at the given target size and color.
+  // Size and color are parameterized because body-view scales the text down
+  // and uses a slightly translucent ink color instead of pure black.
+  function drawText(ctx, W, H, textSize, color) {
+    let text = state.text;
+    if (!state.harakat) text = removeHarakat(text);
+    const x = (state.posX / 100) * W;
+    const y = (state.posY / 100) * H;
+
+    ctx.save();
+    ctx.translate(x, y);
+    if (state.mirror) ctx.scale(-1, 1);
+    if (state.rotation) ctx.rotate(state.rotation * Math.PI / 180);
+
+    ctx.font = textSize + 'px ' + state.font;
+    ctx.fillStyle = color;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+
+    const lines = text.split('\n');
+    const lineSpacing = textSize * state.lineHeight;
+    const startY = -((lines.length - 1) * lineSpacing) / 2;
+
+    lines.forEach((line, i) => {
+      const ly = startY + i * lineSpacing;
+      if (state.stroke) {
+        ctx.strokeStyle = '#ffffff';
+        ctx.lineWidth = state.strokeWidth * (textSize / state.size);
+        ctx.lineJoin = 'round';
+        ctx.strokeText(line || ' ', 0, ly);
+      }
+      ctx.fillText(line || ' ', 0, ly);
+    });
+    ctx.restore();
+  }
+
+  function renderDesign() {
+    const canvas = document.getElementById('tt-canvas');
+    canvas.width = state.width;
+    canvas.height = state.height;
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, state.width, state.height);
+    drawText(ctx, state.width, state.height, state.size, state.color);
+    document.getElementById('tt-canvas-size-label').textContent = state.width + ' x ' + state.height + ' px';
+  }
+
+  // Render skin + tattoo onto the given canvas at the given target width.
+  // Text size scales proportionally so tattoo appears the same size relative to skin
+  // regardless of target resolution (preview vs download).
+  function drawBodyOnCanvas(canvas, targetW, img) {
+    const targetH = Math.round(targetW * img.height / img.width);
+    canvas.width = targetW;
+    canvas.height = targetH;
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, targetW, targetH);
+    ctx.drawImage(img, 0, 0, targetW, targetH);
+    const scaledSize = state.size * (targetW / state.width);
+    drawText(ctx, targetW, targetH, scaledSize, 'rgba(20, 20, 20, 0.92)');
+  }
+
+  function renderBody() {
+    const canvas = document.getElementById('tt-body-canvas');
+    const src = state.bodySrc;
+    const draw = (img) => drawBodyOnCanvas(canvas, BODY_PREVIEW_W, img);
+    if (bodyImgCache[src]) { draw(bodyImgCache[src]); return; }
+    const img = new Image();
+    img.onload = () => { bodyImgCache[src] = img; draw(img); };
+    img.src = src;
+  }
+
+  function render() {
+    if (state.view === 'design') renderDesign();
+    else renderBody();
+  }
+
+  // Sync position sliders to state (used when body-part defaults reset position)
+  function syncPositionUI() {
+    document.getElementById('tt-posx-range').value = state.posX;
+    document.getElementById('tt-posy-range').value = state.posY;
+    document.getElementById('tt-posx-val').textContent = state.posX;
+    document.getElementById('tt-posy-val').textContent = state.posY;
+  }
+
+  // ==== Event handlers ====
+  document.getElementById('tt-text-input').addEventListener('input', (e) => { state.text = e.target.value; render(); });
+  document.getElementById('tt-font-select').addEventListener('change', (e) => { state.font = e.target.value; render(); });
+
+  const bindRange = (id, valId, prop, transform) => {
+    const t = transform || ((v) => parseInt(v));
+    const el = document.getElementById(id);
+    el.addEventListener('input', (e) => {
+      state[prop] = t(e.target.value);
+      document.getElementById(valId).textContent = state[prop];
+      render();
+    });
+  };
+  bindRange('tt-size-range', 'tt-size-val', 'size');
+  bindRange('tt-rot-range', 'tt-rot-val', 'rotation');
+  bindRange('tt-posx-range', 'tt-posx-val', 'posX');
+  bindRange('tt-posy-range', 'tt-posy-val', 'posY');
+  bindRange('tt-stroke-range', 'tt-stroke-val', 'strokeWidth');
+  document.getElementById('tt-lh-range').addEventListener('input', (e) => {
+    state.lineHeight = parseInt(e.target.value) / 10;
+    document.getElementById('tt-lh-val').textContent = state.lineHeight.toFixed(1);
+    render();
+  });
+
+  const bindToggle = (id, prop, onChange) => {
+    document.getElementById(id).addEventListener('click', () => {
+      state[prop] = !state[prop];
+      document.getElementById(id).classList.toggle('on', state[prop]);
+      if (onChange) onChange();
+      render();
+    });
+  };
+  bindToggle('tt-harakat-toggle', 'harakat');
+  bindToggle('tt-mirror-toggle', 'mirror');
+  bindToggle('tt-stroke-toggle', 'stroke', () => {
+    document.getElementById('tt-stroke-width-group').style.display = state.stroke ? '' : 'none';
+  });
+
+  document.getElementById('tt-canvas-w').addEventListener('input', (e) => { state.width = parseInt(e.target.value) || 1500; render(); });
+  document.getElementById('tt-canvas-h').addEventListener('input', (e) => { state.height = parseInt(e.target.value) || 1500; render(); });
+
+  document.getElementById('tt-format').addEventListener('change', (e) => { state.format = e.target.value; });
+  document.getElementById('tt-scale').addEventListener('change', (e) => { state.scale = parseInt(e.target.value); });
+
+  // Tab switching
+  document.getElementById('tt-tab-design').addEventListener('click', () => switchView('design'));
+  document.getElementById('tt-tab-body').addEventListener('click', () => switchView('body'));
+  function switchView(v) {
+    state.view = v;
+    document.querySelectorAll('.tt-tab').forEach(t => t.classList.toggle('active', t.dataset.view === v));
+    document.querySelector('.tt-design-view').classList.toggle('hidden', v !== 'design');
+    document.querySelector('.tt-body-view').classList.toggle('active', v === 'body');
+    // Apply per-part default position when entering body view (reset any prior design-view drag)
+    if (v === 'body') {
+      const d = BODY_DEFAULTS[state.bodyPart];
+      if (d) { state.posX = d.posX; state.posY = d.posY; syncPositionUI(); }
+    }
+    render();
+  }
+
+  // Body thumb selection — applies per-part sensible default position
+  document.querySelectorAll('.tt-body-thumb').forEach(thumb => {
+    thumb.addEventListener('click', () => {
+      state.bodyPart = thumb.dataset.part;
+      state.bodySrc = thumb.dataset.src;
+      const d = BODY_DEFAULTS[state.bodyPart];
+      if (d) { state.posX = d.posX; state.posY = d.posY; syncPositionUI(); }
+      document.querySelectorAll('.tt-body-thumb').forEach(t => t.classList.remove('active'));
+      thumb.classList.add('active');
+      renderBody();
+    });
+  });
+
+  // Translation via free MyMemory API
+  document.getElementById('tt-translate-btn').addEventListener('click', async () => {
+    const input = document.getElementById('tt-english-input').value.trim();
+    if (!input) return;
+    const btn = document.getElementById('tt-translate-btn');
+    const orig = btn.textContent; btn.textContent = '...'; btn.disabled = true;
+    try {
+      const res = await fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(input) + '&langpair=en|ar');
+      const data = await res.json();
+      const translated = (data.responseData && data.responseData.translatedText) || input;
+      state.text = translated;
+      document.getElementById('tt-text-input').value = translated;
+      render();
+    } catch (e) { alert('Translation failed. Please type the Arabic text directly.'); }
+    btn.textContent = orig; btn.disabled = false;
+  });
+
+  // Download — design view uses scale multiplier; body view downloads at original skin resolution
+  document.getElementById('tt-download-btn').addEventListener('click', () => {
+    const btn = document.getElementById('tt-download-btn');
+    const orig = btn.textContent; btn.textContent = 'Exporting...'; btn.disabled = true;
+    try {
+      let sourceCanvas;
+      if (state.view === 'body') {
+        const img = bodyImgCache[state.bodySrc];
+        if (!img) { alert('Please wait for the body image to load.'); throw new Error('img not loaded'); }
+        sourceCanvas = document.createElement('canvas');
+        drawBodyOnCanvas(sourceCanvas, img.width, img);  // Full-resolution export
+      } else {
+        sourceCanvas = document.createElement('canvas');
+        sourceCanvas.width = state.width * state.scale;
+        sourceCanvas.height = state.height * state.scale;
+        const octx = sourceCanvas.getContext('2d');
+        octx.scale(state.scale, state.scale);
+        if (state.format === 'JPG') {
+          octx.fillStyle = '#ffffff';
+          octx.fillRect(0, 0, state.width, state.height);
+        }
+        drawText(octx, state.width, state.height, state.size, state.color);
+      }
+      const mime = state.format === 'JPG' ? 'image/jpeg' : 'image/png';
+      const url = sourceCanvas.toDataURL(mime, 0.95);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'arabic-tattoo-' + (state.view === 'body' ? state.bodyPart : 'design') + '.' + state.format.toLowerCase();
+      a.click();
+    } catch (e) { if (e.message !== 'img not loaded') { console.error(e); alert('Download failed: ' + e.message); } }
+    btn.textContent = orig; btn.disabled = false;
+  });
+
+  // Hit-test: is the click point within the tattoo's bounding box (display coords)?
+  function isClickOnTattoo(canvas, clientX, clientY) {
+    const rect = canvas.getBoundingClientRect();
+    if (rect.width === 0) return false;
+    const view = canvas.id === 'tt-body-canvas' ? 'body' : 'design';
+    let sizeInCanvasCoords = state.size;
+    if (view === 'body') sizeInCanvasCoords = state.size * (canvas.width / state.width);
+    const m = measureTattoo(sizeInCanvasCoords);
+    if (!m.w) return false;
+    // Display scale factor
+    const sx = rect.width / canvas.width;
+    const sy = rect.height / canvas.height;
+    const boxDispW = m.w * sx;
+    const boxDispH = m.h * sy;
+    // Tattoo center in display coords (relative to viewport)
+    const cx = rect.left + (state.posX / 100) * rect.width;
+    const cy = rect.top + (state.posY / 100) * rect.height;
+    // Axis-aligned hit test (ignore rotation for simplicity)
+    return Math.abs(clientX - cx) <= boxDispW / 2 + 10 && Math.abs(clientY - cy) <= boxDispH / 2 + 10;
+  }
+
+  // Drag-to-position on both canvases (mouse + touch events for broad compatibility)
+  function attachDrag(canvasId) {
+    const canvas = document.getElementById(canvasId);
+    let dragging = false;
+    const setPosFromClient = (clientX, clientY) => {
+      const rect = canvas.getBoundingClientRect();
+      if (rect.width === 0 || rect.height === 0) return;
+      const px = ((clientX - rect.left) / rect.width) * 100;
+      const py = ((clientY - rect.top) / rect.height) * 100;
+      state.posX = Math.max(0, Math.min(100, Math.round(px)));
+      state.posY = Math.max(0, Math.min(100, Math.round(py)));
+      syncPositionUI();
+      render();
+    };
+    // Handle mousedown: if click on tattoo → select + drag; if click on empty canvas → deselect
+    canvas.addEventListener('mousedown', (e) => {
+      if (isClickOnTattoo(canvas, e.clientX, e.clientY)) {
+        state.selected = true;
+        dragging = true;
+        canvas.classList.add('dragging');
+        setPosFromClient(e.clientX, e.clientY);
+      } else {
+        // Clicked empty area → exit edit mode
+        state.selected = false;
+        render();
+      }
+      e.preventDefault();
+    });
+    window.addEventListener('mousemove', (e) => {
+      if (!dragging) return;
+      setPosFromClient(e.clientX, e.clientY);
+    });
+    window.addEventListener('mouseup', () => {
+      if (!dragging) return;
+      dragging = false;
+      canvas.classList.remove('dragging');
+    });
+    // Touch
+    canvas.addEventListener('touchstart', (e) => {
+      if (!e.touches.length) return;
+      const t = e.touches[0];
+      if (isClickOnTattoo(canvas, t.clientX, t.clientY)) {
+        state.selected = true;
+        dragging = true;
+        canvas.classList.add('dragging');
+        setPosFromClient(t.clientX, t.clientY);
+      } else {
+        state.selected = false;
+        render();
+      }
+      e.preventDefault();
+    }, { passive: false });
+    canvas.addEventListener('touchmove', (e) => {
+      if (!dragging || !e.touches.length) return;
+      setPosFromClient(e.touches[0].clientX, e.touches[0].clientY);
+      e.preventDefault();
+    }, { passive: false });
+    const endTouch = () => {
+      if (!dragging) return;
+      dragging = false;
+      canvas.classList.remove('dragging');
+    };
+    canvas.addEventListener('touchend', endTouch);
+    canvas.addEventListener('touchcancel', endTouch);
+  }
+  attachDrag('tt-canvas');
+  attachDrag('tt-body-canvas');
+
+  // ==== Transform box (scale + rotate handles) ====
+  // Measure current tattoo bounding box in canvas coords using a hidden 2D context
+  const measureCtx = document.createElement('canvas').getContext('2d');
+  function measureTattoo(sizeOverride) {
+    const s = sizeOverride || state.size;
+    let text = state.text;
+    if (!state.harakat) text = removeHarakat(text);
+    const lines = text.split('\n');
+    measureCtx.font = s + 'px ' + state.font;
+    let maxW = 0;
+    for (const line of lines) {
+      const m = measureCtx.measureText(line || ' ').width;
+      if (m > maxW) maxW = m;
+    }
+    const h = s * state.lineHeight * lines.length;
+    return { w: maxW, h: h };
+  }
+
+  function updateTransformBox(view) {
+    const canvasId = view === 'body' ? 'tt-body-canvas' : 'tt-canvas';
+    const boxId = view === 'body' ? 'tt-transform-body' : 'tt-transform-design';
+    const canvas = document.getElementById(canvasId);
+    const box = document.getElementById(boxId);
+    if (!canvas || !box) return;
+
+    // Hide when not selected — this is the "commit / exit edit" state
+    if (!state.selected) { box.classList.remove('visible'); return; }
+
+    // In body view, text size is scaled by targetW/state.width. Use display width for correct box size.
+    const wrap = canvas.parentElement;
+    const canvasDispW = canvas.clientWidth;
+    const canvasDispH = canvas.clientHeight;
+    if (!canvasDispW || !canvasDispH) { box.classList.remove('visible'); return; }
+
+    // For body view, canvas.width matches the loaded image aspect. Text size in canvas coords = state.size * (canvas.width / state.width)
+    let sizeInCanvasCoords = state.size;
+    if (view === 'body') sizeInCanvasCoords = state.size * (canvas.width / state.width);
+
+    const m = measureTattoo(sizeInCanvasCoords);
+    if (!m.w) { box.classList.remove('visible'); return; }
+
+    // Canvas coords → display coords scale factor
+    const sx = canvasDispW / canvas.width;
+    const sy = canvasDispH / canvas.height;
+    const boxDispW = m.w * sx;
+    const boxDispH = m.h * sy;
+
+    // Center of tattoo in wrap-relative display coords
+    const cx = canvas.offsetLeft + (state.posX / 100) * canvasDispW;
+    const cy = canvas.offsetTop + (state.posY / 100) * canvasDispH;
+
+    // Position box centered on (cx, cy) with rotation
+    box.style.left = (cx - boxDispW / 2) + 'px';
+    box.style.top  = (cy - boxDispH / 2) + 'px';
+    box.style.width = boxDispW + 'px';
+    box.style.height = boxDispH + 'px';
+    let transform = '';
+    if (state.mirror) transform += 'scaleX(-1) ';
+    if (state.rotation) transform += 'rotate(' + state.rotation + 'deg)';
+    box.style.transform = transform;
+    box.classList.add('visible');
+  }
+
+  // Attach handles to a given view's transform box
+  function attachTransformHandles(view) {
+    const boxId = view === 'body' ? 'tt-transform-body' : 'tt-transform-design';
+    const canvasId = view === 'body' ? 'tt-body-canvas' : 'tt-canvas';
+    const box = document.getElementById(boxId);
+    const canvas = document.getElementById(canvasId);
+    if (!box || !canvas) return;
+
+    let dragMode = null; // 'scale' | 'rotate'
+    let startCursor = null;
+    let startSize = 0;
+    let startRotation = 0;
+    let centerDisp = null;
+
+    function centerInWrap() {
+      const wrap = canvas.parentElement;
+      const canvasDispW = canvas.clientWidth;
+      const canvasDispH = canvas.clientHeight;
+      const wrapRect = wrap.getBoundingClientRect();
+      // Center in viewport coords (for pointer math)
+      const cx = wrapRect.left + canvas.offsetLeft + (state.posX / 100) * canvasDispW;
+      const cy = wrapRect.top + canvas.offsetTop + (state.posY / 100) * canvasDispH;
+      return { x: cx, y: cy };
+    }
+
+    box.querySelectorAll('.tt-handle').forEach(handle => {
+      const which = handle.dataset.handle;
+      const isRotate = which === 'rotate';
+
+      const start = (clientX, clientY, e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        dragMode = isRotate ? 'rotate' : 'scale';
+        startCursor = { x: clientX, y: clientY };
+        startSize = state.size;
+        startRotation = state.rotation;
+        centerDisp = centerInWrap();
+        if (isRotate) startRotation = state.rotation;
+        document.body.style.userSelect = 'none';
+      };
+
+      handle.addEventListener('mousedown', (e) => start(e.clientX, e.clientY, e));
+      handle.addEventListener('touchstart', (e) => {
+        if (!e.touches.length) return;
+        start(e.touches[0].clientX, e.touches[0].clientY, e);
+      }, { passive: false });
+    });
+
+    function move(clientX, clientY) {
+      if (!dragMode) return;
+      if (dragMode === 'scale') {
+        // Distance from center at start vs now → ratio
+        const dxStart = startCursor.x - centerDisp.x;
+        const dyStart = startCursor.y - centerDisp.y;
+        const dStart = Math.hypot(dxStart, dyStart);
+        const dxNow = clientX - centerDisp.x;
+        const dyNow = clientY - centerDisp.y;
+        const dNow = Math.hypot(dxNow, dyNow);
+        if (dStart < 5) return;
+        const ratio = dNow / dStart;
+        const newSize = Math.max(40, Math.min(800, Math.round(startSize * ratio)));
+        state.size = newSize;
+        document.getElementById('tt-size-range').value = newSize;
+        document.getElementById('tt-size-val').textContent = newSize;
+        render();
+      } else if (dragMode === 'rotate') {
+        const angleStart = Math.atan2(startCursor.y - centerDisp.y, startCursor.x - centerDisp.x);
+        const angleNow = Math.atan2(clientY - centerDisp.y, clientX - centerDisp.x);
+        const deltaDeg = (angleNow - angleStart) * 180 / Math.PI;
+        let newRot = startRotation + deltaDeg;
+        // Wrap to -180..180 then clamp to slider range
+        while (newRot > 180) newRot -= 360;
+        while (newRot < -180) newRot += 360;
+        newRot = Math.max(-45, Math.min(45, Math.round(newRot)));
+        state.rotation = newRot;
+        document.getElementById('tt-rot-range').value = newRot;
+        document.getElementById('tt-rot-val').textContent = newRot;
+        render();
+      }
+    }
+
+    function end() {
+      dragMode = null;
+      document.body.style.userSelect = '';
+    }
+
+    window.addEventListener('mousemove', (e) => move(e.clientX, e.clientY));
+    window.addEventListener('touchmove', (e) => {
+      if (!dragMode || !e.touches.length) return;
+      move(e.touches[0].clientX, e.touches[0].clientY);
+      e.preventDefault();
+    }, { passive: false });
+    window.addEventListener('mouseup', end);
+    window.addEventListener('touchend', end);
+    window.addEventListener('touchcancel', end);
+  }
+  attachTransformHandles('design');
+  attachTransformHandles('body');
+
+  // Update transform box after every render
+  const _origRender = render;
+  render = function () {
+    _origRender.call(this);
+    requestAnimationFrame(() => {
+      updateTransformBox(state.view);
+    });
+  };
+  // Also update on window resize (display dims may change)
+  window.addEventListener('resize', () => updateTransformBox(state.view));
+
+  // Mouse-wheel zoom + Shift+wheel rotate on both canvases
+  function attachWheel(canvasId) {
+    const canvas = document.getElementById(canvasId);
+    canvas.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      if (e.shiftKey) {
+        const delta = e.deltaY > 0 ? -5 : 5;
+        state.rotation = Math.max(-45, Math.min(45, state.rotation + delta));
+        document.getElementById('tt-rot-range').value = state.rotation;
+        document.getElementById('tt-rot-val').textContent = state.rotation;
+      } else {
+        const delta = e.deltaY > 0 ? -20 : 20;
+        state.size = Math.max(40, Math.min(800, state.size + delta));
+        document.getElementById('tt-size-range').value = state.size;
+        document.getElementById('tt-size-val').textContent = state.size;
+      }
+      render();
+    }, { passive: false });
+  }
+  attachWheel('tt-canvas');
+  attachWheel('tt-body-canvas');
+
+  // Upload custom body photo
+  document.getElementById('tt-body-upload-btn').addEventListener('click', () => {
+    document.getElementById('tt-body-upload-input').click();
+  });
+  document.getElementById('tt-body-upload-input').addEventListener('change', (e) => {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    if (!file.type.startsWith('image/')) { alert('Please upload an image file (JPG or PNG).'); return; }
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      const img = new Image();
+      img.onload = () => {
+        bodyImgCache['__custom__'] = img;
+        state.bodyPart = 'custom';
+        state.bodySrc = '__custom__';
+        state.posX = 50; state.posY = 50; syncPositionUI();
+        document.querySelectorAll('.tt-body-thumb').forEach(t => t.classList.remove('active'));
+        document.getElementById('tt-body-upload-btn').classList.add('active');
+        renderBody();
+      };
+      img.src = ev.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
+
+  // Expose internals for programmatic use (gallery generation scripts, etc.)
+  window.__tt = { state, render, renderDesign, renderBody, drawBodyOnCanvas, drawText, bodyImgCache, BODY_DEFAULTS, syncPositionUI };
+
+  // Init
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => render());
+  render();
+})();
+</script>
+<!-- {{/TATTOO_TOOL}} -->
