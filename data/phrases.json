@@ -9163,6 +9163,329 @@
           "a": "Depends on the sub-region. <strong>Palm and inside-finger</strong> tattoos are hidden most of the time (when the hand is at rest or the fingers curled). <strong>Side of the hand</strong> and <strong>outer edge</strong> pieces are visible only from certain angles. <strong>Back of the hand</strong>, <strong>knuckles</strong>, and <strong>top-of-finger</strong> tattoos are almost always visible. If workplace visibility is a concern, choose the palm, inner-finger, or side-of-hand placement. If you want the tattoo to be seen daily, the back of the hand is the classic pick."
         }
       ]
+    },
+    {
+      "slug": "arabic-back-tattoo",
+      "displayName": "Arabic Back Tattoo",
+      "pageType": "tattoo",
+      "url": "/arabic-back-tattoo",
+      "mainKeyword": "arabic back tattoo",
+      "monthlyVolume": 340,
+      "keywordDifficulty": 20,
+      "meta": {
+        "title": "Arabic Back Tattoo — Words, Designs & Ideas with Meanings",
+        "description": "Arabic back tattoo ideas — meaningful Arabic words and phrases for the back and lower back, with translation & calligraphy example. Preview free."
+      },
+      "hero": {
+        "h1": "Arabic Back Tattoo — Words, Designs &amp; Placement Ideas with Meanings",
+        "description": "Browse 20+ Arabic tattoos designed for the back — words that fill the shoulder-blade canvas, phrases long enough to trace across the upper back, and placement guidance for both upper and lower back. Every design ships with translation, transliteration, and a calligraphy example. Use the free generator to preview any word or phrase and download a high-resolution PNG for your tattoo artist.",
+        "badges": [
+          "20+ back designs",
+          "5 calligraphy styles",
+          "Preview on body",
+          "Native-speaker verified"
+        ]
+      },
+      "tool": {
+        "defaultText": "قوة"
+      },
+      "og": {
+        "title": "Arabic Back Tattoo — Words, Designs & Ideas with Meanings",
+        "description": "20+ Arabic back tattoos with meanings — words, phrases, upper and lower back placement guidance. Preview in 5 calligraphy fonts.",
+        "twitterTitle": "Arabic Back Tattoo — Words, Designs & Ideas",
+        "twitterDescription": "20+ Arabic back tattoos with meanings. Preview in 5 calligraphy fonts, download HD PNG.",
+        "imageUrl": "https://arabiccalligraphygenerator.online/images/arabic-tattoo-og.jpg"
+      },
+      "schema": {
+        "webAppName": "Arabic Back Tattoo Generator",
+        "webAppDescription": "Free online tool to design and preview Arabic back tattoos in five calligraphy scripts (Thuluth, Naskh, Kufic, Diwani, Nastaliq), test the design on eight body placements or your own photo, and export a high-resolution PNG for your tattoo artist.",
+        "imageSchemaUrl": "https://arabiccalligraphygenerator.online/images/arabic-tattoo-og.jpg",
+        "imageSchemaName": "Arabic Back Tattoo Preview",
+        "imageSchemaDescription": "Arabic tattoo designed for a back placement in Thuluth calligraphy — native-speaker verified spelling and ready as a reference for a tattoo artist."
+      },
+      "breadcrumbLabel": "Arabic Back Tattoo",
+      "sections": [
+        {
+          "type": "split-with-word-grid",
+          "id": "words",
+          "navLabel": "Back Words",
+          "h2": "Arabic Back Tattoo — Meaningful Words for the Back",
+          "reverse": false,
+          "intro": [
+            "The back is the largest canvas the human body offers a tattoo — enough room for a full sentence, a stacked multi-word phrase, or a single word rendered large enough to carry serious meaning. The best Arabic words for a back tattoo are three-to-six letters, chosen for a meaning weighty enough to justify the placement. Below are eight Arabic words that fit."
+          ],
+          "image": {
+            "src": "images/arabic-tattoo-gallery-13-strength-thuluth-back.jpg",
+            "alt": "Quwwa (strength) — an Arabic word tattoo in Thuluth calligraphy on a back"
+          },
+          "words": [
+            {
+              "arabic": "قوة",
+              "translit": "Quwwa",
+              "meaning": "Strength. Three letters. Bold and iconic on the upper back — one of the most-tattooed Arabic back words worldwide."
+            },
+            {
+              "arabic": "حياة",
+              "translit": "Hayat",
+              "meaning": "Life. Four letters. Balanced letter shapes look elegant centered between the shoulder blades in Thuluth or Nastaliq."
+            },
+            {
+              "arabic": "إيمان",
+              "translit": "Iman",
+              "meaning": "Faith. Five letters. A serious reverent piece — best in ceremonial Thuluth across the upper back."
+            },
+            {
+              "arabic": "حرية",
+              "translit": "Hurriya",
+              "meaning": "Freedom. Five letters. The elongated ي descends beautifully — reads well in flowing scripts on the upper back."
+            },
+            {
+              "arabic": "شجاعة",
+              "translit": "Shajaa'a",
+              "meaning": "Courage. Six letters. Full-back statement piece — the letter shapes stack into a substantial visual column."
+            },
+            {
+              "arabic": "عزيمة",
+              "translit": "Azima",
+              "meaning": "Determination. Six letters. Strong verticals and a distinctive final ة — ambitious full-back design."
+            },
+            {
+              "arabic": "عائلة",
+              "translit": "Aila",
+              "meaning": "Family. Four letters. A tribute-word choice — reads with quiet weight across the upper back."
+            },
+            {
+              "arabic": "أبدي",
+              "translit": "Abadiy",
+              "meaning": "Eternal. Four letters. Often paired with a name or date — a timeless modifier for a memorial back piece."
+            }
+          ],
+          "linkText": "See all 20+ Arabic words for tattoos with meanings →",
+          "linkHref": "/arabic-words-tattoo"
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "designs",
+          "navLabel": "Design Style",
+          "h2": "Arabic Back Tattoo Designs with Meanings — By Calligraphy Style",
+          "reverse": true,
+          "intro": [
+            "The back gives Arabic writing enough canvas that the calligraphy style becomes the design. The four scripts below each turn the same word into a completely different back piece — pick the style whose emotional register matches the meaning you&#39;re carrying."
+          ],
+          "image": {
+            "src": "images/arabic-tattoo-gallery-20-quote-diwani-back.jpg",
+            "alt": "A multi-word Arabic phrase tattoo in Diwani calligraphy across a back — an example of a full-phrase back design"
+          },
+          "blocks": [
+            {
+              "h3": "Thuluth — Best for Full-Back Ceremonial Pieces",
+              "html": "Thuluth&#39;s long descending curves fill the back canvas with ceremonial weight. Best for reverent single words (<strong>إيمان</strong>, <strong>حياة</strong>, family names) and religious phrases. Runs beautifully across the upper back or between the shoulder blades. <a href=\"/thuluth-calligraphy\">Explore Thuluth calligraphy →</a>"
+            },
+            {
+              "h3": "Naskh — Best for Long Legible Multi-Line Quotes",
+              "html": "Naskh is the most legible Arabic script — the choice when the back tattoo is a full sentence or multi-line quote that must remain readable. Ideal for Arabic writing back tattoos where the words carry the meaning rather than the visual style. <a href=\"/naskh-calligraphy\">Explore Naskh calligraphy →</a>"
+            },
+            {
+              "h3": "Kufic — Best for Bold Modern Statement Pieces",
+              "html": "Kufic&#39;s angular geometric strokes turn a back tattoo into an architectural statement — reads as intentional and modern rather than traditional. Best for one-word designs (<strong>قوة</strong>, <strong>حرية</strong>) or short punchy phrases as blackwork. <a href=\"/kufic-calligraphy\">Explore Kufic calligraphy →</a>"
+            },
+            {
+              "h3": "Diwani or Nastaliq — Best for Ornate &amp; Poetic Back Pieces",
+              "html": "Diwani&#39;s elaborate loops and Nastaliq&#39;s sloping baselines both feel decorative on a large back canvas. Best for romantic multi-word phrases like the classic <strong>&quot;to the moon and back&quot;</strong> in Arabic (<strong>إلى القمر والعودة</strong> — Ila al-qamar wal-awda), Rumi lines, or Persian-Urdu poetry. <a href=\"/diwani-calligraphy\">Diwani →</a> · <a href=\"/nastaliq-calligraphy\">Nastaliq →</a>"
+            }
+          ]
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "lower-back",
+          "navLabel": "Upper &amp; Lower Back",
+          "h2": "Arabic Lower Back Tattoo — Placement Sub-Regions",
+          "reverse": false,
+          "intro": [
+            "The back divides into two very different tattoo zones: the upper back (shoulders and shoulder blades) and the lower back (lumbar area). Each has its own visibility, size limit, and typical design conventions. Below is what actually works in each spot."
+          ],
+          "image": {
+            "src": "images/arabic-lower-back-tattoo.jpg",
+            "alt": "Two back tattoo placement zones shown side by side — upper back with a centered Arabic word, lower back with a horizontal Arabic word along the lumbar curve"
+          },
+          "blocks": [
+            {
+              "h3": "Upper Back &amp; Between the Shoulder Blades",
+              "html": "The upper back is the largest and most-tattooed Arabic back zone. Fits full-sentence quotes, ornate calligraphy medallions, or a single large-scale word rendered ceremonially. The area between the shoulder blades is the classic centered placement — symmetric, visible in open-back clothing, hidden under any shirt. Best for 3-to-8 word designs in Thuluth or Naskh."
+            },
+            {
+              "h3": "Arabic Lower Back Tattoo",
+              "html": "The lower back — the lumbar area above the waistband — is the smaller and more intimate back placement. Suits a horizontal Arabic word or short phrase running along the lumbar curve, or a delicate ornament with a single word centered. Reads as more decorative than the upper back; best in flowing Diwani or Nastaliq at finer stroke widths. Popular for shorter 3-to-5 letter words like <strong>حياة</strong>, <strong>أمل</strong>, or <strong>حب</strong>."
+            },
+            {
+              "h3": "Full-Back Designs — Nape to Lumbar",
+              "html": "For a truly ambitious piece, an Arabic back tattoo can run the full length of the back from the nape down to the lower lumbar — the same canvas as an <a href=\"/arabic-spine-tattoo\">arabic spine tattoo</a>, but wider. Fits full poems, multi-verse Quranic passages, or a large centered calligraphy composition with ornamental flourishes. Consult a tattoo artist with real Arabic-script portfolio experience before attempting this scale."
+            }
+          ]
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "gender",
+          "navLabel": "Men &amp; Females",
+          "h2": "Arabic Back Tattoos for Men and Females",
+          "reverse": true,
+          "intro": [
+            "Search demand shows two distinct aesthetics for Arabic back tattoos — one masculine, one feminine — with different scale, stroke weight, and typical placement preferences. Neither is more &quot;correct&quot; than the other; below is what people actually get inked."
+          ],
+          "image": {
+            "src": "images/arabic-back-tattoo-men-women.jpg",
+            "alt": "Two Arabic back tattoos side by side — a bold masculine upper-back piece and a delicate feminine spine-and-shoulder piece"
+          },
+          "blocks": [
+            {
+              "h3": "Arabic Back Tattoos for Men",
+              "html": "Masculine Arabic back tattoos tend toward <strong>bold stroke weights</strong> (4-6 mm minimum), <strong>larger-scale words</strong> that fill the upper back canvas, and <strong>Thuluth or Kufic</strong> scripts. Common word picks: <strong>قوة</strong> (Quwwa — strength), <strong>حرية</strong> (Hurriya — freedom), <strong>أبدي</strong> (Abadiy — eternal), family names, Quranic phrases. Often placed horizontally across the shoulder blades or centered high between them."
+            },
+            {
+              "h3": "Arabic Back Tattoos for Females",
+              "html": "Feminine Arabic back tattoos tend toward <strong>finer stroke weights</strong>, <strong>vertical or gently curved placements</strong> (down the spine, across the lumbar, or angled from shoulder to opposite hip), and <strong>Diwani or Nastaliq</strong> scripts. Common word picks: <strong>حب</strong> (Hubb — love), <strong>حياة</strong> (Hayat — life), <strong>أمل</strong> (Amal — hope), <strong>حلم</strong> (Hulm — dream), poetic phrases. Often paired with a small floral or ornamental accent."
+            },
+            {
+              "h3": "Unisex Arabic Back Tattoo Words",
+              "html": "The strongest Arabic back tattoos work on any body — a single meaningful word rendered in a font that suits the meaning. <strong>إيمان</strong> (Iman — faith), <strong>صبر</strong> (Sabr — patience), <strong>سلام</strong> (Salaam — peace), and <strong>نور</strong> (Nur — light) are the most-tattooed unisex Arabic back words. Consider one of these if you want a design that reads the same on any body without gendered visual language."
+            }
+          ]
+        }
+      ],
+      "gallery": {
+        "h2": "20+ Arabic Back Tattoo &amp; Related Meaningful Ideas — Photo Gallery",
+        "description": "Hand-picked Arabic tattoos across five calligraphy styles — leading with true back placements (Quwwa/Thuluth, Aila/Nastaliq upper-back, poetic Diwani back quote) and expanding to related meaningful words. Every design ships with its Arabic text, transliteration, and English meaning.",
+        "navLabel": "Gallery",
+        "showRandom": 8,
+        "items": [
+          {
+            "src": "images/arabic-tattoo-gallery-13-strength-thuluth-back.jpg",
+            "alt": "Quwwa (strength) Arabic back tattoo in Thuluth calligraphy",
+            "caption": "قوة Quwwa (Strength) · Thuluth · Back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-20-quote-diwani-back.jpg",
+            "alt": "This too shall pass — Arabic phrase tattoo in Diwani calligraphy on back",
+            "caption": "هذا أيضاً سيمضي (This Too Shall Pass) · Diwani · Back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-11-family-nastaliq-upperback.jpg",
+            "alt": "Aila (family) Arabic tattoo in Nastaliq calligraphy on upper back",
+            "caption": "عائلة Aila (Family) · Nastaliq · Upper back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-10-love-yourself-first-thuluth-spine.jpg",
+            "alt": "I love myself first — Arabic tattoo phrase in Thuluth calligraphy on spine (adjacent to back)",
+            "caption": "أحب نفسي أولاً (I Love Myself First) · Thuluth · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-05-hayat-nastaliq-spine.jpg",
+            "alt": "Hayat (life) Arabic tattoo in Nastaliq calligraphy on spine (adjacent to back)",
+            "caption": "حياة Hayat (Life) · Nastaliq · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-17-eternal-kufic-spine.jpg",
+            "alt": "Abadiy (eternal) Arabic tattoo in Kufic calligraphy on spine (adjacent to back)",
+            "caption": "أبدي Abadiy (Eternal) · Kufic · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-01-hubb-thuluth-forearm.jpg",
+            "alt": "Hubb (love) Arabic tattoo in Thuluth calligraphy on forearm",
+            "caption": "حب Hubb (Love) · Thuluth · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-02-sabr-naskh-wrist.jpg",
+            "alt": "Sabr (patience) Arabic tattoo in Naskh calligraphy on wrist",
+            "caption": "صبر Sabr (Patience) · Naskh · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-03-iman-kufic-nape.jpg",
+            "alt": "Iman (faith) Arabic tattoo in Kufic calligraphy on nape",
+            "caption": "إيمان Iman (Faith) · Kufic · Nape"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-04-salaam-diwani-collarbone.jpg",
+            "alt": "Salaam (peace) Arabic tattoo in Diwani calligraphy on collarbone",
+            "caption": "سلام Salaam (Peace) · Diwani · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-06-umm-thuluth-wrist.jpg",
+            "alt": "Umm (mother) Arabic tattoo in Thuluth calligraphy on wrist",
+            "caption": "أم Umm (Mother) · Thuluth · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-07-nur-kufic-hand.jpg",
+            "alt": "Nur (light) Arabic tattoo in Kufic calligraphy on hand",
+            "caption": "نور Nur (Light) · Kufic · Hand"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-08-ab-naskh-ribcage.jpg",
+            "alt": "Ab (father) Arabic tattoo in Naskh calligraphy on ribcage",
+            "caption": "أب Ab (Father) · Naskh · Ribcage"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-09-hubb-diwani-collarbone.jpg",
+            "alt": "Hubb (love) Arabic tattoo in Diwani calligraphy on collarbone",
+            "caption": "حب Hubb (Love) · Diwani · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-12-blessed-kufic-forearm.jpg",
+            "alt": "Mubarak (blessed) Arabic tattoo in Kufic calligraphy on forearm",
+            "caption": "مبارك Mubarak (Blessed) · Kufic · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-14-freedom-naskh-forearm.jpg",
+            "alt": "Hurriya (freedom) Arabic tattoo in Naskh calligraphy on forearm",
+            "caption": "حرية Hurriya (Freedom) · Naskh · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-15-hope-diwani-wrist.jpg",
+            "alt": "Amal (hope) Arabic tattoo in Diwani calligraphy on wrist",
+            "caption": "أمل Amal (Hope) · Diwani · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-16-dream-nastaliq-collarbone.jpg",
+            "alt": "Hulm (dream) Arabic tattoo in Nastaliq calligraphy on collarbone",
+            "caption": "حلم Hulm (Dream) · Nastaliq · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-18-sister-thuluth-ribcage.jpg",
+            "alt": "Ukht (sister) Arabic tattoo in Thuluth calligraphy on ribcage",
+            "caption": "أخت Ukht (Sister) · Thuluth · Ribcage"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-19-brother-naskh-forearm.jpg",
+            "alt": "Akh (brother) Arabic tattoo in Naskh calligraphy on forearm",
+            "caption": "أخ Akh (Brother) · Naskh · Forearm"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "What are the best Arabic words for a back tattoo?",
+          "a": "The best Arabic words for a back tattoo are three-to-six letters, chosen for meaning weighty enough to justify the largest tattoo canvas. Top picks: <strong>قوة</strong> (Quwwa — strength), <strong>حياة</strong> (Hayat — life), <strong>إيمان</strong> (Iman — faith), <strong>حرية</strong> (Hurriya — freedom), <strong>شجاعة</strong> (Shajaa&#39;a — courage), <strong>عزيمة</strong> (Azima — determination), <strong>عائلة</strong> (Aila — family), <strong>أبدي</strong> (Abadiy — eternal). See the word list above for full context on each."
+        },
+        {
+          "q": "How do you write &quot;to the moon and back&quot; in Arabic for a tattoo?",
+          "a": "<strong>إلى القمر والعودة</strong> (Ila al-qamar wal-awda — To the moon and the return). Four Arabic words. This is the standard tattoo rendering of the popular English phrase &quot;to the moon and back.&quot; Best rendered in flowing Diwani or Nastaliq calligraphy across the upper back or as a two-line design between the shoulder blades — the romantic register suits an ornate script."
+        },
+        {
+          "q": "What&#39;s the difference between upper back and lower back Arabic tattoos?",
+          "a": "The <strong>upper back</strong> (shoulders and shoulder blades) is the largest and most-tattooed back zone — fits full-sentence quotes, ceremonial single-word pieces, or ornate calligraphy medallions. The <strong>arabic lower back tattoo</strong> zone (the lumbar area above the waistband) is smaller and more intimate — suits horizontal short words along the lumbar curve or delicate ornaments. Upper back reads as ceremonial and public; lower back reads as more decorative and personal."
+        },
+        {
+          "q": "What Arabic back tattoo designs work best for men?",
+          "a": "Masculine Arabic back tattoos favor <strong>bold stroke weights</strong> (4-6 mm minimum), <strong>Thuluth or Kufic</strong> scripts, and <strong>larger-scale single-word designs</strong> that fill the upper back or shoulder blade area. Popular word picks: <strong>قوة</strong> (strength), <strong>حرية</strong> (freedom), <strong>أبدي</strong> (eternal), family names, and short Quranic phrases. Multi-line quotes across the upper back also read confidently masculine."
+        },
+        {
+          "q": "What Arabic back tattoos look best for females?",
+          "a": "Feminine Arabic back tattoos favor <strong>finer stroke weights</strong>, <strong>vertical or gently-curved placements</strong> (down the spine, across the lumbar, angled shoulder-to-hip), and <strong>Diwani or Nastaliq</strong> scripts. Popular word picks: <strong>حب</strong> (love), <strong>حياة</strong> (life), <strong>أمل</strong> (hope), <strong>حلم</strong> (dream), and poetic phrases. Small floral or ornamental accents beside the script are common."
+        },
+        {
+          "q": "How painful is an Arabic back tattoo?",
+          "a": "Back tattoo pain varies significantly by zone. The <strong>upper back / shoulder blade</strong> area is generally the most tolerable — thick muscle and skin padding. The <strong>spine directly on the vertebrae</strong> and the <strong>lower back over the sacrum</strong> are the sharper zones. The <strong>ribs at the side of the back</strong> are among the most painful anywhere on the body. For a first Arabic back tattoo, choose the upper back between the shoulder blades — the gentlest entry point for a large-canvas back piece."
+        }
+      ]
     }
   ]
 }
