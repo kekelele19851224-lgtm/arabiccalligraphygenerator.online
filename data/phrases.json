@@ -7557,6 +7557,336 @@
           "a": "Yes — this is one of the most common Arabic tattoo commissions. Type your partner&#39;s name into the English → Arabic translator in the tool above (or ask a native Arabic speaker to write it) to get the correct Arabic form. Verify the spelling with a fluent speaker before inking — English names transliterate to Arabic with some ambiguity, and one Arabic letter difference can change how the name reads. Pair the name with a small love word (حب, قلبي) for a compact two-line design, or with the phrase حبيبي/حبيبتي for a full endearment tattoo."
         }
       ]
+    },
+    {
+      "slug": "arabic-spine-tattoo",
+      "displayName": "Arabic Spine Tattoo",
+      "pageType": "tattoo",
+      "url": "/arabic-spine-tattoo",
+      "mainKeyword": "arabic spine tattoo",
+      "monthlyVolume": 840,
+      "keywordDifficulty": 24,
+      "meta": {
+        "title": "Arabic Spine Tattoo — 20+ Words & Quotes with Meanings",
+        "description": "Arabic spine tattoo ideas — 20+ meaningful words and quotes for spine tattoos in Arabic, each with translation & calligraphy example. Preview free."
+      },
+      "hero": {
+        "h1": "Arabic Spine Tattoo Ideas — 20+ Words &amp; Quotes with Meanings",
+        "description": "Browse 20+ Arabic tattoos designed for the spine — words that stack elegantly down the vertical line, quotes long enough to trace from nape to lumbar, and placement guidance for how Arabic writing sits on the body. Every design ships with translation, transliteration, and the calligraphy example. Use the free generator to preview any word or quote and download a high-resolution PNG for your tattoo artist.",
+        "badges": [
+          "20+ spine designs",
+          "5 calligraphy styles",
+          "Preview on body",
+          "Native-speaker verified"
+        ]
+      },
+      "tool": {
+        "defaultText": "حياة"
+      },
+      "og": {
+        "title": "Arabic Spine Tattoo — 20+ Words & Quotes with Meanings",
+        "description": "20+ Arabic spine tattoos with meanings — words and quotes designed for the vertical line, each with translation and calligraphy example.",
+        "twitterTitle": "Arabic Spine Tattoo — 20+ Words & Quotes with Meanings",
+        "twitterDescription": "20+ Arabic spine tattoos with meanings. Preview in 5 calligraphy fonts, download HD PNG.",
+        "imageUrl": "https://arabiccalligraphygenerator.online/images/arabic-tattoo-og.jpg"
+      },
+      "schema": {
+        "webAppName": "Arabic Spine Tattoo Generator",
+        "webAppDescription": "Free online tool to design and preview Arabic spine tattoos in five calligraphy scripts (Thuluth, Naskh, Kufic, Diwani, Nastaliq), test the design on eight body placements or your own photo, and export a high-resolution PNG for your tattoo artist.",
+        "imageSchemaUrl": "https://arabiccalligraphygenerator.online/images/arabic-tattoo-og.jpg",
+        "imageSchemaName": "Arabic Spine Tattoo Preview",
+        "imageSchemaDescription": "Arabic tattoo designed for a spine placement in Nastaliq calligraphy — native-speaker verified spelling and ready as a reference for a tattoo artist."
+      },
+      "breadcrumbLabel": "Arabic Spine Tattoo",
+      "sections": [
+        {
+          "type": "split-with-word-grid",
+          "id": "words",
+          "navLabel": "Vertical Words",
+          "h2": "Arabic Spine Tattoos — Words That Suit the Vertical Line",
+          "reverse": false,
+          "intro": [
+            "Not every Arabic word sits well on the spine. The best spine words have descending letter shapes, balanced letter counts (three to six letters), and enough visual weight to survive stretching down the vertical column. These are eight Arabic words that stack elegantly from nape to lumbar."
+          ],
+          "image": {
+            "src": "images/arabic-tattoo-gallery-05-hayat-nastaliq-spine.jpg",
+            "alt": "Hayat (life) — an Arabic word tattooed vertically down the spine in Nastaliq calligraphy"
+          },
+          "words": [
+            {
+              "arabic": "حياة",
+              "translit": "Hayat",
+              "meaning": "Life. Four letters. The descending curves of the letters ت and ة flow naturally down the vertical line — one of the most-tattooed spine words worldwide."
+            },
+            {
+              "arabic": "إيمان",
+              "translit": "Iman",
+              "meaning": "Faith. Five letters with tall verticals — reads with quiet reverence in Thuluth or Nastaliq spine placements."
+            },
+            {
+              "arabic": "حرية",
+              "translit": "Hurriya",
+              "meaning": "Freedom. Five letters with the elongated ي — descends beautifully in flowing scripts."
+            },
+            {
+              "arabic": "شجاعة",
+              "translit": "Shajaa'a",
+              "meaning": "Courage. Six letters stack into a substantial vertical column — best for full-length nape-to-lumbar placements."
+            },
+            {
+              "arabic": "قوة",
+              "translit": "Quwwa",
+              "meaning": "Strength. Three letters, compact — a good pick for a partial spine placement (upper back or lumbar only)."
+            },
+            {
+              "arabic": "أمل",
+              "translit": "Amal",
+              "meaning": "Hope. Three letters, delicate and short — suited to a smaller, more discreet spine tattoo."
+            },
+            {
+              "arabic": "نور",
+              "translit": "Nur",
+              "meaning": "Light. Three letters, minimalist and iconic in Kufic — a modern short spine option."
+            },
+            {
+              "arabic": "عزيمة",
+              "translit": "Azima",
+              "meaning": "Determination. Six letters with strong verticals — ambitious for full-spine designs where the meaning needs weight."
+            }
+          ],
+          "linkText": "See all 20+ Arabic words for tattoos with meanings →",
+          "linkHref": "/arabic-words-tattoo"
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "quotes",
+          "navLabel": "Spine Quotes",
+          "h2": "Arabic Spine Tattoo Quotes with Meanings",
+          "reverse": true,
+          "intro": [
+            "Multi-word Arabic quotes are the spine tattoo&#39;s natural home — the long vertical canvas gives poetic lines room to breathe, and the visible-when-you-choose placement suits quotes with real meaning. Below are five traditions Arabic spine tattoo quotes come from, with example lines short enough to fit the vertical line cleanly."
+          ],
+          "image": {
+            "src": "images/arabic-tattoo-gallery-10-love-yourself-first-thuluth-spine.jpg",
+            "alt": "I love myself first — a three-word Arabic tattoo quote in Thuluth calligraphy on a spine"
+          },
+          "blocks": [
+            {
+              "h3": "Classical Arabic Proverbs (Amthal)",
+              "html": "The safest spine-quote source — culturally universal and unambiguous. Top picks: <strong>الصبر مفتاح الفرج</strong> (Al-sabr miftah al-faraj — Patience is the key to relief), <strong>من جد وجد</strong> (Man jadda wajad — Whoever strives, finds), <strong>خير الأمور أوسطها</strong> (Khayr al-umur awsatuha — The middle path is best)."
+            },
+            {
+              "h3": "Rumi &amp; Persian Poetry (Translated)",
+              "html": "Rumi originally wrote in Persian, but his lines are widely tattooed in Arabic. Popular spine picks: <strong>ما تبحث عنه يبحث عنك</strong> (Ma tabhathu anhu yabhathu anka — What you seek is seeking you) and <strong>الجرح هو المكان الذي يدخل منه النور</strong> (Al-jurhu huwa al-makan alladhi yadkhulu minhu al-nur — The wound is where the light enters you). Historically rendered in <a href=\"/nastaliq-calligraphy\">Nastaliq</a>."
+            },
+            {
+              "h3": "Sufi Wisdom Lines",
+              "html": "Compact spiritual lines from Ibn Arabi, Al-Ghazali, and other Sufi teachers work beautifully on the spine: <strong>القلب بيت الله</strong> (Al-qalb bayt Allah — The heart is the house of God), <strong>الحب أصل الوجود</strong> (Al-hubb aslu al-wujud — Love is the origin of existence)."
+            },
+            {
+              "h3": "Quranic Verses (Ayat)",
+              "html": "Short Quranic phrases suited to spine length: <strong>إن مع العسر يسراً</strong> (Inna ma&#39;a al-usri yusra — With hardship comes ease, 94:6), <strong>ربي زدني علماً</strong> (Rabbi zidni ilma — O Lord, increase me in knowledge, 20:114). Traditional Islamic scholarship advises caution — consult a scholar you trust before committing Quranic text to a permanent tattoo."
+            },
+            {
+              "h3": "Self-Empowerment Quotes",
+              "html": "The single most-tattooed Arabic phrase on the spine: <strong>أحب نفسي أولاً</strong> (Uhibbu nafsi awwalan — I love myself first). See the full <a href=\"/love-arabic-tattoo#love-yourself-first\">love yourself first Arabic tattoo guide</a> for variations and placement details. See also the wider <a href=\"/arabic-tattoo-quotes\">Arabic tattoo quotes collection</a>."
+            }
+          ]
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "writing",
+          "navLabel": "Writing & Direction",
+          "h2": "Arabic Writing on the Spine — Down the Vertical Line",
+          "reverse": false,
+          "intro": [
+            "The spine gives Arabic writing something no other placement offers — a long uninterrupted vertical canvas. But Arabic reads right-to-left horizontally by default, so getting the writing to sit correctly down the spine requires deliberate design decisions. Below is how it actually works."
+          ],
+          "image": {
+            "src": "images/arabic-tattoo-gallery-17-eternal-kufic-spine.jpg",
+            "alt": "Abadiy (eternal) — a short Arabic word tattoo running vertically down the spine in Kufic calligraphy"
+          },
+          "blocks": [
+            {
+              "h3": "How Arabic Writing Runs Down the Spine",
+              "html": "There are two ways to arrange Arabic writing on the spine. <strong>Rotated 90°</strong>: the horizontal Arabic line is turned so it reads top-to-bottom, keeping natural right-to-left letter connections. <strong>Word-stacked</strong>: each word sits on its own line, stacked vertically from nape (first word) down to lumbar (last word). Stacked reads more clearly; rotated reads more traditionally. Most tattoo artists default to rotated for single words and stacked for multi-word quotes."
+            },
+            {
+              "h3": "Length &amp; Sizing — Nape to Lumbar",
+              "html": "A typical adult spine gives you roughly 45–55 cm of usable canvas from the nape to the lower lumbar. That fits: one to three letters as a small nape piece, one three-to-six letter word as a mid-spine design, or a five-to-eight-word quote for a full-length piece. Longer quotes need to be composed as multi-line stacks or run onto the upper back."
+            },
+            {
+              "h3": "Arabic Female Spine Tattoos — Placement Notes",
+              "html": "Search demand shows a distinct feminine spine-tattoo aesthetic: <strong>finer stroke weights</strong>, <strong>Diwani or Nastaliq</strong> scripts, and placements that follow the natural curve of the female lumbar. Popular female spine picks are shorter words (حب, نور, أمل) placed centrally between the shoulder blades, or full-length delicate quotes descending along the vertebrae. Smaller stroke widths look elegant but need to stay above 3 mm minimum to survive years of skin turnover."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "id": "meaning",
+          "navLabel": "Meaning & Choice",
+          "h2": "Arabic Spine Tattoo and Meaning — How to Choose Yours",
+          "intro": [
+            "The spine is one of the most committed tattoo placements — visible in beachwear and open-back clothing, hidden in everything else. That reversibility rewards choosing a design whose meaning holds up under both exposures. Work through all five steps before you sit in the chair."
+          ],
+          "items": [
+            {
+              "bold": "Pick a meaning that can carry the spine&#39;s canvas.",
+              "rest": "Small placements forgive shallow meaning; the spine does not. A design that runs from nape to lumbar reads as a life statement — pick a word or quote whose meaning you can defend across decades. If in doubt, single words like <strong>حياة</strong>, <strong>إيمان</strong>, or short proverbs like <strong>الصبر مفتاح الفرج</strong> hold up better than trendy quotes."
+            },
+            {
+              "bold": "Verify BOTH spelling and grammar with a native Arabic speaker.",
+              "rest": "For a single-word spine tattoo, spelling verification is enough. For a multi-word quote, grammar verification matters equally — machine translation produces grammatically odd or wrong-register phrases that a native speaker catches instantly. Send the exact text and ask them to read it aloud."
+            },
+            {
+              "bold": "Match the calligraphy style to the length and mood.",
+              "rest": "<strong>Nastaliq</strong> is the historic script of Persian-Urdu poetry — perfect for Rumi or Hafez spine quotes. <strong>Thuluth</strong> for religious or ceremonial weight. <strong>Kufic</strong> for short bold modern single-word spine pieces. <strong>Diwani</strong> for ornate romantic full-spine flourishes. <strong>Naskh</strong> when the quote is long and legibility matters."
+            },
+            {
+              "bold": "Test how the design flows down YOUR spine.",
+              "rest": "Every spine curves differently — thoracic kyphosis, lumbar lordosis, scoliosis all affect how a straight vertical design will actually sit. Print the design PNG at true size, tape it to your back in front of a mirror (or ask someone to photograph it), and check the flow before booking the appointment."
+            },
+            {
+              "bold": "Consider pain zones along the spine.",
+              "rest": "Spine tattoo pain varies significantly by region. The upper thoracic area (between the shoulder blades) is generally more tolerable; the direct spinous processes (bony bumps) and the lower lumbar are the sharpest zones. For a first spine tattoo, upper-back placements are the gentler entry point."
+            }
+          ]
+        }
+      ],
+      "gallery": {
+        "h2": "20+ Arabic Spine Tattoo &amp; Related Meaningful Ideas — Photo Gallery",
+        "description": "Hand-picked Arabic tattoos across five calligraphy styles — leading with true spine placements (Hayat / Love-Yourself-First / Eternal) and expanding to related upper-back and vertical pieces. Every design ships with its Arabic text, transliteration, and English meaning.",
+        "navLabel": "Gallery",
+        "showRandom": 8,
+        "items": [
+          {
+            "src": "images/arabic-tattoo-gallery-05-hayat-nastaliq-spine.jpg",
+            "alt": "Hayat (life) Arabic spine tattoo in Nastaliq calligraphy",
+            "caption": "حياة Hayat (Life) · Nastaliq · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-10-love-yourself-first-thuluth-spine.jpg",
+            "alt": "I love myself first — Arabic spine tattoo quote in Thuluth calligraphy",
+            "caption": "أحب نفسي أولاً (I Love Myself First) · Thuluth · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-17-eternal-kufic-spine.jpg",
+            "alt": "Abadiy (eternal) Arabic spine tattoo in Kufic calligraphy",
+            "caption": "أبدي Abadiy (Eternal) · Kufic · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-13-strength-thuluth-back.jpg",
+            "alt": "Quwwa (strength) Arabic tattoo in Thuluth calligraphy on back — a spine-adjacent placement",
+            "caption": "قوة Quwwa (Strength) · Thuluth · Back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-20-quote-diwani-back.jpg",
+            "alt": "This too shall pass — Arabic tattoo quote in Diwani calligraphy on back — a spine-adjacent placement",
+            "caption": "هذا أيضاً سيمضي (This Too Shall Pass) · Diwani · Back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-11-family-nastaliq-upperback.jpg",
+            "alt": "Aila (family) Arabic tattoo in Nastaliq calligraphy on upper back — a spine-adjacent placement",
+            "caption": "عائلة Aila (Family) · Nastaliq · Upper back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-01-hubb-thuluth-forearm.jpg",
+            "alt": "Hubb (love) Arabic tattoo in Thuluth calligraphy on forearm",
+            "caption": "حب Hubb (Love) · Thuluth · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-02-sabr-naskh-wrist.jpg",
+            "alt": "Sabr (patience) Arabic tattoo in Naskh calligraphy on wrist",
+            "caption": "صبر Sabr (Patience) · Naskh · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-03-iman-kufic-nape.jpg",
+            "alt": "Iman (faith) Arabic tattoo in Kufic calligraphy on nape",
+            "caption": "إيمان Iman (Faith) · Kufic · Nape"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-04-salaam-diwani-collarbone.jpg",
+            "alt": "Salaam (peace) Arabic tattoo in Diwani calligraphy on collarbone",
+            "caption": "سلام Salaam (Peace) · Diwani · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-06-umm-thuluth-wrist.jpg",
+            "alt": "Umm (mother) Arabic tattoo in Thuluth calligraphy on wrist",
+            "caption": "أم Umm (Mother) · Thuluth · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-07-nur-kufic-hand.jpg",
+            "alt": "Nur (light) Arabic tattoo in Kufic calligraphy on hand",
+            "caption": "نور Nur (Light) · Kufic · Hand"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-08-ab-naskh-ribcage.jpg",
+            "alt": "Ab (father) Arabic tattoo in Naskh calligraphy on ribcage",
+            "caption": "أب Ab (Father) · Naskh · Ribcage"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-09-hubb-diwani-collarbone.jpg",
+            "alt": "Hubb (love) Arabic tattoo in Diwani calligraphy on collarbone",
+            "caption": "حب Hubb (Love) · Diwani · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-12-blessed-kufic-forearm.jpg",
+            "alt": "Mubarak (blessed) Arabic tattoo in Kufic calligraphy on forearm",
+            "caption": "مبارك Mubarak (Blessed) · Kufic · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-14-freedom-naskh-forearm.jpg",
+            "alt": "Hurriya (freedom) Arabic tattoo in Naskh calligraphy on forearm",
+            "caption": "حرية Hurriya (Freedom) · Naskh · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-15-hope-diwani-wrist.jpg",
+            "alt": "Amal (hope) Arabic tattoo in Diwani calligraphy on wrist",
+            "caption": "أمل Amal (Hope) · Diwani · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-16-dream-nastaliq-collarbone.jpg",
+            "alt": "Hulm (dream) Arabic tattoo in Nastaliq calligraphy on collarbone",
+            "caption": "حلم Hulm (Dream) · Nastaliq · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-18-sister-thuluth-ribcage.jpg",
+            "alt": "Ukht (sister) Arabic tattoo in Thuluth calligraphy on ribcage",
+            "caption": "أخت Ukht (Sister) · Thuluth · Ribcage"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-19-brother-naskh-forearm.jpg",
+            "alt": "Akh (brother) Arabic tattoo in Naskh calligraphy on forearm",
+            "caption": "أخ Akh (Brother) · Naskh · Forearm"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "What are the best Arabic words for a spine tattoo?",
+          "a": "The best Arabic words for a spine tattoo have three-to-six letters, descending letter shapes, and enough meaning to justify the placement. Top picks: <strong>حياة</strong> (Hayat — life), <strong>إيمان</strong> (Iman — faith), <strong>حرية</strong> (Hurriya — freedom), <strong>شجاعة</strong> (Shajaa'a — courage), <strong>عزيمة</strong> (Azima — determination), <strong>قوة</strong> (Quwwa — strength). For shorter spine pieces (upper back only), three-letter words like <strong>نور</strong> (Nur — light) or <strong>أمل</strong> (Amal — hope) work equally well."
+        },
+        {
+          "q": "What Arabic script style works best on the spine?",
+          "a": "<strong>Nastaliq</strong> is the historically-correct script for Persian-Urdu poetry lines (Rumi, Hafez) — its sloping baselines and diagonal strokes suit long spine quotes. <strong>Thuluth</strong> gives ceremonial religious or family words the reverence they need. <strong>Kufic</strong> is the modern minimalist choice for a short bold single-word spine piece. <strong>Diwani</strong> works for ornate romantic full-spine flourishes. <strong>Naskh</strong> is safest when the quote is long and needs to remain readable."
+        },
+        {
+          "q": "How long can an Arabic spine tattoo be?",
+          "a": "A typical adult spine offers 45–55 cm of usable canvas from the nape to the lower lumbar. That fits: one to three letters as a small nape-only piece, a single three-to-six letter word as a mid-spine design, or a five-to-eight-word quote for a full-length nape-to-lumbar piece. Longer quotes need to be composed as multi-line stacks or extended onto the upper back."
+        },
+        {
+          "q": "Does Arabic writing on the spine run down or across?",
+          "a": "Two arrangements are common. <strong>Rotated 90°</strong>: the horizontal Arabic line is turned so it reads top-to-bottom while keeping natural right-to-left letter connections — traditional and more common for single words. <strong>Word-stacked</strong>: each word sits on its own line, stacked vertically from nape (first word) down to lumbar (last word) — clearer for multi-word quotes. Discuss both options with your tattoo artist before finalizing."
+        },
+        {
+          "q": "Are Arabic spine tattoos more painful than other placements?",
+          "a": "Spine tattoo pain varies significantly by region. The <strong>upper thoracic area</strong> (between the shoulder blades) is generally more tolerable — good muscle padding. The <strong>direct spinous processes</strong> (the bony bumps down the middle) and the <strong>lower lumbar</strong> are the sharpest zones. For a first spine tattoo, choose an upper-back placement or a design that traces the paraspinal muscles rather than the spinous processes directly."
+        },
+        {
+          "q": "What&#39;s a good Arabic spine tattoo with meaning for women?",
+          "a": "Search demand shows a distinct feminine spine-tattoo aesthetic: finer stroke weights, <strong>Diwani</strong> or <strong>Nastaliq</strong> scripts, and placements that follow the natural lumbar curve. Popular choices: <strong>حب</strong> (Hubb — love) or <strong>نور</strong> (Nur — light) as a short mid-spine piece, <strong>أحب نفسي أولاً</strong> (I love myself first) as a signature full-length quote, or <strong>حياة</strong> (Hayat — life) as a balanced classic. See the full <a href=\"/love-arabic-tattoo\">love-themed Arabic tattoo guide</a> for more."
+        }
+      ]
     }
   ]
 }
