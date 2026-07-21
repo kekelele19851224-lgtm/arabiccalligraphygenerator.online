@@ -8541,6 +8541,333 @@
           "a": "Neck tattoo pain varies significantly by sub-region. The <strong>side of the neck</strong> and <strong>lower neck (above collarbone)</strong> are generally more tolerable — soft tissue with muscle padding. The <strong>nape directly on the spinous processes</strong> and the <strong>area behind the ear</strong> (thin skin over cartilage) are the sharpest zones. For a first neck tattoo, choose the side of the neck or lower neck; both let you scale up size later without moving on to a more painful region."
         }
       ]
+    },
+    {
+      "slug": "faith-arabic-tattoo",
+      "displayName": "Faith Arabic Tattoo",
+      "pageType": "tattoo",
+      "url": "/faith-arabic-tattoo",
+      "mainKeyword": "faith arabic tattoo",
+      "monthlyVolume": 370,
+      "keywordDifficulty": 20,
+      "meta": {
+        "title": "Faith Arabic Tattoo — Words, Verses & Ideas with Meanings",
+        "description": "Faith in Arabic tattoo ideas — the word \"faith\" plus Bible verses (walk by faith, faith hope love) and Islamic faith words with meanings. Free."
+      },
+      "hero": {
+        "h1": "Faith in Arabic Tattoo — Words, Bible Verses &amp; Islamic Terms with Meanings",
+        "description": "Browse 20+ Arabic tattoos designed around faith — the word &quot;faith&quot; itself in both Christian and Islamic Arabic, plus full renderings of the most-searched Bible verses translated to Arabic: Faith Hope Love (1 Corinthians 13:13), Walk by Faith Not by Sight (2 Corinthians 5:7), Faith Over Fear, and By Grace Through Faith. Every phrase ships with translation, transliteration, and a calligraphy example.",
+        "badges": [
+          "20+ faith words &amp; verses",
+          "5 calligraphy styles",
+          "Preview on body",
+          "Native-speaker verified"
+        ]
+      },
+      "tool": {
+        "defaultText": "إيمان"
+      },
+      "og": {
+        "title": "Faith Arabic Tattoo — Words, Verses & Ideas with Meanings",
+        "description": "20+ faith arabic tattoo ideas — Bible verses (walk by faith, faith hope love), Islamic faith words with meanings. Preview in 5 fonts.",
+        "twitterTitle": "Faith Arabic Tattoo — Words & Bible Verses",
+        "twitterDescription": "20+ Arabic faith tattoos with meanings — Bible verses and Islamic terms. Preview in 5 calligraphy fonts.",
+        "imageUrl": "https://arabiccalligraphygenerator.online/images/arabic-tattoo-og.jpg"
+      },
+      "schema": {
+        "webAppName": "Faith Arabic Tattoo Generator",
+        "webAppDescription": "Free online tool to design and preview faith-themed Arabic tattoos in five calligraphy scripts (Thuluth, Naskh, Kufic, Diwani, Nastaliq), test the design on eight body placements or your own photo, and export a high-resolution PNG for your tattoo artist.",
+        "imageSchemaUrl": "https://arabiccalligraphygenerator.online/images/arabic-tattoo-og.jpg",
+        "imageSchemaName": "Faith Arabic Tattoo Preview",
+        "imageSchemaDescription": "Faith-themed Arabic tattoo generated in Kufic calligraphy — native-speaker verified spelling and ready as a reference for a tattoo artist."
+      },
+      "breadcrumbLabel": "Faith Arabic Tattoo",
+      "sections": [
+        {
+          "type": "split-with-word-grid",
+          "id": "words",
+          "navLabel": "Faith Words",
+          "h2": "Faith in Arabic Tattoo — The Word &quot;Faith&quot; &amp; Related Terms",
+          "reverse": false,
+          "intro": [
+            "Arabic has more than one word for &quot;faith,&quot; and Christian and Islamic Arabic tattoo traditions favor different ones. Below is a native-speaker verified glossary of eight Arabic faith terms — pick the one whose religious register matches yours before choosing a Bible-verse phrase in the sections that follow."
+          ],
+          "image": {
+            "src": "images/arabic-tattoo-gallery-03-iman-kufic-nape.jpg",
+            "alt": "Iman (faith) — an Arabic faith word tattoo in Kufic calligraphy on the back of the neck"
+          },
+          "words": [
+            {
+              "arabic": "إيمان",
+              "translit": "Iman",
+              "meaning": "Faith (Islamic). Five letters. The core Islamic term for belief — used across Arabic-speaking Muslim communities. The most-tattooed Arabic faith word overall."
+            },
+            {
+              "arabic": "الإيمان",
+              "translit": "Al-iman",
+              "meaning": "The faith (definite form). Six letters. Used in Christian Arabic Bible translations — the standard form in the Faith Hope Love verse."
+            },
+            {
+              "arabic": "يقين",
+              "translit": "Yaqin",
+              "meaning": "Certainty of faith. Four letters. Deeper Islamic register — a stage of faith beyond إيمان."
+            },
+            {
+              "arabic": "توكل",
+              "translit": "Tawakkul",
+              "meaning": "Trust in God. Five letters. Islamic term for surrender-based faith — a devotional tattoo choice."
+            },
+            {
+              "arabic": "الرجاء",
+              "translit": "Al-raja",
+              "meaning": "Hope (Christian). Six letters. Paired with الإيمان and المحبة in Bible-verse tattoos."
+            },
+            {
+              "arabic": "المحبة",
+              "translit": "Al-mahabba",
+              "meaning": "Love (Christian, divine love). Six letters. The Christian Arabic word for love in 1 Corinthians 13, distinct from the general حب."
+            },
+            {
+              "arabic": "نعمة",
+              "translit": "Ni'ma",
+              "meaning": "Grace (Christian). Four letters. Central Christian term — the &quot;grace&quot; in Ephesians 2:8&#39;s &quot;by grace through faith.&quot;"
+            },
+            {
+              "arabic": "الله",
+              "translit": "Allah",
+              "meaning": "God. Four letters. Used by both Arabic Christians and Muslims for God — the same word appears in Arabic-language Bibles and the Quran."
+            }
+          ],
+          "linkText": "See all 20+ Arabic words for tattoos with meanings →",
+          "linkHref": "/arabic-words-tattoo"
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "faith-hope-love",
+          "navLabel": "Faith Hope Love",
+          "h2": "Faith Hope Love in Arabic Tattoo — 1 Corinthians 13:13",
+          "reverse": true,
+          "intro": [
+            "&quot;Faith, hope, and love — but the greatest of these is love.&quot; Paul&#39;s three-word triad from 1 Corinthians 13:13 is the single most-searched Christian Arabic tattoo phrase. Below is the standard Arabic Bible rendering and the popular tattoo variants."
+          ],
+          "image": {
+            "src": "images/arabic-faith-tattoo-faith-hope-love.jpg",
+            "alt": "Faith, Hope, Love (1 Corinthians 13:13) — the three Arabic Bible words stacked vertically as a spine or inner-forearm tattoo"
+          },
+          "blocks": [
+            {
+              "h3": "The Full Verse — الإيمان والرجاء والمحبة",
+              "html": "<strong>الإيمان والرجاء والمحبة</strong> (Al-iman wal-raja&#39; wal-mahabba — Faith and hope and love). Six words in Arabic (three concept-words + three connectors). This is the standard Arabic Bible translation — used by Coptic, Maronite, and other Arabic-speaking Christian communities. Best rendered horizontally along a forearm or ribcage in Naskh for legibility."
+            },
+            {
+              "h3": "Stacked Three-Word Design",
+              "html": "For a vertical spine or inner-forearm placement, stack the three concept-words on separate lines: <strong>الإيمان</strong> (faith) / <strong>الرجاء</strong> (hope) / <strong>المحبة</strong> (love). Drops the Arabic connectors for visual balance — reads as a poetic triangle rather than a full sentence. Nastaliq or Diwani both suit the stacked format."
+            },
+            {
+              "h3": "&quot;The Greatest of These Is Love&quot; Extension",
+              "html": "Some Christian Arabic tattoos add the second half of the verse: <strong>وأعظمهن المحبة</strong> (Wa a&#39;zamuhunna al-mahabba — And the greatest of these is love). Turns the three-word triad into a full theological statement. Best as a two-line design where the first line stacks the triad and the second line runs the emphasis phrase."
+            },
+            {
+              "h3": "Faith Love Hope — Word Order Variants",
+              "html": "The word order occasionally varies in tattoo commissions — <strong>الإيمان والمحبة والرجاء</strong> (Faith and love and hope) reorders love to the middle position. Neither reading is more &quot;correct&quot; than the other biblically; choose based on visual balance. If in doubt, follow the canonical Faith → Hope → Love order from 1 Corinthians 13:13."
+            }
+          ]
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "walk-by-faith",
+          "navLabel": "Walk by Faith",
+          "h2": "Walk by Faith Tattoo in Arabic — 2 Corinthians 5:7",
+          "reverse": false,
+          "intro": [
+            "&quot;For we walk by faith, not by sight&quot; (2 Corinthians 5:7). One of the most-tattooed Christian encouragement verses in English — and the Arabic rendering is a natural fit for a longer forearm or ribcage placement. Below is the standard Arabic Bible text and shorter variants."
+          ],
+          "image": {
+            "src": "images/arabic-faith-tattoo-walk-by-faith.jpg",
+            "alt": "Walk by Faith Not by Sight (2 Corinthians 5:7) — a single-line Arabic Bible-verse tattoo running horizontally along an inner forearm"
+          },
+          "blocks": [
+            {
+              "h3": "The Full Verse — نسير بالإيمان لا بالعيان",
+              "html": "<strong>نسير بالإيمان لا بالعيان</strong> (Nasir bil-iman la bil-ayan — We walk by faith not by sight). Five words. This is the standard Arabic Bible rendering, used across Arabic-language Christian translations. Best as a single-line horizontal tattoo along the inside of the forearm from wrist toward elbow, or across the ribcage. Naskh or clean Thuluth work best."
+            },
+            {
+              "h3": "Short Form — بالإيمان نسير",
+              "html": "For a smaller placement, shorten to <strong>بالإيمان نسير</strong> (Bil-iman nasir — By faith we walk). Two words, keeps the core meaning, fits a wrist, collarbone, or ankle. Loses the &quot;not by sight&quot; contrast but reads cleaner at small sizes."
+            },
+            {
+              "h3": "Alternative Rendering — نمشي بالإيمان",
+              "html": "Some Arabic Bible translations use the verb <strong>نمشي</strong> (nimshi — we walk, in a more colloquial register) instead of <strong>نسير</strong> (nasir — we walk, in classical register). <strong>نمشي بالإيمان لا بالعيان</strong> reads slightly more contemporary. Verify with your Arabic-speaking friend or pastor which rendering fits your tradition."
+            },
+            {
+              "h3": "Placement Notes for a Longer Verse",
+              "html": "Full-verse Arabic phrases (five words or more) need a long linear canvas — the inside of the forearm (elbow-to-wrist runs 20-25 cm), the ribcage side (25-35 cm), or the spine (nape-to-lumbar, 45-55 cm). Avoid the wrist, ankle, or behind the ear — the phrase compresses illegibly at those small placements."
+            }
+          ]
+        },
+        {
+          "type": "split-with-blocks",
+          "id": "christian-phrases",
+          "navLabel": "Other Christian Phrases",
+          "h2": "Faith Over Fear &amp; By Grace Through Faith — Christian Arabic Phrases",
+          "reverse": true,
+          "intro": [
+            "Two more Christian Arabic tattoo phrases show consistent search demand — one modern (Faith Over Fear), one scriptural (By Grace Through Faith, Ephesians 2:8). Below is the standard Arabic rendering of each."
+          ],
+          "image": {
+            "src": "images/arabic-faith-tattoo-christian-phrases.jpg",
+            "alt": "Two Arabic Christian tattoo phrases shown together — Faith Over Fear (top panel) and By Grace Through Faith (bottom panel)"
+          },
+          "blocks": [
+            {
+              "h3": "Faith Over Fear — الإيمان فوق الخوف",
+              "html": "<strong>الإيمان فوق الخوف</strong> (Al-iman fawq al-khawf — Faith above fear). Four words in Arabic. This is a modern Christian empowerment phrase (not scriptural), popularized in the past decade as an encouragement tattoo. Reads well as a horizontal forearm piece in bold Kufic or Thuluth — the visual weight matches the assertive meaning."
+            },
+            {
+              "h3": "By Grace Through Faith — بالنعمة بالإيمان",
+              "html": "<strong>بالنعمة بالإيمان</strong> (Bin-ni&#39;ma bil-iman — By grace through faith) is the short form from Ephesians 2:8. Two Arabic words carry the theological weight of the whole phrase. Best as a compact piece on the ribcage, inner forearm, or as a two-line stack (grace / faith) on the wrist. Nastaliq or Naskh suit the softer register."
+            },
+            {
+              "h3": "Longer Ephesians 2:8 Rendering",
+              "html": "For a longer piece, the fuller Ephesians 2:8 rendering is <strong>بالنعمة أنتم مخلصون بالإيمان</strong> (Bin-ni&#39;ma antum mukhlasun bil-iman — By grace you are saved through faith). Six words — needs a spine, upper back, or long forearm canvas. Verify the exact wording against your preferred Arabic Bible translation (Van Dyck vs Good News Arabic) before inking."
+            }
+          ]
+        }
+      ],
+      "gallery": {
+        "h2": "20+ Faith Arabic Tattoo &amp; Related Meaningful Ideas — Photo Gallery",
+        "description": "Hand-picked Arabic tattoos across five calligraphy styles — leading with true faith pieces (Iman, Mubarak) and expanding to related meaningful words. Every design ships with its Arabic text, transliteration, and English meaning.",
+        "navLabel": "Gallery",
+        "showRandom": 8,
+        "items": [
+          {
+            "src": "images/arabic-tattoo-gallery-03-iman-kufic-nape.jpg",
+            "alt": "Iman (faith) faith arabic tattoo in Kufic calligraphy on nape",
+            "caption": "إيمان Iman (Faith) · Kufic · Nape"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-12-blessed-kufic-forearm.jpg",
+            "alt": "Mubarak (blessed) faith-themed Arabic tattoo in Kufic calligraphy on forearm",
+            "caption": "مبارك Mubarak (Blessed) · Kufic · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-04-salaam-diwani-collarbone.jpg",
+            "alt": "Salaam (peace) Arabic tattoo in Diwani calligraphy on collarbone",
+            "caption": "سلام Salaam (Peace) · Diwani · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-02-sabr-naskh-wrist.jpg",
+            "alt": "Sabr (patience) Arabic tattoo in Naskh calligraphy on wrist",
+            "caption": "صبر Sabr (Patience) · Naskh · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-05-hayat-nastaliq-spine.jpg",
+            "alt": "Hayat (life) Arabic tattoo in Nastaliq calligraphy on spine",
+            "caption": "حياة Hayat (Life) · Nastaliq · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-07-nur-kufic-hand.jpg",
+            "alt": "Nur (light) Arabic tattoo in Kufic calligraphy on hand",
+            "caption": "نور Nur (Light) · Kufic · Hand"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-15-hope-diwani-wrist.jpg",
+            "alt": "Amal (hope) Arabic tattoo in Diwani calligraphy on wrist",
+            "caption": "أمل Amal (Hope) · Diwani · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-20-quote-diwani-back.jpg",
+            "alt": "A multi-word Arabic quote tattoo in Diwani calligraphy on a back",
+            "caption": "هذا أيضاً سيمضي (This Too Shall Pass) · Diwani · Back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-01-hubb-thuluth-forearm.jpg",
+            "alt": "Hubb (love) Arabic tattoo in Thuluth calligraphy on forearm",
+            "caption": "حب Hubb (Love) · Thuluth · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-06-umm-thuluth-wrist.jpg",
+            "alt": "Umm (mother) Arabic tattoo in Thuluth calligraphy on wrist",
+            "caption": "أم Umm (Mother) · Thuluth · Wrist"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-08-ab-naskh-ribcage.jpg",
+            "alt": "Ab (father) Arabic tattoo in Naskh calligraphy on ribcage",
+            "caption": "أب Ab (Father) · Naskh · Ribcage"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-09-hubb-diwani-collarbone.jpg",
+            "alt": "Hubb (love) Arabic tattoo in Diwani calligraphy on collarbone",
+            "caption": "حب Hubb (Love) · Diwani · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-10-love-yourself-first-thuluth-spine.jpg",
+            "alt": "I love myself first — Arabic tattoo phrase in Thuluth calligraphy on spine",
+            "caption": "أحب نفسي أولاً (I Love Myself First) · Thuluth · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-11-family-nastaliq-upperback.jpg",
+            "alt": "Aila (family) Arabic tattoo in Nastaliq calligraphy on upper back",
+            "caption": "عائلة Aila (Family) · Nastaliq · Upper back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-13-strength-thuluth-back.jpg",
+            "alt": "Quwwa (strength) Arabic tattoo in Thuluth calligraphy on back",
+            "caption": "قوة Quwwa (Strength) · Thuluth · Back"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-14-freedom-naskh-forearm.jpg",
+            "alt": "Hurriya (freedom) Arabic tattoo in Naskh calligraphy on forearm",
+            "caption": "حرية Hurriya (Freedom) · Naskh · Forearm"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-16-dream-nastaliq-collarbone.jpg",
+            "alt": "Hulm (dream) Arabic tattoo in Nastaliq calligraphy on collarbone",
+            "caption": "حلم Hulm (Dream) · Nastaliq · Collarbone"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-17-eternal-kufic-spine.jpg",
+            "alt": "Abadiy (eternal) Arabic tattoo in Kufic calligraphy on spine",
+            "caption": "أبدي Abadiy (Eternal) · Kufic · Spine"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-18-sister-thuluth-ribcage.jpg",
+            "alt": "Ukht (sister) Arabic tattoo in Thuluth calligraphy on ribcage",
+            "caption": "أخت Ukht (Sister) · Thuluth · Ribcage"
+          },
+          {
+            "src": "images/arabic-tattoo-gallery-19-brother-naskh-forearm.jpg",
+            "alt": "Akh (brother) Arabic tattoo in Naskh calligraphy on forearm",
+            "caption": "أخ Akh (Brother) · Naskh · Forearm"
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "How do you write &quot;faith&quot; in Arabic for a tattoo?",
+          "a": "The standard Islamic Arabic word for faith is <strong>إيمان</strong> (Iman) — five letters. For Christian Arabic Bible-verse tattoos, the definite form <strong>الإيمان</strong> (Al-iman) is used. Related terms: <strong>يقين</strong> (Yaqin — certainty of faith, Islamic) and <strong>توكل</strong> (Tawakkul — trust in God, Islamic). All four are native-speaker verified and available in the generator above."
+        },
+        {
+          "q": "What is &quot;faith hope love&quot; in Arabic for a tattoo?",
+          "a": "The standard Arabic Bible rendering of 1 Corinthians 13:13 is <strong>الإيمان والرجاء والمحبة</strong> (Al-iman wal-raja&#39; wal-mahabba — Faith and hope and love). For a stacked vertical spine or forearm design, drop the connectors and use the three concept words on separate lines: <strong>الإيمان</strong> (faith) / <strong>الرجاء</strong> (hope) / <strong>المحبة</strong> (love). Best rendered in Nastaliq or Naskh."
+        },
+        {
+          "q": "How do you write &quot;walk by faith not by sight&quot; in Arabic for a tattoo?",
+          "a": "<strong>نسير بالإيمان لا بالعيان</strong> (Nasir bil-iman la bil-ayan) is the standard Arabic Bible rendering of 2 Corinthians 5:7 — five words. For a shorter version, use <strong>بالإيمان نسير</strong> (Bil-iman nasir — By faith we walk) as a two-word compact tattoo. The full phrase fits a forearm or ribcage; the short form fits a wrist or collarbone."
+        },
+        {
+          "q": "How do you say &quot;faith over fear&quot; in Arabic for a tattoo?",
+          "a": "<strong>الإيمان فوق الخوف</strong> (Al-iman fawq al-khawf — Faith above fear) is the standard rendering. Four Arabic words — not scriptural, but a modern Christian empowerment phrase widely tattooed in English and increasingly in Arabic. Reads well as a horizontal forearm or ribcage piece in bold Kufic or Thuluth."
+        },
+        {
+          "q": "What&#39;s the difference between إيمان and الإيمان in Arabic Bible tattoos?",
+          "a": "<strong>إيمان</strong> (Iman) is the indefinite form — &quot;faith&quot; in general. <strong>الإيمان</strong> (Al-iman) is the definite form — &quot;the faith,&quot; used when referring to a specific concept. Arabic Bible translations of &quot;faith, hope, and love&quot; and &quot;walk by faith&quot; use the definite forms (الإيمان, الرجاء, المحبة) because they refer to specific theological concepts. Islamic Arabic tattoos more often use the indefinite forms (إيمان) as personal virtue words. Choose based on which register — Christian scriptural or Islamic personal — matches your intent."
+        },
+        {
+          "q": "Are Arabic Bible-verse tattoos appropriate if I&#39;m Muslim?",
+          "a": "The Arabic Bible predates the Quran by centuries — Arabic-speaking Christian communities (Coptic, Maronite, Syriac) have used Arabic Bible translations for over 1,400 years. If you are Muslim and drawn to a Christian Arabic phrase, that&#39;s a personal decision — no linguistic problem, but you may want to consider whether the specific theological content (grace, incarnation, resurrection references) matches your beliefs. The single word <strong>إيمان</strong> and the phrase <strong>بسم الله</strong> are fully Islamic; Bible-verse phrases carry Christian theological weight even in Arabic."
+        }
+      ]
     }
   ]
 }
